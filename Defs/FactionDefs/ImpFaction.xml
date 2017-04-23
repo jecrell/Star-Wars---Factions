@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+  <FactionDef>
+		<defName>PJ_GalacticEmpire</defName>
+		<label>The Galactic Empire</label>
+<description>The Galactic Empire, also known as the First Galactic Empire or the New Order—and commonly referred to as the Empire or the Order—was the galactic, constitutional monarchy and fascist government that replaced the Galactic Republic in the aftermath of the Clone Wars.</description>
+    <pawnsPlural>Imperial Soldiers</pawnsPlural>
+    <factionBaseSelectionWeight>0.5</factionBaseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<earliestRaidDays>35</earliestRaidDays>
+    <canMakeRandomly>True</canMakeRandomly>
+    <autoFlee>false</autoFlee>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Moff</leaderTitle>
+    <appreciative>false</appreciative>
+    <expandingIconTexture>World/EmpLogo</expandingIconTexture>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-99</min>
+      <max>-90</max>
+    </startingGoodwill>
+		<fixedName>The Galactic Empire</fixedName>
+		<factionBaseNameMaker>NamerImpBase</factionBaseNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-99</min>
+      <max>-99</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-75</min>
+      <max>60</max>
+    </allowedArrivalTemperatureRange>
+
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_ImpSoldier>200</PJ_ImpSoldier>
+          <PJ_ImpCommander>5</PJ_ImpCommander>
+          <PJ_Stormtrooper>150</PJ_Stormtrooper>
+          <PJ_ScoutTrooper>20</PJ_ScoutTrooper>
+        </options>
+      </li>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <PJ_ImpCommander>50</PJ_ImpCommander>
+          <PJ_Stormtrooper>50</PJ_Stormtrooper>
+          <PJ_ScoutTrooper>150</PJ_ScoutTrooper>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <PJ_ImpSoldier>200</PJ_ImpSoldier>
+          <PJ_ImpCommander>5</PJ_ImpCommander>
+          <PJ_Stormtrooper>150</PJ_Stormtrooper>
+		  <PJ_Stormtrooper>100</PJ_Stormtrooper>
+		  <PJ_Stormtrooper>150</PJ_Stormtrooper>
+          <PJ_ScoutTrooper>10</PJ_ScoutTrooper>
+        </options>
+      </li>
+    </pawnGroupMakers>
+
+    <homeIconPath>World/EmpLogo</homeIconPath>
+  </FactionDef>
+</FactionDefs>

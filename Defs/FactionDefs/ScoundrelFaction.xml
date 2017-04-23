@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+  <FactionDef>
+		<defName>PJ_Bounty</defName>
+		<label>Wretched hive of scum and villainy</label>
+<description>Groups of shady underworld-types.</description>
+    <pawnsPlural>Scum</pawnsPlural>
+    <factionBaseSelectionWeight>0.5</factionBaseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<earliestRaidDays>35</earliestRaidDays>
+    <canMakeRandomly>True</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Boss</leaderTitle>
+    <appreciative>false</appreciative>
+    <expandingIconTexture>World/ScumLogo</expandingIconTexture>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-99</min>
+      <max>-90</max>
+    </startingGoodwill>
+		<factionNameMaker>NamerFactionPirate</factionNameMaker>
+		<factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Raider</backstoryCategory>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+			<li>Punk</li>
+			<li>Tribal</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-99</min>
+      <max>-99</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-75</min>
+      <max>60</max>
+    </allowedArrivalTemperatureRange>
+
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_ScumSoldier>200</PJ_ScumSoldier>
+          <PJ_ScumBoss>5</PJ_ScumBoss>
+          <PJ_Ruffian>150</PJ_Ruffian>
+          <PJ_BountyHunter>20</PJ_BountyHunter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <PJ_ScumBoss>50</PJ_ScumBoss>
+          <PJ_Ruffian>50</PJ_Ruffian>
+          <PJ_BountyHunter>150</PJ_BountyHunter>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <PJ_ScumSoldier>200</PJ_ScumSoldier>
+          <PJ_ScumBoss>5</PJ_ScumBoss>
+          <PJ_Ruffian>150</PJ_Ruffian>
+		  <PJ_Ruffian>100</PJ_Ruffian>
+		  <PJ_Ruffian>150</PJ_Ruffian>
+          <PJ_BountyHunter>10</PJ_BountyHunter>
+        </options>
+      </li>
+    </pawnGroupMakers>
+
+    <homeIconPath>World/ScumLogo</homeIconPath>
+  </FactionDef>
+</FactionDefs>

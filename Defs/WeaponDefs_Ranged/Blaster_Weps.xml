@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  <ThingDef Name="BaseImpGun" Abstract="True" ParentName="BaseWeapon">
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
+		<thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="BaseImpMakeableGun" ParentName="BaseImpGun" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_BlasterBolt_E11_X</defName>
+    <label>E-11 Blaster bolt</label>
+    <graphicData>
+      <texPath>Projectile/Blasterbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>Burn</damageDef>
+	<damageAmountBase>6</damageAmountBase>
+	<speed>105</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_E11Blaster</defName>
+    <label>E-11 Blaster Rifle</label>
+    <description>Manufactured by BlasTech Industries during the Galactic Civil War, the E-11 Blaster Rifle is the standard blaster rifle of the Imperial stormtroopers. A powerful, light and compact weapon, the E-11 was used widely through the galaxy. </description>
+    <graphicData>
+      <texPath>Weapons/Blaster2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+	  <MarketValue>2200</MarketValue>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_BlasterBolt_E11_X</projectileDef>
+        <warmupTime>1.53</warmupTime>
+        <range>40</range>
+        <soundCast>PJ_E11B</soundCast>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+	   <li>ImpBlaster</li>
+    </weaponTags>
+  </ThingDef>
+   
+   
+   
+   <ThingDef ParentName="BaseBullet">
+    <defName>PJ_Pistol_Bolt</defName>
+    <label>Blaster Bolt</label>
+    <graphicData>
+      <texPath>Projectile/Blasterbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>Burn</damageDef>
+	<damageAmountBase>8</damageAmountBase>
+	<speed>135</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_Scoutblaster</defName>
+    <label>Scout Blaster</label>
+    <description>This hold-out blaster pistol, sometimes known as a scout blaster but commonly referred to as a scout trooper blaster pistol, was a standard-issue weapon used by the scout troopers of the Galactic Empire. Clone scout troopers of the 41st Elite Corps and Clone shadow troopers were also known to carry these weapons during the latter stages of the Clone Wars.</description>
+    <graphicData>
+      <texPath>Weapons/Scoutblaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_Pistol_Bolt</projectileDef>
+        <warmupTime>0.63</warmupTime>
+        <range>30</range>
+        <soundCast>PJ_BPistol</soundCast>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>ImpSCBlaster</li>
+    </weaponTags>
+  </ThingDef>
+  
+
+  <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_SE14blaster</defName>
+    <label>SE14 Blaster</label>
+    <description>The SE-14, sometimes known as the SR combat pistol, or the Separatist blaster pistol during the Clone Wars, was a basic blaster pistol produced by BlasTech Industries.</description>
+    <graphicData>
+      <texPath>Weapons/SE14</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_Pistol_Bolt</projectileDef>
+        <warmupTime>0.63</warmupTime>
+        <range>25</range>
+        <soundCast>PJ_BPistol</soundCast>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>Blaster</li>
+    </weaponTags>
+  </ThingDef>
+  
+  
+       <ThingDef ParentName="BaseBullet">
+    <defName>PJ_HPistol_Bolt</defName>
+    <label>Blaster Bolt</label>
+    <graphicData>
+      <texPath>Projectile/Blasterbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>Burn</damageDef>
+	<damageAmountBase>12</damageAmountBase>
+	<speed>135</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_DL44blaster</defName>
+    <label>DL-44 Blaster</label>
+    <description>The DL-44 heavy blaster pistol was a type of heavy blaster pistol produced by BlasTech Industries that was used during the years of the Galactic Republic and the Age of the Empire. It was considered one of the most powerful blaster pistols in the galaxy, delivering massive damage at close range; however, it overheated quickly.</description>
+    <graphicData>
+      <texPath>Weapons/DL44</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_HPistol_Bolt</projectileDef>
+        <warmupTime>0.83</warmupTime>
+        <range>25</range>
+        <soundCast>PJ_BPistolB</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>Blaster</li>
+    </weaponTags>
+  </ThingDef>
+  
+         <ThingDef ParentName="BaseBullet">
+    <defName>PJ_T21_Bolt</defName>
+    <label>Heavy Rifle Bolt</label>
+    <graphicData>
+      <texPath>Projectile/Blasterbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>Burn</damageDef>
+	<damageAmountBase>25</damageAmountBase>
+	<speed>135</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_T21Rifle</defName>
+    <label>T-21 BLaster Rifle</label>
+    <description>the T-21 heavy blaster, was a model of light repeating blaster used by some of the Galactic Empire's Stormtrooper Corps. It delivered massive damage at long ranges, however at a low rate of fire.</description>
+    <graphicData>
+      <texPath>Weapons/T21B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.8</drawSize>	
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+	<comps>
+		<li>
+		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		</li>
+	</comps>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_T21_Bolt</projectileDef>
+        <warmupTime>1.83</warmupTime>
+        <range>45</range>
+        <soundCast>PJ_T21R</soundCast>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>BlasterRifle</li>
+    </weaponTags>
+  </ThingDef>
+  
+ </ThingDefs> 

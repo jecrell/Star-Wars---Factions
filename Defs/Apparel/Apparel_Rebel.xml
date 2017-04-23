@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="PJ_RebApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-6</Beauty>
+		</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="PJ_RebApparelMakeableBase" ParentName="PJ_RebApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="PJ_RebArmorMakeableBase" ParentName="PJ_RebApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+ 
+ 	<ThingDef Name="PJ_RebHatBase" ParentName="PJ_RebApparelBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="PJ_RebHatMakeableBase" ParentName="PJ_RebApparelMakeableBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+	
+
+
+	<ThingDef Name="PJ_RebHelmetMakeableBase" ParentName="PJ_RebArmorMakeableBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="PJ_RebHatMakeableBase">
+		<defName>PJ_RebHat</defName>
+		<label>Alliance helmet</label>
+		<description>The standard helmet for troops in the Old Republic, now often used by rebels.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>General/Helmet/RebelHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<Insulation_Cold>-4</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<equippedStatOffsets>
+			<ShootingAccuracy>0.02</ShootingAccuracy>
+			<AimingDelayFactor>-0.01</AimingDelayFactor>
+			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>General/Helmet/RebelHelmet</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+				<tags>
+					<li>PJ_Rebel</li>
+				</tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="PJ_RebHatMakeableBase">
+		<defName>PJ_RebSnowHat</defName>
+		<label>Alliance helmet</label>
+		<description>The standard helmet for cold-climate troops in the Old Republic, now often used by rebels.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>General/Helmet/RebelSnowHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<Insulation_Cold>-80</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<equippedStatOffsets>
+			<ShootingAccuracy>0.02</ShootingAccuracy>
+			<AimingDelayFactor>-0.01</AimingDelayFactor>
+			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>General/Helmet/RebelSnowHelmet</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+				<tags>
+					<li>PJ_Rebel</li>
+				</tags>
+		</apparel>
+	</ThingDef>
+	
+		<ThingDef ParentName="PJ_RebHatMakeableBase">
+		<defName>PJ_RebScoutHat</defName>
+		<label>Alliance scout helmet</label>
+		<description>A camoflage scouting helmet, used be members of the Rebel Alliance.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>General/Helmet/RebelSnowHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<Insulation_Cold>-80</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<equippedStatOffsets>
+			<ShootingAccuracy>0.02</ShootingAccuracy>
+			<AimingDelayFactor>-0.01</AimingDelayFactor>
+			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>General/Helmet/RebelScoutHelmet</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+				<tags>
+					<li>PJ_Rebel</li>
+				</tags>
+		</apparel>
+	</ThingDef>
+	
+  <ThingDef ParentName="PJ_RebApparelMakeableBase">
+    <defName>PJ_Reb_TroopJacket</defName>
+    <label>trooper jacket</label>
+    <description>A tough jacket to stop scrapes and bruises, and keep one warm in chilly weather.</description>
+    <graphicData>
+      <texPath>General/Gear/JacketTroop</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<costList>
+			<Synthread>20</Synthread>
+		</costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.7</Mass>
+	  <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <Insulation_Cold>-15</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <worngraphicPath>General/Gear/JacketTroop</worngraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>PJ_Rebel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+   <ThingDef ParentName="PJ_RebApparelMakeableBase">
+    <defName>PJ_Reb_ScoutJacket</defName>
+    <label>Scout jacket</label>
+    <description>A tough jacket to stop scrapes and bruises, and keep one warm in chilly weather.</description>
+    <graphicData>
+      <texPath>General/Gear/JacketScout</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<costList>
+			<Synthread>20</Synthread>
+		</costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.7</Mass>
+	  <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <Insulation_Cold>-15</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <worngraphicPath>General/Gear/JacketScout</worngraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <commonality>1</commonality>
+      <tags>
+        <li>PJ_Rebel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+ 
+
+</ThingDefs>

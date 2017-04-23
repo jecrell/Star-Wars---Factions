@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><DefPackage-SoundDef>
+
+  <SoundDef>
+    <defName>PJ_E11B</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>E11B</clipFolderPath>
+          </li> 
+        </grains>          
+        <pitchRange>
+			<min>0.9652174</min>
+			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+
+  <SoundDef>
+    <defName>PJ_BPistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  	
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pistol/ScoutBlas</clipPath>
+          </li>
+        </grains>         
+        <pitchRange>
+			<min>0.9152174</min>
+			<max>1.042391</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef>  
+  
+    <SoundDef>
+    <defName>PJ_BPistolB</defName>  
+    <context>MapOnly</context>
+    <eventNames />  	
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pistol/ScoutBlas</clipPath>
+          </li>
+        </grains>         
+        <pitchRange>
+			<min>0.8752174</min>
+			<max>0.942391</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef>  
+  
+      <SoundDef>
+    <defName>PJ_T21R</defName>  
+    <context>MapOnly</context>
+    <eventNames />  	
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>T21R/T21</clipPath>
+          </li>
+        </grains>         
+        <pitchRange>
+			<min>0.935217</min>
+			<max>1.042391</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef>  
+  
+
+
+
+  
+</DefPackage-SoundDef>

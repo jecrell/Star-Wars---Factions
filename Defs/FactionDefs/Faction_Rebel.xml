@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+  <FactionDef>
+		<defName>PJ_RebelFac</defName>
+		<label>rebel alliance</label>
+    <description>A loose alliance of factions and governments with the common goal of removing the Emperor Palpatine and his Galactic Empire.</description>
+    <pawnsPlural>rebels</pawnsPlural>
+    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Leader</leaderTitle>
+    <expandingIconTexture>World/RebIcon</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>10</min>
+      <max>40</max>
+    </startingGoodwill>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<factionBaseNameMaker>NamerFactionBaseOutlander</factionBaseNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<hairTags>
+			<li>Rural</li>
+			<li>Urban</li>
+			<li>Tribal</li>
+			<li>Punk</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <factionBaseTraderKinds>
+      <li>FactionBase_Outlander_Standard</li>
+    </factionBaseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+          <PJ_RebVillager>50</PJ_RebVillager>
+          <PJ_RebGuard>250</PJ_RebGuard>
+          <PJ_RebCouncilman>250</PJ_RebCouncilman>
+          <GrenadierDestructive>50</GrenadierDestructive>
+          <MercenaryGunner>100</MercenaryGunner>
+          <MercenarySlasher>100</MercenarySlasher>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <PJ_RebTrader>1</PJ_RebTrader>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <PJ_RebGuard>250</PJ_RebGuard>
+          <GrenadierDestructive>50</GrenadierDestructive>
+          <MercenaryGunner>100</MercenaryGunner>
+          <MercenarySlasher>100</MercenarySlasher>
+        </guards>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <PJ_RebVillager>50</PJ_RebVillager>
+          <PJ_RebGuard>250</PJ_RebGuard>
+          <PJ_RebCouncilman>250</PJ_RebCouncilman>
+          <GrenadierDestructive>50</GrenadierDestructive>
+          <MercenaryGunner>100</MercenaryGunner>
+          <MercenarySlasher>100</MercenarySlasher>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/RebIcon</homeIconPath>
+  </FactionDef>
+  
+</FactionDefs>

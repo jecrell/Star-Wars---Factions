@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+<ThingDef Name="ImpApparelBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<SellPriceFactor>0.75</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+	<ThingDef Name="ImpApparelMakeableBase" ParentName="ImpApparelBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="ImpArmorMakeableBase" ParentName="ImpApparelBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="ImpHatBase" ParentName="ImpApparelBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="ImpHatMakeableBase" ParentName="ImpApparelMakeableBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+	
+
+
+	<ThingDef Name="ImpHelmetMakeableBase" ParentName="ImpArmorMakeableBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+
+
+  <ThingDef ParentName="ImpApparelMakeableBase">
+    <defName>PJ_ImpUniform</defName>
+    <label>Imperial Uniform</label>
+    <techLevel>Spacer</techLevel>
+    <description>The uniform worn by the martial forces of the Galactic Empire.</description>
+    <graphicData> 
+		<texPath>Imp/Gear/ImperialOfficerUniform</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <statBases>
+      <Mass>1</Mass>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+	<costList>
+      <Steel>8</Steel>
+      <Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+     <tags>
+       <li>PJ_Imp</li>
+     </tags>
+     <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+     </defaultOutfitTags>
+     <worngraphicPath>Imp/Gear/ImperialOfficerUniform</worngraphicPath>
+			<layers>
+			    <li>OnSkin</li>
+			</layers>
+     <commonality>2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(1,1,1,1)</only>
+				</li>
+      </options>
+    </colorGenerator>
+    </ThingDef>
+
+	  <ThingDef ParentName="ImpApparelMakeableBase">
+    <defName>PJ_ImpUniformBlack</defName>
+    <label>Imperial Navy Uniform</label>
+    <techLevel>Spacer</techLevel>
+    <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by mid-ranking officers assigned to capitol ships or stations.</description>
+    <graphicData> 
+		<texPath>Imp/Gear/ImperialOfficerUniformB</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <statBases>
+      <Mass>1</Mass>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+	<costList>
+      <Steel>8</Steel>
+      <Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+     <tags>
+       <li>PJ_Imp</li>
+     </tags>
+     <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+     </defaultOutfitTags>
+     <worngraphicPath>Imp/Gear/ImperialOfficerUniformB</worngraphicPath>
+			<layers>
+			    <li>OnSkin</li>
+			</layers>
+     <commonality>2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(1,1,1,1)</only>
+				</li>
+      </options>
+    </colorGenerator>
+    </ThingDef>
+	
+		  <ThingDef ParentName="ImpApparelMakeableBase">
+    <defName>PJ_ImpUniformBlackSHELL</defName>
+    <label>Imperial Navy Uniform(Outer)</label>
+    <techLevel>Spacer</techLevel>
+    <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by mid-ranking officers assigned to capitol ships or stations.</description>
+    <graphicData> 
+		<texPath>Imp/Gear/ImperialOfficerUniformB</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <statBases>
+      <Mass>1</Mass>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+	  <costList>
+      <Steel>8</Steel>
+      <Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+     <tags>
+       <li>PJ_Imp</li>
+     </tags>
+     <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+     </defaultOutfitTags>
+     <worngraphicPath>Imp/Gear/ImperialOfficerUniformB</worngraphicPath>
+			<layers>
+			    <li>Shell</li>
+			</layers>
+     <commonality>2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(1,1,1,1)</only>
+				</li>
+      </options>
+    </colorGenerator>
+    </ThingDef>
+	
+	<ThingDef ParentName="ImpArmorMakeableBase">
+		<defName>PJ_TroopArmor</defName>
+		<label>Stormtrooper armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
+		<graphicData>
+			<texPath>Imp/Gear/STArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>8</Steel>
+      <Plasteel>120</Plasteel>
+      <Component>12</Component>
+    </costList>
+		<statBases>
+      <Mass>14</Mass>
+     <WorkToMake>159000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>4050</MarketValue>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>-45</Insulation_Cold>
+			<Insulation_Heat>45</Insulation_Heat>
+		</statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+			<apparel>
+    		 <tags>
+				<li>PJ_Imp</li>
+			</tags>
+			<worngraphicPath>Imp/Gear/STArmor</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<commonality>0.2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ImpHelmetMakeableBase">
+	<defName>PJ_STHelm</defName>
+	<label>Stormtrooper helm</label>
+	<techLevel>Spacer</techLevel>
+	<description>A standard-issue stormtrooper helmet.</description>
+	<graphicData> 
+		<texPath>Imp/Helmet/StormTrooperHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>4</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>6</Component>
+    </costList>
+	<statBases>
+      <Mass>2.4</Mass>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>PJ_Imp</li>
+   		 </tags>
+		<worngraphicPath>Imp/Helmet/StormTrooperHelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>1</commonality>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>
+
+		<ThingDef ParentName="ImpHelmetMakeableBase">
+	<defName>PJ_SCTHelm</defName>
+	<label>Scout trooper helmet</label>
+	<techLevel>Spacer</techLevel>
+	<description>A stormtrooper helmet specialized for scouting duty.</description>
+	<graphicData> 
+		<texPath>Imp/Helmet/ScouttrooperHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>4</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>6</Component>
+    </costList>
+	<statBases>
+      <Mass>2.4</Mass>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>PJ_Imp</li>
+   		 </tags>
+		<worngraphicPath>Imp/Helmet/ScouttrooperHelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>1</commonality>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ImpHatMakeableBase">
+		<defName>PJ_ImpHat</defName>
+		<label>Imperial Command Cap</label>
+		<description>The command cap worn by officers of the Imperial forces.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Imp/Helmet/OfficerHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<Insulation_Cold>-4</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<equippedStatOffsets>
+			<ShootingAccuracy>0.02</ShootingAccuracy>
+			<AimingDelayFactor>-0.01</AimingDelayFactor>
+			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>Imp/Helmet/OfficerHat</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+				<tags>
+					<li>PJ_Imp</li>
+				</tags>
+		</apparel>
+	</ThingDef>
+	
+		
+	<ThingDef ParentName="ImpHatMakeableBase">
+		<defName>PJ_ImpHatB</defName>
+		<label>Imperial Command Cap (Black)</label>
+		<description>The command cap worn by officers of the Imperial forces.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Imp/Helmet/OfficerHatB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<Insulation_Cold>-4</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<equippedStatOffsets>
+			<ShootingAccuracy>0.02</ShootingAccuracy>
+			<AimingDelayFactor>-0.01</AimingDelayFactor>
+			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>Imp/Helmet/OfficerHatB</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+				<tags>
+					<li>PJ_Imp</li>
+				</tags>
+		</apparel>
+	</ThingDef>
+</ThingDefs>

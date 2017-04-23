@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+  <PawnKindDef Name="PJ_RebelPawnBase" Abstract="True">
+    <defaultFactionType>PJ_RebelFac</defaultFactionType>
+    <chemicalAddictionChance>0.045</chemicalAddictionChance>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
+    <backstoryCategory>Civil</backstoryCategory>
+    <apparelTags>
+      <li>Outlander</li>
+	  <li>PJ_Rebel</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef Name="PJ_RebVillager" ParentName="PJ_RebelPawnBase">
+    <defName>PJ_RebVillager</defName>
+    <label>villager</label>
+    <race>Human</race>
+    <combatPower>25</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>0</min>
+      <max>250</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Blaster</li>
+      <li>Melee</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.75</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>70</max>
+          </countRange>
+        </li>
+        <li>
+          <choiceChance>10</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>700</min>
+            <max>1000</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="PJ_RebVillager">
+    <defName>PJ_RebCouncilman</defName>
+    <label>rebel councilman</label>
+    <labelPlural>rebel councilmen</labelPlural>
+    <factionLeader>true</factionLeader>
+    <minGenerationAge>40</minGenerationAge>
+    <maxGenerationAge>100</maxGenerationAge>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="PJ_RebVillager">
+    <defName>PJ_RebTrader</defName>
+    <label>rebel trader</label>
+    <trader>true</trader>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="PJ_RebelPawnBase">
+    <defName>PJ_RebGuard</defName>
+    <label>rebel guard</label>
+    <race>Human</race>
+    <combatPower>50</combatPower>
+    <maxGenerationAge>65</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+	 <apparelRequired>
+      <li>PJ_Reb_TroopJacket</li>
+	  <li>PJ_RebHat</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>200</min>
+      <max>600</max>
+    </weaponMoney>
+    <weaponTags>
+       <li>Blaster</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+
+</PawnKindDefs>
