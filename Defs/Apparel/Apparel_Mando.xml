@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+<ThingDef Name="PJ_MandoApparelBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<SellPriceFactor>0.75</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+	<ThingDef Name="PJ_MandoApparelMakeBase" ParentName="PJ_MandoApparelBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="PJ_MandoArmorMakeBase" ParentName="PJ_MandoApparelBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="PJ_MandoHatBase" ParentName="PJ_MandoApparelBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="PJ_MandoHatMakeBase" ParentName="PJ_MandoApparelMakeBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+	
+
+
+	<ThingDef Name="PJ_MandoHelmMakeBase" ParentName="PJ_MandoArmorMakeBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+
+
+	
+	<ThingDef ParentName="PJ_MandoArmorMakeBase">
+		<defName>PJ_MandoArmor</defName>
+		<label>Mando armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>The most recognizable symbol of the Mandalorian culture, Mandalorian armor was a catch-all term for the sets of distinctive full-body armor worn by Mandalorian warriors and soldiers throughout galactic history.</description>
+		<graphicData>
+			<texPath>General/Mando/XandoArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>8</Steel>
+      <Plasteel>120</Plasteel>
+      <Component>12</Component>
+    </costList>
+		<statBases>
+      <Mass>14</Mass>
+     <WorkToMake>159000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>6050</MarketValue>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>-45</Insulation_Cold>
+			<Insulation_Heat>45</Insulation_Heat>
+		</statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+			<apparel>
+    		 <tags>
+				<li>PJ_Mando</li>
+			</tags>
+			<worngraphicPath>General/Mando/XandoArmor</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<commonality>0.2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	
+	
+		<ThingDef ParentName="PJ_MandoArmorMakeBase">
+		<defName>PJ_VetMandoArmor</defName>
+		<label>Mando Veteran armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>The most recognizable symbol of the Mandalorian culture, Mandalorian armor was a catch-all term for the sets of distinctive full-body armor worn by Mandalorian warriors and soldiers throughout galactic history.</description>
+		<graphicData>
+			<texPath>General/Mando/VetXandoArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>18</Steel>
+      <Plasteel>130</Plasteel>
+      <Component>12</Component>
+    </costList>
+		<statBases>
+      <Mass>14</Mass>
+     <WorkToMake>159000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>6150</MarketValue>
+			<ArmorRating_Blunt>0.39</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.78</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>-48</Insulation_Cold>
+			<Insulation_Heat>48</Insulation_Heat>
+		</statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+			<apparel>
+    		 <tags>
+				<li>PJ_Mando</li>
+			</tags>
+			<worngraphicPath>General/Mando/VetXandoArmor</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<commonality>0.2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="PJ_MandoHelmMakeBase">
+	<defName>PJ_MandoHelm</defName>
+	<label>Mando helm</label>
+	<techLevel>Spacer</techLevel>
+	<description>The ever-recognizable T-shaped visor of the mandalorian helmet strikes fear throughout the galaxy.</description>
+	<graphicData> 
+		<texPath>General/Mando/Xhelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>4</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>6</Component>
+    </costList>
+	<statBases>
+      <Mass>2.4</Mass>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1520</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>PJ_Mando</li>
+   		 </tags>
+		<worngraphicPath>General/Mando/Xhelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>1</commonality>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>
+	
+</ThingDefs>

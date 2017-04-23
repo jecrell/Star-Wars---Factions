@@ -107,10 +107,11 @@
       <li>Outlander</li>
 	  <li>PJ_Rebel</li>
 	  <li>Spacer</li>
+	  <li>PJ_Mando</li>
     </apparelTags>
     <apparelMoney>
-      <min>6070</min>
-      <max>6070</max>
+      <min>7570</min>
+      <max>8170</max>
     </apparelMoney>
     <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
     <weaponMoney>
