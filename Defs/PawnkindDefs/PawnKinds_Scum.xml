@@ -131,23 +131,6 @@
     </techHediffsTags>
     <techHediffsChance>1</techHediffsChance>
     <inventoryOptions>
-      <skipChance>0.01</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>200</min>
-            <max>500</max>
-          </countRange>
-        </li>
-        <li>
-          <thingDef>Medicine</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
 	      <skipChance>0.55</skipChance>
       <subOptionsChooseOne>
         <li>
