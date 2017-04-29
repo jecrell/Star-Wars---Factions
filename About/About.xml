@@ -2,8 +2,13 @@
 
 <ModMetaData>
 	<name>Star Wars - Factions</name>
-	<author>Defenders of Peace, Jecrell, and Xen</author>
+	<author>Defenders of Peace</author>
 	<targetVersion>0.16.1393</targetVersion>
 	<description>Version 0
-	Description Unavailable</description>
+	Description Unavailable
+	
+	Thanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
+	
+	Programming by Jecrell.
+	Assets and XML by Xen.</description>
 </ModMetaData>
