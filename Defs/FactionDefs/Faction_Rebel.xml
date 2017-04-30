@@ -62,6 +62,9 @@
           <GrenadierDestructive>50</GrenadierDestructive>
           <MercenaryGunner>100</MercenaryGunner>
           <MercenarySlasher>100</MercenarySlasher>
+		  <PJ_RebSoldier>150</PJ_RebSoldier>
+		  <PJ_RebMerc>200</PJ_RebMerc>
+		  
         </options>
       </li>
       <li>
@@ -78,6 +81,8 @@
           <GrenadierDestructive>50</GrenadierDestructive>
           <MercenaryGunner>100</MercenaryGunner>
           <MercenarySlasher>100</MercenarySlasher>
+		  <PJ_RebSoldier>150</PJ_RebSoldier>
+		  <PJ_RebMerc>200</PJ_RebMerc>
         </guards>
       </li>
       <li>
@@ -85,6 +90,8 @@
         <options>
           <PJ_RebVillager>50</PJ_RebVillager>
           <PJ_RebGuard>250</PJ_RebGuard>
+		  <PJ_RebSoldier>150</PJ_RebSoldier>
+		  <PJ_RebMerc>200</PJ_RebMerc>
           <PJ_RebCouncilman>250</PJ_RebCouncilman>
           <GrenadierDestructive>50</GrenadierDestructive>
           <MercenaryGunner>100</MercenaryGunner>

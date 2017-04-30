@@ -71,8 +71,8 @@
 
   <PawnKindDef ParentName="PJ_RebVillager">
     <defName>PJ_RebCouncilman</defName>
-    <label>rebel councilman</label>
-    <labelPlural>rebel councilmen</labelPlural>
+    <label>rebel base commander</label>
+    <labelPlural>rebel base commanders</labelPlural>
     <factionLeader>true</factionLeader>
     <minGenerationAge>40</minGenerationAge>
     <maxGenerationAge>100</maxGenerationAge>
@@ -110,6 +110,101 @@
     <weaponTags>
        <li>Blaster</li>
 	   <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+    <PawnKindDef ParentName="PJ_RebelPawnBase">
+    <defName>PJ_RebSoldier</defName>
+    <label>rebel soldier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>2800</min>
+      <max>10900</max>
+    </apparelMoney>
+	 <apparelRequired>
+      <li>PJ_Reb_CamoJacket</li>
+	  <li>PJ_RebScoutHat</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+       <li>Blaster</li>
+	   <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+
+    <PawnKindDef ParentName="PJ_RebelPawnBase">
+    <defName>PJ_RebMerc</defName>
+    <label>rebel mercenary</label>
+    <race>Human</race>
+    <combatPower>200</combatPower>
+    <maxGenerationAge>45</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>12800</min>
+      <max>20900</max>
+    </apparelMoney>
+	<apparelTags>
+      <li>Outlander</li>
+	  <li>PJ_Rebel</li>
+	  <li>Military</li>
+    </apparelTags>
+    <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+       <li>Blaster</li>
+	   <li>BlasterRifle</li>
+	   <li>Melee</li>
+	   <li>GrenadeDestructive</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
