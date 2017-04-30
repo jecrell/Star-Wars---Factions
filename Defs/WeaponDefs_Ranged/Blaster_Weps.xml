@@ -348,4 +348,74 @@
     </weaponTags>
   </ThingDef>
   
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_EE3_Bolt</defName>
+    <label>Heavy Rifle Bolt</label>
+    <graphicData>
+      <texPath>Projectile/Blasterbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>Burn</damageDef>
+	<damageAmountBase>10</damageAmountBase>
+	<speed>135</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_EE3Carbine</defName>
+    <label>EE-3 Blaster Carbine</label>
+    <description>the EE-3 Blaster carbine is one of the blasters developed by Blastech, and seems to be favored by Mandalorians, among others.</description>
+    <graphicData>
+      <texPath>Weapons/Carbine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.2</drawSize>	
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.72</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+	<comps>
+		<li>
+		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		</li>
+	</comps>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_EE3_Bolt</projectileDef>
+        <warmupTime>2.23</warmupTime>
+        <range>45</range>
+        <soundCast>PJ_T21R</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>BlasterRifle</li>
+    </weaponTags>
+  </ThingDef>
+  
  </ThingDefs> 
