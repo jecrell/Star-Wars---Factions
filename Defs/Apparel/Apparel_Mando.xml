@@ -240,4 +240,62 @@
 	</apparel>
 	</ThingDef>
 	
+	
+	
+	<!-- ====Strams==== -->
+	
+	
+		<ThingDef ParentName="PJ_MandoArmorMakeBase">
+		<defName>PJ_BarkMandoArmor</defName>
+		<label>Bark clan armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>This suit of mandalorian armor was customized to bear </description>
+		<graphicData>
+			<texPath>General/Mando/Stram/BXandoArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>18</Steel>
+      <Plasteel>130</Plasteel>
+      <Component>12</Component>
+    </costList>
+		<statBases>
+      <Mass>14</Mass>
+     <WorkToMake>159000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>6150</MarketValue>
+			<ArmorRating_Blunt>0.59</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.88</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.56</ArmorRating_Heat>
+			<Insulation_Cold>-48</Insulation_Cold>
+			<Insulation_Heat>48</Insulation_Heat>
+		</statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+			<apparel>
+    		 <tags>
+				<li>PJ_MandoB</li>
+			</tags>
+			<worngraphicPath>General/Mando/Stram/BXandoArmor</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<commonality>0.2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
 </ThingDefs>
