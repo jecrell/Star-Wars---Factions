@@ -134,88 +134,18 @@
     <inventoryOptions>
 	      <skipChance>0.55</skipChance>
       <subOptionsChooseOne>
-        <li>
-          <thingDef>PJ_AdeganCrystal</thingDef>
+         <li>
+          <thingDef>Silver</thingDef>
           <countRange>
-            <min>1</min>
-            <max>1</max>
+            <min>200</min>
+            <max>5000</max>
           </countRange>
         </li>
         <li>
-          <thingDef>PJ_AnkSapphire</thingDef>
+          <thingDef>Medicine</thingDef>
           <countRange>
             <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_DamindCrystal</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_DragiteCrystal</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_HurCrystal</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_EralamCrystal</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_RubatCrystal</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_KaiburrCrystal</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_FirkrannCrystal</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_BarabIngot</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_UltimaPearl</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
-          </countRange>
-        </li>
-		<li>
-          <thingDef>PJ_BlackPearl</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>1</max>
+            <max>5</max>
           </countRange>
         </li>
       </subOptionsChooseOne>
