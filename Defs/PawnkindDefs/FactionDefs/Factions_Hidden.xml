@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef Abstract="True" Name="PJ_GhostFacBase">
+		<label>Force Ghost</label>
+		<description>Former jedi masters who have become one with the force, yet retained their persona.</description>
+		<pawnsPlural>Force ghosts</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<fixedName>Force ghosts</fixedName>
+		<techLevel>Ultra</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<hidden>true</hidden>
+		<rescueesCanJoin>false</rescueesCanJoin>
+		<autoFlee>false</autoFlee>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+	</FactionDef>
+
+	<FactionDef ParentName="PJ_GhostFacBase">
+		<defName>PJ_GhostFaction</defName>
+  </FactionDef>
+  
+  <!--
+  
+	<FactionDef Abstract="True" Name="PJ_AffiliateFaction">
+		<label>Force Ghost</label>
+		<description>Former jedi masters who have become one with the force, yet retained their persona.</description>
+		<pawnsPlural>Force ghosts</pawnsPlural>
+		
+    <factionBaseSelectionWeight>0.00001</factionBaseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<hidden>true</hidden>
+	<earliestRaidDays>2147483</earliestRaidDays>
+    <canMakeRandomly>False</canMakeRandomly>
+    <autoFlee>false</autoFlee>
+    <raidCommonality>0.00001</raidCommonality>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <appreciative>false</appreciative>
+		<fixedName>Force ghosts</fixedName>
+		<techLevel>Ultra</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<rescueesCanJoin>false</rescueesCanJoin>
+		<autoFlee>false</autoFlee>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+    <startingGoodwill>
+      <min>99</min>
+      <max>90</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>99</min>
+      <max>99</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-45</min>
+      <max>60</max>
+    </allowedArrivalTemperatureRange>
+		
+	</FactionDef>
+
+  <FactionDef ParentName="PJ_AffiliateFaction">
+		<defName>PJ_Affiliate_JediOrder</defName>
+		<label>Jedi Order</label>
+<description>An ancient monastic peacekeeping organization unified by its belief and observance of the light side of the Force.</description>
+	<fixedName>The Jedi Order</fixedName>
+    <pawnsPlural>Jedi</pawnsPlural>
+    <leaderTitle>Grand Master</leaderTitle>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>	
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_ScoutTrooper>20</PJ_ScoutTrooper>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <TownTrader>1</TownTrader>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <TownGuard>250</TownGuard>
+          <GrenadierDestructive>50</GrenadierDestructive>
+          <MercenaryGunner>100</MercenaryGunner>
+          <MercenarySlasher>100</MercenarySlasher>
+        </guards>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <PJ_ImpSoldier>200</PJ_ImpSoldier>
+          <PJ_ImpCommander>5</PJ_ImpCommander>
+          <PJ_Stormtrooper>150</PJ_Stormtrooper>
+		  <PJ_Stormtrooper>100</PJ_Stormtrooper>
+		  <PJ_Stormtrooper>150</PJ_Stormtrooper>
+          <PJ_ScoutTrooper>10</PJ_ScoutTrooper>
+        </options>
+      </li>
+    </pawnGroupMakers>
+
+    <homeIconPath>World/EmpLogo</homeIconPath>
+  </FactionDef>
+  
+  -->
+
+</Defs>
