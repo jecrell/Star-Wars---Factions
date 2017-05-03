@@ -19,7 +19,7 @@
       <li>(1, 1, 1)</li>
     </colorSpectrum>
     <startingGoodwill>
-      <min>-99</min>
+      <min>-90</min>
       <max>-90</max>
     </startingGoodwill>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>

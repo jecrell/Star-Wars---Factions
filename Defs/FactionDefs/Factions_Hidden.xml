@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <!-- 
+	<FactionDef Abstract="True" Name="PJ_ClubFacBase">
+		<description>A group dedicated to mastery of the Force.</description>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<canMakeRandomly>false</canMakeRandomly>
+		<rescueesCanJoin>true</rescueesCanJoin>
+		<leaderTitle>Master</leaderTitle>
+		<autoFlee>false</autoFlee>
+		<appreciative>true</appreciative>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+			<li>Punk</li>
+			<li>Tribal</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+				<li>Hyperweave</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
+	<startingGoodwill>
+      <min>0</min>
+      <max>0</max>
+    </startingGoodwill>
+	<naturalColonyGoodwill>
+      <min>-99</min>
+      <max>30</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-255</min>
+      <max>255</max>
+    </allowedArrivalTemperatureRange>
+	</FactionDef>
+
+	<FactionDef ParentName="PJ_ClubFacBase">
+		<defName>PJ_JediFac</defName>
+		<label>Jedi</label>
+		<fixedName>Jedi Council</fixedName>
+		<pawnsPlural>Jedi</pawnsPlural>
+		<expandingIconTexture>World/JFacLogo</expandingIconTexture>
+		    <colorSpectrum>
+				<li>(1, 1, 1)</li>
+			</colorSpectrum>
+	<pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_JediSoldier>200</PJ_JediSoldier>
+          <PJ_JediBoss>5</PJ_JediBoss>
+          <PJ_Padawan>150</PJ_Padawan>
+          <PJ_JKnight>20</PJ_JKnight>
+        </options>
+      </li>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <PJ_JediBoss>50</PJ_JediBoss>
+          <PJ_Padawan>50</PJ_Padawan>
+          <PJ_JKnight>150</PJ_JKnight>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <PJ_JediSoldier>200</PJ_JediSoldier>
+          <PJ_JediBoss>5</PJ_JediBoss>
+          <PJ_Padawan>150</PJ_Padawan>
+		  <PJ_Padawan>100</PJ_Padawan>
+		  <PJ_Padawan>150</PJ_Padawan>
+          <PJ_JKnight>10</PJ_JKnight>
+        </options>
+      </li>
+    </pawnGroupMakers>
+
+    <homeIconPath>World/JFacLogo</homeIconPath>
+  </FactionDef>
+  
+  <FactionDef ParentName="PJ_ClubFacBase">
+		<defName>PJ_SithFac</defName>
+				<label>Sith</label>
+		<fixedName>Sith</fixedName>
+		<pawnsPlural>Sith</pawnsPlural>
+		    <expandingIconTexture>World/SithFacLogo</expandingIconTexture>
+			  <colorSpectrum>
+				<li>(1, 1, 1)</li>
+			</colorSpectrum>
+	<pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_SithSoldier>200</PJ_SithSoldier>
+          <PJ_SithBoss>5</PJ_SithBoss>
+          <PJ_SPadawan>150</PJ_SPadawan>
+          <PJ_SKnight>20</PJ_SKnight>
+        </options>
+      </li>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <PJ_SithBoss>50</PJ_SithBoss>
+          <PJ_SPadawan>50</PJ_SPadawan>
+          <PJ_SKnight>150</PJ_SKnight>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <PJ_SithSoldier>200</PJ_SithSoldier>
+          <PJ_SithBoss>5</PJ_SithBoss>
+          <PJ_SPadawan>150</PJ_SPadawan>
+		  <PJ_SPadawan>100</PJ_SPadawan>
+		  <PJ_SPadawan>150</PJ_SPadawan>
+          <PJ_SKnight>100</PJ_SKnight>
+        </options>
+      </li>
+    </pawnGroupMakers>
+
+    <homeIconPath>World/SithFacLogo</homeIconPath>
+  </FactionDef>
+  
+  <FactionDef ParentName="PJ_ClubFacBase">
+		<defName>PJ_GrayFac</defName>
+				<label>Gray paladins</label>
+		<fixedName>Gray Paladins</fixedName>
+		<pawnsPlural>Gray jedi</pawnsPlural>
+		<expandingIconTexture>World/GrayFacLogo</expandingIconTexture>
+			<colorSpectrum>
+				<li>(1, 1, 1)</li>
+			</colorSpectrum>
+	<pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_GraySoldier>200</PJ_GraySoldier>
+          <PJ_GrayBoss>5</PJ_GrayBoss>
+          <PJ_GPadawan>150</PJ_GPadawan>
+          <PJ_JKnight>20</PJ_JKnight>
+        </options>
+      </li>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <PJ_GrayBoss>50</PJ_GrayBoss>
+          <PJ_GPadawan>50</PJ_GPadawan>
+          <PJ_GKnight>150</PJ_GKnight>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <PJ_GraySoldier>200</PJ_GraySoldier>
+          <PJ_GrayBoss>5</PJ_GrayBoss>
+          <PJ_GPadawan>150</PJ_GPadawan>
+		  <PJ_GPadawan>100</PJ_GPadawan>
+		  <PJ_GPadawan>150</PJ_GPadawan>
+          <PJ_GKnight>10</PJ_GKnight>
+        </options>
+      </li>
+    </pawnGroupMakers>
+
+    <homeIconPath>World/GrayFacLogo</homeIconPath>
+  </FactionDef>
+ 
+   --> 
+</Defs>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<!-- normal bases -->
+
+	<ThingDef Name="PJ_JediApparelBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<SellPriceFactor>0.75</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+	<ThingDef Name="PJ_JediApparelMakeableBase" ParentName="PJ_JediApparelBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="PJ_JediArmorMakeableBase" ParentName="PJ_JediApparelBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="PJ_JediHatBase" ParentName="PJ_JediApparelBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="PJ_JediHatMakeableBase" ParentName="PJ_JediApparelMakeableBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+	
+
+
+	<ThingDef Name="PJ_JediHelmMakeableBase" ParentName="PJ_JediArmorMakeableBase" Abstract="True">
+		<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+	</ThingDef>
+
+</ThingDefs>

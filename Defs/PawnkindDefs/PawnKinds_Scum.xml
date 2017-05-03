@@ -156,7 +156,6 @@
     <defName>PJ_BountyHunter</defName>
     <label>Bounty hunter</label>
     <race>Human</race>
-    <factionLeader>false</factionLeader>
     <combatPower>150</combatPower>
     <defaultFactionType>PJ_Bounty</defaultFactionType>
     <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
