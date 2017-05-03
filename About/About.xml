@@ -3,12 +3,19 @@
 <ModMetaData>
 	<name>Star Wars - Factions</name>
 	<author>Defenders of Peace</author>
-	<targetVersion>0.16.1393</targetVersion>
-	<description>Version 0
-	Description Unavailable
+	<targetVersion>0.16.0</targetVersion>
+	<description>Version 1.0
 	
 	Thanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
 	
 	Programming by Jecrell.
-	Assets and XML by Xen.</description>
+	Assets and XML by Xen.
+	
+	Other contributors:
+	Berengar
+	SmartCheeta
+	
+	Patreon Patrons:
+	Jedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black
+	</description>
 </ModMetaData>

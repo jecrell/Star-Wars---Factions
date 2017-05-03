@@ -20,7 +20,7 @@
       <li>(1, 1, 1)</li>
     </colorSpectrum>
     <startingGoodwill>
-      <min>-90</min>
+      <min>-99</min>
       <max>-90</max>
     </startingGoodwill>
 		<fixedName>The Galactic Empire</fixedName>

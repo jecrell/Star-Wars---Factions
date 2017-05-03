@@ -247,9 +247,9 @@
 	
 		<ThingDef ParentName="PJ_MandoArmorMakeBase">
 		<defName>PJ_BarkMandoArmor</defName>
-		<label>Bark clan armor</label>
+		<label>Barky's clan armor</label>
 		<techLevel>Spacer</techLevel>
-		<description>This suit of mandalorian armor was customized to bear </description>
+		<description>Armor dedicated to the followers of an honored warrior. Mandalorians wear this sigil-bound vestment and cry out, For Barkyyyyyy!!!</description>
 		<graphicData>
 			<texPath>General/Mando/Stram/BXandoArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
