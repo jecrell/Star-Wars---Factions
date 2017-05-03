@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="PJ_JediApparelMakeableBase">
     <defName>PJ_JFac_Robe</defName>
-    <label>Jedi Robe</label>
+    <label>Custom Jedi Robe</label>
     <description>A Jedi's robes</description>
     <techLevel>Spacer</techLevel>
 	<recipeMaker>
@@ -95,7 +95,7 @@
   
   	<ThingDef ParentName="PJ_JediApparelMakeableBase">
     <defName>PJ_SithFac_Robe</defName>
-    <label>Sith robes</label>
+    <label>Custom Sith robes</label>
     <description>A Dark Side version of Jedi Robes</description>
     <techLevel>Spacer</techLevel>
 	<recipeMaker>
