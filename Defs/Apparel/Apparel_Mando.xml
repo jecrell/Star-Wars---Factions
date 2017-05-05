@@ -124,7 +124,6 @@
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
-			<commonality>0.2</commonality>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Arms</li>
@@ -179,7 +178,6 @@
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
-			<commonality>0.2</commonality>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Arms</li>
@@ -233,7 +231,6 @@
 		<layers>
 			<li>Overhead</li>
 		</layers>
-		<commonality>1</commonality>
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
@@ -286,7 +283,6 @@
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
-			<commonality>0.2</commonality>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Arms</li>

@@ -5,7 +5,7 @@
 		<label>Wretched hive of scum and villainy</label>
 <description>Groups of shady underworld-types.</description>
     <pawnsPlural>Scum</pawnsPlural>
-    <factionBaseSelectionWeight>0.5</factionBaseSelectionWeight>
+    <baseSelectionWeight>0.5</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
 	<earliestRaidDays>35</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
@@ -23,7 +23,7 @@
       <max>-90</max>
     </startingGoodwill>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
-		<factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
+		<baseNameMaker>NamerFactionBasePirate</baseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<hairTags>

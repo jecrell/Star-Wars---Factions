@@ -116,7 +116,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -163,7 +162,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -210,7 +208,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -253,7 +250,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
       <tags>
         <li>PJ_Rebel</li>
       </tags>
@@ -296,7 +292,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
       <tags>
         <li>PJ_Rebel</li>
       </tags>
@@ -340,7 +335,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
       <tags>
         <li>PJ_Rebel</li>
       </tags>

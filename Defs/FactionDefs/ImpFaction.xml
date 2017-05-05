@@ -5,7 +5,7 @@
 		<label>The Galactic Empire</label>
 <description>The Galactic Empire, also known as the First Galactic Empire or the New Order—and commonly referred to as the Empire or the Order—was the galactic, constitutional monarchy and fascist government that replaced the Galactic Republic in the aftermath of the Clone Wars.</description>
     <pawnsPlural>Imperial Soldiers</pawnsPlural>
-    <factionBaseSelectionWeight>0.5</factionBaseSelectionWeight>
+    <baseSelectionWeight>0.5</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
 	<earliestRaidDays>35</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
@@ -24,7 +24,7 @@
       <max>-90</max>
     </startingGoodwill>
 		<fixedName>The Galactic Empire</fixedName>
-		<factionBaseNameMaker>NamerImpBase</factionBaseNameMaker>
+		<baseNameMaker>NamerImpBase</baseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<hairTags>

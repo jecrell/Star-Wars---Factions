@@ -302,7 +302,6 @@
     <graphicData>
       <texPath>Weapons/T21B</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>1.8</drawSize>	
     </graphicData>
     <soundInteract>InteractPistol</soundInteract>
     <recipeMaker>
@@ -321,12 +320,7 @@
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
       <Component>2</Component>
-    </costList>
-	<comps>
-		<li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		</li>
-	</comps>	
+    </costList>	
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -392,12 +386,7 @@
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
       <Component>2</Component>
-    </costList>
-	<comps>
-		<li>
-		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		</li>
-	</comps>	
+    </costList>	
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

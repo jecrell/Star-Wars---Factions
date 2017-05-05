@@ -6,7 +6,7 @@
 		<label>rebel alliance</label>
     <description>A loose alliance of factions and governments with the common goal of removing the Emperor Palpatine and his Galactic Empire.</description>
     <pawnsPlural>rebels</pawnsPlural>
-    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <baseSelectionWeight>1</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <raidCommonality>100</raidCommonality>
@@ -23,7 +23,7 @@
       <max>40</max>
     </startingGoodwill>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<factionBaseNameMaker>NamerFactionBaseOutlander</factionBaseNameMaker>
+		<baseNameMaker>NamerFactionBaseOutlander</baseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<hairTags>
@@ -45,9 +45,9 @@
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
-    <factionBaseTraderKinds>
-      <li>FactionBase_Outlander_Standard</li>
-    </factionBaseTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-40</min>
       <max>45</max>
