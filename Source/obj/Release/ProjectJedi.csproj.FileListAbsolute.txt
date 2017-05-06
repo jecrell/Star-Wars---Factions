@@ -1,0 +1,2 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProjectJedi\Assemblies\ProjectJedi.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProjectJedi\Source\obj\Release\ProjectJedi.dll

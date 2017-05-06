@@ -1,0 +1,9 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[Unreleased] Star Wars - Fully Functional Lightsabers\Assemblies\SWSaber.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[Unreleased] Star Wars - Fully Functional Lightsabers\Source\obj\Debug\SWSaber.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[Unreleased] Star Wars - Fully Functional Lightsabers\Source\obj\Debug\SWSaber.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Star Wars - Fully Functional Lightsabers\Assemblies\SWSaber.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Star Wars - Fully Functional Lightsabers\Source\obj\Debug\SWSaber.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Star Wars - Fully Functional Lightsabers\Source\obj\Debug\SWSaber.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Fully-Functional-Lightsabers\Assemblies\SWSaber.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Fully-Functional-Lightsabers\Source\obj\Debug\SWSaber.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Fully-Functional-Lightsabers\Source\obj\Debug\SWSaber.dll

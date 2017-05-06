@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProjectJedi\Source\obj\Debug\ProjectJedi.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProjectJedi\Assemblies\ProjectJedi.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProjectJedi\Source\obj\Debug\ProjectJedi.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\ProjectJedi\Source\obj\Debug\ProjectJedi.csprojResolveAssemblyReference.cache
+E:\Steam2\steamapps\common\RimWorld\Mods\ProjectJedi\Source\obj\Debug\ProjectJedi.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\ProjectJedi\Assemblies\ProjectJedi.dll
