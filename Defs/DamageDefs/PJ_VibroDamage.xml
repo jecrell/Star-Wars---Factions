@@ -41,5 +41,43 @@
 			<destroyedOutLabel>sliced out</destroyedOutLabel>
 		</injuryProps>
 	</HediffDef>
+	
+	<DamageDef>
+    <defName>PJ_BlasterDam</defName>
+    <label>Blaster bolt</label>
+	<workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been blasted!</deathMessage>
+    <hediff>PJ_BBurn</hediff>
+    <armorCategory>Heat</armorCategory>
+  </DamageDef>
+  
+    <HediffDef>
+		<defName>PJ_BBurn</defName>
+		<label>Blaster burn</label>
+		<hediffClass>Hediff_Injury</hediffClass>
+		<tendable>true</tendable>
+		<displayWound>true</displayWound>		
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>well tended</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsOld">
+        <oldLabel>Blaster scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.01875</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Blasted off</destroyedLabel>
+			<destroyedOutLabel>Blasted out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
   
 </Defs>

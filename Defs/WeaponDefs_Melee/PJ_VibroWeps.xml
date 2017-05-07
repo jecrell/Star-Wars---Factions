@@ -61,20 +61,16 @@
 	    <tickerType>Normal</tickerType>
 		<soundInteract>InteractPistol</soundInteract>
 		<tradeability>Sellable</tradeability>
-		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>800</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>46</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
 			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<!-- recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
@@ -127,20 +123,16 @@
 	    <tickerType>Normal</tickerType>
 		<soundInteract>InteractPistol</soundInteract>
 		<tradeability>Sellable</tradeability>
-		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>800</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>46</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
 			<MeleeWeapon_Cooldown>0.90</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<!-- recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
@@ -193,20 +185,16 @@
 	    <tickerType>Normal</tickerType>
 		<soundInteract>InteractPistol</soundInteract>
 		<tradeability>Sellable</tradeability>
-		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>800</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>46</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
 			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<!-- recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
@@ -260,11 +248,10 @@
 	    <tickerType>Normal</tickerType>
 		<soundInteract>InteractPistol</soundInteract>
 		<tradeability>Sellable</tradeability>
-		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
-			<WorkToMake>400</WorkToMake>
+			<WorkToMake>800</WorkToMake>
 			<Mass>1.8</Mass>
 			<MeleeWeapon_DamageAmount>20</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
@@ -328,7 +315,6 @@
 	    <tickerType>Normal</tickerType>
 		<soundInteract>InteractPistol</soundInteract>
 		<tradeability>Sellable</tradeability>
-		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<MarketValue>13000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			

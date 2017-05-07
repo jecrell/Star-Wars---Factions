@@ -48,7 +48,7 @@
 </graphicData>
     <projectile>
 	<flyOverhead>False</flyOverhead>
-	<damageDef>Burn</damageDef>
+	<damageDef>PJ_BlasterDam</damageDef>
 	<damageAmountBase>6</damageAmountBase>
 	<speed>105</speed>
     </projectile>
@@ -112,7 +112,7 @@
 </graphicData>
     <projectile>
 	<flyOverhead>False</flyOverhead>
-	<damageDef>Burn</damageDef>
+	<damageDef>PJ_BlasterDam</damageDef>
 	<damageAmountBase>8</damageAmountBase>
 	<speed>135</speed>
     </projectile>
@@ -224,7 +224,7 @@
 </graphicData>
     <projectile>
 	<flyOverhead>False</flyOverhead>
-	<damageDef>Burn</damageDef>
+	<damageDef>PJ_BlasterDam</damageDef>
 	<damageAmountBase>12</damageAmountBase>
 	<speed>135</speed>
     </projectile>
@@ -288,7 +288,7 @@
 </graphicData>
     <projectile>
 	<flyOverhead>False</flyOverhead>
-	<damageDef>Burn</damageDef>
+	<damageDef>PJ_BlasterDam</damageDef>
 	<damageAmountBase>25</damageAmountBase>
 	<speed>135</speed>
     </projectile>
@@ -353,7 +353,7 @@
 </graphicData>
     <projectile>
 	<flyOverhead>False</flyOverhead>
-	<damageDef>Burn</damageDef>
+	<damageDef>PJ_BlasterDam</damageDef>
 	<damageAmountBase>10</damageAmountBase>
 	<speed>135</speed>
     </projectile>
