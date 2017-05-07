@@ -1,0 +1,3 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Source\obj\Debug\SWFactions.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Assemblies\SWFactions.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Source\obj\Debug\SWFactions.dll

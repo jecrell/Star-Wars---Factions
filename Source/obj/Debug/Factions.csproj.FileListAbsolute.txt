@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Factions V1.7 A16\Assemblies\CthulhuFactions.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Factions V1.7 A16\Source\obj\Debug\CthulhuFactions.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Factions V1.7 A16\Source\obj\Debug\Factions.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[Unreleased] Call of Cthulhu - Factions V1.8 A16\Assemblies\CthulhuFactions.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[Unreleased] Call of Cthulhu - Factions V1.8 A16\Source\obj\Debug\Factions.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[Unreleased] Call of Cthulhu - Factions V1.8 A16\Source\obj\Debug\CthulhuFactions.dll

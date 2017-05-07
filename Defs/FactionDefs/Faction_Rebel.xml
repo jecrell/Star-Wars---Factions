@@ -20,7 +20,7 @@
     </colorSpectrum>
     <startingGoodwill>
       <min>10</min>
-      <max>40</max>
+      <max>15</max>
     </startingGoodwill>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<baseNameMaker>NamerFactionBaseOutlander</baseNameMaker>
@@ -33,8 +33,8 @@
 			<li>Punk</li>
 		</hairTags>
     <naturalColonyGoodwill>
-      <min>-60</min>
-      <max>0</max>
+      <min>10</min>
+      <max>15</max>
     </naturalColonyGoodwill>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<PJ_ImperialGreeting_Title>The Galactic Empire</PJ_ImperialGreeting_Title> 
+
+<PJ_ImperialGreeting>A {1} named {0} extends a declaration on behalf of the Empire.\n\nAs an unauthorized settlement, {2} is hereby required to pay a registration fee of {3} silver to be entilted land usage rights.\n\nAs per Imperial Revenue Codes under the Imperial Taxation Bureau, a yearly income tax of {4} of all silver earned must be paid.\n\nFailure to adhere to any of these demands will mark all colonists in violaton of Imperial Law and as enemies of the Emperor.</PJ_ImperialGreeting>
+
+<PJ_ImperialGreeting_Rejected>{0} sternly reports a code into their communicator and draws their weapon.</PJ_ImperialGreeting_Rejected>
+
+<PJ_ImperialGreeting_Accept>Pay taxes</PJ_ImperialGreeting_Accept>
+
+<PJ_ImperialGreeting_Reject>Reject demands</PJ_ImperialGreeting_Reject>
+
+<PJ_ImperialTaxes_Paid>{0} paid {1} in silver as taxes to the Empire.</PJ_ImperialTaxes_Paid>
+
+<PJ_ImperialTaxes_Owed>{0} paid {1} silver. {0} owes the Empire {2} silver.</PJ_ImperialTaxes_Owed>
+
+</LanguageData>

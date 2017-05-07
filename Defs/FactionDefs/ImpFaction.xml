@@ -20,8 +20,8 @@
       <li>(1, 1, 1)</li>
     </colorSpectrum>
     <startingGoodwill>
-      <min>-99</min>
-      <max>-90</max>
+      <min>5</min>
+      <max>15</max>
     </startingGoodwill>
 		<fixedName>The Galactic Empire</fixedName>
 		<baseNameMaker>NamerImpBase</baseNameMaker>
@@ -32,8 +32,8 @@
 			<li>Rural</li>
 		</hairTags>
     <naturalColonyGoodwill>
-      <min>-99</min>
-      <max>-99</max>
+      <min>5</min>
+      <max>15</max>
     </naturalColonyGoodwill>
     <allowedArrivalTemperatureRange>
       <min>-75</min>

@@ -1,0 +1,18 @@
+C:\Users\mattw\Documents\Visual Studio 2015\Projects\IndustrialAgePack\RimWorld_ExampleProjectDLL\bin\Debug\ArkhamEstate.dll
+C:\Users\mattw\Documents\Visual Studio 2015\Projects\IndustrialAgePack\RimWorld_ExampleProjectDLL\bin\Debug\ArkhamEstate.pdb
+C:\Users\mattw\Documents\Visual Studio 2015\Projects\IndustrialAgePack\RimWorld_ExampleProjectDLL\obj\Debug\ArkhamEstate.csprojResolveAssemblyReference.cache
+C:\Users\mattw\Documents\Visual Studio 2015\Projects\IndustrialAgePack\RimWorld_ExampleProjectDLL\obj\Debug\ArkhamEstate.dll
+C:\Users\mattw\Documents\Visual Studio 2015\Projects\IndustrialAgePack\RimWorld_ExampleProjectDLL\obj\Debug\ArkhamEstate.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0c A15\Source\bin\Debug\ArkhamEstate.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0c A15\Source\bin\Debug\ArkhamEstate.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0c A15\Source\obj\Debug\ArkhamEstate.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0c A15\Source\obj\Debug\ArkhamEstate.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0c A15\Assemblies\ArkhamEstate.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0e A15\Source\obj\Debug\ArkhamEstate.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0e A15\Source\obj\Debug\ArkhamEstate.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.0e A15\Assemblies\ArkhamEstate.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.1 A16\Source\obj\Debug\ArkhamEstate.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.1 A16\Source\obj\Debug\ArkhamEstate.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Industrial Age V1.1 A16\Assemblies\ArkhamEstate.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Factions V1.7 A16\Source\obj\Debug\ArkhamEstate.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call of Cthulhu - Factions V1.7 A16\Source\obj\Debug\ArkhamEstate.dll

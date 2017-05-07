@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?><DefPackage-SoundDef>
 
   <SoundDef>
+    <defName>PJ_ImperialMarchBanjo</defName>  
+    <eventNames />  
+    <maxVoices>1</maxVoices>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Themes/PJ_ImperialMarch</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30</min>        
+          <max>30</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
     <defName>PJ_E11B</defName>  
     <context>MapOnly</context>
     <eventNames />  
