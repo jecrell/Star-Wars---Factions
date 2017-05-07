@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_GalacticEmpire.label>The Galactic Empire</PJ_GalacticEmpire.label>
+  <PJ_GalacticEmpire.description>
+El Imperio Galactico, tambien conocido como el Primer Imperio Galatico o la Nueva Orden - Comunmente se les refiere como el Imperio o La Orden. Esta es la monarchia constitucional y fascista que reemplazo el gobierno de la republica galactica despues de la Guerra de los Clones.</PJ_GalacticEmpire.description>
+  <PJ_GalacticEmpire.pawnsPlural>Soldados Imperiales</PJ_GalacticEmpire.pawnsPlural>
+  <PJ_GalacticEmpire.leaderTitle>Moff</PJ_GalacticEmpire.leaderTitle>
+  <PJ_GalacticEmpire.fixedName>El Imperio Galactico</PJ_GalacticEmpire.fixedName>
+
+
+</LanguageData>

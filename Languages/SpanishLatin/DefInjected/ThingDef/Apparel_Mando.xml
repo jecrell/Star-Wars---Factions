@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MandoArmor.label>Armadura Mandaloriana</PJ_MandoArmor.label>
+  <PJ_MandoArmor.description>El icono mas reconocible de la cultura Mandaloriana, la armadura Mandaloriana es efectiva en todos los campos en terminos de proteccion - Utilizada por guerreros y soldados Mandalorianos a través de su historia galactica.</PJ_MandoArmor.description>
+
+  <PJ_VetMandoArmor.label>Armadura Mandaloriana de Veterano</PJ_VetMandoArmor.label>
+  <PJ_VetMandoArmor.description>El icono mas reconocible de la cultura Mandaloriana, la armadura Mandaloriana es efectiva en todos los campos en terminos de proteccion - Utilizada por guerreros y soldados Mandalorianos a través de su historia galactica, aunque esta ya ha visto una buena cantidad de combate.</PJ_VetMandoArmor.description>
+
+  <PJ_MandoHelm.label>Casco Mandaloriano</PJ_MandoHelm.label>
+  <PJ_MandoHelm.description>El siempre reconocible casco Mandaloriano, con su visor en forma de T que esparce miedo en la galaxia.</PJ_MandoHelm.description>
+
+
+  <!-- Strams -->
+
+  <PJ_BarkMandoArmor.label>Armadura del Clan de Barky</PJ_BarkMandoArmor.label>
+  <PJ_BarkMandoArmor.description>Armadura dedicada a un antigüo guerrero. Los Mandalorianos de este Clan visten esta armadura llena de decoraciones. En combate aullando "Por Barkyyyyyyy!".</PJ_BarkMandoArmor.description>
+
+
+</LanguageData>
