@@ -10,6 +10,7 @@
     <apparelTags>
       <li>Outlander</li>
 	  <li>PJ_Rebel</li>
+	  <li>PJ_Comp</li>
     </apparelTags>
   </PawnKindDef>
 
@@ -194,6 +195,7 @@
       <li>Outlander</li>
 	  <li>PJ_Rebel</li>
 	  <li>Military</li>
+	  <li>PJ_Comp</li>
     </apparelTags>
     <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
     <weaponMoney>

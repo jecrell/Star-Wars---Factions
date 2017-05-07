@@ -337,7 +337,6 @@
     </verbs>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
-	   <li>ImpBlaster</li>
 	   <li>Blaster</li>
     </weaponTags>
   </ThingDef>
@@ -401,8 +400,7 @@
     </verbs>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
-	   <li>ImpBlaster</li>
-	   <li>Blaster</li>
+	   <li>IonBlaster</li>
     </weaponTags>
   </ThingDef>
   
@@ -467,7 +465,6 @@
     </verbs>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
-	   <li>ImpBlaster</li>
 	   <li>Blaster</li>
     </weaponTags>
   </ThingDef>

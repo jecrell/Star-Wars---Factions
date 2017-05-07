@@ -388,6 +388,52 @@
 	</apparel>
 	</ThingDef>
 	
+		<ThingDef ParentName="ImpHelmetMakeableBase">
+	<defName>PJ_TIEHelm</defName>
+	<label>TIE pilot helmet</label>
+	<techLevel>Spacer</techLevel>
+	<description>A specialized helmet worn by TIE pilots in the Imperial Navy. It is very well insulated, and outfitted for portable oxygen hookups, since the TIE series generally have no on-board life support.</description>
+	<graphicData> 
+		<texPath>Imp/Helmet/TieHelm</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>4</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>6</Component>
+    </costList>
+	<statBases>
+      <Mass>2.4</Mass>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-55</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>PJ_Imp</li>
+   		 </tags>
+		<worngraphicPath>Imp/Helmet/TieHelm</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>
+	
 	<ThingDef ParentName="ImpHatMakeableBase">
 		<defName>PJ_ImpHat</defName>
 		<label>Imperial Command Cap</label>

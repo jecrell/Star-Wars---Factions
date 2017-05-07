@@ -68,6 +68,7 @@
     <weaponTags>
       <li>ImpBlaster</li>
 	  <li>Blaster</li>
+	  <li>IonBlaster</li>
     </weaponTags>
     <combatPower>35</combatPower>
   </PawnKindDef>
