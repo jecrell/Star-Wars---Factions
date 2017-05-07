@@ -278,6 +278,269 @@
     </weaponTags>
   </ThingDef>
   
+  
+   <ThingDef ParentName="BaseBullet">
+    <defName>PJ_DXR_Bolt</defName>
+    <label>Acid Bolt</label>
+    <graphicData>
+      <texPath>Projectile/BlasterboltG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+	</graphicData>
+	<projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>PJ_DXRDam</damageDef>
+	<damageAmountBase>12</damageAmountBase>
+	<speed>135</speed>
+    </projectile>
+  </ThingDef>
+  
+      <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_DXR6Carb</defName>
+    <label>DXR-6 Blaster Carbine</label>
+    <description>The DXR-6 Heavy Carbine is used heavily throughout the galaxy for it's versatility, reliability, and devastating damage potential.</description>
+    <graphicData>
+      <texPath>Weapons/DXR6</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_DXR_Bolt</projectileDef>
+        <warmupTime>0.83</warmupTime>
+        <range>26</range>
+        <soundCast>PJ_DXRS</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>Blaster</li>
+    </weaponTags>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_Jawa_Bolt</defName>
+    <label>Ionized Energy Bolt</label>
+    <graphicData>
+      <texPath>Projectile/IonP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+	</graphicData>
+	<projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>EMP</damageDef>
+	<damageAmountBase>100</damageAmountBase>
+	<speed>100</speed>
+    </projectile>
+  </ThingDef>
+  
+      <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_JawaIon</defName>
+    <label>Jawa Ion Rifle</label>
+    <description>The prevalence of assassin droids and war droids during and after the Great Sith War resulted in the creation of advanced ion weapons to combat them. This one was hobbled together by scavengers.</description>
+    <graphicData>
+      <texPath>Weapons/JawaIon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.69</AccuracyMedium>
+      <AccuracyLong>0.59</AccuracyLong>
+      <RangedWeapon_Cooldown>2.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_Jawa_Bolt</projectileDef>
+        <warmupTime>3.83</warmupTime>
+        <range>26</range>
+        <soundCast>PJ_BPistolB</soundCast>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>Blaster</li>
+    </weaponTags>
+  </ThingDef>
+  
+  
+  
+      <ThingDef ParentName="BaseBullet">
+    <defName>PJ_Slug_Bolt</defName>
+    <label>Heavy Slug</label>
+    <graphicData>
+      <texPath>Projectile/SlugP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>Blunt</damageDef>
+	<damageAmountBase>5</damageAmountBase>
+	<speed>85</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+      <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_NymSlug</defName>
+    <label>Nym's Slugthrower</label>
+    <description>A projectile carbine favored by the notorious Gangster Nym and his gang. It fires dense slugs of material, causing blunt damage.</description>
+    <graphicData>
+      <texPath>Weapons/NymSlug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_Slug_Bolt</projectileDef>
+        <warmupTime>0.83</warmupTime>
+        <range>24</range>
+        <soundCast>PJ_SlugSnd</soundCast>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>Blaster</li>
+    </weaponTags>
+  </ThingDef>
+  
+    	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_LauncherP</defName>
+		<label>Launcher Projectile</label>
+		<graphicData>
+			<texPath>Things/Projectile/InfernoCannonShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>50</speed>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>7</damageAmountBase>
+			<explosionRadius>2.1</explosionRadius>
+			<preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+			<explosionSpawnChance>0.6</explosionSpawnChance>
+		</projectile>
+	</ThingDef>
+  
+        <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_LauncherP</defName>
+    <label>Launcher Pistol</label>
+    <description>A dangerous projectile launcher compacted into a hand-held design. Favored by pirates and commando units.</description>
+    <graphicData>
+      <texPath>Weapons/LauncherP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.12</AccuracyMedium>
+      <AccuracyLong>0.07</AccuracyLong>
+      <RangedWeapon_Cooldown>3.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_LauncherP</projectileDef>
+        <warmupTime>2.83</warmupTime>
+		<forcedMissRadius>2.4</forcedMissRadius>
+        <range>20</range>
+        <soundCast>ShotIncendiaryLauncher</soundCast>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+       <li>MedievalShields_ValidSidearm</li>
+	   <li>ImpBlaster</li>
+	   <li>Blaster</li>
+    </weaponTags>
+  </ThingDef>
+  
+
+  
          <ThingDef ParentName="BaseBullet">
     <defName>PJ_T21_Bolt</defName>
     <label>Heavy Rifle Bolt</label>
@@ -302,6 +565,7 @@
     <graphicData>
       <texPath>Weapons/T21B</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	   <drawSize>2.2</drawSize>	
     </graphicData>
     <soundInteract>InteractPistol</soundInteract>
     <recipeMaker>
@@ -321,6 +585,11 @@
       <Plasteel>55</Plasteel>
       <Component>2</Component>
     </costList>	
+	<comps>
+		  <li>
+		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		  </li>
+	</comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -387,6 +656,11 @@
       <Plasteel>55</Plasteel>
       <Component>2</Component>
     </costList>	
+		<comps>
+		  <li>
+		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		  </li>
+	</comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

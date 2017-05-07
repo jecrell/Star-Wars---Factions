@@ -79,5 +79,44 @@
 			<destroyedOutLabel>Blasted out</destroyedOutLabel>
 		</injuryProps>
 	</HediffDef>
+	
+	
+<DamageDef>
+    <defName>PJ_DXRDam</defName>
+    <label>Acidic bolt</label>
+	<workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been blasted!</deathMessage>
+    <hediff>PJ_AcBurn</hediff>
+    <armorCategory>Electric</armorCategory>
+  </DamageDef>
+  
+    <HediffDef>
+		<defName>PJ_AcBurn</defName>
+		<label>Acid burn</label>
+		<hediffClass>Hediff_Injury</hediffClass>
+		<tendable>true</tendable>
+		<displayWound>true</displayWound>		
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>neutralized</labelTendedWell>
+        <labelTendedWellInner>treated</labelTendedWellInner>
+        <labelSolidTendedWell>well treated</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsOld">
+        <oldLabel>Acid scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.01875</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Melted off</destroyedLabel>
+			<destroyedOutLabel>Melted out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
   
 </Defs>

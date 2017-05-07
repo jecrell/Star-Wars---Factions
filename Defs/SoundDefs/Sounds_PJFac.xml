@@ -41,6 +41,26 @@
     </subSounds>
   </SoundDef>
   
+    <SoundDef>
+    <defName>PJ_DXRS</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>E11B</clipFolderPath>
+          </li> 
+        </grains>          
+        <pitchRange>
+			<min>0.7652174</min>
+			<max>0.842391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
 
   <SoundDef>
     <defName>PJ_BPistol</defName>  
@@ -81,6 +101,26 @@
       </li>
     </subSounds>
   </SoundDef>  
+  
+    <SoundDef>
+    <defName>PJ_SlugSnd</defName>  
+    <context>MapOnly</context>
+    <eventNames />  	
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Blaster/Slug-1</clipPath>
+          </li>
+        </grains>         
+        <pitchRange>
+			<min>0.9152174</min>
+			<max>1.042391</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef>
   
       <SoundDef>
     <defName>PJ_T21R</defName>  
