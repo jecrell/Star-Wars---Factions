@@ -5,29 +5,13 @@ Expands the rimverse with many iconic and memorable weapons, apparel, and factio
 Xen's public notes:
 
 1. Load Order:
-Mods must be loaded in this order - (RELATIVE TO EACHOTHER - they dont need to be at the top of the mod list, bottom is probably preferable.)
-  1st Lightsabers
-  2nd Force
-  3rd Factions
-  
-  Bad load order causes some malfunctions in force powers.
+Load order should no longer be an issue. If you have problems - try re-ordering your mods so the Star Wars mods sit all together near the top of your list. (Below core)
 
 
 
 2. Powers Notes:
-Powers are currently very early stage, and most need new classes or adjustments to the special abilty class.
-
-What works?
-Lightning is 100%
-Rage/berzerk is 99% (it works currently, but we may change the method before final)
-Storm is 25% (it fires a projectile, hurts target, but no AOE like it should)
-Choke is 25% (It's currently just a rapid-fire, low damage projectile thingy, needs reworking)
-
-Mind Trick is 50% (Similar to berzerk, needs poking to work 'properly' as we intend)
-
-Other powers are primarily placeholders/dummies to allow us (mostly Jecrell) to build the GUI and other system features.
-
-
+Powers should all be functioning properly.
+Lvl 1 powers are not "Alignment locked"  -so a gray jedi can use most force powers
 
 3. Saber notes:
 There should be minimal issues with the Sabers. 
@@ -43,7 +27,7 @@ pawns will auto-deactivate sabers upon cancelling draft
 The "factions" mod is basically a dump for my overproductivity in generating weapons and armor and other content.
 
 Imperial and Rebel factions -
-Imperial faction works like pirates, they're jerks. (currently. Maybe later add Imperial alignment options?)
-Rebels work like regular spacers/other normal factions.
+Imperial taxes now implemented 
+more guns and armor added
 
 Most weapons and armor from this are craftable with basic "Complex clothing", "Powered armor", and "Charged Shot" researches.
