@@ -1,0 +1,7 @@
+﻿Legion
+Batallon
+Pelotón
+Compañia
+Avanzada
+Fortaleza
+Firebase

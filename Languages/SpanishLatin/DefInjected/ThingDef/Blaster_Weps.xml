@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_BlasterBolt_E11_X.label>E-11 Blaster Bolt</PJ_BlasterBolt_E11_X.label>
+
+  <PJ_E11Blaster.label>Rifle Blaster E-11</PJ_E11Blaster.label>
+  <PJ_E11Blaster.description>Manufacturado por Industrias Blastech durante la Guerra Civil Galactica, el Rifle Blaster E-11 es el arma estandár de los stormtroopers, es ligero, eficaz, compacto y poderoso. Su uso es popular en toda la galaxia. </PJ_E11Blaster.description>
+
+  <PJ_Pistol_Bolt.label>Blaster Bolt</PJ_Pistol_Bolt.label>
+
+  <PJ_Scoutblaster.label>Blaster de reconocimiento</PJ_Scoutblaster.label>
+  <PJ_Scoutblaster.description>Esta Pistola Blaster de baja calidad, comunmente conocida como Blaster de reconocimiento, era comunmente usada entre las unidades de reconocimiento del Imperio, tambien fue usada por los Shadow Troopers durante las fases finales de la Guerra Civil Galactica.</PJ_Scoutblaster.description>
+
+  <PJ_SE14blaster.label>Blaster SE-14</PJ_SE14blaster.label>
+  <PJ_SE14blaster.description>El Blaster SE-14, tambien conocido como la pistola de combate SR, o la pistola Separatista durante la Guerra de los Clones, es una pistola basica que fue introducida al mercado por Industrias Blastech.</PJ_SE14blaster.description>
+
+  <PJ_HPistol_Bolt.label>Blaster Bolt</PJ_HPistol_Bolt.label>
+
+  <PJ_DL44blaster.label>Blaster DL-44</PJ_DL44blaster.label>
+  <PJ_DL44blaster.description>La pistola Blaster pesada DL-44 es un tipo de pistola pesada introducida al mercado por Industrias Blastech, fue utilizada principalmente durante los tiempos de la Antigua Republica - Y luego durante la epoca imperial, es considerada una de las armas mas potentes de la galaxia, y sería una de las mejores en existencia - Si no fuera por su baja cadencia debido a sobrecalentamiento.</PJ_DL44blaster.description>
+
+  <PJ_T21_Bolt.label>Heavy Rifle Bolt</PJ_T21_Bolt.label>
+
+  <PJ_T21Rifle.label>Rifle Blaster T-21</PJ_T21Rifle.label>
+  <PJ_T21Rifle.description>El Rifle Blaster T-21 era un modelo de Rifle Blaster de repeticion utilizado por algunos pelotones de Stormtroopers Imperiales, es eficaz a larga distancia - Pero su cadencia es baja.</PJ_T21Rifle.description>
+
+  <PJ_EE3_Bolt.label>Heavy Rifle Bolt</PJ_EE3_Bolt.label>
+
+  <PJ_EE3Carbine.label>Carabina Blaster EE-3</PJ_EE3Carbine.label>
+  <PJ_EE3Carbine.description>La Carabina Blaster EE-3 es uno de los Blasters introducidos por Industrias BlasTech. Es muy popular entre los Mandalorianos.</PJ_EE3Carbine.description>
+
+
+</LanguageData>

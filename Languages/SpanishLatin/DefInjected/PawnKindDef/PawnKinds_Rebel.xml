@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_RebVillager.label>Pueblerino</PJ_RebVillager.label>
+  <PJ_RebVillager.labelPlural>Pueblerinos</PJ_RebVillager.labelPlural>
+  <PJ_RebVillager.labelMale>hombre Pueblerino</PJ_RebVillager.labelMale>
+  <PJ_RebVillager.labelMalePlural>hombres Pueblerinos</PJ_RebVillager.labelMalePlural>
+  <PJ_RebVillager.labelFemale>mujer Pueblerina</PJ_RebVillager.labelFemale>
+  <PJ_RebVillager.labelFemalePlural>mujeres Pueblerinas</PJ_RebVillager.labelFemalePlural>
+
+  <PJ_RebCouncilman.label>Comandante de Base rebelde</PJ_RebCouncilman.label>
+  <PJ_RebCouncilman.labelPlural>Comandantes de base rebelde</PJ_RebCouncilman.labelPlural>
+  <PJ_RebCouncilman.labelMale>hombre Comandante de Base rebelde</PJ_RebCouncilman.labelMale>
+  <PJ_RebCouncilman.labelMalePlural>hombres Comandantes de Base rebelde</PJ_RebCouncilman.labelMalePlural>
+  <PJ_RebCouncilman.labelFemale>mujer Comandante de Base rebelde</PJ_RebCouncilman.labelFemale>
+  <PJ_RebCouncilman.labelFemalePlural>mujeres Comandantes de Base rebelde</PJ_RebCouncilman.labelFemalePlural>
+
+  <PJ_RebTrader.label>Mercader rebelde</PJ_RebTrader.label>
+  <PJ_RebTrader.labelPlural>Mercaderes rebeldes</PJ_RebTrader.labelPlural>
+  <PJ_RebTrader.labelMale>hombre Mercader rebelde</PJ_RebTrader.labelMale>
+  <PJ_RebTrader.labelMalePlural>hombres mercaderes rebelde</PJ_RebTrader.labelMalePlural>
+  <PJ_RebTrader.labelFemale>mujer Mercader rebelde</PJ_RebTrader.labelFemale>
+  <PJ_RebTrader.labelFemalePlural>mujeres Mercaderes rebelde</PJ_RebTrader.labelFemalePlural>
+
+  <PJ_RebGuard.label>Guardia rebelde</PJ_RebGuard.label>
+  <PJ_RebGuard.labelPlural>Guardias rebeldes</PJ_RebGuard.labelPlural>
+  <PJ_RebGuard.labelMale>hombre de Guardia rebelde</PJ_RebGuard.labelMale>
+  <PJ_RebGuard.labelMalePlural>Hombres de Guardia rebelde</PJ_RebGuard.labelMalePlural>
+  <PJ_RebGuard.labelFemale>mujer de Guardia rebelde</PJ_RebGuard.labelFemale>
+  <PJ_RebGuard.labelFemalePlural>mujeres de Guardia rebelde</PJ_RebGuard.labelFemalePlural>
+
+  <PJ_RebSoldier.label>Soldado rebelde</PJ_RebSoldier.label>
+  <PJ_RebSoldier.labelPlural>Soldados rebeldes</PJ_RebSoldier.labelPlural>
+  <PJ_RebSoldier.labelMale>hombre Soldado rebelde</PJ_RebSoldier.labelMale>
+  <PJ_RebSoldier.labelMalePlural>hombres Soldados rebeldes</PJ_RebSoldier.labelMalePlural>
+  <PJ_RebSoldier.labelFemale>mujer Soldado rebelde</PJ_RebSoldier.labelFemale>
+  <PJ_RebSoldier.labelFemalePlural>mujeres Soldado rebeldes</PJ_RebSoldier.labelFemalePlural>
+
+  <PJ_RebMerc.label>Mercenario rebelde</PJ_RebMerc.label>
+  <PJ_RebMerc.labelPlural>Mercenarios rebeldes</PJ_RebMerc.labelPlural>
+  <PJ_RebMerc.labelMale>hombre Mercenario rebelde</PJ_RebMerc.labelMale>
+  <PJ_RebMerc.labelMalePlural>hombres Mercenarios rebeldes</PJ_RebMerc.labelMalePlural>
+  <PJ_RebMerc.labelFemale>mujer Mercenaria rebelde</PJ_RebMerc.labelFemale>
+  <PJ_RebMerc.labelFemalePlural>mujeres Mercenarias rebeldes</PJ_RebMerc.labelFemalePlural>
+
+
+</LanguageData>

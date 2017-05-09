@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_ImpSoldier.label>Soldado</PJ_ImpSoldier.label>
+  <PJ_ImpSoldier.labelPlural>Soldados</PJ_ImpSoldier.labelPlural>
+  <PJ_ImpSoldier.labelMale>Soldado hombre</PJ_ImpSoldier.labelMale>
+  <PJ_ImpSoldier.labelMalePlural>Soldados hombres</PJ_ImpSoldier.labelMalePlural>
+  <PJ_ImpSoldier.labelFemale>Soldado mujer</PJ_ImpSoldier.labelFemale>
+  <PJ_ImpSoldier.labelFemalePlural>Soldados mujeres</PJ_ImpSoldier.labelFemalePlural>
+
+  <PJ_Stormtrooper.label>Stormtrooper</PJ_Stormtrooper.label>
+  <PJ_Stormtrooper.labelPlural>Stormtroopers</PJ_Stormtrooper.labelPlural>
+  <PJ_Stormtrooper.labelMale>Stormtrooper hombre</PJ_Stormtrooper.labelMale>
+  <PJ_Stormtrooper.labelMalePlural>Stormtroopers hombres</PJ_Stormtrooper.labelMalePlural>
+  <PJ_Stormtrooper.labelFemale>Stormtrooper mujer</PJ_Stormtrooper.labelFemale>
+  <PJ_Stormtrooper.labelFemalePlural>Stormtroopers mujeres</PJ_Stormtrooper.labelFemalePlural>
+
+  <PJ_ImpCommander.label>Comandante</PJ_ImpCommander.label>
+  <PJ_ImpCommander.labelPlural>Comandantes</PJ_ImpCommander.labelPlural>
+  <PJ_ImpCommander.labelMale>Comandante hombre</PJ_ImpCommander.labelMale>
+  <PJ_ImpCommander.labelMalePlural>Hombres comandantes</PJ_ImpCommander.labelMalePlural>
+  <PJ_ImpCommander.labelFemale>Comandante mujer</PJ_ImpCommander.labelFemale>
+  <PJ_ImpCommander.labelFemalePlural>Mujeres comandantes</PJ_ImpCommander.labelFemalePlural>
+
+  <PJ_ScoutTrooper.label>Soldado de reconocimiento</PJ_ScoutTrooper.label>
+  <PJ_ScoutTrooper.labelPlural>Soldados de reconocimiento</PJ_ScoutTrooper.labelPlural>
+  <PJ_ScoutTrooper.labelMale>hombre Soldado de reconocimiento</PJ_ScoutTrooper.labelMale>
+  <PJ_ScoutTrooper.labelMalePlural>hombres Soldados de reconocimiento</PJ_ScoutTrooper.labelMalePlural>
+  <PJ_ScoutTrooper.labelFemale>mujer Soldado de reconocimiento</PJ_ScoutTrooper.labelFemale>
+  <PJ_ScoutTrooper.labelFemalePlural>mujeres Soldado de reconocimiento</PJ_ScoutTrooper.labelFemalePlural>
+
+
+</LanguageData>

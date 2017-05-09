@@ -1,0 +1,5 @@
+﻿Elite
+Ataque
+Reconocimiento
+Tropa
+Armadura

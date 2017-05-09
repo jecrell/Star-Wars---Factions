@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_VibroSonic.label>Sonico</PJ_VibroSonic.label>
+  <PJ_VibroSonic.comps.0.labelTendedWell>Vendado</PJ_VibroSonic.comps.0.labelTendedWell>
+  <PJ_VibroSonic.comps.0.labelTendedWellInner>Suturado</PJ_VibroSonic.comps.0.labelTendedWellInner>
+  <PJ_VibroSonic.comps.0.labelSolidTendedWell>Puesto</PJ_VibroSonic.comps.0.labelSolidTendedWell>
+  <PJ_VibroSonic.comps.2.oldLabel>Cicatriz sonica</PJ_VibroSonic.comps.2.oldLabel>
+  <PJ_VibroSonic.injuryProps.destroyedLabel>Mutilado</PJ_VibroSonic.injuryProps.destroyedLabel>
+  <PJ_VibroSonic.injuryProps.destroyedOutLabel>Decapitado</PJ_VibroSonic.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>
