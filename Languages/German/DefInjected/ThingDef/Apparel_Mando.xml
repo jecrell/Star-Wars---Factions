@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_MandoArmor.label>Mandalorianische Rüstung</PJ_MandoArmor.label>
+  <PJ_MandoArmor.description>Das wohl bekannteste Symbol der mandalorianischen Kultur: Eine Ganzkörperrüstung die von alle mandalorianischen Kämpfern in der ganzen Galaxis getragen wird.</PJ_MandoArmor.description>
+  <PJ_VetMandoArmor.label>Mandalorianische Veteranenrüstung</PJ_VetMandoArmor.label>
+  <PJ_VetMandoArmor.description>Das wohl bekannteste Symbol der mandalorianischen Kultur: Eine Ganzkörperrüstung die von alle mandalorianischen Kämpfern in der ganzen Galaxis getragen wird.</PJ_VetMandoArmor.description>
+  <PJ_MandoHelm.label>Mandalorianischer Helm</PJ_MandoHelm.label>
+  <PJ_MandoHelm.description>Das wohl bekannteste Symbol der mandalorianischen Kultur: Eine Ganzkörperrüstung die von alle mandalorianischen Kämpfern in der ganzen Galaxis getragen wird.</PJ_MandoHelm.description>
+  <!-- Strams -->
+  <PJ_BarkMandoArmor.label>Barky's Wapppenrüstung</PJ_BarkMandoArmor.label>
+  <PJ_BarkMandoArmor.description>Eine Wappenrüstung die an einen alten ehrwürdigen Krieger erinnert.</PJ_BarkMandoArmor.description>
+</LanguageData>

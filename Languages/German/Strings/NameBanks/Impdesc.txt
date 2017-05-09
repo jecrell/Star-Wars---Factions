@@ -1,0 +1,7 @@
+﻿Legion
+Bataillon
+Zug
+Kompanie
+Außenposten
+Festung
+Feuerbasis
