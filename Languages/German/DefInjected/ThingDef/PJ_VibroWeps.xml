@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_BulletDeflected.label>improvisierte Revolverkugel</PJ_BulletDeflected.label>
+  <!-- Vibroaxe -->
+  <PJ_Vibroaxe.label>Vibroaxt (Prototyp)</PJ_Vibroaxe.label>
+  <PJ_Vibroaxe.description>Eine große Axt die mit Vibrozellen versehen wurde.</PJ_Vibroaxe.description>
+  <!-- Vibrosword -->
+  <PJ_Vibrosword.label>Vibroschwert (Echani)</PJ_Vibrosword.label>
+  <PJ_Vibrosword.description>Ein Echani-Schwert das mit Vibrozellen versehen wurde.</PJ_Vibrosword.description>
+  <!-- Vibro Cleaver -->
+  <PJ_Vibrocleaver.label>Vibroschwert (Mandalorianisch)</PJ_Vibrocleaver.label>
+  <PJ_Vibrocleaver.description>Ein mandalorianisches Schwert das mit Vibrozellen versehen wurde.</PJ_Vibrocleaver.description>
+  <!-- Vibro DoubleSword -->
+  <PJ_Vibrodouble.label>Vibrodoppelklinge</PJ_Vibrodouble.label>
+  <PJ_Vibrodouble.description>Eine antike Doppelklingenwaffe die mit Vibrozellen versehen wurde.</PJ_Vibrodouble.description>
+  <!-- Xen's staff -->
+  <PJ_StaffX.label>Vibrostab (Prototyp)</PJ_StaffX.label>
+  <PJ_StaffX.description>Ein solider Stab der mit Vibrotellen versehen wurde.</PJ_StaffX.description>
+</LanguageData>

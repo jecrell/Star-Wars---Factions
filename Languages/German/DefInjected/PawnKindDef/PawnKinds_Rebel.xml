@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_RebVillager.label>Bewohner</PJ_RebVillager.label>
+  <PJ_RebVillager.labelPlural>Bewohner</PJ_RebVillager.labelPlural>
+  <PJ_RebVillager.labelMale>Bewohner</PJ_RebVillager.labelMale>
+  <PJ_RebVillager.labelMalePlural>Bewohner</PJ_RebVillager.labelMalePlural>
+  <PJ_RebVillager.labelFemale>Bewohnerin</PJ_RebVillager.labelFemale>
+  <PJ_RebVillager.labelFemalePlural>Bewohnerinnen</PJ_RebVillager.labelFemalePlural>
+  <PJ_RebCouncilman.label>Rebellenstützpunkts Kommandant</PJ_RebCouncilman.label>
+  <PJ_RebCouncilman.labelPlural>Rebellenstützpunkts Kommandanten</PJ_RebCouncilman.labelPlural>
+  <PJ_RebCouncilman.labelMale>Rebellenstützpunkts Kommandant</PJ_RebCouncilman.labelMale>
+  <PJ_RebCouncilman.labelMalePlural>Rebellenstützpunkts Kommandanten</PJ_RebCouncilman.labelMalePlural>
+  <PJ_RebCouncilman.labelFemale>Rebellenstützpunkts Kommandantin</PJ_RebCouncilman.labelFemale>
+  <PJ_RebCouncilman.labelFemalePlural>Rebellenstützpunkts Kommandantinnen</PJ_RebCouncilman.labelFemalePlural>
+  <PJ_RebTrader.label>Rebellenhändler</PJ_RebTrader.label>
+  <PJ_RebTrader.labelPlural>Rebellenhändler</PJ_RebTrader.labelPlural>
+  <PJ_RebTrader.labelMale>Rebellenhändler</PJ_RebTrader.labelMale>
+  <PJ_RebTrader.labelMalePlural>Rebellenhändler</PJ_RebTrader.labelMalePlural>
+  <PJ_RebTrader.labelFemale>Rebellehändlerin</PJ_RebTrader.labelFemale>
+  <PJ_RebTrader.labelFemalePlural>Rebellenhändlerinnen</PJ_RebTrader.labelFemalePlural>
+  <PJ_RebGuard.label>Rebellenwache</PJ_RebGuard.label>
+  <PJ_RebGuard.labelPlural>Rebellenwachen</PJ_RebGuard.labelPlural>
+  <PJ_RebGuard.labelMale>Rebellenwache</PJ_RebGuard.labelMale>
+  <PJ_RebGuard.labelMalePlural>Rebellenwachen</PJ_RebGuard.labelMalePlural>
+  <PJ_RebGuard.labelFemale>Rebellenwachen</PJ_RebGuard.labelFemale>
+  <PJ_RebGuard.labelFemalePlural>Rebellenwachen</PJ_RebGuard.labelFemalePlural>
+  <PJ_RebSoldier.label>Rebellensoldat</PJ_RebSoldier.label>
+  <PJ_RebSoldier.labelPlural>Rebellensoldaten</PJ_RebSoldier.labelPlural>
+  <PJ_RebSoldier.labelMale>Rebellensoldat</PJ_RebSoldier.labelMale>
+  <PJ_RebSoldier.labelMalePlural>Rebellensoldaten</PJ_RebSoldier.labelMalePlural>
+  <PJ_RebSoldier.labelFemale>Rebellensoldatin</PJ_RebSoldier.labelFemale>
+  <PJ_RebSoldier.labelFemalePlural>Rebellensoldatinnen</PJ_RebSoldier.labelFemalePlural>
+  <PJ_RebMerc.label>Rebellensöldner</PJ_RebMerc.label>
+  <PJ_RebMerc.labelPlural>Rebellensöldner</PJ_RebMerc.labelPlural>
+  <PJ_RebMerc.labelMale>Rebellensöldner</PJ_RebMerc.labelMale>
+  <PJ_RebMerc.labelMalePlural>Rebellensöldner</PJ_RebMerc.labelMalePlural>
+  <PJ_RebMerc.labelFemale>Rebellensöldnerin</PJ_RebMerc.labelFemale>
+  <PJ_RebMerc.labelFemalePlural>Rebellensöldnerinnen</PJ_RebMerc.labelFemalePlural>
+</LanguageData>

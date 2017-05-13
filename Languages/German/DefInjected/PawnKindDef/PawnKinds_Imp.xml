@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_ImpSoldier.label>Soldat</PJ_ImpSoldier.label>
+  <PJ_ImpSoldier.labelPlural>Soldaten</PJ_ImpSoldier.labelPlural>
+  <PJ_ImpSoldier.labelMale>Soldat</PJ_ImpSoldier.labelMale>
+  <PJ_ImpSoldier.labelMalePlural>Soldaten</PJ_ImpSoldier.labelMalePlural>
+  <PJ_ImpSoldier.labelFemale>Soldatin</PJ_ImpSoldier.labelFemale>
+  <PJ_ImpSoldier.labelFemalePlural>Soldatinnen</PJ_ImpSoldier.labelFemalePlural>
+  <PJ_Stormtrooper.label>Sturmtruppe</PJ_Stormtrooper.label>
+  <PJ_Stormtrooper.labelPlural>Sturmtruppen</PJ_Stormtrooper.labelPlural>
+  <PJ_Stormtrooper.labelMale>männl. Sturmtruppe</PJ_Stormtrooper.labelMale>
+  <PJ_Stormtrooper.labelMalePlural>männl. Sturmtruppen</PJ_Stormtrooper.labelMalePlural>
+  <PJ_Stormtrooper.labelFemale>weibl. Sturmtruppe</PJ_Stormtrooper.labelFemale>
+  <PJ_Stormtrooper.labelFemalePlural>weibl. Sturmtruppen</PJ_Stormtrooper.labelFemalePlural>
+  <PJ_ImpCommander.label>Kommandant</PJ_ImpCommander.label>
+  <PJ_ImpCommander.labelPlural>Kommandanten</PJ_ImpCommander.labelPlural>
+  <PJ_ImpCommander.labelMale>Kommandant</PJ_ImpCommander.labelMale>
+  <PJ_ImpCommander.labelMalePlural>Kommandanten</PJ_ImpCommander.labelMalePlural>
+  <PJ_ImpCommander.labelFemale>Kommandantin</PJ_ImpCommander.labelFemale>
+  <PJ_ImpCommander.labelFemalePlural>Kommandantinnen</PJ_ImpCommander.labelFemalePlural>
+  <PJ_ScoutTrooper.label>Scouttruppe</PJ_ScoutTrooper.label>
+  <PJ_ScoutTrooper.labelPlural>Scouttruppen</PJ_ScoutTrooper.labelPlural>
+  <PJ_ScoutTrooper.labelMale>männl. Scouttruppe</PJ_ScoutTrooper.labelMale>
+  <PJ_ScoutTrooper.labelMalePlural>männl. Scouttruppen</PJ_ScoutTrooper.labelMalePlural>
+  <PJ_ScoutTrooper.labelFemale>weibl. Scouttruppe</PJ_ScoutTrooper.labelFemale>
+  <PJ_ScoutTrooper.labelFemalePlural>weibl. Scouttruppen</PJ_ScoutTrooper.labelFemalePlural>
+</LanguageData>

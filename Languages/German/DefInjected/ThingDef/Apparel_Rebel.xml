@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_RebHat.label>Allianzhelm</PJ_RebHat.label>
+  <PJ_RebHat.description>Der Standarthelm der Soldaten der Alten Republik, der nun häufig von Rebellen getragen wird.</PJ_RebHat.description>
+  <PJ_RebSnowHat.label>Allianzfrosthelm</PJ_RebSnowHat.label>
+  <PJ_RebSnowHat.description>Der Standarthelm der Soldaten der Alten Republik, die sich in kalten Klimata aufhielten, der nun häufig von Rebellen getragen wird.</PJ_RebSnowHat.description>
+  <PJ_RebScoutHat.label>Allianzscouthelm</PJ_RebScoutHat.label>
+  <PJ_RebScoutHat.description>Ein getarnter Helm der häufig von Soldaten der Rebellion genutzt wird.</PJ_RebScoutHat.description>
+  <PJ_Reb_TroopJacket.label>Truppenjacke</PJ_Reb_TroopJacket.label>
+  <PJ_Reb_TroopJacket.description>Eine dicke Jacke die einen vor Kratzern schützt und bei schlechtem Wetter für ein wenig Wärme sorgt.</PJ_Reb_TroopJacket.description>
+  <PJ_Reb_ScoutJacket.label>Allianzscoutjacke</PJ_Reb_ScoutJacket.label>
+  <PJ_Reb_ScoutJacket.description>Eine dicke Jacke die einen vor Kratzern schützt und bei schlechtem Wetter für ein wenig Wärme sorgt.</PJ_Reb_ScoutJacket.description>
+  <PJ_Reb_CamoJacket.label>Tarnjacke</PJ_Reb_CamoJacket.label>
+  <PJ_Reb_CamoJacket.description>Eine dicke Tarnjacke die einen vor Kratzern schützt und bei schlechtem Wetter für ein wenig Wärme sorgt.</PJ_Reb_CamoJacket.description>
+</LanguageData>

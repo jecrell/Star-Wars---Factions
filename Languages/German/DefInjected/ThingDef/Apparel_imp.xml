@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_ImpUniform.label>Imperiale Uniform</PJ_ImpUniform.label>
+  <PJ_ImpUniform.description>Die Uniform eines Imperialen Soldaten.</PJ_ImpUniform.description>
+  <PJ_ImpUniformBlack.label>Imperiale Marineuniform</PJ_ImpUniformBlack.label>
+  <PJ_ImpUniformBlack.description>Die Uniform eines Imperialen Soldaten. Diese Version wird normalerweise von mittleren Offizieren auf Stationen oder Flottenverbänden getragen.</PJ_ImpUniformBlack.description>
+  <PJ_ImpUniformBlackSHELL.label>Imperiale Marineuniform(Outer-Rim)</PJ_ImpUniformBlackSHELL.label>
+  <PJ_ImpUniformBlackSHELL.description>Die Uniform eines Imperialen Soldaten. Diese Version wird normalerweise von mittleren Offizieren auf Stationen oder Flottenverbänden getragen.</PJ_ImpUniformBlackSHELL.description>
+  <PJ_TroopArmor.label>Sturmtruppenrüstung</PJ_TroopArmor.label>
+  <PJ_TroopArmor.description>Die Sturmtruppenrüstung ist die Standartausrüstung der Imperialen Sturmtruppen. Ein weißer plastikartiger Überzug über die schwarze Körperrüstung war das Symbol einer Einheit, vor der sich jeder Rebell fürchtet.</PJ_TroopArmor.description>
+  <PJ_STHelm.label>Sturmtruppenhelm</PJ_STHelm.label>
+  <PJ_STHelm.description>Ein standartisierter Helm der Sturmtruppen.</PJ_STHelm.description>
+  <PJ_SCTHelm.label>Scouttruppenhelm</PJ_SCTHelm.label>
+  <PJ_SCTHelm.description>Eine spezielle Variante des Sturmtruppenhelmes, die vorwiegend für Aufklärungsmissionen genutzt wird.</PJ_SCTHelm.description>
+  <PJ_ImpHat.label>Imperiale Offiziersmütze</PJ_ImpHat.label>
+  <PJ_ImpHat.description>Eine Mütze die von allen Offizieren der imperialen Kräfte getragen wird.</PJ_ImpHat.description>
+  <PJ_ImpHatB.label>Imperiale Offiziersmütze(schwarz)</PJ_ImpHatB.label>
+  <PJ_ImpHatB.description>Eine Mütze die von allen Offizieren der imperialen Kräfte getragen wird.</PJ_ImpHatB.description>
+</LanguageData>
