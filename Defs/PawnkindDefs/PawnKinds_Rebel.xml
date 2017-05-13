@@ -17,7 +17,7 @@
     <defName>PJ_RebVillager</defName>
     <label>villager</label>
     <race>Human</race>
-    <combatPower>25</combatPower>
+    <combatPower>65</combatPower>
     <isFighter>false</isFighter>
     <gearHealthRange>
       <min>0.2</min>
@@ -88,7 +88,7 @@
     <defName>PJ_RebGuard</defName>
     <label>rebel guard</label>
     <race>Human</race>
-    <combatPower>50</combatPower>
+    <combatPower>80</combatPower>
     <maxGenerationAge>65</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
