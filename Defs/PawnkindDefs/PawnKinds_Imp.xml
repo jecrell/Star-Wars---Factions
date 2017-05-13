@@ -69,7 +69,7 @@
     <weaponTags>
       <li>ImpBlaster</li>
     </weaponTags>
-    <combatPower>35</combatPower>
+    <combatPower>85</combatPower>
   </PawnKindDef>
 
   <PawnKindDef ParentName="ImpBase">
@@ -87,7 +87,7 @@
       <li>PJ_TroopArmor</li>
 	  <li>PJ_STHelm</li>
     </apparelRequired>
-    <combatPower>45</combatPower>
+    <combatPower>95</combatPower>
   </PawnKindDef>
 
   <PawnKindDef>

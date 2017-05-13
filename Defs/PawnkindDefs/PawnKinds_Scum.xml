@@ -70,7 +70,7 @@
 	  <li>Blaster</li>
 	  <li>IonBlaster</li>
     </weaponTags>
-    <combatPower>35</combatPower>
+    <combatPower>75</combatPower>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PJ_SVBase">
@@ -84,7 +84,7 @@
       <min>6070</min>
       <max>6070</max>
     </apparelMoney>
-    <combatPower>45</combatPower>
+    <combatPower>85</combatPower>
   </PawnKindDef>
 
   <PawnKindDef>
