@@ -73,6 +73,24 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="ImpBase">
+    <defName>PJ_ImpTrader</defName>
+    <label>Imperial Provisioner</label>
+    <trader>true</trader>
+    <weaponMoney>
+      <min>2040</min>
+      <max>3000</max>
+    </weaponMoney>
+    <apparelRequired>
+      <li>PJ_ImpHat</li>
+    <li>PJ_ImpUniform</li>
+    </apparelRequired>
+    <weaponTags>
+      <li>ImpBlaster</li>
+    </weaponTags>
+    <combatPower>85</combatPower>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ImpBase">
     <defName>PJ_Stormtrooper</defName>
     <label>Stormtrooper</label>
     <weaponTags>
