@@ -15,14 +15,13 @@
     <leaderTitle>Leader</leaderTitle>
     <expandingIconTexture>World/RebIcon</expandingIconTexture>
     <colorSpectrum>
-      <li>(0.64, 0.42, 0.36)</li>
-      <li>(0.47, 0.5, 0.91)</li>
+      <li>(1.0, 0.1, 0.1)</li>
     </colorSpectrum>
     <startingGoodwill>
       <min>10</min>
       <max>15</max>
     </startingGoodwill>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<factionNameMaker>SWFactions_NamerFactionRebels</factionNameMaker>
 		<baseNameMaker>NamerFactionBaseOutlander</baseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
