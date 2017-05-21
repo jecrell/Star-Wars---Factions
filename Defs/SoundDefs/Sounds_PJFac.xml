@@ -141,9 +141,48 @@
       </li>
     </subSounds>
   </SoundDef>  
-  
 
 
+  <!-- =====Walker Sounds ===== -->
 
+      <SoundDef>
+    <defName>PJ_ATST_Step</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Walker/ATST/Steps</clipFolderPath>
+          </li> 
+        </grains>          
+        <pitchRange>
+			<min>0.965217</min>
+			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+    <SoundDef>
+    <defName>PJ_ATST_Gun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  	
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Walker/ATST/Gun/ATST_Blaster</clipPath>
+          </li>
+        </grains>         
+        <pitchRange>
+			<min>0.935217</min>
+			<max>1.042391</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef> 
   
 </DefPackage-SoundDef>

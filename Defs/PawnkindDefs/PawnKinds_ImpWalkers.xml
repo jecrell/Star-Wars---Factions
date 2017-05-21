@@ -90,7 +90,7 @@
 				<volume>(0.4, 0.8, 0.4)</volume>
 			</shadowData>
 		</cycledGraphic>
-		<sound>Pawn_Mech_Centipede_Wounded</sound>
+		<sound>PJ_ATST_Step</sound>
         <secondsPerStep>1.15</secondsPerStep>
 		<secondsBetweenSteps>0.5</secondsBetweenSteps>
 	  </li>
