@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>SWFactions_Cockpit</defName>
+    <label>cockpit</label>
+    <hitPoints>150</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>SightSource</li>
+      <li>HearingSource</li>	  
+      <li>ConsciousnessSource</li>
+	  <li>PilotSeat</li>
+	  <li>GunnerSeat</li>
+	  <li>PassengerSeat</li>
+    </tags>	
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>MechanicalCentipedeBodyFifthRing</defName>
+    <label>fifth body ring</label>
+    <hitPoints>40</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+
+  
+  <BodyDef>
+    <defName>SWFactions_ATSTHull</defName>
+    <label>ATST</label>
+    <corePart>
+      <def>MechanicalThorax</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>MechanicalNeck</def>
+          <coverage>0.2</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>MechanicalHead</def>
+              <coverage>0.80</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>SWFactions_Cockpit</def>
+                  <coverage>0.80</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>LeftMechanicalLeg</def>
+          <coverage>0.3</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>LeftMechanicalFoot</def>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>RightMechanicalLeg</def>
+          <coverage>0.3</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>RightMechanicalFoot</def>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  
+</Defs>
