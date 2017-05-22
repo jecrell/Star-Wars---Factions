@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
+	<ThingDef Abstract="True" Name="BaseWeapon">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>10</pathCost>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<SellPriceFactor>0.20</SellPriceFactor>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingDef>
 
   <ThingDef Name="BaseImpGun" Abstract="True" ParentName="BaseWeapon">
 		<techLevel>Spacer</techLevel>
@@ -48,7 +76,7 @@
     <projectile>
 	<flyOverhead>False</flyOverhead>
 	<damageDef>PJ_BlasterDam</damageDef>
-	<damageAmountBase>36</damageAmountBase>
+	<damageAmountBase>46</damageAmountBase>
 	<speed>105</speed>
     </projectile>
   </ThingDef>
@@ -64,7 +92,7 @@
     <soundInteract>InteractPistol</soundInteract>
     <statBases>
       <Mass>6.85</Mass>
-      <MarketValue>4200</MarketValue>
+      <MarketValue>3200</MarketValue>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.79</AccuracyMedium>
@@ -75,7 +103,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_DXR_Bolt</projectileDef>
+        <projectileDef>PJ_ATST_Bullet</projectileDef>
         <warmupTime>1.03</warmupTime>
         <range>27</range>
         <soundCast>PJ_ATST_Gun</soundCast>
@@ -86,9 +114,7 @@
       </li>
     </verbs>
     <tradeability>Never</tradeability>
-		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
-    <menuHidden>True</menuHidden>
     <weaponTags>
 	   <li>PJ_ATST_Weapon</li>
     </weaponTags>

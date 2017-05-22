@@ -19,37 +19,59 @@
     </tags>	
   </BodyPartDef>
 
-
-  <BodyPartDef>
-    <defName>MechanicalCentipedeBodyFifthRing</defName>
-    <label>fifth body ring</label>
-    <hitPoints>40</hitPoints>
+   <BodyPartDef>
+    <defName>ATST_Neck</defName>
+    <label>neck</label>
+    <hitPoints>30</hitPoints>
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
     <tags>
-      <li>MovingLimbSegment</li>
-      <li>ManipulationLimbSegment</li>
+      <li>BreathingPathway</li>
+      <li>EatingPathway</li>
+      <li>TalkingPathway</li>
     </tags>
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>ATST_Head</defName>
+    <label>head</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+    <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>ATST_Frame</defName>
+    <label>frame</label>
+    <hitPoints>40</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
   
   <BodyDef>
     <defName>SWFactions_ATSTHull</defName>
     <label>ATST</label>
     <corePart>
-      <def>MechanicalThorax</def>
+      <def>ATST_Frame</def>
       <height>Middle</height>
       <depth>Outside</depth>
       <parts>
         <li>
-          <def>MechanicalNeck</def>
+          <def>ATST_Neck</def>
           <coverage>0.2</coverage>
           <height>Top</height>
           <parts>
             <li>
-              <def>MechanicalHead</def>
+              <def>ATST_Head</def>
               <coverage>0.80</coverage>
               <groups>
                 <li>HeadAttackTool</li>
