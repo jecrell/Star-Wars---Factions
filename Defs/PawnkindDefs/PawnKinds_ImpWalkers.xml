@@ -60,8 +60,7 @@
       <soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
     </race>
     <recipes>
-      <li>RemoveMechanoidBodyPart</li>
-      <li>ShutDownMechanoid</li>
+      <li>SWFactions_RepairsATST</li>
     </recipes>
     <butcherProducts>
       <Steel>40</Steel>
@@ -79,7 +78,13 @@
 		<requiredPilots>1</requiredPilots>
 		<requiredGunners>1</requiredGunners>
 		<requiredCrew>0</requiredCrew>    
-		<ejectIfBelowHealthPercent>0.15</ejectIfBelowHealthPercent>
+		<ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
+		<seatHitDamageFactor>1.75</seatHitDamageFactor>
+		<seatHitCriticalHitChance>0.03</seatHitCriticalHitChance>
+		<canBeDowned>true</canBeDowned>
+		<wigglesWhenDowned>false</wigglesWhenDowned>
+		<canMoveWithoutPilot>false</canMoveWithoutPilot>
+		<canFireWithoutGunner>false</canFireWithoutGunner>
 	  </li>
 	  <li Class="CompLumbering.CompProperties_Lumbering">
 	    <cycledGraphic>

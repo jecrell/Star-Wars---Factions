@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+  <RecipeDef>
+		<defName>SWFactions_RepairsATST</defName>
+		<label>repair part (50 steel, 10 plasteel, 3 components)</label>
+		<description>Repairs a part.</description>
+		<workerClass>CompPilotable.Recipe_RepairPilotable</workerClass>
+		<jobString>Repairing part.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>		
+	<effectWorking>Repair</effectWorking>
+  </RecipeDef>
+  
+</RecipeDefs>
