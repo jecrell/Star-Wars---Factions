@@ -72,6 +72,9 @@
             <li>
               <def>LeftMechanicalFoot</def>
               <coverage>0.2</coverage>
+              <groups>
+              <li>LeftBlade</li>
+              </groups>
             </li>
           </parts>
         </li>
@@ -83,6 +86,9 @@
             <li>
               <def>RightMechanicalFoot</def>
               <coverage>0.2</coverage>
+              <groups>
+              <li>RightBlade</li>
+              </groups>
             </li>
           </parts>
         </li>
