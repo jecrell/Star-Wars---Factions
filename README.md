@@ -3,7 +3,7 @@ Expands the rimverse with many iconic and memorable weapons, apparel, and factio
 
 
 
-Public notes:
+Xen's Public notes:
 
 1. Requirements:
 **This mod requires JecsTools to run properly.**
