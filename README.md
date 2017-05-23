@@ -1,13 +1,13 @@
-# Star-Wars---Factions
+# Star Wars - Factions
 Expands the rimverse with many iconic and memorable weapons, apparel, and factions from Star Wars lore.
 
 
-Xen's public notes:
 
-1. Load Order:
-Load order should no longer be an issue. If you have problems - try re-ordering your mods so the Star Wars mods sit all together near the top of your list. (Below core)
+Public notes:
 
-
+1. Requirements:
+**This mod requires JecsTools to run properly.**
+https://github.com/jecrell/JecsTools
 
 2. Powers Notes:
 Powers should all be functioning properly.
