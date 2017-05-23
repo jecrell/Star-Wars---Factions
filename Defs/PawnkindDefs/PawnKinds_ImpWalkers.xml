@@ -68,7 +68,7 @@
       <Component>1</Component>
     </butcherProducts>
 	<comps>
-	  <li Class="CompPilotable.CompProperties_Pilotable">
+	  <li Class="CompVehicle.CompProperties_Vehicle">
 	    <entrySound>Pawn_Mech_Centipede_Wounded</entrySound>
 		<ejectSound>Pawn_Mech_Centipede_Wounded</ejectSound>
 		<pilotSeats>1</pilotSeats>

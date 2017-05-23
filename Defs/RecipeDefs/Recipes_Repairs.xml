@@ -5,7 +5,7 @@
 		<defName>SWFactions_RepairsATST</defName>
 		<label>repair part (50 steel, 10 plasteel, 3 components)</label>
 		<description>Repairs a part.</description>
-		<workerClass>CompPilotable.Recipe_RepairPilotable</workerClass>
+		<workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
 		<jobString>Repairing part.</jobString>
 		<workAmount>2000</workAmount>
 		<ingredients>
