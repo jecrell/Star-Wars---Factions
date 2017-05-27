@@ -15,12 +15,9 @@
       <max>1</max>
     </gearHealthRange>
     <apparelMoney>
-      <min>5000</min>
-      <max>15000</max>
+      <min>6000</min>
+      <max>6000</max>
     </apparelMoney>
-    <apparelRequired>
-      <li>PJ_ImpUniform</li>
-    </apparelRequired>
     <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>2040</min>
@@ -33,6 +30,9 @@
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
+   <apparelTags>
+      <li>PJ_Imp</li>
+    </apparelTags>
     <techHediffsChance>0.1</techHediffsChance>
     <inventoryOptions>
       <skipChance>0.01</skipChance>
@@ -63,8 +63,9 @@
       <max>3000</max>
     </weaponMoney>
 	  <apparelRequired>
-      <li>PJ_ImpHat</li>
+    <li>PJ_ImpHat</li>
 	  <li>PJ_ImpUniform</li>
+    <li>PJ_TroopArmor</li>
     </apparelRequired>
     <weaponTags>
       <li>ImpBlaster</li>
@@ -81,8 +82,9 @@
       <max>3000</max>
     </weaponMoney>
     <apparelRequired>
-      <li>PJ_ImpHat</li>
+    <li>PJ_ImpHatB</li>
     <li>PJ_ImpUniform</li>
+    <li>PJ_ImpUniformBlackSHELL</li>
     </apparelRequired>
     <weaponTags>
       <li>ImpBlaster</li>
@@ -97,13 +99,31 @@
       <li>ImpBlaster</li>
     </weaponTags>
 	  <apparelMoney>
-      <min>6070</min>
+      <min>8070</min>
       <max>8070</max>
     </apparelMoney>
 	<apparelRequired>
-	<li>PJ_ImpUniformBlack</li>
+    	<li>PJ_ImpUniform</li>
       <li>PJ_TroopArmor</li>
-	  <li>PJ_STHelm</li>
+	    <li>PJ_STHelm</li>
+    </apparelRequired>
+    <combatPower>95</combatPower>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ImpBase">
+    <defName>PJ_StormtrooperSO</defName>
+    <label>Stormtrooper officer</label>
+    <weaponTags>
+      <li>ImpBlaster</li>
+    </weaponTags>
+	  <apparelMoney>
+      <min>8070</min>
+      <max>8070</max>
+    </apparelMoney>
+	<apparelRequired>
+    	<li>PJ_ImpUniform</li>
+      <li>PJ_TroopArmorSO</li>
+	    <li>PJ_STHelm</li>
     </apparelRequired>
     <combatPower>95</combatPower>
   </PawnKindDef>
@@ -124,13 +144,16 @@
       <min>1</min>
       <max>1</max>
     </gearHealthRange>
+    <apparelTags>
+      <li>PJ_Imp</li>
+    </apparelTags>
     <apparelMoney>
-      <min>6070</min>
+      <min>9070</min>
       <max>9070</max>
     </apparelMoney>
     <apparelRequired>
-	  <li>PJ_ImpUniformBlackSHELL</li>
-      <li>PJ_ImpUniformBlack</li>
+	    <li>PJ_ImpUniformBlackSHELL</li>
+      <li>PJ_ImpUniform</li>
       <li>PJ_ImpHatB</li>
     </apparelRequired>
     <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
@@ -187,14 +210,17 @@
       <min>1</min>
       <max>1</max>
     </gearHealthRange>
+    <apparelTags>
+      <li>PJ_Imp</li>
+    </apparelTags>
     <apparelMoney>
-      <min>6570</min>
+      <min>8000</min>
       <max>8000</max>
     </apparelMoney>
     <apparelRequired>
-      <li>PJ_ImpUniformBlack</li>
+      <li>PJ_ImpUniform</li>
       <li>PJ_SCTHelm</li>
-      <li>PJ_TroopArmor</li>
+      <li>PJ_TroopArmorNCO</li>
     </apparelRequired>
     <apparelAllowHeadwearChance>0.2</apparelAllowHeadwearChance>
     <weaponMoney>
