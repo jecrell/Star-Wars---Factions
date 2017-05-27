@@ -184,7 +184,51 @@
     </weaponTags>
   </ThingDef>
    
-   
+     <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_DH17Blaster</defName>
+    <label>DH-17 Blaster Pistol</label>
+    <description>Manufactured by BlasTech Industries, the DH-17 blaster pistol was commonly used by soldiers of the Rebel Alliance for conflicts aboard starships, and sometimes the officers of the Galactic Empire carried it instead of the standard E-11 blaster rifles. </description>
+    <graphicData>
+      <texPath>Weapons/DH17</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+	  <MarketValue>2200</MarketValue>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_BlasterBolt_E11_X</projectileDef>
+        <warmupTime>1.53</warmupTime>
+        <range>40</range>
+        <soundCast>PJ_E11B</soundCast>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+	   <li>Blaster</li>
+    </weaponTags>
+  </ThingDef>
    
    <ThingDef ParentName="BaseBullet">
     <defName>PJ_Pistol_Bolt</defName>
@@ -676,7 +720,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>PJ_T21_Bolt</projectileDef>
-        <warmupTime>1.83</warmupTime>
+        <warmupTime>1.63</warmupTime>
         <range>45</range>
         <soundCast>PJ_T21R</soundCast>
         <burstShotCount>1</burstShotCount>
@@ -689,6 +733,126 @@
        <li>MedievalShields_ValidSidearm</li>
 	   <li>ImpBlaster</li>
 	   <li>BlasterRifle</li>
+    </weaponTags>
+  </ThingDef>
+
+
+     <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_DC15Rifle</defName>
+    <label>T-21 BLaster Rifle</label>
+    <description>The DC-15A blaster rifle was one of the standard issue weapons for clone troopers. Predecessor to the DLT-19 Rifle favored by the Empire.</description>
+    <graphicData>
+      <texPath>Weapons/DC15A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	   <drawSize>2.2</drawSize>	
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>	
+	<comps>
+		  <li>
+		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		  </li>
+	</comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_T21_Bolt</projectileDef>
+        <warmupTime>1.63</warmupTime>
+        <range>45</range>
+        <soundCast>PJ_T21R</soundCast>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+	   <li>BlasterRifle</li>
+    </weaponTags>
+  </ThingDef>
+
+ <ThingDef ParentName="BaseBullet">
+    <defName>PJ_DLT_Bolt</defName>
+    <label>Heavy Rifle Bolt</label>
+    <graphicData>
+      <texPath>Projectile/Blasterbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>PJ_BlasterDam</damageDef>
+	<damageAmountBase>8</damageAmountBase>
+	<speed>135</speed>
+    </projectile>
+  </ThingDef>
+
+       <ThingDef ParentName="BaseImpMakeableGun">
+    <defName>PJ_DLT19Rifle</defName>
+    <label>DLT-19 Heavy BLaster Rifle</label>
+    <description>The DLT-19 heavy blaster rifle was a model of blaster rifle manufactured by BlasTech Industries. They were used by stormtroopers of the Galactic Empire, as well as by some heavy troopers of the Alliance to Restore the Republic. It featured a high rate of fire and could deal heavy damage at long ranges, and was most commonly used for pinning down troops and eliminating large groups of enemies.</description>
+    <graphicData>
+      <texPath>Weapons/DLT19</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	   <drawSize>2.2</drawSize>	
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>6.85</Mass>
+      <WorkToMake>65800</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>2</Component>
+    </costList>	
+	<comps>
+		  <li>
+		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		  </li>
+	</comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_DLT_Bolt</projectileDef>
+        <warmupTime>1.43</warmupTime>
+        <range>42</range>
+        <soundCast>PJ_T21R</soundCast>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+	    <li>ImpBlaster</li>
+	    <li>BlasterRifle</li>
     </weaponTags>
   </ThingDef>
   
