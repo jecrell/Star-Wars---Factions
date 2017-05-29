@@ -7,11 +7,6 @@
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
     <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
     <backstoryCategory>Civil</backstoryCategory>
-    <apparelTags>
-      <li>Outlander</li>
-	  <li>PJ_Rebel</li>
-	  <li>PJ_Comp</li>
-    </apparelTags>
   </PawnKindDef>
 
   <PawnKindDef Name="PJ_RebVillager" ParentName="PJ_RebelPawnBase">
@@ -24,6 +19,11 @@
       <min>0.2</min>
       <max>2.0</max>
     </gearHealthRange>
+    <apparelTags>
+      <li>Outlander</li>
+	    <li>PJ_Rebel</li>
+  	  <li>PJ_Comp</li>
+    </apparelTags>
     <apparelMoney>
       <min>300</min>
       <max>1900</max>
@@ -77,12 +77,35 @@
     <factionLeader>true</factionLeader>
     <minGenerationAge>40</minGenerationAge>
     <maxGenerationAge>100</maxGenerationAge>
+    <apparelRequired>
+    <li>PJ_RebOfficer</li>
+    </apparelRequired>
+     <apparelMoney>
+      <min>5500</min>
+      <max>5500</max>
+    </apparelMoney>
+    <apparelTags>
+    <li>Outlander</li>
+	  <li>PJ_Rebel</li>
+    </apparelTags>
   </PawnKindDef>
   
   <PawnKindDef ParentName="PJ_RebVillager">
     <defName>PJ_RebTrader</defName>
     <label>rebel trader</label>
     <trader>true</trader>
+    <apparelRequired>
+    <li>PJ_RebOfficer</li>
+    </apparelRequired>
+     <apparelMoney>
+      <min>5500</min>
+      <max>5500</max>
+    </apparelMoney>
+  <apparelTags>
+    <li>Outlander</li>
+	  <li>PJ_Rebel</li>
+	  <li>PJ_Comp</li>
+  </apparelTags>
   </PawnKindDef>
   
   <PawnKindDef ParentName="PJ_RebelPawnBase">
@@ -99,8 +122,13 @@
       <min>600</min>
       <max>1900</max>
     </apparelMoney>
+    <apparelTags>
+    <li>Outlander</li>
+	  <li>PJ_Rebel</li>
+	  <li>PJ_Comp</li>
+    </apparelTags>
 	 <apparelRequired>
-      <li>PJ_Reb_TroopJacket</li>
+    <li>PJ_Reb_TroopJacket</li>
 	  <li>PJ_RebHat</li>
     </apparelRequired>
     <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
@@ -141,12 +169,17 @@
       <min>0.5</min>
       <max>1.8</max>
     </gearHealthRange>
+    <apparelTags>
+    <li>Outlander</li>
+	  <li>PJ_Rebel</li>
+	  <li>PJ_Comp</li>
+    </apparelTags>
     <apparelMoney>
       <min>2800</min>
       <max>10900</max>
     </apparelMoney>
 	 <apparelRequired>
-      <li>PJ_Reb_CamoJacket</li>
+    <li>PJ_Reb_CamoJacket</li>
 	  <li>PJ_RebScoutHat</li>
     </apparelRequired>
     <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
@@ -155,7 +188,7 @@
       <max>2600</max>
     </weaponMoney>
     <weaponTags>
-       <li>Blaster</li>
+     <li>Blaster</li>
 	   <li>BlasterRifle</li>
     </weaponTags>
     <techHediffsMoney>
@@ -192,7 +225,7 @@
       <max>20900</max>
     </apparelMoney>
 	<apparelTags>
-      <li>Outlander</li>
+    <li>Outlander</li>
 	  <li>PJ_Rebel</li>
 	  <li>Military</li>
 	  <li>PJ_Comp</li>
@@ -203,7 +236,7 @@
       <max>2600</max>
     </weaponMoney>
     <weaponTags>
-       <li>Blaster</li>
+     <li>Blaster</li>
 	   <li>BlasterRifle</li>
 	   <li>Melee</li>
 	   <li>GrenadeDestructive</li>

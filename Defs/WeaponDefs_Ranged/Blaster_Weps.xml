@@ -114,8 +114,6 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-    <tradeability>Never</tradeability>
-		<destroyOnDrop>True</destroyOnDrop>
     <weaponTags>
 	   <li>PJ_ATST_Weapon</li>
     </weaponTags>
@@ -169,8 +167,6 @@
         <muzzleFlashScale>42</muzzleFlashScale>
       </li>
     </verbs>
-    <tradeability>Never</tradeability>
-		<destroyOnDrop>True</destroyOnDrop>
     <weaponTags>
 	   <li>PJ_ATAT_Weapon</li>
     </weaponTags>
