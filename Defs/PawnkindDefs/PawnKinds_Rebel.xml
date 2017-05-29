@@ -22,7 +22,7 @@
     <apparelTags>
       <li>Outlander</li>
 	    <li>PJ_Rebel</li>
-  	  <li>PJ_Comp</li>
+     <li>PJ_Comp</li>
     </apparelTags>
     <apparelMoney>
       <min>300</min>
@@ -84,10 +84,6 @@
       <min>5500</min>
       <max>5500</max>
     </apparelMoney>
-    <apparelTags>
-    <li>Outlander</li>
-	  <li>PJ_Rebel</li>
-    </apparelTags>
   </PawnKindDef>
   
   <PawnKindDef ParentName="PJ_RebVillager">
@@ -101,11 +97,6 @@
       <min>5500</min>
       <max>5500</max>
     </apparelMoney>
-  <apparelTags>
-    <li>Outlander</li>
-	  <li>PJ_Rebel</li>
-	  <li>PJ_Comp</li>
-  </apparelTags>
   </PawnKindDef>
   
   <PawnKindDef ParentName="PJ_RebelPawnBase">
@@ -122,11 +113,6 @@
       <min>600</min>
       <max>1900</max>
     </apparelMoney>
-    <apparelTags>
-    <li>Outlander</li>
-	  <li>PJ_Rebel</li>
-	  <li>PJ_Comp</li>
-    </apparelTags>
 	 <apparelRequired>
     <li>PJ_Reb_TroopJacket</li>
 	  <li>PJ_RebHat</li>
