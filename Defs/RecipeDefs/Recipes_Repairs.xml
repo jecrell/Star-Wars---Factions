@@ -44,4 +44,48 @@
 	<effectWorking>Repair</effectWorking>
   </RecipeDef>
   
+  <RecipeDef>
+		<defName>SWFactions_RepairsATAT</defName>
+		<label>repair part (50 steel, 10 plasteel, 3 components)</label>
+		<description>Repairs a part.</description>
+		<workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
+		<jobString>Repairing part.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>		
+	<effectWorking>Repair</effectWorking>
+  </RecipeDef>
+
+
 </RecipeDefs>

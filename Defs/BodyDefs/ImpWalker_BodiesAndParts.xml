@@ -56,7 +56,157 @@
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
   </BodyPartDef>
-  
+
+<!-- ===== ATAT Parts ===== -->
+
+   <BodyPartDef>
+    <defName>ATAT_Neck</defName>
+    <label>neck</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>BreathingPathway</li>
+      <li>EatingPathway</li>
+      <li>TalkingPathway</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>ATAT_Head</defName>
+    <label>head</label>
+    <hitPoints>60</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+    <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>ATAT_Frame</defName>
+    <label>frame</label>
+    <hitPoints>60</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftATATFLeg</defName>
+    <label>left leg</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftATATFFoot</defName>
+    <label>left foot</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftATATRLeg</defName>
+    <label>left leg</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftATATRFoot</defName>
+    <label>left foot</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightATATFLeg</defName>
+    <label>right leg</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightATATFFoot</defName>
+    <label>right foot</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+
+   <BodyPartDef>
+    <defName>RightATATRLeg</defName>
+    <label>right leg</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightATATRFoot</defName>
+    <label>right foot</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+
+
+<!-- ===== ATST Body ===== -->  
   <BodyDef>
     <defName>SWFactions_ATSTHull</defName>
     <label>ATST</label>
@@ -118,4 +268,89 @@
     </corePart>
   </BodyDef>
   
+<!-- ===== ATAT stuff ===== -->
+
+ <BodyDef>
+		<defName>SWFactions_ATATHull</defName>
+		<label>ATAT</label>
+		<corePart>
+			<def>ATAT_Frame</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<parts>
+				<li>
+					<def>ATAT_Neck</def>
+					<coverage>0.22</coverage>
+					<height>Top</height>
+					<parts>
+						<li>
+							<def>ATST_Head</def>
+							<coverage>0.75</coverage>
+							<groups>
+								<li>HeadAttackTool</li>
+							</groups>
+							<parts>
+								<li>
+									<def>SWFactions_Cockpit</def>
+									<coverage>0.25</coverage>
+									<depth>Inside</depth>
+                </li>
+							</parts>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>LeftATATFLeg</def>
+					<coverage>0.1</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>FrontLeftLeg</li>
+					</groups>
+					<parts>
+						<li>
+							<def>LeftATATFFoot</def>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>RightATATFLeg</def>
+					<coverage>0.1</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>FrontRightLeg</li>
+					</groups>
+					<parts>
+						<li>
+							<def>RightATATFFoot</def>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>LeftATATRLeg</def>
+					<coverage>0.1</coverage>
+					<height>Bottom</height>
+					<parts>
+						<li>
+							<def>LeftATATRFoot</def>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>RightATATRLeg</def>
+					<coverage>0.1</coverage>
+					<height>Bottom</height>
+					<parts>
+						<li>
+							<def>RightATATRFoot</def>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+
 </Defs>
