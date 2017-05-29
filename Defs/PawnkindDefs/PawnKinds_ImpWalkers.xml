@@ -38,7 +38,7 @@
     </verbs>
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>Mechanoid</thinkTreeMain>
+      <thinkTreeMain>CompVehicle_Simple</thinkTreeMain>
       <body>SWFactions_ATSTHull</body>
       <baseBodySize>1.0</baseBodySize>
       <baseHealthScale>10.0</baseHealthScale>
