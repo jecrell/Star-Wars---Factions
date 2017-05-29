@@ -64,7 +64,118 @@
     </recipeMaker>
   </ThingDef>
 
- 
+<!-- ====Walker Guns==== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_ATST_Bullet</defName>
+    <label>ATST Blaster bolt</label>
+    <graphicData>
+      <texPath>Projectile/BlasterboltBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>PJ_BlasterDam</damageDef>
+	<damageAmountBase>46</damageAmountBase>
+	<speed>105</speed>
+    </projectile>
+  </ThingDef>
+
+    <ThingDef ParentName="BaseImpGun">
+    <defName>PJ_ATST_Blaster</defName>
+    <label>ATST Main Blaster Cannon</label>
+    <description>A high powered blaster cannon mounted on the ATST walker.</description>
+    <graphicData>
+      <texPath>VehicleWeps/ATSTBl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <Mass>6.85</Mass>
+      <MarketValue>3200</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_ATST_Bullet</projectileDef>
+        <warmupTime>1.03</warmupTime>
+        <range>27</range>
+        <soundCast>PJ_ATST_Gun</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+	   <li>PJ_ATST_Weapon</li>
+    </weaponTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_ATAT_Bullet</defName>
+    <label>ATST Blaster bolt</label>
+    <graphicData>
+      <texPath>Projectile/BlasterboltBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+</graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>PJ_BlasterDam</damageDef>
+	<damageAmountBase>86</damageAmountBase>
+	<speed>105</speed>
+    </projectile>
+  </ThingDef>
+
+    <ThingDef ParentName="BaseImpGun">
+    <defName>PJ_ATAT_Blaster</defName>
+    <label>ATAT Main Blaster Cannon</label>
+    <description>A high powered blaster cannon mounted on the ATAT walker.</description>
+    <graphicData>
+      <texPath>VehicleWeps/ATATBl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <Mass>6.85</Mass>
+      <MarketValue>3200</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_ATST_Bullet</projectileDef>
+        <warmupTime>1.03</warmupTime>
+        <range>27</range>
+        <soundCast>PJ_ATST_Gun</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>42</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+	   <li>PJ_ATAT_Weapon</li>
+    </weaponTags>
+  </ThingDef>
+  
+
+
+  <!-- ====== Regular Blasters ====== -->
+  
   <ThingDef ParentName="BaseBullet">
     <defName>PJ_BlasterBolt_E11_X</defName>
     <label>E-11 Blaster bolt</label>
@@ -629,7 +740,7 @@
   
     <ThingDef ParentName="BaseImpMakeableGun">
     <defName>PJ_T21Rifle</defName>
-    <label>T-21 BLaster Rifle</label>
+    <label>T-21 Blaster Rifle</label>
     <description>the T-21 heavy blaster, was a model of light repeating blaster used by some of the Galactic Empire's Stormtrooper Corps. It delivered massive damage at long ranges, however at a low rate of fire.</description>
     <graphicData>
       <texPath>Weapons/T21B</texPath>
@@ -683,7 +794,7 @@
 
      <ThingDef ParentName="BaseImpMakeableGun">
     <defName>PJ_DC15Rifle</defName>
-    <label>T-21 BLaster Rifle</label>
+    <label>DC-15 Blaster Rifle</label>
     <description>The DC-15A blaster rifle was one of the standard issue weapons for clone troopers. Predecessor to the DLT-19 Rifle favored by the Empire.</description>
     <graphicData>
       <texPath>Weapons/DC15A</texPath>

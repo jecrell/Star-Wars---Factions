@@ -142,7 +142,7 @@
     <techLevel>Spacer</techLevel>
     <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by mid-ranking officers assigned to capitol ships or stations.</description>
     <graphicData> 
-		<texPath>Imp/Gear/ImperialOfficerUniformB</texPath>
+		<texPath>Imp/Gear/Blk/ImperialOfficerUniformB</texPath>
 		<graphicClass>Graphic_Single</graphicClass> 
 	</graphicData>
     <statBases>
@@ -170,7 +170,61 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Imp/Gear/ImperialOfficerUniformB</worngraphicPath>
+     <worngraphicPath>Imp/Gear/Blk/ImperialOfficerUniformB</worngraphicPath>
+			<layers>
+			    <li>OnSkin</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(1,1,1,1)</only>
+				</li>
+      </options>
+    </colorGenerator>
+    </ThingDef>
+
+		  <ThingDef ParentName="ImpApparelMakeableBase">
+    <defName>PJ_STOffUniform</defName>
+    <label>Stormtrooper Officer Uniform</label>
+    <techLevel>Spacer</techLevel>
+    <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by elite stormtroopers, or unit commanders.</description>
+    <graphicData> 
+		<texPath>Imp/Gear/Sto/ImperialSTOfficerUniform</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <statBases>
+      <Mass>1</Mass>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+	<costList>
+      <Steel>8</Steel>
+      <Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+     <tags>
+       <li>PJ_Imp</li>
+     </tags>
+     <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+     </defaultOutfitTags>
+     <worngraphicPath>Imp/Gear/Sto/ImperialSTOfficerUniform</worngraphicPath>
 			<layers>
 			    <li>OnSkin</li>
 			</layers>
@@ -190,13 +244,13 @@
     </colorGenerator>
     </ThingDef>
 	
-		  <ThingDef ParentName="ImpApparelMakeableBase">
-    <defName>PJ_ImpUniformBlackSHELL</defName>
+ <ThingDef ParentName="ImpApparelMakeableBase">
+    <defName>PJ_ImpNAVYSHELL</defName>
     <label>Imperial Navy Uniform(Outer)</label>
     <techLevel>Spacer</techLevel>
     <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by mid-ranking officers assigned to capitol ships or stations.</description>
     <graphicData> 
-		<texPath>Imp/Gear/ImperialOfficerUniformB</texPath>
+		<texPath>Imp/Gear/Navy/ImperialNavytrooper</texPath>
 		<graphicClass>Graphic_Single</graphicClass> 
 	</graphicData>
     <statBases>
@@ -224,7 +278,61 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Imp/Gear/ImperialOfficerUniformB</worngraphicPath>
+     <worngraphicPath>Imp/Gear/Navy/ImperialNavytrooper</worngraphicPath>
+			<layers>
+			    <li>Shell</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(1,1,1,1)</only>
+				</li>
+      </options>
+    </colorGenerator>
+    </ThingDef>
+
+		  <ThingDef ParentName="ImpApparelMakeableBase">
+    <defName>PJ_ImpUniformBlackSHELL</defName>
+    <label>Imperial Navy Uniform(Outer)</label>
+    <techLevel>Spacer</techLevel>
+    <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by mid-ranking officers assigned to capitol ships or stations.</description>
+    <graphicData> 
+		<texPath>Imp/Gear/Blk/ImperialOfficerUniformB</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <statBases>
+      <Mass>1</Mass>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+	  <costList>
+      <Steel>8</Steel>
+      <Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+     <tags>
+       <li>PJ_Imp</li>
+     </tags>
+     <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+     </defaultOutfitTags>
+     <worngraphicPath>Imp/Gear/Blk/ImperialOfficerUniformB</worngraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -250,7 +358,7 @@
     <techLevel>Spacer</techLevel>
     <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by mid-to-upper-ranking officers assigned to capitol ships or stations.</description>
     <graphicData> 
-		<texPath>Imp/Gear/ImperialOfficerUniform</texPath>
+		<texPath>Imp/Gear/Grn/ImperialOfficerUniform</texPath>
 		<graphicClass>Graphic_Single</graphicClass> 
 	</graphicData>
     <statBases>
@@ -278,7 +386,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Imp/Gear/ImperialOfficerUniform</worngraphicPath>
+     <worngraphicPath>Imp/Gear/Grn/ImperialOfficerUniform</worngraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -304,7 +412,7 @@
     <techLevel>Spacer</techLevel>
     <description>The uniform worn by the martial forces of the Galactic Empire. This version is usually worn by low-ranking officers assigned to capitol ships or stations.</description>
     <graphicData> 
-		<texPath>Imp/Gear/ImperialBaseOfficerUniform</texPath>
+		<texPath>Imp/Gear/Brn/ImperialBaseOfficerUniform</texPath>
 		<graphicClass>Graphic_Single</graphicClass> 
 	</graphicData>
     <statBases>
@@ -332,7 +440,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Imp/Gear/ImperialBaseOfficerUniform</worngraphicPath>
+     <worngraphicPath>Imp/Gear/Brn/ImperialBaseOfficerUniform</worngraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -358,7 +466,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
 		<graphicData>
-			<texPath>Imp/Gear/STArmor</texPath>
+			<texPath>Imp/Gear/St/STArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <recipeMaker>
@@ -388,7 +496,7 @@
     		 <tags>
 				<li>PJ_Imp</li>
 			</tags>
-			<worngraphicPath>Imp/Gear/STArmor</worngraphicPath>
+			<worngraphicPath>Imp/Gear/St/STArmor</worngraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
@@ -410,7 +518,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
 		<graphicData>
-			<texPath>Imp/Gear/STJOArmor</texPath>
+			<texPath>Imp/Gear/Stjo/STJOArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <recipeMaker>
@@ -440,7 +548,7 @@
     		 <tags>
 				<li>PJ_Imp</li>
 			</tags>
-			<worngraphicPath>Imp/Gear/STJOArmor</worngraphicPath>
+			<worngraphicPath>Imp/Gear/Stjo/STJOArmor</worngraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -461,7 +569,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
 		<graphicData>
-			<texPath>Imp/Gear/STNCOArmor</texPath>
+			<texPath>Imp/Gear/Stnco/STNCOArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <recipeMaker>
@@ -491,7 +599,7 @@
     		 <tags>
 				<li>PJ_Imp</li>
 			</tags>
-			<worngraphicPath>Imp/Gear/STNCOArmor</worngraphicPath>
+			<worngraphicPath>Imp/Gear/Stnco/STNCOArmor</worngraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -512,7 +620,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
 		<graphicData>
-			<texPath>Imp/Gear/STSOArmor</texPath>
+			<texPath>Imp/Gear/Stso/STSOArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     <recipeMaker>
@@ -542,7 +650,7 @@
     		 <tags>
 				<li>PJ_Imp</li>
 			</tags>
-			<worngraphicPath>Imp/Gear/STSOArmor</worngraphicPath>
+			<worngraphicPath>Imp/Gear/Stso/STSOArmor</worngraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -556,6 +664,8 @@
       </defaultOutfitTags>
 		</apparel>
 	</ThingDef>
+
+<!-- ====== Helmets ====== -->
 
 	<ThingDef ParentName="ImpHelmetMakeableBase">
 	<defName>PJ_STHelm</defName>
@@ -742,6 +852,52 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ImpHatMakeableBase">
+		<defName>PJ_ImpNavyH</defName>
+		<label>Imperial Navy Helm</label>
+		<description>The helmet worn by low ranking command and technical personnel of the Imperial forces.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Imp/Helmet/NavyHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<Insulation_Cold>-4</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<equippedStatOffsets>
+			<ShootingAccuracy>0.02</ShootingAccuracy>
+			<AimingDelayFactor>-0.01</AimingDelayFactor>
+			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>Imp/Helmet/NavyHelmet</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+				<tags>
+					<li>PJ_Imp</li>
+				</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ImpHatMakeableBase">
 		<defName>PJ_ImpHatBrn</defName>
 		<label>Imperial Command Cap</label>
 		<description>The command cap worn by officers of the Imperial forces.</description>
@@ -834,4 +990,54 @@
 				</tags>
 		</apparel>
 	</ThingDef>
+
+
+<ThingDef ParentName="ImpApparelMakeableBase">
+    <defName>PJ_Apparel_Pants</defName>
+    <label>Uniform pants</label>
+    <description>A simple set of uniform pants.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
+      <Mass>0.5</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.04</ArmorRating_Heat>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>PJ_Rebel</li>
+        <li>PJ_Imp</li>
+				<li>PJ_Scum</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
 </ThingDefs>
