@@ -685,7 +685,7 @@
   
     <ThingDef ParentName="BaseImpMakeableGun">
     <defName>PJ_T21Rifle</defName>
-    <label>T-21 BLaster Rifle</label>
+    <label>T-21 Blaster Rifle</label>
     <description>the T-21 heavy blaster, was a model of light repeating blaster used by some of the Galactic Empire's Stormtrooper Corps. It delivered massive damage at long ranges, however at a low rate of fire.</description>
     <graphicData>
       <texPath>Weapons/T21B</texPath>
@@ -739,7 +739,7 @@
 
      <ThingDef ParentName="BaseImpMakeableGun">
     <defName>PJ_DC15Rifle</defName>
-    <label>T-21 BLaster Rifle</label>
+    <label>DC-15 Blaster Rifle</label>
     <description>The DC-15A blaster rifle was one of the standard issue weapons for clone troopers. Predecessor to the DLT-19 Rifle favored by the Empire.</description>
     <graphicData>
       <texPath>Weapons/DC15A</texPath>
