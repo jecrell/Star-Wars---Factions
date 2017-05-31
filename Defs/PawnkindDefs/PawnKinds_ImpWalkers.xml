@@ -187,8 +187,8 @@
     </verbs>
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>Mechanoid</thinkTreeMain>
-      <body>SWFactions_ATSTHull</body>
+      <thinkTreeMain>CompVehicle_Simple</thinkTreeMain>
+      <body>SWFactions_ATATHull</body>
       <baseBodySize>1.0</baseBodySize>
       <baseHealthScale>10.0</baseHealthScale>
       <lifeStageAges>

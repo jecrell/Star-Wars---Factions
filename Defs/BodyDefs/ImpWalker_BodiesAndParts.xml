@@ -310,6 +310,9 @@
 						<li>
 							<def>LeftATATFFoot</def>
 							<coverage>0.15</coverage>
+              <groups>
+              <li>LeftBlade</li>
+              </groups>
 						</li>
 					</parts>
 				</li>
@@ -324,6 +327,9 @@
 						<li>
 							<def>RightATATFFoot</def>
 							<coverage>0.15</coverage>
+              <groups>
+              <li>LeftBlade</li>
+              </groups>
 						</li>
 					</parts>
 				</li>
