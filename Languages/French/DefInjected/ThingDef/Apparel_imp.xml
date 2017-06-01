@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_ImpUniform.label>Combinaison Impériale</PJ_ImpUniform.label>
+  <PJ_ImpUniform.description>La combinaison portée  par les forces armées de l'Empire.</PJ_ImpUniform.description>
+
+  <PJ_ImpUniformBlack.label>Uniforme de la Navy Impériale</PJ_ImpUniformBlack.label>
+  <PJ_ImpUniformBlack.description>L'uniforme porté par les forces armées de l'Empire. Cette version est habituellement portée par les jeunes officiers assignés aux stations ou aux vaisseaux capitaux.</PJ_ImpUniformBlack.description>
+
+  <PJ_STOffUniform.label>Stormtrooper Officer Uniform</PJ_STOffUniform.label>
+  <PJ_STOffUniform.description>L'uniforme porté par les forces armées de l'Empire. Cette version est habituellement portée par les stormtroopers d'élites, ou les commandants d'unités.</PJ_STOffUniform.description>
+
+  <PJ_ImpNAVYSHELL.label>Uniforme de la Navy Impériale(Outer)</PJ_ImpNAVYSHELL.label>
+  <PJ_ImpNAVYSHELL.description>L'uniforme porté par les forces armées de l'Empire. Cette version est habituellement portée par les jeunes officiers assignés aux stations ou aux vaisseaux capitaux.</PJ_ImpNAVYSHELL.description>
+
+  <PJ_ImpUniformBlackSHELL.label>Uniforme de la Navy Impériale(Outer)</PJ_ImpUniformBlackSHELL.label>
+  <PJ_ImpUniformBlackSHELL.description>L'uniforme porté par les forces armées de l'Empire. Cette version est habituellement portée par les jeunes officiers assignés aux stations ou aux vaisseaux capitaux.</PJ_ImpUniformBlackSHELL.description>
+
+  <PJ_ImpUniformGrnSHELL.label>Uniforme de la Navy Impériale(Outer)</PJ_ImpUniformGrnSHELL.label>
+  <PJ_ImpUniformGrnSHELL.description>L'uniforme porté par les forces armées de l'Empire. Cette version est habituellement portée par les officiers assignés aux stations ou aux vaisseaux capitaux.</PJ_ImpUniformGrnSHELL.description>
+
+  <PJ_ImpUniformBrownSHELL.label>Uniforme de la Navy Impériale(Outer)</PJ_ImpUniformBrownSHELL.label>
+  <PJ_ImpUniformBrownSHELL.description>L'uniforme porté par les forces armées de l'Empire. Cette version est habituellement portée par les sous-officiers assignés aux stations ou aux vaisseaux capitaux.</PJ_ImpUniformBrownSHELL.description>
+
+  <PJ_TroopArmor.label>Armure de Stormtrooper</PJ_TroopArmor.label>
+  <PJ_TroopArmor.description>L'armure de Stormtrooper est l'armure standard portée par tout stormtrooper impérial. Un composite de plastique couvrant une sous couche de couleur noire, cette armure représente une des meilleurs de tout l'Empire, et est redouté parmis les combattants libre de l'Alliance Rebelle.   </PJ_TroopArmor.description>
+
+  <PJ_TroopArmorJO.label>Armure de Stormtrooper</PJ_TroopArmorJO.label>
+  <PJ_TroopArmorJO.description>L'armure de Stormtrooper est l'armure standard portée par tout stormtrooper impérial. Un composite de plastique couvrant une sous couche de couleur noire, cette armure représente une des meilleurs de tout l'Empire, et est redouté parmis les combattants libre de l'Alliance Rebelle.   </PJ_TroopArmorJO.description>
+
+  <PJ_TroopArmorNCO.label>Armure de Stormtrooper</PJ_TroopArmorNCO.label>
+  <PJ_TroopArmorNCO.description>L'armure de Stormtrooper est l'armure standard portée par tout stormtrooper impérial. Un composite de plastique couvrant une sous couche de couleur noire, cette armure représente une des meilleurs de tout l'Empire, et est redouté parmis les combattants libre de l'Alliance Rebelle.   </PJ_TroopArmorNCO.description>
+
+  <PJ_TroopArmorSO.label>Armure de Stormtrooper</PJ_TroopArmorSO.label>
+  <PJ_TroopArmorSO.description>L'armure de Stormtrooper est l'armure standard portée par tout stormtrooper impérial. Un composite de plastique couvrant une sous couche de couleur noire, cette armure représente une des meilleurs de tout l'Empire, et est redouté parmis les combattants libre de l'Alliance Rebelle.   </PJ_TroopArmorSO.description>
+
+
+  <!-- Helmets -->
+
+  <PJ_STHelm.label>Casque de Stormtrooper</PJ_STHelm.label>
+  <PJ_STHelm.description>Un simple, mais néanmoins célèbre, casque de stormtrooper.</PJ_STHelm.description>
+
+  <PJ_SCTHelm.label>Casque de Scout trooper</PJ_SCTHelm.label>
+  <PJ_SCTHelm.description>Un casque stormtrooper spécialisé pour les missions de reconnaissances.</PJ_SCTHelm.description>
+
+  <PJ_TIEHelm.label>Casque de pilote de TIE</PJ_TIEHelm.label>
+  <PJ_TIEHelm.description>Un casque spécial porté par les pilotes de chasseur TIE. Il est parfaitement isolé, et équipé de branchement d'oxygène portable, depuis que la série des TIE ne possède pas d'équipement de survie pour l'espace.</PJ_TIEHelm.description>
+
+  <PJ_ImpHat.label>Casquette de commandant impérial</PJ_ImpHat.label>
+  <PJ_ImpHat.description>La casquette portée par les officiers des forces impériales.</PJ_ImpHat.description>
+
+  <PJ_ImpNavyH.label>Casquette de la Navy Imperiale</PJ_ImpNavyH.label>
+  <PJ_ImpNavyH.description>Le casque porté par les sous-officiers et le personnel technique des forces Impériales.</PJ_ImpNavyH.description>
+
+  <PJ_ImpHatBrn.label>Casquette de commandant impérial</PJ_ImpHatBrn.label>
+  <PJ_ImpHatBrn.description>La casquette portée par les officiers des forces impériales.</PJ_ImpHatBrn.description>
+
+  <PJ_ImpHatB.label>Casquette de commandant impérial (Noir)</PJ_ImpHatB.label>
+  <PJ_ImpHatB.description>La casquette portée par les officiers des forces impériales.</PJ_ImpHatB.description>
+
+  <PJ_Apparel_Pants.label>Pantalon d'uniforme</PJ_Apparel_Pants.label>
+  <PJ_Apparel_Pants.description>Un simple pantalon d'uniforme.</PJ_Apparel_Pants.description>
+
+
+</LanguageData>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_ScumSoldier.label>Soldat</PJ_ScumSoldier.label>
+  <PJ_ScumSoldier.labelPlural>Soldats</PJ_ScumSoldier.labelPlural>
+  <PJ_ScumSoldier.labelMale>homme Soldat</PJ_ScumSoldier.labelMale>
+  <PJ_ScumSoldier.labelMalePlural>homme Soldats</PJ_ScumSoldier.labelMalePlural>
+  <PJ_ScumSoldier.labelFemale>femme Soldat</PJ_ScumSoldier.labelFemale>
+  <PJ_ScumSoldier.labelFemalePlural>femme Soldats</PJ_ScumSoldier.labelFemalePlural>
+
+  <PJ_Ruffian.label>ruffian</PJ_Ruffian.label>
+  <PJ_Ruffian.labelPlural>ruffians</PJ_Ruffian.labelPlural>
+  <PJ_Ruffian.labelMale>homme ruffian</PJ_Ruffian.labelMale>
+  <PJ_Ruffian.labelMalePlural>homme ruffians</PJ_Ruffian.labelMalePlural>
+  <PJ_Ruffian.labelFemale>femme ruffian</PJ_Ruffian.labelFemale>
+  <PJ_Ruffian.labelFemalePlural>femme ruffians</PJ_Ruffian.labelFemalePlural>
+
+  <PJ_ScumBoss.label>boss</PJ_ScumBoss.label>
+  <PJ_ScumBoss.labelPlural>bosss</PJ_ScumBoss.labelPlural>
+  <PJ_ScumBoss.labelMale>homme boss</PJ_ScumBoss.labelMale>
+  <PJ_ScumBoss.labelMalePlural>homme boss</PJ_ScumBoss.labelMalePlural>
+  <PJ_ScumBoss.labelFemale>femme boss</PJ_ScumBoss.labelFemale>
+  <PJ_ScumBoss.labelFemalePlural>femme boss</PJ_ScumBoss.labelFemalePlural>
+
+  <PJ_BountyHunter.label>Chasseur de prime</PJ_BountyHunter.label>
+  <PJ_BountyHunter.labelPlural>Chasseurs de primes</PJ_BountyHunter.labelPlural>
+  <PJ_BountyHunter.labelMale>homme Chasseur de prime</PJ_BountyHunter.labelMale>
+  <PJ_BountyHunter.labelMalePlural>homme Chasseurs de prime</PJ_BountyHunter.labelMalePlural>
+  <PJ_BountyHunter.labelFemale>femme Chasseusse de prime</PJ_BountyHunter.labelFemale>
+  <PJ_BountyHunter.labelFemalePlural>femme Chasseusses de prime</PJ_BountyHunter.labelFemalePlural>
+
+
+</LanguageData>

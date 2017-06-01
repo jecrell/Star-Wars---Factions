@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ATST -->
+
+  <SWFactions_WalkerThing.label>AT-ST</SWFactions_WalkerThing.label>
+  <SWFactions_WalkerThing.description>Le transport tout terrain de reconnaissance (AT-ST), aussi connu (de façon dérisoire) comme le robot poulet, de par son design à deux pattes, était un assemblage mécanique utilisé par la République Galactique durant la fin de la Guerre des Clones, et plus tard par extension, par l'Empire Galactique durant la guerre civile. C'est un des successeurs de l'AT-XT.</SWFactions_WalkerThing.description>
+  <SWFactions_WalkerThing.comps.1.roles.0.label>pilote</SWFactions_WalkerThing.comps.1.roles.0.label>
+  <SWFactions_WalkerThing.comps.1.roles.0.labelPlural>pilotes</SWFactions_WalkerThing.comps.1.roles.0.labelPlural>
+  <SWFactions_WalkerThing.comps.1.roles.1.label>canonnier</SWFactions_WalkerThing.comps.1.roles.1.label>
+  <SWFactions_WalkerThing.comps.1.roles.1.labelPlural>canonniers</SWFactions_WalkerThing.comps.1.roles.1.labelPlural>
+  <SWFactions_WalkerThing.comps.1.roles.2.label>passager</SWFactions_WalkerThing.comps.1.roles.2.label>
+  <SWFactions_WalkerThing.comps.1.roles.2.labelPlural>passagers</SWFactions_WalkerThing.comps.1.roles.2.labelPlural>
+  <!-- Flesh Type: Mechanoid -->
+  <SWFactions_WalkerThing_Corpse.label>reste d'AT-ST</SWFactions_WalkerThing_Corpse.label>
+  <SWFactions_WalkerThing_Corpse.description>les restes d'un AT-ST</SWFactions_WalkerThing_Corpse.description>
+
+
+  <!-- ATAT -->
+
+  <SWFactions_ATATThing.label>AT-AT</SWFactions_ATATThing.label>
+  <SWFactions_ATATThing.description>Le transport blindé tout terrain (AT-AT) est un robot à quatres pattes utilisé par les forces au sol de l'Empire Galactique. Avec le destroyer de classe Imperial, et le Tie Interceptor comme vaisseau de combat, c'est un des plus célèbres symboles des forces militaires Imperiales. </SWFactions_ATATThing.description>
+  <SWFactions_ATATThing.comps.1.roles.0.label>pilote</SWFactions_ATATThing.comps.1.roles.0.label>
+  <SWFactions_ATATThing.comps.1.roles.0.labelPlural>pilotes</SWFactions_ATATThing.comps.1.roles.0.labelPlural>
+  <SWFactions_ATATThing.comps.1.roles.1.label>canonnier</SWFactions_ATATThing.comps.1.roles.1.label>
+  <SWFactions_ATATThing.comps.1.roles.1.labelPlural>canonniers</SWFactions_ATATThing.comps.1.roles.1.labelPlural>
+  <SWFactions_ATATThing.comps.1.roles.2.label>passager</SWFactions_ATATThing.comps.1.roles.2.label>
+  <SWFactions_ATATThing.comps.1.roles.2.labelPlural>passagers</SWFactions_ATATThing.comps.1.roles.2.labelPlural>
+  <!-- Flesh Type: Mechanoid -->
+  <SWFactions_ATATThing_Corpse.label>reste d'AT-AT</SWFactions_ATATThing_Corpse.label>
+  <SWFactions_ATATThing_Corpse.description>les restes d'un  AT-AT</SWFactions_ATATThing_Corpse.description>
+
+
+</LanguageData>

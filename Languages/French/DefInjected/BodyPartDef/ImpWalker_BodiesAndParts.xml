@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SWFactions_Cockpit.label>cockpit</SWFactions_Cockpit.label>
+  <ATST_Neck.label>cou</ATST_Neck.label>
+  <ATST_Head.label>tête</ATST_Head.label>
+  <ATST_Frame.label>châssis</ATST_Frame.label>
+
+
+  <!-- ATAT Parts -->
+
+  <ATAT_Neck.label>cou</ATAT_Neck.label>
+  <ATAT_Head.label>tête</ATAT_Head.label>
+  <ATAT_Frame.label>châssis</ATAT_Frame.label>
+  <LeftATATFLeg.label>jambe gauche</LeftATATFLeg.label>
+  <LeftATATFFoot.label>pied gauche</LeftATATFFoot.label>
+  <LeftATATRLeg.label>jambe gauche</LeftATATRLeg.label>
+  <LeftATATRFoot.label>pied gauche</LeftATATRFoot.label>
+  <RightATATFLeg.label>jambe droite</RightATATFLeg.label>
+  <RightATATFFoot.label>pied droit</RightATATFFoot.label>
+  <RightATATRLeg.label>jambe droite</RightATATRLeg.label>
+  <RightATATRFoot.label>pied droit</RightATATRFoot.label>
+
+
+</LanguageData>

@@ -7,6 +7,7 @@ using RimWorld;
 using RimWorld.Planet;
 using UnityEngine;
 using Verse.Sound;
+using Verse.AI.Group;
 
 namespace SWFactions
 {
@@ -78,7 +79,7 @@ namespace SWFactions
             DiaOption diaOption3 = new DiaOption("PJ_ImperialGreeting_Reject".Translate());
             diaOption3.action = delegate
             {
-                imperial.Faction.SetHostileTo(Faction.OfPlayer, true);
+                ResolveDeclarationOfHostility(imperial);
             };
             diaOption3.link = diaNode2;
             diaNode.options.Add(diaOption3);
@@ -87,6 +88,17 @@ namespace SWFactions
         }
 
         #endregion Meeting
+        public void ResolveDeclarationOfHostility(Pawn imperial)
+        {
+            imperial.Faction.SetHostileTo(Faction.OfPlayer, true);
+            List<Pawn> imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) => x.Faction == imperial.Faction);
+            if (imperialsOnSite != null && imperialsOnSite.Count > 0)
+                {
+                if (imperial?.GetLord() is Lord imperialLord) imperial.Map.lordManager.RemoveLord(imperialLord);
+                    LordMaker.MakeNewLord(imperial.Faction, new LordJob_AssaultColony(imperial.Faction, false, false, false, false, false), imperial.Map, imperialsOnSite);
+                }
+        }
+
 
         public void ResolveGalacticEmpireTaxDeal(Pawn imperial)
         {

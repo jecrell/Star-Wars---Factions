@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_CompArmor.label>Armure Composite</PJ_CompArmor.label>
+  <PJ_CompArmor.description>Il y avait une époque ou tout le monde portait cette armure. Les batailles faisant rage à travers tout le système.</PJ_CompArmor.description>
+
+
+  <!-- Helm For Later
+	<ThingDef ParentName="CompHelmetMakeableBase">
+	<defName>PJ_STHelm</defName>
+	<label>Stormtrooper helm</label>
+	<techLevel>Spacer</techLevel>
+	<description>A standard-issue stormtrooper helmet.</description>
+	<graphicData> 
+		<texPath>Imp/Helmet/StormTrooperHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>4</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>6</Component>
+    </costList>
+	<statBases>
+      <Mass>2.4</Mass>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>PJ_Imp</li>
+   		 </tags>
+		<worngraphicPath>Imp/Helmet/StormTrooperHelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef> -->
+
+  <PJ_GenFlight_Y.label>Combinaison de vol jaune</PJ_GenFlight_Y.label>
+  <PJ_GenFlight_Y.description>Une combinaison de vol typique, souvent porté par les pilotes rebelle. La version jaune est disponible à l'achat depuis des années, et est donc relativement commune.</PJ_GenFlight_Y.description>
+
+
+</LanguageData>

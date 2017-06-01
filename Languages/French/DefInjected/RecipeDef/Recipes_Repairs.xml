@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SWFactions_RepairsATST.label>reparer une pièce (50 aciers, 10 plastaciers, 3 composants)</SWFactions_RepairsATST.label>
+  <SWFactions_RepairsATST.description>réparer une pièce.</SWFactions_RepairsATST.description>
+  <SWFactions_RepairsATST.jobString>Répare une pièce.</SWFactions_RepairsATST.jobString>
+
+  <SWFactions_RepairsATAT.label>réparer une pièce (50 aciers, 10 plastaciers, 3 composants)</SWFactions_RepairsATAT.label>
+  <SWFactions_RepairsATAT.description>réparer une pièce.</SWFactions_RepairsATAT.description>
+  <SWFactions_RepairsATAT.jobString>Répare une pièce.</SWFactions_RepairsATAT.jobString>
+
+
+</LanguageData>

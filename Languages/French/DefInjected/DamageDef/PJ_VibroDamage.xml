@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_Vibro.label>vibrolame</PJ_Vibro.label>
+  <PJ_Vibro.deathMessage>{0} a été decoupé en morceaux.</PJ_Vibro.deathMessage>
+
+  <PJ_BlasterDam.label>Laser</PJ_BlasterDam.label>
+  <PJ_BlasterDam.deathMessage>{0} a été phasé !</PJ_BlasterDam.deathMessage>
+
+  <PJ_DXRDam.label>Jet d'acide</PJ_DXRDam.label>
+  <PJ_DXRDam.deathMessage>{0} a été phasé !</PJ_DXRDam.deathMessage>
+
+
+</LanguageData>

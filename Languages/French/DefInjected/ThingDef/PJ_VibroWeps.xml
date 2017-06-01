@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_BulletDeflected.label>improvised turret bullet</PJ_BulletDeflected.label>
+
+
+  <!-- Vibroaxe -->
+
+  <PJ_Vibroaxe.label>Vibrohache (prototype)</PJ_Vibroaxe.label>
+  <PJ_Vibroaxe.description>Une arme d'hast équipé d'une cellule vibro miniature.</PJ_Vibroaxe.description>
+
+
+  <!-- Vibrosword -->
+
+  <PJ_Vibrosword.label>Vibrolame (Echani)</PJ_Vibrosword.label>
+  <PJ_Vibrosword.description>Une vibrolame Echani équipé d'une cellule vibro miniature.</PJ_Vibrosword.description>
+
+
+  <!-- Vibro Cleaver -->
+
+  <PJ_Vibrocleaver.label>Vibro Hachoir (Mando)</PJ_Vibrocleaver.label>
+  <PJ_Vibrocleaver.description>Un hachoir mandalorien équipé d'une cellule vibro miniature.</PJ_Vibrocleaver.description>
+
+  <PJ_VScythe.label>Vibro-Faux</PJ_VScythe.label>
+  <PJ_VScythe.description>Une faux moderne, équipé d'une cellule vibro miniature.</PJ_VScythe.description>
+
+
+  <!-- Vibro DoubleSword -->
+
+  <PJ_Vibrodouble.label>Vibro Double-Lame</PJ_Vibrodouble.label>
+  <PJ_Vibrodouble.description>Un duo de lames anciennes, équipé d'une cellule vibro miniature.</PJ_Vibrodouble.description>
+
+
+  <!-- Xen's staff -->
+
+  <PJ_StaffX.label>Vibrostaff (prototype)</PJ_StaffX.label>
+  <PJ_StaffX.description>Un baton de combat équipé d'une cellule vibro miniature..</PJ_StaffX.description>
+
+
+</LanguageData>

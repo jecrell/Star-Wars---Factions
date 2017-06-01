@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_RebelFac.label>l'Alliance Rebelle</PJ_RebelFac.label>
+  <PJ_RebelFac.description>Une vague Alliance de factions et de gouvernements, ayant pour but commun de renverser l'Empereur Palpatine et son Empire Galactique.</PJ_RebelFac.description>
+  <PJ_RebelFac.pawnsPlural>rebelles</PJ_RebelFac.pawnsPlural>
+  <PJ_RebelFac.leaderTitle>Amiral</PJ_RebelFac.leaderTitle>
+
+
+</LanguageData>

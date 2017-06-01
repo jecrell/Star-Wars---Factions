@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_RebHat.label>Casque de l'Alliance</PJ_RebHat.label>
+  <PJ_RebHat.description>Le casque standard pour les troupes de l'Ancienne République, maintenant utilisé par les rebelles.</PJ_RebHat.description>
+
+  <PJ_RebLAVHat.label>Casque de reco rebelle (marron)</PJ_RebLAVHat.label>
+  <PJ_RebLAVHat.description>Un casque de reconnaissance camouflé, utilisé par les membres de l'Alliance.</PJ_RebLAVHat.description>
+
+  <PJ_RebSnowHat.label>Casque grand froid</PJ_RebSnowHat.label>
+  <PJ_RebSnowHat.description>Le casque standard grand froid pour les troupes de l'Ancienne République, maintenant utilisé par les rebelles.</PJ_RebSnowHat.description>
+
+  <PJ_RebScoutHat.label>Casque de reco rebelle (forêt)</PJ_RebScoutHat.label>
+  <PJ_RebScoutHat.description>Un casque de reconnaissance camouflé, utilisé par les membres de l'Alliance.</PJ_RebScoutHat.description>
+
+  <PJ_RebPilot_H_Red.label>Casque de pilote rebelle (Red)</PJ_RebPilot_H_Red.label>
+  <PJ_RebPilot_H_Red.description>Un casque géneralement porté par les pilotes de l'Alliance. Ce dernier apparait comme étant un de l'escadron Rouge.</PJ_RebPilot_H_Red.description>
+
+  <PJ_RebPilot_H_Blue.label>Casque de pilote rebelle (Blue)</PJ_RebPilot_H_Blue.label>
+  <PJ_RebPilot_H_Blue.description>Un casque géneralement porté par les pilotes de l'Alliance. Ce dernier apparait comme étant un de l'escadron Bleu.</PJ_RebPilot_H_Blue.description>
+
+
+  <!-- Clothing -->
+
+  <PJ_RebOfficer.label>Uniforme d'officier de l'Alliance</PJ_RebOfficer.label>
+  <PJ_RebOfficer.description>Un uniforme crée pour les officiers de l'Alliance Rebelle.</PJ_RebOfficer.description>
+
+  <PJ_RebFlight.label>Combinaison de vol Rebelle</PJ_RebFlight.label>
+  <PJ_RebFlight.description>Une combinaison de vol classique, portée par l'Alliance. Cette version orange est portée par les pilotes de X-wing, et autre membres du célèbre "Escadron Rogue".</PJ_RebFlight.description>
+
+  <PJ_Reb_TroopJacket.label>veste de trooper</PJ_Reb_TroopJacket.label>
+  <PJ_Reb_TroopJacket.description>Une solide veste pour prévenir des égratignures, et rester au chaud par temps froid.</PJ_Reb_TroopJacket.description>
+
+  <PJ_Reb_ScoutJacket.label>veste de scout</PJ_Reb_ScoutJacket.label>
+  <PJ_Reb_ScoutJacket.description>Une solide veste pour prévenir des égratignures, et rester au chaud par temps froid.</PJ_Reb_ScoutJacket.description>
+
+  <PJ_Reb_ScoutLAVJacket.label>veste de scout(marron)</PJ_Reb_ScoutLAVJacket.label>
+  <PJ_Reb_ScoutLAVJacket.description>Une solide veste pour prévenir des égratignures, et rester au chaud par temps froid.</PJ_Reb_ScoutLAVJacket.description>
+
+  <PJ_Reb_CamoJacket.label>Veste camouflé</PJ_Reb_CamoJacket.label>
+  <PJ_Reb_CamoJacket.description>Une solide veste camouflé, pour prévenir des égratignures et rester au chaud par temps froid</PJ_Reb_CamoJacket.description>
+
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MandoArmor.label>Armure mandalorienne</PJ_MandoArmor.label>
+  <PJ_MandoArmor.description>Le symbole reconnu par tous de la culture mandalorienne. Cette armure complète si distinctive, est portée par les guerriers et soldats mandaloriens à travers l'histoire de la galaxie.</PJ_MandoArmor.description>
+
+  <PJ_VetMandoArmor.label>Armure de vétéran mandalorien</PJ_VetMandoArmor.label>
+  <PJ_VetMandoArmor.description>Le symbole reconnu par tous de la culture mandalorienne. Cette armure complète si distinctive, est portée par les guerriers et soldats mandaloriens à travers l'histoire de la galaxie.</PJ_VetMandoArmor.description>
+
+  <PJ_MandoHelm.label>Casque mandalorien</PJ_MandoHelm.label>
+  <PJ_MandoHelm.description>Le tant reconaissable visière en forme de T du casque cause la peur dans toute la galaxie.</PJ_MandoHelm.description>
+
+
+  <!-- Strams -->
+
+  <PJ_BarkMandoArmor.label>Armure du clan Barky</PJ_BarkMandoArmor.label>
+  <PJ_BarkMandoArmor.description>Armure réservé aux partisans d'un guerrier révéré. Les mandaloriens portent cette armure et son sigle, en criant "Pour Barkyyyyyy!!!"</PJ_BarkMandoArmor.description>
+
+
+</LanguageData>
