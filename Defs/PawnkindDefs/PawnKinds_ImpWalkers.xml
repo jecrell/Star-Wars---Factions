@@ -46,9 +46,9 @@
         <li>
           <def>MechanoidFullyFormed</def>
           <minAge>0</minAge>
-          <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
-          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
-          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+          <soundWounded>PJ_AT_Damage</soundWounded>
+          <soundDeath>PJ_AT_Damage</soundDeath>
+          <soundCall>PJ_AT_Idle</soundCall>
         </li>
       </lifeStageAges>
       <soundCallIntervalRange>
@@ -195,9 +195,9 @@
         <li>
           <def>MechanoidFullyFormed</def>
           <minAge>0</minAge>
-          <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
-          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
-          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+          <soundWounded>PJ_AT_Damage</soundWounded>
+          <soundDeath>PJ_AT_Damage</soundDeath>
+          <soundCall>PJ_AT_Idle</soundCall>
         </li>
       </lifeStageAges>
       <soundCallIntervalRange>
@@ -261,7 +261,7 @@
 				<volume>(0.4, 0.8, 0.4)</volume>
 			</shadowData>
 		</cycledGraphic>
-		<sound>PJ_ATST_Step</sound>
+		<sound>PJ_ATAT_Step</sound>
         <secondsPerStep>1.15</secondsPerStep>
 		<secondsBetweenSteps>0.5</secondsBetweenSteps>
 	  </li>

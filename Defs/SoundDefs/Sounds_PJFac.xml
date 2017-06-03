@@ -165,6 +165,26 @@
     </subSounds>
   </SoundDef>
 
+  <SoundDef>
+    <defName>PJ_ATAT_Step</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Walker/ATAT/Steps</clipFolderPath>
+          </li> 
+        </grains>          
+        <pitchRange>
+			<min>0.965217</min>
+			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
     <SoundDef>
     <defName>PJ_ATST_Gun</defName>  
     <context>MapOnly</context>
@@ -184,5 +204,44 @@
       </li>
     </subSounds>
   </SoundDef> 
+
+  <SoundDef>
+    <defName>PJ_AT_Idle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  	
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Walker/ATAT/Idle/ATSound</clipPath>
+          </li>
+        </grains>         
+        <pitchRange>
+			<min>0.935217</min>
+			<max>1.042391</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef> 
   
+   <SoundDef>
+    <defName>PJ_AT_Damage</defName>  
+    <context>MapOnly</context>
+    <eventNames />  	
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Walker/ATAT/Damage/ATDamage</clipPath>
+          </li>
+        </grains>         
+        <pitchRange>
+			<min>0.935217</min>
+			<max>1.042391</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef> 
 </DefPackage-SoundDef>
