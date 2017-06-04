@@ -121,7 +121,7 @@
     <li>PJ_Reb_TroopJacket</li>
 	  <li>PJ_RebHat</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>
@@ -164,12 +164,160 @@
 	  <li>PJ_Comp</li>
     </apparelTags>
     <apparelMoney>
-      <min>4800</min>
+      <min>5800</min>
       <max>10900</max>
     </apparelMoney>
 	 <apparelRequired>
     <li>PJ_Reb_CamoJacket</li>
 	  <li>PJ_RebScoutHat</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+     <li>Blaster</li>
+	   <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1500</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="PJ_RebelPawnBase">
+    <defName>PJ_RebLAVSoldier</defName>
+    <label>rebel soldier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>PJ_Rebel</li>
+	  <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>7800</min>
+      <max>10900</max>
+    </apparelMoney>
+	 <apparelRequired>
+    <li>PJ_Reb_ScoutLAVJacket</li>
+	  <li>PJ_RebLAVHat</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+     <li>Blaster</li>
+	   <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1500</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="PJ_RebelPawnBase">
+    <defName>PJ_RebNadeSoldier</defName>
+    <label>rebel grenadier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>PJ_Rebel</li>
+	  <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>5800</min>
+      <max>10900</max>
+    </apparelMoney>
+	 <apparelRequired>
+    <li>PJ_Reb_ScoutJacket</li>
+	  <li>PJ_RebScoutHat</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+    <techHediffsMoney>
+      <min>1500</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+
+ <PawnKindDef ParentName="PJ_RebelPawnBase">
+    <defName>PJ_RebPilot</defName>
+    <label>rebel soldier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>PJ_RebPilot</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>4800</min>
+      <max>10900</max>
+    </apparelMoney>
+	 <apparelRequired>
+    <li>PJ_RebFlight</li>
+	  <li>PJ_RebPilot_H_Red</li>
     </apparelRequired>
     <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
     <weaponMoney>
@@ -218,7 +366,7 @@
 	  <li>Military</li>
 	  <li>PJ_Comp</li>
     </apparelTags>
-    <apparelAllowHeadwearChance>0.75</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>

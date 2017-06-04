@@ -305,7 +305,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 				<tags>
-					<li>PJ_Rebel</li>
+					<li>PJ_RebPilot</li>
 				</tags>
 		</apparel>
 	</ThingDef>
@@ -351,7 +351,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 				<tags>
-					<li>PJ_Rebel</li>
+					<li>PJ_RebPilot</li>
 				</tags>
 		</apparel>
 	</ThingDef>
@@ -441,7 +441,7 @@
     </thingCategories>
     <apparel>
      <tags>
-       <li>PJ_Rebel</li>
+       <li>PJ_RebPilot</li>
      </tags>
      <defaultOutfitTags>
         <li>Worker</li>
@@ -679,6 +679,7 @@
       <tags>
         <li>PJ_Rebel</li>
 				<li>PJ_Scum</li>
+				<li>PJ_RebPilot</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

@@ -16,9 +16,9 @@
     </gearHealthRange>
 	  <apparelTags>
 	  <li>Soldier</li>
-      <li>Outlander</li>
-	  <li>PJ_Rebel</li>
+    <li>Outlander</li>
 	  <li>Spacer</li>
+    <li>PJ_Scum</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
@@ -105,8 +105,7 @@
     </gearHealthRange>
 	<apparelTags>
 	  <li>Soldier</li>
-      <li>Outlander</li>
-	  <li>PJ_Rebel</li>
+    <li>Outlander</li>
 	  <li>Spacer</li>
 	  <li>PJ_Mando</li>
     </apparelTags>
@@ -175,9 +174,9 @@
     </apparelMoney>
 	<apparelTags>
 	  <li>Soldier</li>
-      <li>Outlander</li>
-	  <li>PJ_Rebel</li>
+    <li>Outlander</li>
 	  <li>Spacer</li>
+    <li>PJ_Comp</li>
     </apparelTags>
     <apparelAllowHeadwearChance>0.2</apparelAllowHeadwearChance>
     <weaponMoney>

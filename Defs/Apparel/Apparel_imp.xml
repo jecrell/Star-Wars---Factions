@@ -1483,6 +1483,7 @@
         <li>PJ_Rebel</li>
         <li>PJ_Imp</li>
 				<li>PJ_Scum</li>
+				<li>PJ_RebPilot</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
