@@ -29,8 +29,14 @@
 	  	       <li>SWFactions_WalkerThing</li>
              <li>SWFactions_ATATThing</li>
 		        </allowedToInstallOn>
+						<installedWeaponGraphic>
+							<texPath>BlankTex</texPath>
+				      <graphicClass>Graphic_Single</graphicClass>
+					  <shaderType>TransparentPostLight</shaderType>
+					</installedWeaponGraphic>
 	    	<workToInstall>500</workToInstall>
         <workToUninstall>500</workToUninstall>
+				<workEffect>Repair</workEffect>
 	   </li>
 		</comps>
 		<graphicData>
@@ -124,7 +130,7 @@
 	   <li>PJ_ATST_Weapon</li>
     </weaponTags>
   </ThingDef>
-  
+
 
  <ThingDef ParentName="BaseBullet">
     <defName>PJ_ATAT_Bullet</defName>
@@ -178,5 +184,5 @@
 	   <li>PJ_ATAT_Weapon</li>
     </weaponTags>
   </ThingDef>
-  
+
 </ThingDefs>
