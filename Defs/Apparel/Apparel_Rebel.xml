@@ -89,15 +89,15 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>550</MarketValue>
+			<MarketValue>400</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-14</Insulation_Cold>
+			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -135,15 +135,15 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>550</MarketValue>
+			<MarketValue>450</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>17</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -228,15 +228,15 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>550</MarketValue>
+			<MarketValue>400</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-80</Insulation_Cold>
-			<Insulation_Heat>1</Insulation_Heat>
+			<Insulation_Cold>-40</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -274,7 +274,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>550</MarketValue>
+			<MarketValue>400</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -320,7 +320,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>550</MarketValue>
+			<MarketValue>400</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -638,5 +638,119 @@
   </ThingDef>
 
  
+  <ThingDef ParentName="PJ_RebApparelMakeableBase">
+    <defName>PJ_RebCollarShirt</defName>
+    <description>A slightly reinforced collared shirt with buttons.</description>
+    <label>modified shirt</label>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+      <Mass>0.3</Mass>
+      <ArmorRating_Blunt>0.035</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
+      <Insulation_Cold>-5</Insulation_Cold>
+    </statBases>
+		<generateCommonality>0.8</generateCommonality>
+		<apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <worngraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</worngraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>PJ_Rebel</li>
+				<li>PJ_Scum</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+</ThingDef>
+
+
+  <ThingDef ParentName="PJ_RebArmorMakeableBase">
+    <defName>PJ_Apparel_XVestPlate</defName>
+    <label>reinforced armor vest</label>
+    <description>A vest with armor plates inserted on the chest and back. Protects against gunfire.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+        <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>General/Gear/Vest/XPlate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>4</Mass>
+      <ArmorRating_Blunt>0.21</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.61</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.07</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>130</Steel>
+      <Component>2</Component>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <worngraphicPath>General/Gear/Vest/XPlate</worngraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>PJ_Rebel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags> </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
 
 </ThingDefs>
