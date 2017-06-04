@@ -908,7 +908,7 @@
     </thingCategories>
 			<apparel>
     		 <tags>
-				<li>PJ_Imp</li>
+				<li>PJ_DT</li>
 			</tags>
 			<worngraphicPath>Imp/Gear/Dt/DTArmor</worngraphicPath>
 			<layers>
@@ -959,7 +959,7 @@
     </thingCategories>
 			<apparel>
     		 <tags>
-				<li>PJ_Imp</li>
+				<li>PJ_DT</li>
 			</tags>
 			<worngraphicPath>Imp/Gear/DtC/DTCOMArmor</worngraphicPath>
 			<layers>
@@ -1105,7 +1105,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     		 <tags>
-   		     <li>PJ_Imp</li>
+   		     <li>PJ_DT</li>
    		 </tags>
 		<worngraphicPath>Imp/Helmet/DTHelmet</worngraphicPath>
 		<layers>
@@ -1226,8 +1226,8 @@
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-14</Insulation_Cold>
+			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -1275,8 +1275,8 @@
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-14</Insulation_Cold>
+			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -1321,8 +1321,8 @@
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-14</Insulation_Cold>
+			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -1367,8 +1367,8 @@
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-14</Insulation_Cold>
+			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -1414,8 +1414,8 @@
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-4</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-14</Insulation_Cold>
+			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
 		<costList>
 			<Steel>20</Steel>
@@ -1470,7 +1470,8 @@
       <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.04</ArmorRating_Heat>
-      <Insulation_Cold>-3</Insulation_Cold>
+      <Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
     </statBases>
     <apparel>
       <bodyPartGroups>
