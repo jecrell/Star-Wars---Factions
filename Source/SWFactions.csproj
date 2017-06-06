@@ -69,6 +69,7 @@
     <Compile Include="Properties\Rule_PlanetName.cs" />
     <Compile Include="SWFactions\ImperialTax_Data.cs" />
     <Compile Include="SWFactions\SWFactions_Utility.cs" />
+    <Compile Include="SWFactions\WarComponent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

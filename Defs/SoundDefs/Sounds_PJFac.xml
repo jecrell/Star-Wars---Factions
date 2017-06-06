@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?><DefPackage-SoundDef>
 
   <SoundDef>
-    <defName>PJ_ImperialMarchBanjo</defName>  
-    <eventNames />  
-    <maxVoices>1</maxVoices>  
-    <maxSimultaneous>1</maxSimultaneous>  
+    <defName>PJ_ImperialMarchBanjo</defName>
+    <eventNames />
+    <maxVoices>1</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
-        <onCamera>True</onCamera>      
+        <onCamera>True</onCamera>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Themes/PJ_ImperialMarch</clipPath>
           </li>
-        </grains>      
+        </grains>
         <volumeRange>
-          <min>30</min>        
+          <min>30</min>
           <max>30</max>
         </volumeRange>
       </li>
     </subSounds>
   </SoundDef>
 
+    <SoundDef>
+      <defName>PJ_LetterSerious</defName>
+      <eventNames />
+      <maxVoices>1</maxVoices>
+      <maxSimultaneous>1</maxSimultaneous>
+      <subSounds>
+        <li>
+          <onCamera>True</onCamera>
+          <grains>
+            <li Class="AudioGrain_Clip">
+              <clipPath>Themes/PJ_LetterSerious</clipPath>
+            </li>
+          </grains>
+          <volumeRange>
+            <min>30</min>
+            <max>30</max>
+          </volumeRange>
+        </li>
+      </subSounds>
+    </SoundDef>
+
   <SoundDef>
-    <defName>PJ_E11B</defName>  
+    <defName>PJ_E11B</defName>
     <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
             <clipFolderPath>E11B</clipFolderPath>
-          </li> 
-        </grains>          
+          </li>
+        </grains>
         <pitchRange>
 			<min>0.9652174</min>
 			<max>1.042391</max>
@@ -40,19 +61,19 @@
       </li>
     </subSounds>
   </SoundDef>
-  
+
     <SoundDef>
-    <defName>PJ_DXRS</defName>  
+    <defName>PJ_DXRS</defName>
     <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
             <clipFolderPath>E11B</clipFolderPath>
-          </li> 
-        </grains>          
+          </li>
+        </grains>
         <pitchRange>
 			<min>0.7652174</min>
 			<max>0.842391</max>
@@ -60,103 +81,103 @@
       </li>
     </subSounds>
   </SoundDef>
-  
+
 
   <SoundDef>
-    <defName>PJ_BPistol</defName>  
+    <defName>PJ_BPistol</defName>
     <context>MapOnly</context>
-    <eventNames />  	
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Pistol/ScoutBlas</clipPath>
           </li>
-        </grains>         
+        </grains>
         <pitchRange>
 			<min>0.9152174</min>
 			<max>1.042391</max>
-        </pitchRange>	
+        </pitchRange>
       </li>
     </subSounds>
-  </SoundDef>  
-  
+  </SoundDef>
+
     <SoundDef>
-    <defName>PJ_BPistolB</defName>  
+    <defName>PJ_BPistolB</defName>
     <context>MapOnly</context>
-    <eventNames />  	
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Pistol/ScoutBlas</clipPath>
           </li>
-        </grains>         
+        </grains>
         <pitchRange>
 			<min>0.8752174</min>
 			<max>0.942391</max>
-        </pitchRange>	
+        </pitchRange>
       </li>
     </subSounds>
-  </SoundDef>  
-  
+  </SoundDef>
+
     <SoundDef>
-    <defName>PJ_SlugSnd</defName>  
+    <defName>PJ_SlugSnd</defName>
     <context>MapOnly</context>
-    <eventNames />  	
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Blaster/Slug-1</clipPath>
           </li>
-        </grains>         
+        </grains>
         <pitchRange>
 			<min>0.9152174</min>
 			<max>1.042391</max>
-        </pitchRange>	
+        </pitchRange>
       </li>
     </subSounds>
   </SoundDef>
-  
+
       <SoundDef>
-    <defName>PJ_T21R</defName>  
+    <defName>PJ_T21R</defName>
     <context>MapOnly</context>
-    <eventNames />  	
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>T21R/T21</clipPath>
           </li>
-        </grains>         
+        </grains>
         <pitchRange>
 			<min>0.935217</min>
 			<max>1.042391</max>
-        </pitchRange>	
+        </pitchRange>
       </li>
     </subSounds>
-  </SoundDef>  
+  </SoundDef>
 
 
   <!-- =====Walker Sounds ===== -->
 
       <SoundDef>
-    <defName>PJ_ATST_Step</defName>  
+    <defName>PJ_ATST_Step</defName>
     <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
             <clipFolderPath>Walker/ATST/Steps</clipFolderPath>
-          </li> 
-        </grains>          
+          </li>
+        </grains>
         <pitchRange>
 			<min>0.965217</min>
 			<max>1.042391</max>
@@ -166,17 +187,17 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>PJ_ATAT_Step</defName>  
+    <defName>PJ_ATAT_Step</defName>
     <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
             <clipFolderPath>Walker/ATAT/Steps</clipFolderPath>
-          </li> 
-        </grains>          
+          </li>
+        </grains>
         <pitchRange>
 			<min>0.965217</min>
 			<max>1.042391</max>
@@ -186,62 +207,62 @@
   </SoundDef>
 
     <SoundDef>
-    <defName>PJ_ATST_Gun</defName>  
+    <defName>PJ_ATST_Gun</defName>
     <context>MapOnly</context>
-    <eventNames />  	
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Walker/ATST/Gun/ATST_Blaster</clipPath>
           </li>
-        </grains>         
+        </grains>
         <pitchRange>
 			<min>0.935217</min>
 			<max>1.042391</max>
-        </pitchRange>	
+        </pitchRange>
       </li>
     </subSounds>
-  </SoundDef> 
+  </SoundDef>
 
   <SoundDef>
-    <defName>PJ_AT_Idle</defName>  
+    <defName>PJ_AT_Idle</defName>
     <context>MapOnly</context>
-    <eventNames />  	
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Walker/ATAT/Idle/ATSound</clipPath>
           </li>
-        </grains>         
+        </grains>
         <pitchRange>
 			<min>0.935217</min>
 			<max>1.042391</max>
-        </pitchRange>	
+        </pitchRange>
       </li>
     </subSounds>
-  </SoundDef> 
-  
+  </SoundDef>
+
    <SoundDef>
-    <defName>PJ_AT_Damage</defName>  
+    <defName>PJ_AT_Damage</defName>
     <context>MapOnly</context>
-    <eventNames />  	
-    <maxSimultaneous>4</maxSimultaneous>  
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Walker/ATAT/Damage/ATDamage</clipPath>
           </li>
-        </grains>         
+        </grains>
         <pitchRange>
 			<min>0.935217</min>
 			<max>1.042391</max>
-        </pitchRange>	
+        </pitchRange>
       </li>
     </subSounds>
-  </SoundDef> 
+  </SoundDef>
 </DefPackage-SoundDef>

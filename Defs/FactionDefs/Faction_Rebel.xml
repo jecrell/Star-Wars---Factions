@@ -3,7 +3,7 @@
 
   <FactionDef>
 		<defName>PJ_RebelFac</defName>
-		<label>rebel alliance</label>
+		<label>The Rebel Alliance</label>
     <description>A loose alliance of factions and governments with the common goal of removing the Emperor Palpatine and his Galactic Empire.</description>
     <pawnsPlural>rebels</pawnsPlural>
     <baseSelectionWeight>1</baseSelectionWeight>
@@ -100,5 +100,5 @@
     </pawnGroupMakers>
     <homeIconPath>World/RebIcon</homeIconPath>
   </FactionDef>
-  
+
 </FactionDefs>

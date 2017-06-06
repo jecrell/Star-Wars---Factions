@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<PJ_ImperialGreeting_Title>The Galactic Empire</PJ_ImperialGreeting_Title> 
+
+  <!-- ======== 6 / 6 / 2017 ========== -->
+
+<PJ_WarDeclared>War</PJ_WarDeclared>
+<PJ_WarDeclaredDesc>{0} has declared war on {1}. In-fighting may occur on your territory.</PJ_WarDeclaredDesc>
+
+<!-- ======== Initial Release ========== -->
+
+<PJ_ImperialGreeting_Title>The Galactic Empire</PJ_ImperialGreeting_Title>
 
 <PJ_ImperialGreeting>A {1} named {0} extends a declaration on behalf of the Empire.\n\nAs an unauthorized settlement, {2} is hereby required to pay a registration fee of {3} silver to be entilted land usage rights.\n\nAs per Imperial Revenue Codes under the Imperial Taxation Bureau, a yearly income tax of {4} of all silver earned must be paid.\n\nFailure to adhere to any of these demands will mark all colonists in violaton of Imperial Law and as enemies of the Emperor.</PJ_ImperialGreeting>
 
