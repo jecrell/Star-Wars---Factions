@@ -7,7 +7,7 @@
     <label>AT-ST</label>
     <description>The All Terrain Scout Transport (AT-ST), also known (derisively) as the chicken walker for its two-legged design, was a bipedal walker used by the Galactic Republic during the late Clone Wars and, later and more extensively, by the Galactic Empire during the Galactic Civil War. It is a successor of the AT-XT.</description>
     <statBases>
-      <MoveSpeed>4</MoveSpeed>
+      <MoveSpeed>7</MoveSpeed>
       <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
@@ -52,8 +52,8 @@
         </li>
       </lifeStageAges>
       <soundCallIntervalRange>
-        <min>1000</min>
-        <max>2000</max>
+        <min>3000</min>
+        <max>6000</max>
       </soundCallIntervalRange>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
@@ -156,7 +156,7 @@
     <label>AT-AT</label>
     <description>The All Terrain Armored Transport (AT-AT) is a four-legged combat walker used by the ground forces of the Galactic Empire. With the Imperial-class Star Destroyer and the TIE/ln space superiority starfighter, it is one of the most famous symbols of the Empire's military might. </description>
     <statBases>
-      <MoveSpeed>3</MoveSpeed>
+      <MoveSpeed>7</MoveSpeed>
       <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
@@ -201,8 +201,8 @@
         </li>
       </lifeStageAges>
       <soundCallIntervalRange>
-        <min>1000</min>
-        <max>2000</max>
+        <min>3000</min>
+        <max>6000</max>
       </soundCallIntervalRange>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>

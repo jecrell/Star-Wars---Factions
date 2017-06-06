@@ -114,7 +114,6 @@
     <defName>LeftATATFFoot</defName>
     <label>left foot</label>
     <hitPoints>20</hitPoints>
-    <frostbiteVulnerability>2</frostbiteVulnerability>
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
@@ -141,7 +140,6 @@
     <defName>LeftATATRFoot</defName>
     <label>left foot</label>
     <hitPoints>20</hitPoints>
-    <frostbiteVulnerability>2</frostbiteVulnerability>
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
@@ -168,7 +166,6 @@
     <defName>RightATATFFoot</defName>
     <label>right foot</label>
     <hitPoints>20</hitPoints>
-    <frostbiteVulnerability>2</frostbiteVulnerability>
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
@@ -195,7 +192,6 @@
     <defName>RightATATRFoot</defName>
     <label>right foot</label>
     <hitPoints>20</hitPoints>
-    <frostbiteVulnerability>2</frostbiteVulnerability>
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
@@ -328,7 +324,7 @@
 							<def>RightATATFFoot</def>
 							<coverage>0.15</coverage>
               <groups>
-              <li>LeftBlade</li>
+              <li>RightBlade</li>
               </groups>
 						</li>
 					</parts>

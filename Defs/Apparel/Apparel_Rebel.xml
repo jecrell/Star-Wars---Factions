@@ -89,7 +89,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>400</MarketValue>
+			<MarketValue>450</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -182,7 +182,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>550</MarketValue>
+			<MarketValue>450</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -228,7 +228,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>400</MarketValue>
+			<MarketValue>450</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -274,14 +274,14 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>400</MarketValue>
+			<MarketValue>450</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-80</Insulation_Cold>
+			<Insulation_Cold>-40</Insulation_Cold>
 			<Insulation_Heat>1</Insulation_Heat>
 		</statBases>
 		<costList>
@@ -320,14 +320,14 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>400</MarketValue>
+			<MarketValue>450</MarketValue>
 			<WorkToMake>500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-80</Insulation_Cold>
+			<Insulation_Cold>-40</Insulation_Cold>
 			<Insulation_Heat>1</Insulation_Heat>
 		</statBases>
 		<costList>
