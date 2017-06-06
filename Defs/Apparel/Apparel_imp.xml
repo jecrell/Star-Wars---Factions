@@ -494,7 +494,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Imp/Gear/Blk/ISBOfficerUniform</worngraphicPath>
+     <worngraphicPath>Imp/Gear/ISB/ISBOfficerUniform</worngraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
