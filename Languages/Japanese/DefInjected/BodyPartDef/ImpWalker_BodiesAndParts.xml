@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SWFactions_Cockpit.label>操縦席</SWFactions_Cockpit.label>
+  <ATST_Neck.label>首部</ATST_Neck.label>
+  <ATST_Head.label>頭部</ATST_Head.label>
+  <ATST_Frame.label>フレーム</ATST_Frame.label>
+
+
+  <!-- ATAT Parts -->
+
+  <ATAT_Neck.label>首部</ATAT_Neck.label>
+  <ATAT_Head.label>頭部</ATAT_Head.label>
+  <ATAT_Frame.label>フレーム</ATAT_Frame.label>
+  <LeftATATFLeg.label>左脚部</LeftATATFLeg.label>
+  <LeftATATFFoot.label>左足部</LeftATATFFoot.label>
+  <LeftATATRLeg.label>左脚部</LeftATATRLeg.label>
+  <LeftATATRFoot.label>左足部</LeftATATRFoot.label>
+  <RightATATFLeg.label>右脚部</RightATATFLeg.label>
+  <RightATATFFoot.label>右足部</RightATATFFoot.label>
+  <RightATATRLeg.label>右脚部</RightATATRLeg.label>
+  <RightATATRFoot.label>右足部</RightATATRFoot.label>
+
+
+</LanguageData>

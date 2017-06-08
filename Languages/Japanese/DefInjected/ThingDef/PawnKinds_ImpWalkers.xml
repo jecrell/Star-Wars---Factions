@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ATST -->
+
+  <SWFactions_WalkerThing.label>AT-ST</SWFactions_WalkerThing.label>
+  <SWFactions_WalkerThing.description>全地形対応偵察トランスポート(AT-ST), または二足歩行型のチキンウォーカーとして知られ(小馬鹿にされ)ていたウォーカーマシンは、後期クローン戦争時に銀河共和国によって使用され、その後銀河系内戦時に銀河帝国によって広範囲の戦場で使用されました。これはAT-XTの後継機種です。</SWFactions_WalkerThing.description>
+  <SWFactions_WalkerThing.comps.1.roles.0.label>操縦者</SWFactions_WalkerThing.comps.1.roles.0.label>
+  <SWFactions_WalkerThing.comps.1.roles.0.labelPlural>操縦者</SWFactions_WalkerThing.comps.1.roles.0.labelPlural>
+  <SWFactions_WalkerThing.comps.1.roles.1.label>砲手</SWFactions_WalkerThing.comps.1.roles.1.label>
+  <SWFactions_WalkerThing.comps.1.roles.1.labelPlural>砲手</SWFactions_WalkerThing.comps.1.roles.1.labelPlural>
+  <SWFactions_WalkerThing.comps.1.roles.2.label>乗員</SWFactions_WalkerThing.comps.1.roles.2.label>
+  <SWFactions_WalkerThing.comps.1.roles.2.labelPlural>乗員</SWFactions_WalkerThing.comps.1.roles.2.labelPlural>
+  <!-- Flesh Type: Mechanoid -->
+  <SWFactions_WalkerThing_Corpse.label>AT-STの故障個体</SWFactions_WalkerThing_Corpse.label>
+  <SWFactions_WalkerThing_Corpse.description>AT-STの故障個体</SWFactions_WalkerThing_Corpse.description>
+
+
+  <!-- ATAT -->
+
+  <SWFactions_ATATThing.label>AT-AT</SWFactions_ATATThing.label>
+  <SWFactions_ATATThing.description>全地形対応装甲トランスポート(AT-AT)は、銀河帝国の地上軍によって使用される4足歩行のウォーカーマシンです。これはインペリアル級スター・デストロイヤーとTIE/ln宇宙特化型タイファイターは帝国軍の宇宙戦力を象徴する存在だった。</SWFactions_ATATThing.description>
+  <SWFactions_ATATThing.comps.1.roles.0.label>操縦者</SWFactions_ATATThing.comps.1.roles.0.label>
+  <SWFactions_ATATThing.comps.1.roles.0.labelPlural>操縦者</SWFactions_ATATThing.comps.1.roles.0.labelPlural>
+  <SWFactions_ATATThing.comps.1.roles.1.label>砲手</SWFactions_ATATThing.comps.1.roles.1.label>
+  <SWFactions_ATATThing.comps.1.roles.1.labelPlural>砲手</SWFactions_ATATThing.comps.1.roles.1.labelPlural>
+  <SWFactions_ATATThing.comps.1.roles.2.label>乗員</SWFactions_ATATThing.comps.1.roles.2.label>
+  <SWFactions_ATATThing.comps.1.roles.2.labelPlural>乗員</SWFactions_ATATThing.comps.1.roles.2.labelPlural>
+  <!-- Flesh Type: Mechanoid -->
+  <SWFactions_ATATThing_Corpse.label>AT-ATの故障個体</SWFactions_ATATThing_Corpse.label>
+  <SWFactions_ATATThing_Corpse.description>AT-ATの故障個体</SWFactions_ATATThing_Corpse.description>
+
+
+</LanguageData>

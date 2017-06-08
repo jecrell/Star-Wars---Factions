@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_ImpSoldier.label>兵士</PJ_ImpSoldier.label>
+  <PJ_ImpSoldier.labelPlural>兵士達</PJ_ImpSoldier.labelPlural>
+  <PJ_ImpSoldier.labelMale>男性兵士r</PJ_ImpSoldier.labelMale>
+  <PJ_ImpSoldier.labelMalePlural>男性兵士達</PJ_ImpSoldier.labelMalePlural>
+  <PJ_ImpSoldier.labelFemale>女性兵士</PJ_ImpSoldier.labelFemale>
+  <PJ_ImpSoldier.labelFemalePlural>女性兵士達</PJ_ImpSoldier.labelFemalePlural>
+
+  <PJ_ImpTrader.label>帝国調達官</PJ_ImpTrader.label>
+  <PJ_ImpTrader.labelPlural>帝国調達官達</PJ_ImpTrader.labelPlural>
+  <PJ_ImpTrader.labelMale>帝国調達官</PJ_ImpTrader.labelMale>
+  <PJ_ImpTrader.labelMalePlural>帝国調達官達</PJ_ImpTrader.labelMalePlural>
+  <PJ_ImpTrader.labelFemale>帝国調達官</PJ_ImpTrader.labelFemale>
+  <PJ_ImpTrader.labelFemalePlural>帝国調達官達</PJ_ImpTrader.labelFemalePlural>
+
+  <PJ_Stormtrooper.label>ストームトルーパー</PJ_Stormtrooper.label>
+  <PJ_Stormtrooper.labelPlural>ストームトルーパー達</PJ_Stormtrooper.labelPlural>
+  <PJ_Stormtrooper.labelMale>ストームトルーパー</PJ_Stormtrooper.labelMale>
+  <PJ_Stormtrooper.labelMalePlural>ストームトルーパー達</PJ_Stormtrooper.labelMalePlural>
+  <PJ_Stormtrooper.labelFemale>ストームトルーパー</PJ_Stormtrooper.labelFemale>
+  <PJ_Stormtrooper.labelFemalePlural>ストームトルーパー達</PJ_Stormtrooper.labelFemalePlural>
+
+  <PJ_StormtrooperSO.label>ストームトルーパー士官</PJ_StormtrooperSO.label>
+  <PJ_StormtrooperSO.labelPlural>ストームトルーパー士官達</PJ_StormtrooperSO.labelPlural>
+  <PJ_StormtrooperSO.labelMale>ストームトルーパー士官</PJ_StormtrooperSO.labelMale>
+  <PJ_StormtrooperSO.labelMalePlural>ストームトルーパー士官達</PJ_StormtrooperSO.labelMalePlural>
+  <PJ_StormtrooperSO.labelFemale>ストームトルーパー士官</PJ_StormtrooperSO.labelFemale>
+  <PJ_StormtrooperSO.labelFemalePlural>ストームトルーパー士官達</PJ_StormtrooperSO.labelFemalePlural>
+
+  <PJ_ImpCommander.label>指揮官</PJ_ImpCommander.label>
+  <PJ_ImpCommander.labelPlural>指揮官達</PJ_ImpCommander.labelPlural>
+  <PJ_ImpCommander.labelMale>男性指揮官</PJ_ImpCommander.labelMale>
+  <PJ_ImpCommander.labelMalePlural>男性指揮官達</PJ_ImpCommander.labelMalePlural>
+  <PJ_ImpCommander.labelFemale>女性指揮官</PJ_ImpCommander.labelFemale>
+  <PJ_ImpCommander.labelFemalePlural>女性指揮官達</PJ_ImpCommander.labelFemalePlural>
+
+  <PJ_ScoutTrooper.label>スカウトトルーパー</PJ_ScoutTrooper.label>
+  <PJ_ScoutTrooper.labelPlural>スカウトトルーパー 達</PJ_ScoutTrooper.labelPlural>
+  <PJ_ScoutTrooper.labelMale>スカウトトルーパー</PJ_ScoutTrooper.labelMale>
+  <PJ_ScoutTrooper.labelMalePlural>スカウトトルーパー達</PJ_ScoutTrooper.labelMalePlural>
+  <PJ_ScoutTrooper.labelFemale>スカウトトルーパー</PJ_ScoutTrooper.labelFemale>
+  <PJ_ScoutTrooper.labelFemalePlural>スカウトトルーパー達</PJ_ScoutTrooper.labelFemalePlural>
+
+
+</LanguageData>
