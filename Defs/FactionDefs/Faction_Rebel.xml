@@ -72,8 +72,8 @@
           <PJ_RebTrader>1</PJ_RebTrader>
         </traders>
         <carriers>
-          <Muffalo>1</Muffalo>
-          <Dromedary>1</Dromedary>
+          <Muffalo>2</Muffalo>
+          <Dromedary>2</Dromedary>
         </carriers>
         <guards>
           <PJ_RebGuard>250</PJ_RebGuard>
