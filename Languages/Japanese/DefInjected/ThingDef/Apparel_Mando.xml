@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MandoArmor.label>マンダロリアンアーマー</PJ_MandoArmor.label>
+  <PJ_MandoArmor.description>マンダロリアンの文化で最も象徴的なシンボルであるマンダロリアンアーマー(Mandalorian armor)は、マンダロリアンの戦士と銀河の歴史を通して多くの兵士が着用した独特の全身鎧のセットです。</PJ_MandoArmor.description>
+
+  <PJ_VetMandoArmor.label>マンダロリアンベテランアーマー</PJ_VetMandoArmor.label>
+  <PJ_VetMandoArmor.description>マンダロリアンの文化で最も象徴的なシンボルであるマンダロリアンアーマー(Mandalorian armor)は、マンダロリアンの戦士と銀河の歴史を通して多くの兵士が着用した独特の全身鎧のセットです。</PJ_VetMandoArmor.description>
+
+  <PJ_MandoHelm.label>マンダロリアンヘルメット</PJ_MandoHelm.label>
+  <PJ_MandoHelm.description>現在まで知られているマンダロリアンヘルメットのT字型バイザーは、銀河系全体に恐怖を広げます。</PJ_MandoHelm.description>
+
+
+  <!-- Strams -->
+
+  <PJ_BarkMandoArmor.label>バーク氏族の鎧</PJ_BarkMandoArmor.label>
+  <PJ_BarkMandoArmor.description>名誉ある戦士の信者に捧げられた鎧。マンダロリアンはこのような儀式服を着て、叫び声を出します。フォォォ!!バーキィィィィ!!!</PJ_BarkMandoArmor.description>
+
+
+</LanguageData>
