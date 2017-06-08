@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SWFactions_RepairsATST.label>部品修理(50スチール,10プラスチール,3コンポーネント)</SWFactions_RepairsATST.label>
+  <SWFactions_RepairsATST.description>部品を修理する。</SWFactions_RepairsATST.description>
+  <SWFactions_RepairsATST.jobString>部品を修理中</SWFactions_RepairsATST.jobString>
+
+  <SWFactions_RepairsATAT.label>部品修理(50スチール,10プラスチール,3コンポーネント)</SWFactions_RepairsATAT.label>
+  <SWFactions_RepairsATAT.description>部品を修理する。</SWFactions_RepairsATAT.description>
+  <SWFactions_RepairsATAT.jobString>部品を修理中</SWFactions_RepairsATAT.jobString>
+
+
+</LanguageData>
