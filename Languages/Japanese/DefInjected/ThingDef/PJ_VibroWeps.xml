@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_BulletDeflected.label>反射した弾</PJ_BulletDeflected.label>
+
+
+  <!-- Vibroaxe -->
+
+  <PJ_Vibroaxe.label>バイブロ＝アックス(試作品)</PJ_Vibroaxe.label>
+  <PJ_Vibroaxe.description>小型振動発生装置を装備したコートシス製ウェーブポールアーム。</PJ_Vibroaxe.description>
+
+
+  <!-- Vibrosword -->
+
+  <PJ_Vibrosword.label>バイブロ＝ソード(エチャニ)</PJ_Vibrosword.label>
+  <PJ_Vibrosword.description>エチャニが使う小型振動発生装置を装備したコートシス製ウェーブソード。</PJ_Vibrosword.description>
+
+
+  <!-- Vibro Cleaver -->
+
+  <PJ_Vibrocleaver.label>バイブロ＝クリーバー(マンドア)</PJ_Vibrocleaver.label>
+  <PJ_Vibrocleaver.description>マンダロリアンが使った小型振動発生装置を装備したコートシス製ウェーブクリーバー。</PJ_Vibrocleaver.description>
+
+  <PJ_VScythe.label>バイブロ＝サイス</PJ_VScythe.label>
+  <PJ_VScythe.description>現代風な小型振動発生装置を装備した大鎌タイプのコートシス製ウェーブサイス。</PJ_VScythe.description>
+
+
+  <!-- Vibro DoubleSword -->
+
+  <PJ_Vibrodouble.label>バイブロ＝ダブルブレード</PJ_Vibrodouble.label>
+  <PJ_Vibrodouble.description>古代の小型振動発生装置を装備したコートシス製ウェーブダブルブレード武器。</PJ_Vibrodouble.description>
+
+
+  <!-- Xen's staff -->
+
+  <PJ_StaffX.label>バイブロ＝スタッフ(試作品)</PJ_StaffX.label>
+  <PJ_StaffX.description>小型振動発生装置を装備したコートシス製ウェーブポールアーム。</PJ_StaffX.description>
+
+
+</LanguageData>
