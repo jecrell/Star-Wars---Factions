@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	   <ThingDef Name="PJ_BaseVibroWeapon" ParentName="BaseMeleeWeapon" Abstract="True">
+
+  <ThingDef Name="PJ_BaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
+		<weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+		<li>ComponentAssemblyBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+
+	   <ThingDef Name="PJ_BaseVibroWeapon" ParentName="PJ_BaseMeleeWeapon" Abstract="True">
 		<recipeMaker>
 			<defaultIngredientFilter>
 				<categories>
@@ -146,7 +182,7 @@
 		  </li>
 		  <li Class="CompDeflector.CompProperties_Deflector">
 		    <compClass>CompDeflector.CompDeflector</compClass>
-			<baseDeflectChance>0.99</baseDeflectChance>
+			<baseDeflectChance>0.15</baseDeflectChance>
 			<useManipulationInCalc>true</useManipulationInCalc>
 			<useSkillInCalc>true</useSkillInCalc>
 			<deflectSound>MeleeHit_Metal_Sharp</deflectSound>
@@ -208,7 +244,7 @@
 		  </li>
 		  <li Class="CompDeflector.CompProperties_Deflector">
 		    <compClass>CompDeflector.CompDeflector</compClass>
-			<baseDeflectChance>0.99</baseDeflectChance>
+			<baseDeflectChance>0.15</baseDeflectChance>
 			<useManipulationInCalc>true</useManipulationInCalc>
 			<useSkillInCalc>true</useSkillInCalc>
 			<deflectSound>MeleeHit_Metal_Sharp</deflectSound>
@@ -271,7 +307,7 @@
 		  </li>
 		  <li Class="CompDeflector.CompProperties_Deflector">
 		    <compClass>CompDeflector.CompDeflector</compClass>
-			<baseDeflectChance>0.99</baseDeflectChance>
+			<baseDeflectChance>0.15</baseDeflectChance>
 			<useManipulationInCalc>true</useManipulationInCalc>
 			<useSkillInCalc>true</useSkillInCalc>
 			<deflectSound>MeleeHit_Metal_Sharp</deflectSound>
@@ -337,7 +373,7 @@
 		  </li>
 		  <li Class="CompDeflector.CompProperties_Deflector">
 		    <compClass>CompDeflector.CompDeflector</compClass>
-			<baseDeflectChance>0.99</baseDeflectChance>
+			<baseDeflectChance>0.15</baseDeflectChance>
 			<useManipulationInCalc>true</useManipulationInCalc>
 			<useSkillInCalc>true</useSkillInCalc>
 			<deflectSound>MeleeHit_Metal_Sharp</deflectSound>
@@ -383,7 +419,7 @@
 			<MaxHitPoints>80</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>86</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_DamageAmount>36</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
 			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
 		</statBases>
@@ -404,7 +440,71 @@
 		  </li>
 		  <li Class="CompDeflector.CompProperties_Deflector">
 		    <compClass>CompDeflector.CompDeflector</compClass>
-			<baseDeflectChance>0.99</baseDeflectChance>
+			<baseDeflectChance>0.15</baseDeflectChance>
+			<useManipulationInCalc>true</useManipulationInCalc>
+			<useSkillInCalc>true</useSkillInCalc>
+			<deflectSound>MeleeHit_Metal_Sharp</deflectSound>
+			<deflectSkill>Melee</deflectSkill>
+			<deflectRatePerSkillPoint>0.015</deflectRatePerSkillPoint>
+			<DeflectVerb Class="VerbProperties">
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<warmupTime>0</warmupTime>
+				<range>24</range>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</DeflectVerb>			
+		  </li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
+			</li>
+		</verbs>
+		</ThingDef>
+
+			<ThingDef ParentName="PJ_BaseVibroWeapon">
+		<defName>PJ_TStaff</defName>
+		<label>Vibrostaff (Tusken)</label>
+		<description>A cortosis-weave polearm fitted with minature vibrocells.</description>
+		<graphicData>
+			<texPath>Weapons/StaffX</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2.3</drawSize>			
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
+		</graphicData>
+	    <tickerType>Normal</tickerType>
+		<soundInteract>InteractPistol</soundInteract>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>13000</MarketValue>
+			<MaxHitPoints>80</MaxHitPoints>			
+			<WorkToMake>55800</WorkToMake>
+			<Mass>1.8</Mass>
+			<MeleeWeapon_DamageAmount>36</MeleeWeapon_DamageAmount>
+			<DeteriorationRate>0.025</DeteriorationRate>
+			<MeleeWeapon_Cooldown>1.2</MeleeWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>-75</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<!-- recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker -->
+		<comps>
+		  <li>
+		    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		  </li>
+		  <li Class="CompDeflector.CompProperties_Deflector">
+		    <compClass>CompDeflector.CompDeflector</compClass>
+			<baseDeflectChance>0.15</baseDeflectChance>
 			<useManipulationInCalc>true</useManipulationInCalc>
 			<useSkillInCalc>true</useSkillInCalc>
 			<deflectSound>MeleeHit_Metal_Sharp</deflectSound>
