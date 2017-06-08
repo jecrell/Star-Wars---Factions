@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ATST -->
+
+  <SWFactions_WalkerKind.label>AT-ST</SWFactions_WalkerKind.label>
+  <SWFactions_WalkerKind.labelPlural>AT-ST部隊</SWFactions_WalkerKind.labelPlural>
+
+
+  <!-- ATAT -->
+
+  <SWFactions_ATATKind.label>AT-AT</SWFactions_ATATKind.label>
+  <SWFactions_ATATKind.labelPlural>AT-AT部隊</SWFactions_ATATKind.labelPlural>
+
+
+</LanguageData>
