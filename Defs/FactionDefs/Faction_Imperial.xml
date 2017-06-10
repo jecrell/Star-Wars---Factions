@@ -14,7 +14,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Moff</leaderTitle>
-    <appreciative>false</appreciative>
+    <appreciative>true</appreciative>
     <expandingIconTexture>World/EmpLogo</expandingIconTexture>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
