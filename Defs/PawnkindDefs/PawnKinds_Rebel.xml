@@ -13,7 +13,7 @@
     <defName>PJ_RebVillager</defName>
     <label>villager</label>
     <race>Human</race>
-    <combatPower>45</combatPower>
+    <combatPower>25</combatPower>
     <isFighter>false</isFighter>
     <gearHealthRange>
       <min>0.2</min>

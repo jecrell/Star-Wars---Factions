@@ -89,7 +89,7 @@
     <weaponTags>
       <li>ImpBlaster</li>
     </weaponTags>
-    <combatPower>85</combatPower>
+    <combatPower>25</combatPower>
   </PawnKindDef>
 
   <PawnKindDef ParentName="ImpBase">
