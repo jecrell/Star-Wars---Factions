@@ -7,7 +7,7 @@
     <pawnsPlural>Imperial Soldiers</pawnsPlural>
     <baseSelectionWeight>0.5</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
-	<earliestRaidDays>35</earliestRaidDays>
+	  <earliestRaidDays>35</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
     <autoFlee>false</autoFlee>
     <raidCommonality>100</raidCommonality>
@@ -36,27 +36,27 @@
       <max>15</max>
     </naturalColonyGoodwill>
     <caravanTraderKinds>
-      <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_CombatSupplier</li>
-      <li>Caravan_Outlander_Exotic</li>
-      <li>Caravan_Outlander_PirateMerchant</li>
+      <li>PJ_ImpTrader_BulkGoods</li>
+      <li>PJ_ImpTrader_CombatSupplier</li>
+      <li>PJ_ImpTrader_Slaver</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
-      <li>Visitor_Outlander_Standard</li>
+      <li>PJ_ImpTrader_Visitor</li>
     </visitorTraderKinds>
     <baseTraderKinds>
-      <li>Base_Outlander_Standard</li>
+      <li>PJ_ImpTrader_Base</li>
     </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-75</min>
       <max>60</max>
     </allowedArrivalTemperatureRange>
-
     <pawnGroupMakers>
       <li>
         <kindDef>Normal</kindDef>
         <commonality>100</commonality>
         <options>
+          <PJ_ImpInspector>1</PJ_ImpInspector>
+          <PJ_ImpTaxOfficer>1</PJ_ImpTaxOfficer>
           <PJ_ImpSoldier>250</PJ_ImpSoldier>
           <PJ_ImpCommander>250</PJ_ImpCommander>
           <PJ_Stormtrooper>250</PJ_Stormtrooper>
@@ -67,6 +67,8 @@
         <kindDef>Normal</kindDef>
         <commonality>25</commonality>
         <options>
+          <PJ_ImpInspector>1</PJ_ImpInspector>
+          <PJ_ImpTaxOfficer>1</PJ_ImpTaxOfficer>
           <PJ_ImpCommander>250</PJ_ImpCommander>
           <PJ_Stormtrooper>250</PJ_Stormtrooper>
           <PJ_ScoutTrooper>250</PJ_ScoutTrooper>
@@ -82,12 +84,9 @@
           <Dromedary>2</Dromedary>
         </carriers>
         <guards>
-          <PJ_ImpSoldier>250</PJ_ImpSoldier>
-          <PJ_Stormtrooper>200</PJ_Stormtrooper>
-          <PJ_Stormtrooper>200</PJ_Stormtrooper>
-          <PJ_ImpSoldier>200</PJ_ImpSoldier>
-          <PJ_ScoutTrooper>250</PJ_ScoutTrooper>
-          <PJ_ScoutTrooper>200</PJ_ScoutTrooper>
+          <PJ_ScoutTrooper>60</PJ_ScoutTrooper>
+          <PJ_ImpSoldier>70</PJ_ImpSoldier>
+          <PJ_Stormtrooper>80</PJ_Stormtrooper>
         </guards>
       </li>
       <li>
@@ -96,8 +95,6 @@
           <PJ_ImpSoldier>250</PJ_ImpSoldier>
           <PJ_ImpCommander>250</PJ_ImpCommander>
           <PJ_Stormtrooper>350</PJ_Stormtrooper>
-		  <PJ_Stormtrooper>300</PJ_Stormtrooper>
-		  <PJ_Stormtrooper>350</PJ_Stormtrooper>
           <PJ_ScoutTrooper>280</PJ_ScoutTrooper>
         </options>
       </li>

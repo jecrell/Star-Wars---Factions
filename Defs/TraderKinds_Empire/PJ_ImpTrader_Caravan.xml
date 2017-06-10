@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-TraderKindDef>
+
+<!--
+     ==== Imperial Traders
+     ==== Imperial credits are introduced.
+     ==== All prices are marked up heavily.
+     ==== Drug sales are disabled.
+-->
+
+  <TraderKindDef>
+    <defName>PJ_ImpTrader_BulkGoods</defName>
+    <label>Imperial bulk goods provisioner</label>
+    <commonality>2</commonality>
+    <stockGenerators>
+      <!-- === Adding credits for imperial traders === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_ImperialCredit</thingDef>
+        <countRange>
+          <min>500</min>
+          <max>1250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>PJ_ImperialCredit</thingDef>
+      </li>
+      <!-- === Outlander_Visitor_Standard as for A17b 6/10/17 === -->
+      <!-- === Drugs commented out === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>750</min>
+          <max>1200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Component</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>30</min>
+          <max>40</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>250</min>
+          <max>400</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>250</min>
+          <max>400</max>
+        </countRange>
+      </li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+        <price>Expensive</price>
+				<countRange>
+					<min>250</min>
+					<max>400</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Neutroamine</thingDef>
+        <price>Expensive</price>
+				<countRange>
+					<min>70</min>
+					<max>160</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Beer</thingDef>
+        <price>Expensive</price>
+				<totalPriceRange>
+					<min>-100</min>
+					<max>100</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+        <price>Expensive</price>
+				<totalPriceRange>
+					<min>10</min>
+					<max>40</max>
+				</totalPriceRange>
+			</li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <price>Expensive</price>
+				<excludedCategories><li>EggsFertilized</li></excludedCategories>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>3</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>150</min>
+          <max>600</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Furniture</tradeTag>
+        <price>Expensive</price>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>3</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Clothes">
+        <price>Expensive</price>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <!--
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
+      -->
+			<li Class="StockGenerator_Category">
+				<categoryDef>Textiles</categoryDef>
+			</li>
+			<li Class="StockGenerator_BuyArt" />
+			<li Class="StockGenerator_BuyWeirdOrganic" />
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Chocolate</li>
+          <li>Kibble</li>
+          <li>Pemmican</li>
+        </thingDefs>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+      <defName>PJ_ImpTrader_CombatSupplier</defName>
+      <label>Imperial weapons provisioner</label>
+      <commonality>1</commonality>
+      <stockGenerators>
+        <!-- === Adding credits for imperial traders === -->
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_ImperialCredit</thingDef>
+          <countRange>
+            <min>1000</min>
+            <max>2000</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_BuySingleDef">
+          <thingDef>PJ_ImperialCredit</thingDef>
+        </li>
+        <!-- === Adding Imperial Weapons === -->
+        <!-- === Standard issue === -->
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_E11Blaster</thingDef>
+          <price>Expensive</price>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_Scoutblaster</thingDef>
+          <price>Expensive</price>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_T21Rifle</thingDef>
+          <price>Expensive</price>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_DLT19Rifle</thingDef>
+          <price>Expensive</price>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+        <!-- === Less Common Weapons === -->
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_DH17Blaster</thingDef>
+          <price>Expensive</price>
+          <countRange>
+            <min>-5</min>
+            <max>2</max>
+          </countRange>
+        </li>
+        <!-- === Older blasters the Empire may be getting rid of === -->
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_DC15Rifle</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+        <!-- ====== Caravan Combat Supplier as for A17b 6/10/17 ====== -->
+        <!-- === Only selling Imperial weapons === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+					<min>750</min>
+					<max>1200</max>
+        </countRange>
+      </li>
+      <!--
+      <li Class="StockGenerator_WeaponsRanged">
+        <countRange>
+          <min>5</min>
+          <max>5</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsMelee</categoryDef>
+        <thingDefCountRange>
+          <min>6</min>
+          <max>6</max>
+        </thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+      </li>
+      <li Class="StockGenerator_Armor">
+        <countRange>
+          <min>5</min>
+          <max>5</max>
+        </countRange>
+      </li>
+    -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Medicine</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>10</min>
+          <max>20</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MortarShell</thingDef>
+        <countRange>
+          <min>5</min>
+          <max>20</max>
+        </countRange>
+      </li>
+			<li Class="StockGenerator_BuyArt" />
+      <li Class="StockGenerator_BuyWeirdOrganic" />
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+      <defName>PJ_ImpTrader_Slaver</defName>
+      <label>Imperial slaver</label>
+      <commonality>1</commonality>
+      <stockGenerators>
+        <!-- === Adding credits for imperial traders === -->
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>PJ_ImperialCredit</thingDef>
+          <countRange>
+            <min>1000</min>
+            <max>2000</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_BuySingleDef">
+          <thingDef>PJ_ImperialCredit</thingDef>
+        </li>
+        <li Class="StockGenerator_BuySingleDef">
+          <thingDef>Gold</thingDef>
+        </li>
+        <!-- === Standard Pirate Trader def for A17b as of 6/10/17 === -->
+        <!-- === Drugs disabled due to Imperial code === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+					<min>750</min>
+					<max>1200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Slaves">
+        <countRange>
+          <min>2</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Medicine</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>2</min>
+          <max>5</max>
+        </countRange>
+      </li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MortarShell</thingDef>
+				<countRange>
+					<min>-4</min>
+					<max>10</max>
+				</countRange>
+			</li>
+      <!--
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+				<totalPriceRange>
+					<min>600</min>
+					<max>1000</max>
+				</totalPriceRange>
+			</li>
+    -->
+      <li Class="StockGenerator_Animals">
+        <checkTemperature>true</checkTemperature>
+        <tradeTags>
+          <li>BadassAnimal</li>
+        </tradeTags>
+        <kindCountRange>
+          <min>1</min>
+          <max>2</max>
+        </kindCountRange>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuyArt" />
+      <li Class="StockGenerator_BuyWeirdOrganic" />
+      <!--
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+    -->
+    </stockGenerators>
+  </TraderKindDef>
+
+</DefPackage-TraderKindDef>
