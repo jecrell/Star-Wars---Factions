@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-TraderKindDef>
+
+  <TraderKindDef>
+    <defName>PJ_ImpTrader_Base</defName>
+    <stockGenerators>
+      <!-- === Adding credits for imperial traders === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_ImperialCredit</thingDef>
+        <countRange>
+          <min>3600</min>
+          <max>9000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>PJ_ImperialCredit</thingDef>
+      </li>
+      <!-- == Imperial Weapons == -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_E11Blaster</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_Scoutblaster</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_T21Rifle</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_DLT19Rifle</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <!-- === Less Common Weapons === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_DH17Blaster</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>-4</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <!-- === Older blasters the Empire may be getting rid of === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_DC15Rifle</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+
+      <!-- === Standard Outlander Base trader without drugs as per Imperial code === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>800</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Component</thingDef>
+                  <price>Expensive</price>
+        <countRange>
+          <min>20</min>
+          <max>70</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+                  <price>Expensive</price>
+        <countRange>
+          <min>300</min>
+          <max>600</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+                  <price>Expensive</price>
+        <countRange>
+          <min>200</min>
+          <max>400</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+                  <price>Expensive</price>
+        <countRange>
+          <min>-50</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+                  <price>Expensive</price>
+        <countRange>
+          <min>100</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>200</max>
+        </countRange>
+      </li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Neutroamine</thingDef>
+                  <price>Expensive</price>
+				<countRange>
+					<min>50</min>
+					<max>200</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+                  <price>Expensive</price>
+				<countRange>
+					<min>300</min>
+					<max>500</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+                  <price>Expensive</price>
+				<countRange>
+					<min>-30</min>
+					<max>70</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Beer</thingDef>
+                  <price>Expensive</price>
+				<countRange>
+					<min>-40</min>
+					<max>100</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Medicine</thingDef>
+                  <price>Expensive</price>
+				<countRange>
+					<min>25</min>
+					<max>50</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MortarShell</thingDef>
+                  <price>Expensive</price>
+				<countRange>
+					<min>30</min>
+					<max>60</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>400</min>
+          <max>800</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>400</min>
+          <max>800</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+                  <price>Expensive</price>
+				<excludedCategories><li>EggsFertilized</li></excludedCategories>
+				<thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>400</min>
+          <max>800</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodMeals</categoryDef>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>12</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Furniture</tradeTag>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Animals">
+                  <price>Expensive</price>
+        <tradeTags>
+          <li>StandardAnimal</li>
+        </tradeTags>
+        <kindCountRange>
+          <min>2</min>
+          <max>4</max>
+        </kindCountRange>
+        <countRange>
+          <min>3</min>
+          <max>8</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Clothes">
+                  <price>Expensive</price>
+        <countRange>
+          <min>10</min>
+          <max>16</max>
+        </countRange>
+      </li>
+      <!--
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>700</min>
+          <max>1500</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_WeaponsRanged">
+        <countRange>
+          <min>3</min>
+          <max>6</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsMelee</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Armor">
+        <countRange>
+          <min>2</min>
+          <max>4</max>
+        </countRange>
+      </li>
+    -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BodyPartOrImplant</tradeTag>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Exotic</tradeTag>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Artifact</tradeTag>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Apparel</categoryDef>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Art">
+        <countRange>
+          <min>5</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Television</tradeTag>
+                  <price>Expensive</price>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Telescope</thingDef>
+                  <price>Expensive</price>
+        <countRange>
+          <min>0</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <!-- == The Empire always has slaves available == -->
+      <li Class="StockGenerator_Slaves">
+                  <price>Expensive</price>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+			<li Class="StockGenerator_MultiDef">
+                  <price>Expensive</price>
+				<thingDefs>
+					<li>Kibble</li>
+					<li>Pemmican</li>
+				</thingDefs>
+			</li>
+			<li Class="StockGenerator_BuyArt" />
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyWeirdOrganic" />
+    </stockGenerators>
+  </TraderKindDef>
+
+</DefPackage-TraderKindDef>

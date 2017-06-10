@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <PawnKindDefs>
 
-
-  <PawnKindDef Abstract="True" Name="ImpBase" >
-    <race>Human</race>
+  <PawnKindDef Name="ImpAbstractBase" Abstract="True">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
-    <baseRecruitDifficulty>0.5</baseRecruitDifficulty>
+    <chemicalAddictionChance>0.045</chemicalAddictionChance>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
     <backstoryCategory>Civil</backstoryCategory>
-    <invNutrition>2.55</invNutrition>
-    <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
+    <apparelTags>
+       <li>PJ_Imp</li>
+     </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef Name="ImpBase" ParentName="ImpAbstractBase">
+    <defName>ImpBase</defName>
+    <label>imperial</label>
+    <race>Human</race>
+    <combatPower>25</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>true</isFighter>
     <maxGenerationAge>45</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
-      <max>1</max>
+      <max>2</max>
     </gearHealthRange>
     <apparelMoney>
       <min>6000</min>
@@ -23,6 +33,9 @@
       <min>2040</min>
       <max>3000</max>
     </weaponMoney>
+    <weaponTags>
+      <li>ImpBlaster</li>
+    </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
       <max>1800</max>
@@ -30,18 +43,16 @@
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
-   <apparelTags>
-      <li>PJ_Imp</li>
-    </apparelTags>
     <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
     <inventoryOptions>
       <skipChance>0.01</skipChance>
       <subOptionsChooseOne>
         <li>
-          <thingDef>Silver</thingDef>
+          <thingDef>PJ_ImperialCredit</thingDef>
           <countRange>
-            <min>20</min>
-            <max>50</max>
+              <min>50</min>
+              <max>100</max>
           </countRange>
         </li>
         <li>
@@ -53,6 +64,38 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ImpBase">
+    <defName>PJ_ImpInspector</defName>
+    <label>Tax Inspector</label>
+    <isFighter>true</isFighter>
+    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelMoney>
+      <min>200</min>
+      <max>200</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PJ_ImpUniform</li>
+    </apparelRequired>
+    <minGenerationAge>30</minGenerationAge>
+    <combatPower>25</combatPower>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ImpBase">
+    <defName>PJ_ImpTaxOfficer</defName>
+    <label>Tax Officer</label>
+    <isFighter>true</isFighter>
+    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelMoney>
+      <min>200</min>
+      <max>200</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PJ_ImpUniform</li>
+    </apparelRequired>
+    <combatPower>25</combatPower>
+    <minGenerationAge>30</minGenerationAge>
   </PawnKindDef>
 
   <PawnKindDef ParentName="ImpBase">
@@ -76,20 +119,9 @@
   <PawnKindDef ParentName="ImpBase">
     <defName>PJ_ImpTrader</defName>
     <label>Imperial Provisioner</label>
-    <trader>true</trader>
-    <weaponMoney>
-      <min>2040</min>
-      <max>3000</max>
-    </weaponMoney>
-    <apparelRequired>
-    <li>PJ_ImpHatB</li>
-    <li>PJ_ImpUniform</li>
-    <li>PJ_ImpUniformBlackSHELL</li>
-    </apparelRequired>
-    <weaponTags>
-      <li>ImpBlaster</li>
-    </weaponTags>
     <combatPower>25</combatPower>
+    <trader>true</trader>
+    <isFighter>false</isFighter>
   </PawnKindDef>
 
   <PawnKindDef ParentName="ImpBase">
@@ -177,10 +209,10 @@
       <skipChance>0.01</skipChance>
       <subOptionsChooseOne>
         <li>
-          <thingDef>Silver</thingDef>
+          <thingDef>PJ_ImperialCredit</thingDef>
           <countRange>
-            <min>200</min>
-            <max>500</max>
+              <min>500</min>
+              <max>800</max>
           </countRange>
         </li>
         <li>
@@ -243,10 +275,10 @@
       <skipChance>0.01</skipChance>
       <subOptionsChooseOne>
         <li>
-          <thingDef>Silver</thingDef>
+          <thingDef>PJ_ImperialCredit</thingDef>
           <countRange>
-            <min>200</min>
-            <max>500</max>
+              <min>500</min>
+              <max>800</max>
           </countRange>
         </li>
         <li>
