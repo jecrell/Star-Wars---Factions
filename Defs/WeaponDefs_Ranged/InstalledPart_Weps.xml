@@ -185,4 +185,58 @@
     </weaponTags>
   </ThingDef>
 
+
+ <ThingDef ParentName="BaseBullet">
+    <defName>PJ_Spd_Bullet</defName>
+    <label>Speeder Blaster bolt</label>
+    <graphicData>
+      <texPath>Projectile/BlasterboltBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+  </graphicData>
+    <projectile>
+	<flyOverhead>False</flyOverhead>
+	<damageDef>PJ_BlasterDam</damageDef>
+	<damageAmountBase>46</damageAmountBase>
+	<speed>105</speed>
+    </projectile>
+  </ThingDef>
+
+    <ThingDef ParentName="PJ_Veh_GunBaseMake">
+    <defName>PJ_Spd_Blaster</defName>
+    <label>Speeder Main Blaster Cannon</label>
+    <description>A high powered blaster cannon mounted on a patrol speeder.</description>
+    <graphicData>
+      <texPath>VehicleWeps/TurretSpd_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <Mass>6.85</Mass>
+      <MarketValue>3200</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>PJ_Spd_Bullet</projectileDef>
+        <warmupTime>1.03</warmupTime>
+        <range>27</range>
+        <soundCast>PJ_ATST_Gun</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+	   <li>PJ_Speeder_Weapon</li>
+    </weaponTags>
+  </ThingDef>
+
 </ThingDefs>

@@ -123,6 +123,26 @@
     </subSounds>
   </SoundDef>
 
+   <SoundDef>
+    <defName>PJ_BPistolC</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pistol/Blaster1</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+			<min>0.8752174</min>
+			<max>0.942391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
     <SoundDef>
     <defName>PJ_SlugSnd</defName>
     <context>MapOnly</context>
@@ -138,6 +158,26 @@
         <pitchRange>
 			<min>0.9152174</min>
 			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>PJ_Blas_Far</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Blaster/Blas_Far</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+			<min>0.9452174</min>
+			<max>1.142391</max>
         </pitchRange>
       </li>
     </subSounds>
@@ -265,4 +305,47 @@
       </li>
     </subSounds>
   </SoundDef>
+
+  <!-- ===== Speeder Sounds ===== -->
+
+  <SoundDef>
+    <defName>PJ_SpeederCall</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Speeder/Speeder_long</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+			<min>0.9152174</min>
+			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+<SoundDef>
+    <defName>PJ_SpeederDrive</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Speeder/Speeder_driveby</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+			<min>0.9152174</min>
+			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
 </DefPackage-SoundDef>
