@@ -3,7 +3,7 @@
 
   <PawnKindDef Name="ImpAbstractBase" Abstract="True">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
-    <chemicalAddictionChance>0.045</chemicalAddictionChance>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
     <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
     <backstoryCategory>Civil</backstoryCategory>
