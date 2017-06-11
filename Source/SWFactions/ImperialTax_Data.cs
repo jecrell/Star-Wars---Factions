@@ -91,12 +91,12 @@ namespace SWFactions
         public void ResolveDeclarationOfHostility(Pawn imperial)
         {
             imperial.Faction.SetHostileTo(Faction.OfPlayer, true);
-            List<Pawn> imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) => x.Faction == imperial.Faction);
-            if (imperialsOnSite != null && imperialsOnSite.Count > 0)
-                {
-                if (imperial?.GetLord() is Lord imperialLord) imperial.Map.lordManager.RemoveLord(imperialLord);
-                    LordMaker.MakeNewLord(imperial.Faction, new LordJob_AssaultColony(imperial.Faction, false, false, false, false, false), imperial.Map, imperialsOnSite);
-                }
+            //List<Pawn> imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) => x.Faction == imperial.Faction);
+            //if (imperialsOnSite != null && imperialsOnSite.Count > 0)
+            //    {
+            //    if (imperial?.GetLord() is Lord imperialLord) imperial.Map.lordManager.RemoveLord(imperialLord);
+            //        LordMaker.MakeNewLord(imperial.Faction, new LordJob_AssaultColony(imperial.Faction, false, false, false, false, false), imperial.Map, imperialsOnSite);
+            //    }
         }
 
 
