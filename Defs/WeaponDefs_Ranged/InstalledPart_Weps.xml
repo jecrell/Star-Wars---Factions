@@ -24,20 +24,6 @@
 			<li>
 				<compClass>CompEquippable</compClass>
 			</li>
-      <li Class="CompInstalledPart.CompProperties_InstalledPart">
-	         <allowedToInstallOn>
-	  	       <li>SWFactions_WalkerThing</li>
-             <li>SWFactions_ATATThing</li>
-		        </allowedToInstallOn>
-						<installedWeaponGraphic>
-							<texPath>BlankTex</texPath>
-				      <graphicClass>Graphic_Single</graphicClass>
-					  <shaderType>TransparentPostLight</shaderType>
-					</installedWeaponGraphic>
-	    	<workToInstall>500</workToInstall>
-        <workToUninstall>500</workToUninstall>
-				<workEffect>Repair</workEffect>
-	   </li>
 		</comps>
 		<graphicData>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
@@ -65,7 +51,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef Name="PJ_Veh_GunBaseMake" ParentName="PJ_Veh_GunBase" Abstract="True">
+  <ThingDef Name="PJ_Veh_GunBaseMakeS" ParentName="PJ_Veh_GunBase" Abstract="True">
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -76,6 +62,50 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
+    <comps>
+      <li Class="CompInstalledPart.CompProperties_InstalledPart">
+	        <allowedToInstallOn>
+	  	      <li>SWFactions_SpeederThing</li>
+		      </allowedToInstallOn>
+					<installedWeaponGraphic>
+							<texPath>VehicleWeps/TurretSpd_Top</texPath>
+				      <graphicClass>Graphic_Single</graphicClass>
+					  <shaderType>TransparentPostLight</shaderType>
+					</installedWeaponGraphic>
+	    	<workToInstall>500</workToInstall>
+        <workToUninstall>500</workToUninstall>
+				<workEffect>Repair</workEffect>
+	   </li>
+     </comps>
+  </ThingDef>
+
+    <ThingDef Name="PJ_Veh_GunBaseMakeH" ParentName="PJ_Veh_GunBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+     <comps>
+        <li Class="CompInstalledPart.CompProperties_InstalledPart">
+	         <allowedToInstallOn>
+	  	       <li>SWFactions_WalkerThing</li>
+             <li>SWFactions_ATATThing</li>
+		        </allowedToInstallOn>
+						<installedWeaponGraphic>
+							<texPath>BlankTex</texPath>
+				      <graphicClass>Graphic_Single</graphicClass>
+					  <shaderType>TransparentPostLight</shaderType>
+					</installedWeaponGraphic>
+	    	<workToInstall>500</workToInstall>
+        <workToUninstall>500</workToUninstall>
+				<workEffect>Repair</workEffect>
+	   </li>
+      </comps>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
@@ -94,7 +124,7 @@
     </projectile>
   </ThingDef>
 
-    <ThingDef ParentName="PJ_Veh_GunBaseMake">
+    <ThingDef ParentName="PJ_Veh_GunBaseMakeH">
     <defName>PJ_ATST_Blaster</defName>
     <label>ATST Main Blaster Cannon</label>
     <description>A high powered blaster cannon mounted on the ATST walker.</description>
@@ -148,7 +178,7 @@
     </projectile>
   </ThingDef>
 
-    <ThingDef ParentName="PJ_Veh_GunBaseMake">
+    <ThingDef ParentName="PJ_Veh_GunBaseMakeH">
     <defName>PJ_ATAT_Blaster</defName>
     <label>ATAT Main Blaster Cannon</label>
     <description>A high powered blaster cannon mounted on the ATAT walker.</description>
@@ -202,7 +232,7 @@
     </projectile>
   </ThingDef>
 
-    <ThingDef ParentName="PJ_Veh_GunBaseMake">
+    <ThingDef ParentName="PJ_Veh_GunBaseMakeS">
     <defName>PJ_Spd_Blaster</defName>
     <label>Speeder Main Blaster Cannon</label>
     <description>A high powered blaster cannon mounted on a patrol speeder.</description>
