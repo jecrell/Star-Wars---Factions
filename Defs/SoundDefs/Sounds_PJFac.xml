@@ -170,6 +170,7 @@
     <maxSimultaneous>4</maxSimultaneous>
     <subSounds>
       <li>
+      <onCamera>True</onCamera>  
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Blaster/Blas_Far</clipPath>
