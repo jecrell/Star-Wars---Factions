@@ -67,6 +67,9 @@
   <PJ_DTHelm.label>デストルーパーヘルム</PJ_DTHelm.label>
   <PJ_DTHelm.description>帝国情報部トルーパー向けのストームトルーパーヘルメット。</PJ_DTHelm.description>
 
+  <PJ_SCTHelm.label>スカウトトルーパーヘルム</PJ_SCTHelm.label>
+  <PJ_SCTHelm.description>偵察任務に特化したストームトルーパーヘルメット。</PJ_SCTHelm.description>
+
   <PJ_TIEHelm.label>タイファイターヘルム</PJ_TIEHelm.label>
   <PJ_TIEHelm.description>帝国宇宙海軍のTIEパイロットが着用する特殊ヘルメット。TIEシリーズには一般的に生命維持装置が搭載されていないため、非常によく密閉されており携帯酸素供給装置への接続器が装備されています。</PJ_TIEHelm.description>
 
