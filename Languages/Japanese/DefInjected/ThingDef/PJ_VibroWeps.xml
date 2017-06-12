@@ -36,5 +36,8 @@
   <PJ_StaffX.label>バイブロ＝スタッフ(試作品)</PJ_StaffX.label>
   <PJ_StaffX.description>小型振動発生装置を装備したコートシス製ウェーブポールアーム。</PJ_StaffX.description>
 
+  <PJ_TStaff.label>バイブロ＝スタッフ(タスケン)</PJ_TStaff.label>
+  <PJ_TStaff.description>タスケン=レイダーは惑星タトゥイーンに住む原始的な知覚種族。小型振動発生装置を装備したコートシス製ウェーブポールアーム。</PJ_TStaff.description>
+
 
 </LanguageData>
