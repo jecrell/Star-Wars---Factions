@@ -61,8 +61,8 @@
   <PJ_STHelm.label>ストームトルーパーヘルム</PJ_STHelm.label>
   <PJ_STHelm.description>標準支給されるストームトルーパーのヘルメット。</PJ_STHelm.description>
 
-  <PJ_SCTHelm.label>ショアトルーパーヘルム</PJ_SCTHelm.label>
-  <PJ_SCTHelm.description>沿岸防衛に特化したストームトルーパーのヘルメット。</PJ_SCTHelm.description>
+  <PJ_SHHelm.label>ショアトルーパーヘルム</PJ_SHHelm.label>
+  <PJ_SHHelm.description>沿岸防衛に特化したストームトルーパーのヘルメット。</PJ_SHHelm.description>
 
   <PJ_DTHelm.label>デストルーパーヘルム</PJ_DTHelm.label>
   <PJ_DTHelm.description>帝国情報部トルーパー向けのストームトルーパーヘルメット。</PJ_DTHelm.description>
