@@ -58,7 +58,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>Table_PJ_Bench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
@@ -86,7 +86,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>Table_PJ_Bench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
@@ -142,6 +142,11 @@
       <AccuracyLong>0.69</AccuracyLong>
       <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
     </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>3</Component>
+    </costList>	
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -196,6 +201,11 @@
       <AccuracyLong>0.69</AccuracyLong>
       <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
     </statBases>
+    <costList>
+      <Steel>230</Steel>
+      <Plasteel>65</Plasteel>
+      <Component>3</Component>
+    </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -250,6 +260,11 @@
       <AccuracyLong>0.69</AccuracyLong>
       <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
     </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>3</Component>
+    </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

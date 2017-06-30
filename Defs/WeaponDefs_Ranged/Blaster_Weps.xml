@@ -58,7 +58,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>Table_PJ_Bench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
