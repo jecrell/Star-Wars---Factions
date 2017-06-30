@@ -45,6 +45,10 @@
   <Make_PJ_ImpUniformBrownSHELL.description>帝国宇宙海軍制服(外套:茶)を縫う。</Make_PJ_ImpUniformBrownSHELL.description>
   <Make_PJ_ImpUniformBrownSHELL.jobString>帝国宇宙海軍制服(外套:茶)を縫製中</Make_PJ_ImpUniformBrownSHELL.jobString>
 
+  <Make_PJ_ImpUniformISBSHELL.label>帝国情報部制服(外套)を縫う</Make_PJ_ImpUniformISBSHELL.label>
+  <Make_PJ_ImpUniformISBSHELL.description>帝国情報部制服(外套)を縫う。</Make_PJ_ImpUniformISBSHELL.description>
+  <Make_PJ_ImpUniformISBSHELL.jobString>帝国情報部制服(外套)を縫製中</Make_PJ_ImpUniformISBSHELL.jobString>
+
 
   <!-- Recipe Users: TableMachining -->
 
@@ -64,13 +68,41 @@
   <Make_PJ_TroopArmorSO.description>ストームトルーパーアーマー(特戦隊)を作る。</Make_PJ_TroopArmorSO.description>
   <Make_PJ_TroopArmorSO.jobString>ストームトルーパーアーマー(特戦隊)を製作中</Make_PJ_TroopArmorSO.jobString>
 
+  <Make_PJ_TroopArmorSh.label>ショアトルーパーアーマーを作る</Make_PJ_TroopArmorSh.label>
+  <Make_PJ_TroopArmorSh.description>ショアトルーパーアーマーを作る。</Make_PJ_TroopArmorSh.description>
+  <Make_PJ_TroopArmorSh.jobString>ショアトルーパーアーマーを製作中</Make_PJ_TroopArmorSh.jobString>
+
+  <Make_PJ_TroopArmorShC.label>ショアトルーパーアーマー(大尉)を作る</Make_PJ_TroopArmorShC.label>
+  <Make_PJ_TroopArmorShC.description>ショアトルーパーアーマー(大尉)を作る。</Make_PJ_TroopArmorShC.description>
+  <Make_PJ_TroopArmorShC.jobString>ショアトルーパーアーマー(大尉)を製作中</Make_PJ_TroopArmorShC.jobString>
+
+  <Make_PJ_TroopArmorShSL.label>ショアトルーパーアーマー(SL)を作る</Make_PJ_TroopArmorShSL.label>
+  <Make_PJ_TroopArmorShSL.description>ショアトルーパーアーマー(SL)を作る。</Make_PJ_TroopArmorShSL.description>
+  <Make_PJ_TroopArmorShSL.jobString>ショアトルーパーアーマー(SL)を製作中</Make_PJ_TroopArmorShSL.jobString>
+
+  <Make_PJ_TroopArmorDT.label>デストルーパーアーマーを作る</Make_PJ_TroopArmorDT.label>
+  <Make_PJ_TroopArmorDT.description>デストルーパーアーマーを作る。</Make_PJ_TroopArmorDT.description>
+  <Make_PJ_TroopArmorDT.jobString>デストルーパーアーマーを製作中</Make_PJ_TroopArmorDT.jobString>
+
+  <Make_PJ_TroopArmorDTC.label>デストルーパーアーマー(士官)を作る</Make_PJ_TroopArmorDTC.label>
+  <Make_PJ_TroopArmorDTC.description>デストルーパーアーマー(士官)を作る。</Make_PJ_TroopArmorDTC.description>
+  <Make_PJ_TroopArmorDTC.jobString>デストルーパーアーマー(士官)を製作中</Make_PJ_TroopArmorDTC.jobString>
+
   <Make_PJ_STHelm.label>ストームトルーパーヘルムを作る</Make_PJ_STHelm.label>
   <Make_PJ_STHelm.description>ストームトルーパーヘルムを作る。</Make_PJ_STHelm.description>
   <Make_PJ_STHelm.jobString>ストームトルーパーヘルムを製作中</Make_PJ_STHelm.jobString>
 
-  <Make_PJ_SCTHelm.label>ショアトルーパーヘルムを作る</Make_PJ_SCTHelm.label>
-  <Make_PJ_SCTHelm.description>ショアトルーパーヘルムを作る。</Make_PJ_SCTHelm.description>
-  <Make_PJ_SCTHelm.jobString>ショアトルーパーヘルムを製作中</Make_PJ_SCTHelm.jobString>
+  <Make_PJ_SHHelm.label>ショアトルーパーヘルムを作る</Make_PJ_SHHelm.label>
+  <Make_PJ_SHHelm.description>ショアトルーパーヘルムを作る。</Make_PJ_SHHelm.description>
+  <Make_PJ_SHHelm.jobString>ショアトルーパーヘルムを製作中</Make_PJ_SHHelm.jobString>
+
+  <Make_PJ_DTHelm.label>デストルーパーヘルムを作る</Make_PJ_DTHelm.label>
+  <Make_PJ_DTHelm.description>デストルーパーヘルムを作る。</Make_PJ_DTHelm.description>
+  <Make_PJ_DTHelm.jobString>デストルーパーヘルムを製作中</Make_PJ_DTHelm.jobString>
+
+  <Make_PJ_SCTHelm.label>スカウトトルーパーヘルムを作る</Make_PJ_SCTHelm.label>
+  <Make_PJ_SCTHelm.description>スカウトトルーパーヘルムを作る。</Make_PJ_SCTHelm.description>
+  <Make_PJ_SCTHelm.jobString>スカウトトルーパーヘルムを製作中</Make_PJ_SCTHelm.jobString>
 
   <Make_PJ_TIEHelm.label>タイファイターヘルムを作る</Make_PJ_TIEHelm.label>
   <Make_PJ_TIEHelm.description>タイファイターヘルムを作る。</Make_PJ_TIEHelm.description>
@@ -79,13 +111,17 @@
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
 
+  <Make_PJ_ImpNavyH.label>帝国宇宙海軍ヘルメットを作る</Make_PJ_ImpNavyH.label>
+  <Make_PJ_ImpNavyH.description>帝国宇宙海軍ヘルメットを作る。</Make_PJ_ImpNavyH.description>
+  <Make_PJ_ImpNavyH.jobString>帝国宇宙海軍ヘルメットを製作中</Make_PJ_ImpNavyH.jobString>
+
   <Make_PJ_ImpHat.label>帝国軍コマンドキャップを縫う</Make_PJ_ImpHat.label>
   <Make_PJ_ImpHat.description>帝国軍コマンドキャップを縫う。</Make_PJ_ImpHat.description>
   <Make_PJ_ImpHat.jobString>帝国軍コマンドキャップを縫製中</Make_PJ_ImpHat.jobString>
 
-  <Make_PJ_ImpNavyH.label>帝国宇宙海軍ヘルメットを作る</Make_PJ_ImpNavyH.label>
-  <Make_PJ_ImpNavyH.description>帝国宇宙海軍ヘルメットを作る。</Make_PJ_ImpNavyH.description>
-  <Make_PJ_ImpNavyH.jobString>帝国宇宙海軍ヘルメットを製作中</Make_PJ_ImpNavyH.jobString>
+  <Make_PJ_ImpSTOHat.label>帝国軍コマンドキャップ(暗灰)を縫う</Make_PJ_ImpSTOHat.label>
+  <Make_PJ_ImpSTOHat.description>帝国軍コマンドキャップ(暗灰)を縫う。</Make_PJ_ImpSTOHat.description>
+  <Make_PJ_ImpSTOHat.jobString>帝国軍コマンドキャップ(暗灰)を縫製中</Make_PJ_ImpSTOHat.jobString>
 
   <Make_PJ_ImpHatBrn.label>帝国軍コマンドキャップ(茶)を縫う</Make_PJ_ImpHatBrn.label>
   <Make_PJ_ImpHatBrn.description>帝国軍コマンドキャップ(茶)を縫う。</Make_PJ_ImpHatBrn.description>
@@ -183,8 +219,19 @@
   <Make_PJ_Reb_CamoJacket.description>迷彩ジャケットを縫う。</Make_PJ_Reb_CamoJacket.description>
   <Make_PJ_Reb_CamoJacket.jobString>迷彩ジャケットを縫製中</Make_PJ_Reb_CamoJacket.jobString>
 
+  <Make_PJ_RebCollarShirt.label>改造シャツを縫う</Make_PJ_RebCollarShirt.label>
+  <Make_PJ_RebCollarShirt.description>改造シャツを縫う。</Make_PJ_RebCollarShirt.description>
+  <Make_PJ_RebCollarShirt.jobString>改造シャツを縫製中</Make_PJ_RebCollarShirt.jobString>
 
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+
+  <!-- Recipe Users: TableMachining -->
+
+  <Make_PJ_Apparel_XVestPlate.label>装甲補強ベストを作る</Make_PJ_Apparel_XVestPlate.label>
+  <Make_PJ_Apparel_XVestPlate.description>装甲補強ベストを作る。</Make_PJ_Apparel_XVestPlate.description>
+  <Make_PJ_Apparel_XVestPlate.jobString>装甲補強ベストを製作中</Make_PJ_Apparel_XVestPlate.jobString>
+
+
+  <!-- Recipe Users: ComponentAssemblyBench -->
 
   <Make_PJ_Vibroaxe.label>バイブロ＝アックス(試作品)を作る</Make_PJ_Vibroaxe.label>
   <Make_PJ_Vibroaxe.description>バイブロ＝アックス(試作品)を作る。</Make_PJ_Vibroaxe.description>
@@ -209,6 +256,10 @@
   <Make_PJ_StaffX.label>バイブロ＝スタッフ(試作品)を作る</Make_PJ_StaffX.label>
   <Make_PJ_StaffX.description>バイブロ＝スタッフ(試作品)を作る。</Make_PJ_StaffX.description>
   <Make_PJ_StaffX.jobString>バイブロ＝スタッフ(試作品)を製作中</Make_PJ_StaffX.jobString>
+
+  <Make_PJ_TStaff.label>バイブロ＝スタッフ(タスケン)を作る</Make_PJ_TStaff.label>
+  <Make_PJ_TStaff.description>バイブロ＝スタッフ(タスケン)を作る。</Make_PJ_TStaff.description>
+  <Make_PJ_TStaff.jobString>バイブロ＝スタッフ(タスケン)を製作中</Make_PJ_TStaff.jobString>
 
 
   <!-- Recipe Users: TableMachining -->
@@ -264,6 +315,14 @@
   <Make_PJ_EE3Carbine.label>EE-3カービンライフルを作る</Make_PJ_EE3Carbine.label>
   <Make_PJ_EE3Carbine.description>EE-3カービンライフルを作る。</Make_PJ_EE3Carbine.description>
   <Make_PJ_EE3Carbine.jobString>EE-3カービンライフルを製作中</Make_PJ_EE3Carbine.jobString>
+
+  <Make_PJ_ATST_Blaster.label>ATSTメインブラスター砲を作る</Make_PJ_ATST_Blaster.label>
+  <Make_PJ_ATST_Blaster.description>MATSTメインブラスター砲を作る。</Make_PJ_ATST_Blaster.description>
+  <Make_PJ_ATST_Blaster.jobString>ATSTメインブラスター砲を製作中</Make_PJ_ATST_Blaster.jobString>
+
+  <Make_PJ_ATAT_Blaster.label>ATATメインブラスター砲を作る</Make_PJ_ATAT_Blaster.label>
+  <Make_PJ_ATAT_Blaster.description>ATATメインブラスター砲を作る。</Make_PJ_ATAT_Blaster.description>
+  <Make_PJ_ATAT_Blaster.jobString>ATATメインブラスター砲を製作中</Make_PJ_ATAT_Blaster.jobString>
 
 
 </LanguageData>

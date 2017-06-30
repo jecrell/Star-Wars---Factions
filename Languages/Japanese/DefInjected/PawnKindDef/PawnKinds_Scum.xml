@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PJ_ScumSoldier.label>兵士</PJ_ScumSoldier.label>
-  <PJ_ScumSoldier.labelPlural>兵隊</PJ_ScumSoldier.labelPlural>
-  <PJ_ScumSoldier.labelMale>男性兵士</PJ_ScumSoldier.labelMale>
-  <PJ_ScumSoldier.labelMalePlural>男性部隊</PJ_ScumSoldier.labelMalePlural>
-  <PJ_ScumSoldier.labelFemale>女性兵士</PJ_ScumSoldier.labelFemale>
-  <PJ_ScumSoldier.labelFemalePlural>女性部隊</PJ_ScumSoldier.labelFemalePlural>
+  <PJ_ScumSoldier.label>悪党兵</PJ_ScumSoldier.label>
+  <PJ_ScumSoldier.labelPlural>悪党部隊</PJ_ScumSoldier.labelPlural>
+  <PJ_ScumSoldier.labelMale>男性 悪党兵</PJ_ScumSoldier.labelMale>
+  <PJ_ScumSoldier.labelMalePlural>男性 悪党部隊</PJ_ScumSoldier.labelMalePlural>
+  <PJ_ScumSoldier.labelFemale>女性 悪党兵</PJ_ScumSoldier.labelFemale>
+  <PJ_ScumSoldier.labelFemalePlural>女性 悪党部隊</PJ_ScumSoldier.labelFemalePlural>
 
   <PJ_Ruffian.label>ごろつき</PJ_Ruffian.label>
   <PJ_Ruffian.labelPlural>ごろつき共</PJ_Ruffian.labelPlural>
-  <PJ_Ruffian.labelMale>ごろつき</PJ_Ruffian.labelMale>
-  <PJ_Ruffian.labelMalePlural>ごろつき共</PJ_Ruffian.labelMalePlural>
-  <PJ_Ruffian.labelFemale>女ごろつき</PJ_Ruffian.labelFemale>
-  <PJ_Ruffian.labelFemalePlural>女ごろつき共</PJ_Ruffian.labelFemalePlural>
+  <PJ_Ruffian.labelMale>男性 ごろつき</PJ_Ruffian.labelMale>
+  <PJ_Ruffian.labelMalePlural>男性 ごろつき共</PJ_Ruffian.labelMalePlural>
+  <PJ_Ruffian.labelFemale>女性 ごろつき</PJ_Ruffian.labelFemale>
+  <PJ_Ruffian.labelFemalePlural>女性 ごろつき共</PJ_Ruffian.labelFemalePlural>
 
-  <PJ_ScumBoss.label>ボス</PJ_ScumBoss.label>
-  <PJ_ScumBoss.labelPlural>ボス達</PJ_ScumBoss.labelPlural>
-  <PJ_ScumBoss.labelMale>ボス</PJ_ScumBoss.labelMale>
-  <PJ_ScumBoss.labelMalePlural>ボス達</PJ_ScumBoss.labelMalePlural>
-  <PJ_ScumBoss.labelFemale>女ボス</PJ_ScumBoss.labelFemale>
-  <PJ_ScumBoss.labelFemalePlural>女ボス達</PJ_ScumBoss.labelFemalePlural>
+  <PJ_ScumBoss.label>悪党のボス</PJ_ScumBoss.label>
+  <PJ_ScumBoss.labelPlural>悪党のボス達</PJ_ScumBoss.labelPlural>
+  <PJ_ScumBoss.labelMale>男性 悪党のボス</PJ_ScumBoss.labelMale>
+  <PJ_ScumBoss.labelMalePlural>男性 悪党のボス達</PJ_ScumBoss.labelMalePlural>
+  <PJ_ScumBoss.labelFemale>女性 悪党のボス</PJ_ScumBoss.labelFemale>
+  <PJ_ScumBoss.labelFemalePlural>女性 悪党のボス達</PJ_ScumBoss.labelFemalePlural>
 
   <PJ_BountyHunter.label>賞金稼ぎ</PJ_BountyHunter.label>
   <PJ_BountyHunter.labelPlural>賞金稼ぎ達</PJ_BountyHunter.labelPlural>
-  <PJ_BountyHunter.labelMale>賞金稼ぎ</PJ_BountyHunter.labelMale>
-  <PJ_BountyHunter.labelMalePlural>賞金稼ぎ達</PJ_BountyHunter.labelMalePlural>
-  <PJ_BountyHunter.labelFemale>賞金稼ぎ</PJ_BountyHunter.labelFemale>
-  <PJ_BountyHunter.labelFemalePlural>賞金稼ぎ達</PJ_BountyHunter.labelFemalePlural>
+  <PJ_BountyHunter.labelMale>男性 賞金稼ぎ</PJ_BountyHunter.labelMale>
+  <PJ_BountyHunter.labelMalePlural>男性 賞金稼ぎ達</PJ_BountyHunter.labelMalePlural>
+  <PJ_BountyHunter.labelFemale>女性 賞金稼ぎ</PJ_BountyHunter.labelFemale>
+  <PJ_BountyHunter.labelFemalePlural>女性 賞金稼ぎ達</PJ_BountyHunter.labelFemalePlural>
 
 
 </LanguageData>

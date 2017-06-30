@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Imperial Traders
+     ==== Imperial credits are introduced.
+     ==== All prices are marked up heavily.
+     ==== Drug sales are disabled. -->
+
+  <PJ_ImpTrader_BulkGoods.label>帝国バルク品供給隊</PJ_ImpTrader_BulkGoods.label>
+  <PJ_ImpTrader_CombatSupplier.label>帝国武器供給隊</PJ_ImpTrader_CombatSupplier.label>
+  <PJ_ImpTrader_Slaver.label>帝国奴隷商</PJ_ImpTrader_Slaver.label>
+
+
+</LanguageData>

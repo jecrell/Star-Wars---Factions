@@ -3,45 +3,66 @@
 
   <PJ_RebVillager.label>村人</PJ_RebVillager.label>
   <PJ_RebVillager.labelPlural>村人達</PJ_RebVillager.labelPlural>
-  <PJ_RebVillager.labelMale>村人</PJ_RebVillager.labelMale>
-  <PJ_RebVillager.labelMalePlural>村人達</PJ_RebVillager.labelMalePlural>
-  <PJ_RebVillager.labelFemale>村人</PJ_RebVillager.labelFemale>
-  <PJ_RebVillager.labelFemalePlural>村人達</PJ_RebVillager.labelFemalePlural>
+  <PJ_RebVillager.labelMale>男性 村人</PJ_RebVillager.labelMale>
+  <PJ_RebVillager.labelMalePlural>男性 村人達</PJ_RebVillager.labelMalePlural>
+  <PJ_RebVillager.labelFemale>女性 村人</PJ_RebVillager.labelFemale>
+  <PJ_RebVillager.labelFemalePlural>女性 村人達</PJ_RebVillager.labelFemalePlural>
 
   <PJ_RebCouncilman.label>反乱軍基地司令官</PJ_RebCouncilman.label>
   <PJ_RebCouncilman.labelPlural>反乱軍基地司令官達</PJ_RebCouncilman.labelPlural>
-  <PJ_RebCouncilman.labelMale>反乱軍基地司令官</PJ_RebCouncilman.labelMale>
-  <PJ_RebCouncilman.labelMalePlural>反乱軍基地司令官達</PJ_RebCouncilman.labelMalePlural>
-  <PJ_RebCouncilman.labelFemale>反乱軍基地司令官</PJ_RebCouncilman.labelFemale>
-  <PJ_RebCouncilman.labelFemalePlural>反乱軍基地司令官達</PJ_RebCouncilman.labelFemalePlural>
+  <PJ_RebCouncilman.labelMale>男性 反乱軍基地司令官</PJ_RebCouncilman.labelMale>
+  <PJ_RebCouncilman.labelMalePlural>男性 反乱軍基地司令官達</PJ_RebCouncilman.labelMalePlural>
+  <PJ_RebCouncilman.labelFemale>女性 反乱軍基地司令官</PJ_RebCouncilman.labelFemale>
+  <PJ_RebCouncilman.labelFemalePlural>女性 反乱軍基地司令官達</PJ_RebCouncilman.labelFemalePlural>
 
   <PJ_RebTrader.label>反乱軍トレーダー</PJ_RebTrader.label>
   <PJ_RebTrader.labelPlural>反乱軍トレーダー達</PJ_RebTrader.labelPlural>
-  <PJ_RebTrader.labelMale>反乱軍トレーダー</PJ_RebTrader.labelMale>
-  <PJ_RebTrader.labelMalePlural>反乱軍トレーダー達</PJ_RebTrader.labelMalePlural>
-  <PJ_RebTrader.labelFemale>反乱軍トレーダー</PJ_RebTrader.labelFemale>
-  <PJ_RebTrader.labelFemalePlural>反乱軍トレーダー達</PJ_RebTrader.labelFemalePlural>
+  <PJ_RebTrader.labelMale>男性 反乱軍トレーダー</PJ_RebTrader.labelMale>
+  <PJ_RebTrader.labelMalePlural>男性 反乱軍トレーダー達</PJ_RebTrader.labelMalePlural>
+  <PJ_RebTrader.labelFemale>女性 反乱軍トレーダー</PJ_RebTrader.labelFemale>
+  <PJ_RebTrader.labelFemalePlural>女性 反乱軍トレーダー達</PJ_RebTrader.labelFemalePlural>
 
   <PJ_RebGuard.label>反乱軍守備兵</PJ_RebGuard.label>
   <PJ_RebGuard.labelPlural>反乱軍守備隊</PJ_RebGuard.labelPlural>
-  <PJ_RebGuard.labelMale>反乱軍守備兵</PJ_RebGuard.labelMale>
-  <PJ_RebGuard.labelMalePlural>反乱軍守備隊</PJ_RebGuard.labelMalePlural>
-  <PJ_RebGuard.labelFemale>反乱軍守備兵</PJ_RebGuard.labelFemale>
-  <PJ_RebGuard.labelFemalePlural>反乱軍守備隊</PJ_RebGuard.labelFemalePlural>
+  <PJ_RebGuard.labelMale>男性 反乱軍守備兵</PJ_RebGuard.labelMale>
+  <PJ_RebGuard.labelMalePlural>男性 反乱軍守備隊</PJ_RebGuard.labelMalePlural>
+  <PJ_RebGuard.labelFemale>女性 反乱軍守備兵</PJ_RebGuard.labelFemale>
+  <PJ_RebGuard.labelFemalePlural>女性 反乱軍守備隊</PJ_RebGuard.labelFemalePlural>
 
   <PJ_RebSoldier.label>反乱軍兵士</PJ_RebSoldier.label>
   <PJ_RebSoldier.labelPlural>反乱軍部隊</PJ_RebSoldier.labelPlural>
-  <PJ_RebSoldier.labelMale>反乱軍兵士</PJ_RebSoldier.labelMale>
-  <PJ_RebSoldier.labelMalePlural>反乱軍部隊</PJ_RebSoldier.labelMalePlural>
-  <PJ_RebSoldier.labelFemale>反乱軍兵士</PJ_RebSoldier.labelFemale>
-  <PJ_RebSoldier.labelFemalePlural>反乱軍部隊</PJ_RebSoldier.labelFemalePlural>
+  <PJ_RebSoldier.labelMale>男性 反乱軍兵士</PJ_RebSoldier.labelMale>
+  <PJ_RebSoldier.labelMalePlural>男性 反乱軍部隊</PJ_RebSoldier.labelMalePlural>
+  <PJ_RebSoldier.labelFemale>女性 反乱軍兵士</PJ_RebSoldier.labelFemale>
+  <PJ_RebSoldier.labelFemalePlural>女性 反乱軍部隊</PJ_RebSoldier.labelFemalePlural>
+
+  <PJ_RebLAVSoldier.label>反乱軍パスファインダー</PJ_RebLAVSoldier.label>
+  <PJ_RebLAVSoldier.labelPlural>反乱軍特殊部隊</PJ_RebLAVSoldier.labelPlural>
+  <PJ_RebLAVSoldier.labelMale>男性 反乱軍パスファインダー</PJ_RebLAVSoldier.labelMale>
+  <PJ_RebLAVSoldier.labelMalePlural>男性 反乱軍特殊部隊</PJ_RebLAVSoldier.labelMalePlural>
+  <PJ_RebLAVSoldier.labelFemale>女性 反乱軍パスファインダー</PJ_RebLAVSoldier.labelFemale>
+  <PJ_RebLAVSoldier.labelFemalePlural>女性 反乱軍特殊部隊</PJ_RebLAVSoldier.labelFemalePlural>
+
+  <PJ_RebNadeSoldier.label>反乱軍擲弾兵</PJ_RebNadeSoldier.label>
+  <PJ_RebNadeSoldier.labelPlural>反乱軍擲弾兵部隊</PJ_RebNadeSoldier.labelPlural>
+  <PJ_RebNadeSoldier.labelMale>男性 反乱軍擲弾兵</PJ_RebNadeSoldier.labelMale>
+  <PJ_RebNadeSoldier.labelMalePlural>男性 反乱軍擲弾兵部隊</PJ_RebNadeSoldier.labelMalePlural>
+  <PJ_RebNadeSoldier.labelFemale>女性 反乱軍擲弾兵</PJ_RebNadeSoldier.labelFemale>
+  <PJ_RebNadeSoldier.labelFemalePlural>女性 反乱軍擲弾兵部隊</PJ_RebNadeSoldier.labelFemalePlural>
+
+  <PJ_RebPilot.label>反乱軍パイロット</PJ_RebPilot.label>
+  <PJ_RebPilot.labelPlural>反乱軍パイロット隊</PJ_RebPilot.labelPlural>
+  <PJ_RebPilot.labelMale>男性 反乱軍パイロット</PJ_RebPilot.labelMale>
+  <PJ_RebPilot.labelMalePlural>男性 反乱軍パイロット隊</PJ_RebPilot.labelMalePlural>
+  <PJ_RebPilot.labelFemale>女性 反乱軍パイロット</PJ_RebPilot.labelFemale>
+  <PJ_RebPilot.labelFemalePlural>女性 反乱軍パイロット隊</PJ_RebPilot.labelFemalePlural>
 
   <PJ_RebMerc.label>反乱軍傭兵</PJ_RebMerc.label>
   <PJ_RebMerc.labelPlural>反乱軍傭兵部隊</PJ_RebMerc.labelPlural>
-  <PJ_RebMerc.labelMale>反乱軍傭兵</PJ_RebMerc.labelMale>
-  <PJ_RebMerc.labelMalePlural>反乱軍傭兵部隊</PJ_RebMerc.labelMalePlural>
-  <PJ_RebMerc.labelFemale>反乱軍傭兵</PJ_RebMerc.labelFemale>
-  <PJ_RebMerc.labelFemalePlural>反乱軍傭兵部隊</PJ_RebMerc.labelFemalePlural>
+  <PJ_RebMerc.labelMale>男性 反乱軍傭兵</PJ_RebMerc.labelMale>
+  <PJ_RebMerc.labelMalePlural>男性 反乱軍傭兵部隊</PJ_RebMerc.labelMalePlural>
+  <PJ_RebMerc.labelFemale>女性 反乱軍傭兵</PJ_RebMerc.labelFemale>
+  <PJ_RebMerc.labelFemalePlural>女性 反乱軍傭兵部隊</PJ_RebMerc.labelFemalePlural>
 
 
 </LanguageData>
