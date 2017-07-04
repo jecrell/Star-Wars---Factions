@@ -91,7 +91,7 @@
     </tags>
   </BodyPartDef>
 
-<!-- ===== Speeder Body ===== -->  
+<!-- ===== Speeder Body ===== -->
   <BodyDef>
     <defName>SWFactions_SpeederHull</defName>
     <label>Speeder</label>
@@ -118,6 +118,10 @@
                   <depth>Inside</depth>
                 </li>
               </parts>
+            </li>
+            <li>
+              <def>SWFactions_Thermometer</def>
+              <coverage>0.01</coverage>
             </li>
           </parts>
         </li>
@@ -152,5 +156,5 @@
       </parts>
     </corePart>
   </BodyDef>
-  
+
 </Defs>

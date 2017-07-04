@@ -69,37 +69,39 @@
     </butcherProducts>
 	<comps>
 	  <li Class="CompVehicle.CompProperties_Vehicle">
-	    <soundEntry>Pawn_Mech_Centipede_Wounded</soundEntry>
+    <vehicleType>LandWalker</vehicleType>
+    <movementHandling>HandlerRequired</movementHandling>
+    <weaponHandling>HandlerRequired</weaponHandling>
+    <manipulationHandling>Incapable</manipulationHandling>
+    <soundEntry>Pawn_Mech_Centipede_Wounded</soundEntry>
 		<soundEject>Pawn_Mech_Centipede_Wounded</soundEject>
 		<ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
 		<seatHitDamageFactor>1.75</seatHitDamageFactor>
 		<seatHitCriticalHitChance>0.03</seatHitCriticalHitChance>
 		<canBeDowned>true</canBeDowned>
 		<canWiggleWhenDowned>false</canWiggleWhenDowned>
-		<canMoveWithoutHandler>false</canMoveWithoutHandler>
-		<canFireWithoutHandler>false</canFireWithoutHandler>
 		<roles>
 		  <li>
 		    <label>pilot</label>
-			<labelPlural>pilots</labelPlural>
-			<handlesMovement>true</handlesMovement>
-			<slots>1</slots>
-			<slotsToOperate>1</slotsToOperate>
-			<slotTag>PilotSeat</slotTag>
+			  <labelPlural>pilots</labelPlural>
+        <handlingTypes>Movement</handlingTypes>
+			  <slots>1</slots>
+			  <slotsToOperate>1</slotsToOperate>
+			  <slotTag>PilotSeat</slotTag>
 		  </li>
 		  <li>
 		    <label>gunner</label>
-			<labelPlural>gunners</labelPlural>
-			<handlesWeapons>true</handlesWeapons>
-			<slots>1</slots>
-			<slotsToOperate>1</slotsToOperate>
-			<slotTag>GunnerSeat</slotTag>
+			  <labelPlural>gunners</labelPlural>
+        <handlingTypes>Weapons</handlingTypes>
+			  <slots>1</slots>
+			  <slotsToOperate>1</slotsToOperate>
+			  <slotTag>GunnerSeat</slotTag>
 		  </li>
 		  <li>
 		    <label>passenger</label>
-			<labelPlural>passengers</labelPlural>
-			<slots>2</slots>
-			<slotTag>PassengerSeat</slotTag>
+			  <labelPlural>passengers</labelPlural>
+			  <slots>2</slots>
+			  <slotTag>PassengerSeat</slotTag>
 		  </li>
 		</roles>
 	  </li>
@@ -218,39 +220,41 @@
     </butcherProducts>
 	<comps>
 	  <li Class="CompVehicle.CompProperties_Vehicle">
-	    <soundEntry>Pawn_Mech_Centipede_Wounded</soundEntry>
-		<soundEject>Pawn_Mech_Centipede_Wounded</soundEject>
-		<ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
-		<seatHitDamageFactor>1.75</seatHitDamageFactor>
-		<seatHitCriticalHitChance>0.03</seatHitCriticalHitChance>
-		<canBeDowned>true</canBeDowned>
-		<canWiggleWhenDowned>false</canWiggleWhenDowned>
-		<canMoveWithoutHandler>false</canMoveWithoutHandler>
-		<canFireWithoutHandler>false</canFireWithoutHandler>
-		<roles>
-		  <li>
-		    <label>pilot</label>
-			<labelPlural>pilots</labelPlural>
-			<handlesMovement>true</handlesMovement>
-			<slots>2</slots>
-			<slotsToOperate>1</slotsToOperate>
-			<slotTag>PilotSeat</slotTag>
-		  </li>
-		  <li>
-		    <label>gunner</label>
-			<labelPlural>gunners</labelPlural>
-			<handlesWeapons>true</handlesWeapons>
-			<slots>2</slots>
-			<slotsToOperate>1</slotsToOperate>
-			<slotTag>GunnerSeat</slotTag>
-		  </li>
-		  <li>
-		    <label>passenger</label>
-			<labelPlural>passengers</labelPlural>
-			<slots>12</slots>
-			<slotTag>PassengerSeat</slotTag>
-		  </li>
-		</roles>
+      <vehicleType>LandWalker</vehicleType>
+      <movementHandling>HandlerRequired</movementHandling>
+      <weaponHandling>HandlerRequired</weaponHandling>
+      <manipulationHandling>Incapable</manipulationHandling>
+  		<ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
+  		<seatHitDamageFactor>1.75</seatHitDamageFactor>
+  		<seatHitCriticalHitChance>0.03</seatHitCriticalHitChance>
+  		<canBeDowned>true</canBeDowned>
+  		<canWiggleWhenDowned>false</canWiggleWhenDowned>
+      <soundEntry>Pawn_Mech_Centipede_Wounded</soundEntry>
+  		<soundEject>Pawn_Mech_Centipede_Wounded</soundEject>
+  		<roles>
+  		  <li>
+  		    <label>pilot</label>
+  			<labelPlural>pilots</labelPlural>
+        <handlingTypes>Movement</handlingTypes>
+  			<slots>2</slots>
+  			<slotsToOperate>1</slotsToOperate>
+  			<slotTag>PilotSeat</slotTag>
+  		  </li>
+  		  <li>
+  		    <label>gunner</label>
+  			<labelPlural>gunners</labelPlural>
+        <handlingTypes>Weapons</handlingTypes>
+  			<slots>2</slots>
+  			<slotsToOperate>1</slotsToOperate>
+  			<slotTag>GunnerSeat</slotTag>
+  		  </li>
+  		  <li>
+  		    <label>passenger</label>
+  			<labelPlural>passengers</labelPlural>
+  			<slots>12</slots>
+  			<slotTag>PassengerSeat</slotTag>
+  		  </li>
+  		</roles>
 	  </li>
 	  <li Class="CompLumbering.CompProperties_Lumbering">
 	    <cycledGraphic>

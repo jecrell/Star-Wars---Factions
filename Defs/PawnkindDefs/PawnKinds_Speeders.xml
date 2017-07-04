@@ -69,39 +69,42 @@
     </butcherProducts>
 	<comps>
 	  <li Class="CompVehicle.CompProperties_Vehicle">
+      <vehicleType>LandHover</vehicleType>
+      <movementHandling>HandlerRequired</movementHandling>
+      <weaponHandling>HandlerRequired</weaponHandling>
+      <manipulationHandling>Incapable</manipulationHandling>
 	    <soundEntry>Pawn_Mech_Centipede_Wounded</soundEntry>
-		<soundEject>Pawn_Mech_Centipede_Wounded</soundEject>
-		<ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
-		<seatHitDamageFactor>1.75</seatHitDamageFactor>
-		<seatHitCriticalHitChance>0.03</seatHitCriticalHitChance>
-		<canBeDowned>true</canBeDowned>
-		<canWiggleWhenDowned>false</canWiggleWhenDowned>
-		<canMoveWithoutHandler>false</canMoveWithoutHandler>
-		<canFireWithoutHandler>false</canFireWithoutHandler>
-		<roles>
-		  <li>
-		    <label>pilot</label>
-			<labelPlural>pilots</labelPlural>
-			<handlesMovement>true</handlesMovement>
-			<slots>1</slots>
-			<slotsToOperate>1</slotsToOperate>
-			<slotTag>PilotSeat</slotTag>
-		  </li>
-		  <li>
-		    <label>gunner</label>
-			<labelPlural>gunners</labelPlural>
-			<handlesWeapons>true</handlesWeapons>
-			<slots>1</slots>
-			<slotsToOperate>1</slotsToOperate>
-			<slotTag>GunnerSeat</slotTag>
-		  </li>
-		  <li>
-		    <label>passenger</label>
-			<labelPlural>passengers</labelPlural>
-			<slots>2</slots>
-			<slotTag>PassengerSeat</slotTag>
-		  </li>
-		</roles>
+		  <soundEject>Pawn_Mech_Centipede_Wounded</soundEject>
+		  <ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
+		  <seatHitDamageFactor>1.75</seatHitDamageFactor>
+		  <seatHitCriticalHitChance>0.03</seatHitCriticalHitChance>
+		  <canBeDowned>true</canBeDowned>
+		  <canWiggleWhenDowned>false</canWiggleWhenDowned>
+      <worldSpeedFactor>4.0</worldSpeedFactor>
+  		<roles>
+  		  <li>
+  		    <label>driver</label>
+  			  <labelPlural>drivers</labelPlural>
+          <handlingTypes>Movement</handlingTypes>
+  			  <slots>1</slots>
+  			  <slotsToOperate>1</slotsToOperate>
+  			  <slotTag>PilotSeat</slotTag>
+  		  </li>
+  		  <li>
+  		    <label>gunner</label>
+  			  <labelPlural>gunners</labelPlural>
+          <handlingTypes>Weapons</handlingTypes>
+  			  <slots>1</slots>
+  			  <slotsToOperate>1</slotsToOperate>
+  			  <slotTag>GunnerSeat</slotTag>
+  		  </li>
+  		  <li>
+  		    <label>passenger</label>
+  			  <labelPlural>passengers</labelPlural>
+  			  <slots>2</slots>
+  			  <slotTag>PassengerSeat</slotTag>
+  		  </li>
+  		</roles>
 	  </li>
 	</comps>
   </ThingDef>

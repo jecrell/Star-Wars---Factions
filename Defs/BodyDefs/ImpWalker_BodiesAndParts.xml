@@ -2,21 +2,32 @@
 <Defs>
 
   <BodyPartDef>
+    <defName>SWFactions_Thermometer</defName>
+    <label>thermometer</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <frostbiteVulnerability>0.01</frostbiteVulnerability>
+  </BodyPartDef>
+
+  <BodyPartDef>
     <defName>SWFactions_Cockpit</defName>
     <label>cockpit</label>
-    <hitPoints>150</hitPoints>
+    <hitPoints>40</hitPoints>
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
     <tags>
       <li>SightSource</li>
-      <li>HearingSource</li>	  
+      <li>HearingSource</li>
       <li>ConsciousnessSource</li>
 	  <li>PilotSeat</li>
 	  <li>GunnerSeat</li>
 	  <li>PassengerSeat</li>
-    </tags>	
+    </tags>
   </BodyPartDef>
 
    <BodyPartDef>
@@ -202,7 +213,7 @@
   </BodyPartDef>
 
 
-<!-- ===== ATST Body ===== -->  
+<!-- ===== ATST Body ===== -->
   <BodyDef>
     <defName>SWFactions_ATSTHull</defName>
     <label>ATST</label>
@@ -229,6 +240,10 @@
                   <depth>Inside</depth>
                 </li>
               </parts>
+            </li>
+            <li>
+              <def>SWFactions_Thermometer</def>
+              <coverage>0.01</coverage>
             </li>
           </parts>
         </li>
@@ -263,7 +278,7 @@
       </parts>
     </corePart>
   </BodyDef>
-  
+
 <!-- ===== ATAT stuff ===== -->
 
  <BodyDef>
@@ -293,6 +308,10 @@
                 </li>
 							</parts>
 						</li>
+            <li>
+              <def>SWFactions_Thermometer</def>
+              <coverage>0.01</coverage>
+            </li>
 					</parts>
 				</li>
 				<li>
