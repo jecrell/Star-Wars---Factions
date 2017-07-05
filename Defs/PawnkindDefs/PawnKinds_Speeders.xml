@@ -48,7 +48,6 @@
           <minAge>0</minAge>
           <soundWounded>PJ_AT_Damage</soundWounded>
           <soundDeath>PJ_AT_Damage</soundDeath>
-          <soundCall>PJ_SpeederCall</soundCall>
         </li>
       </lifeStageAges>
       <soundCallIntervalRange>
@@ -73,9 +72,10 @@
       <movementHandling>HandlerRequired</movementHandling>
       <weaponHandling>HandlerRequired</weaponHandling>
       <manipulationHandling>Incapable</manipulationHandling>
-	    <soundEntry>Pawn_Mech_Centipede_Wounded</soundEntry>
-		  <soundEject>Pawn_Mech_Centipede_Wounded</soundEject>
-		  <ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
+	    <soundEntry>PJ_SpeederCall</soundEntry>
+		  <soundEject>PJ_SpeederCall</soundEject>
+      <soundMoving>PJ_SpeederMoving</soundMoving>
+      <ejectIfBelowHealthPercent>0.25</ejectIfBelowHealthPercent>
 		  <seatHitDamageFactor>1.75</seatHitDamageFactor>
 		  <seatHitCriticalHitChance>0.03</seatHitCriticalHitChance>
 		  <canBeDowned>true</canBeDowned>
