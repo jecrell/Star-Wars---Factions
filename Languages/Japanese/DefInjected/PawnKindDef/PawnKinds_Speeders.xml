@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Speeder -->
+
+  <SWFactions_SpeederKindImp.label>帝国軍パトロールスピーダー</SWFactions_SpeederKindImp.label>
+  <SWFactions_SpeederKindImp.labelPlural>帝国軍パトロールスピーダーは銀河内戦中に銀河帝国によって使用された反重力浮遊戦車の一種です。</SWFactions_SpeederKindImp.labelPlural>
+
+  <SWFactions_SpeederKindReb.label>反乱軍パトロールスピーダー</SWFactions_SpeederKindReb.label>
+  <SWFactions_SpeederKindReb.labelPlural>反乱軍が使用した時代遅れのスピーダー。機体が装甲化されて後部のリパルサーリフト発生装置に覆いがついていたパトロールスピーダーです。</SWFactions_SpeederKindReb.labelPlural>
+
+
+</LanguageData>
