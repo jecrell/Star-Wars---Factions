@@ -102,7 +102,7 @@
     </recipeMaker>
     <statBases>
 	  <MarketValue>2200</MarketValue>
-      <Mass>6.85</Mass>
+      <Mass>2.6</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.95</AccuracyShort>
@@ -148,7 +148,7 @@
     </recipeMaker>
     <statBases>
 	  <MarketValue>2200</MarketValue>
-      <Mass>6.85</Mass>
+      <Mass>1</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.95</AccuracyShort>
@@ -209,7 +209,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>1</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -257,7 +257,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>1.1</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -322,7 +322,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>1.1</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -386,7 +386,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>2.6</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -449,7 +449,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>2.4</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
@@ -514,7 +514,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>2.7</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -579,7 +579,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>1.7</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.35</AccuracyTouch>
       <AccuracyShort>0.25</AccuracyShort>
@@ -647,7 +647,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>2.8</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -701,7 +701,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>2.85</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -768,7 +768,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>2.85</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -838,7 +838,7 @@
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <Mass>6.85</Mass>
+      <Mass>2.55</Mass>
       <WorkToMake>65800</WorkToMake>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
