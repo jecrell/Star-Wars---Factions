@@ -90,7 +90,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>450</MarketValue>
-			<WorkToMake>500</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
@@ -136,7 +136,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>450</MarketValue>
-			<WorkToMake>500</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
@@ -183,13 +183,13 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>450</MarketValue>
-			<WorkToMake>500</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-80</Insulation_Cold>
+			<Insulation_Cold>-30</Insulation_Cold>
 			<Insulation_Heat>1</Insulation_Heat>
 		</statBases>
 		<costList>
@@ -229,13 +229,13 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>450</MarketValue>
-			<WorkToMake>500</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-40</Insulation_Cold>
+			<Insulation_Cold>-30</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
 		</statBases>
 		<costList>
@@ -275,13 +275,13 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>450</MarketValue>
-			<WorkToMake>500</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-40</Insulation_Cold>
+			<Insulation_Cold>-20</Insulation_Cold>
 			<Insulation_Heat>1</Insulation_Heat>
 		</statBases>
 		<costList>
@@ -321,13 +321,13 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>450</MarketValue>
-			<WorkToMake>500</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
-			<Insulation_Cold>-40</Insulation_Cold>
+			<Insulation_Cold>-20</Insulation_Cold>
 			<Insulation_Heat>1</Insulation_Heat>
 		</statBases>
 		<costList>
@@ -369,6 +369,7 @@
 	</graphicData>
     <statBases>
       <Mass>1</Mass>
+      <WorkToMake>22000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<MarketValue>700</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
@@ -424,6 +425,7 @@
 	</graphicData>
     <statBases>
       <Mass>1</Mass>
+      <WorkToMake>22000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<MarketValue>700</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
@@ -467,6 +469,62 @@
     </colorGenerator>
     </ThingDef>
 	
+	
+		  <ThingDef ParentName="PJ_RebApparelMakeableBase">
+    <defName>PJ_RebBFlight</defName>
+    <label>Rebel B-Wing Flight Suit</label>
+    <techLevel>Spacer</techLevel>
+    <description>A typical flight suit, worn by Rebel pilots. This blue version is typically worn by B-wing pilots, though sometimes preferred by other ship pilots.</description>
+    <graphicData> 
+		<texPath>General/Gear/Jumpsuit/RebelPilotJumpsuitB</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>22000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>700</MarketValue>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+	  <costList>
+      <Steel>8</Steel>
+      <Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+     <tags>
+       <li>PJ_RebPilot</li>
+     </tags>
+     <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+     </defaultOutfitTags>
+     <worngraphicPath>General/Gear/Jumpsuit/RebelPilotJumpsuitB</worngraphicPath>
+			<layers>
+			    <li>Shell</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(1,1,1,1)</only>
+				</li>
+      </options>
+    </colorGenerator>
+    </ThingDef>
+
   <ThingDef ParentName="PJ_RebApparelMakeableBase">
     <defName>PJ_Reb_TroopJacket</defName>
     <label>trooper jacket</label>
@@ -483,7 +541,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>16000</WorkToMake>
       <Mass>1.7</Mass>
 	  <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
@@ -525,7 +583,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>16000</WorkToMake>
       <Mass>1.7</Mass>
 	  <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
@@ -567,7 +625,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>16000</WorkToMake>
       <Mass>1.7</Mass>
 	  <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
@@ -610,7 +668,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>16000</WorkToMake>
       <Mass>1.7</Mass>
 	  <ArmorRating_Blunt>0.46</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
@@ -659,7 +717,7 @@
     </thingCategories>
     <statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>7500</WorkToMake>
+			<WorkToMake>8500</WorkToMake>
       <Mass>0.3</Mass>
       <ArmorRating_Blunt>0.035</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.035</ArmorRating_Sharp>

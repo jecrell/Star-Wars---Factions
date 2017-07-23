@@ -13,6 +13,7 @@
 		</graphicData>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<statBases>
+		<WorkToMake>22000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>0.5</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>

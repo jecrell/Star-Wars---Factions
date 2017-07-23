@@ -22,7 +22,7 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <WorkToMake>700</WorkToMake>
+      <WorkToMake>50000</WorkToMake>
       <Mass>0.5</Mass>
       <ArmorRating_Blunt>0.93</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.93</ArmorRating_Sharp>
@@ -110,7 +110,7 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <WorkToMake>700</WorkToMake>
+      <WorkToMake>50000</WorkToMake>
       <Mass>0.5</Mass>
      <ArmorRating_Blunt>0.93</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.93</ArmorRating_Sharp>
