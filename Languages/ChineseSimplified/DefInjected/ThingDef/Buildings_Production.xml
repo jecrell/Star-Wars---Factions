@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Work tables -->
+
+  <Table_PJ_Bench.label>先进机械加工台</Table_PJ_Bench.label>
+  <Table_PJ_Bench.description>可以生产各种“星战”先进武器装备的工作台，也具又拆解机器人的功能。</Table_PJ_Bench.description>
+  <Table_PJ_Bench_Blueprint.label>先进机械加工台（蓝图）</Table_PJ_Bench_Blueprint.label>
+  <Table_PJ_Bench_Frame.label>先进机械加工台（建造中）</Table_PJ_Bench_Frame.label>
+  <Table_PJ_Bench_Frame.description>可以生产各种“星战”先进武器装备的工作台，也具又拆解机器人的功能。</Table_PJ_Bench_Frame.description>
+
+</LanguageData>
