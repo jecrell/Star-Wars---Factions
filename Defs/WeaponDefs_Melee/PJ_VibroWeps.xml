@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef Name="PJ_BaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
@@ -68,7 +68,7 @@
 				<thingClass>Bullet</thingClass>
 				<useHitPoints>False</useHitPoints>
 				<neverMultiSelect>True</neverMultiSelect>
-				<label>improvised turret bullet</label>
+				<label>deflected projectile</label>
 					<graphicData>
 						<texPath>Things/Projectile/Bullet_Small</texPath>
 						<graphicClass>Graphic_Single</graphicClass>
@@ -86,7 +86,7 @@
   
 		<ThingDef ParentName="PJ_BaseVibroWeapon">
 		<defName>PJ_Vibroaxe</defName>
-		<label>Vibroaxe (prototype)</label>
+		<label>Vibroaxe</label>
 		<description>A cortosis-weave polearm fitted with minature vibrocells.</description>
 		<graphicData>
 			<texPath>Weapons/Vibroaxe</texPath>
@@ -95,16 +95,14 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>46</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<!-- recipeMaker>
@@ -129,26 +127,48 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
-			</li>
-		</verbs>
+	  <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>PJ_VibroStab</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 	
 	<!-- ================== Vibrosword ==================== -->
 		<ThingDef ParentName="PJ_BaseVibroWeapon">
 		<defName>PJ_Vibrosword</defName>
-		<label>Vibrosword (Echani)</label>
+		<label>Echani Vibrosword</label>
 		<description>An Echani cortosis-weave sword fitted with minature vibrocells.</description>
 		<graphicData>
 			<texPath>Weapons/Vibrosword3k</texPath>
@@ -157,16 +177,14 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>46</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>0.90</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<!-- recipeMaker>
@@ -191,26 +209,48 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
-			</li>
-		</verbs>
+	<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>PJ_VibroStab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 		<!-- ================== Vibro Cleaver ==================== -->
 		<ThingDef ParentName="PJ_BaseVibroWeapon">
 		<defName>PJ_Vibrocleaver</defName>
-		<label>Vibro Cleaver (Mando)</label>
+		<label>Mando Vibro Cleaver</label>
 		<description>A mandalorian cortosis-weave sword fitted with minature vibrocells.</description>
 		<graphicData>
 			<texPath>Weapons/Vibrocleaver</texPath>
@@ -219,16 +259,14 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>46</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<!-- recipeMaker>
@@ -253,20 +291,42 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>PJ_VibroStab</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 		
@@ -282,16 +342,14 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>23</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>1.2</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<!-- recipeMaker>
@@ -316,20 +374,42 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
-			</li>
-		</verbs>
+<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>PJ_VibroStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 			
 			
@@ -345,16 +425,14 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>20</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<stuffCategories>
@@ -382,20 +460,42 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>second edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
 		<!-- ====== Xen's staff ====== -->
@@ -403,7 +503,7 @@
 		  
 		<ThingDef ParentName="PJ_BaseVibroWeapon">
 		<defName>PJ_StaffX</defName>
-		<label>Vibrostaff (prototype)</label>
+		<label>Vibrostaff</label>
 		<description>A cortosis-weave polearm fitted with minature vibrocells.</description>
 		<graphicData>
 			<texPath>Weapons/SpikeStaff</texPath>
@@ -412,16 +512,14 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>13000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>36</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<stuffCategories>
@@ -449,25 +547,47 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>PJ_VibroStab</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 
 			<ThingDef ParentName="PJ_BaseVibroWeapon">
 		<defName>PJ_TStaff</defName>
-		<label>Vibrostaff (Tusken)</label>
+		<label>Tusken Vibrostaff</label>
 		<description>A cortosis-weave polearm fitted with minature vibrocells.</description>
 		<graphicData>
 			<texPath>Weapons/StaffX</texPath>
@@ -476,16 +596,14 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>13000</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>			
 			<WorkToMake>55800</WorkToMake>
 			<Mass>1.8</Mass>
-			<MeleeWeapon_DamageAmount>36</MeleeWeapon_DamageAmount>
 			<DeteriorationRate>0.025</DeteriorationRate>
-			<MeleeWeapon_Cooldown>1.2</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-75</equippedAngleOffset>
 		<stuffCategories>
@@ -513,20 +631,42 @@
 			<DeflectVerb Class="VerbProperties">
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>PJ_BulletDeflected</projectileDef>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>PJ_BulletDeflected</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>24</range>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</DeflectVerb>			
 		  </li>
 		</comps>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<meleeDamageDef>PJ_Vibro</meleeDamageDef>
-			</li>
-		</verbs>
+		<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>PJ_VibroStab</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>PJ_VibroCut</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
 		</ThingDef>
 		
-</ThingDefs>
+</Defs>

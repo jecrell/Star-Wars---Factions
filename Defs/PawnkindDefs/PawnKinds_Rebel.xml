@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <PawnKindDef Name="PJ_RebelPawnBase" Abstract="True">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -30,7 +30,7 @@
     </apparelMoney>
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
     <weaponMoney>
-      <min>200</min>
+      <min>225</min>
       <max>1250</max>
     </weaponMoney>
     <weaponTags>
@@ -396,4 +396,4 @@
     </inventoryOptions>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

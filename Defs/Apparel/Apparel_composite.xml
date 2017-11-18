@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
 <ThingDef Name="CompApparelBase" Abstract="True">
@@ -117,7 +117,7 @@
     		 <tags>
 				<li>PJ_Comp</li>
 			</tags>
-			<worngraphicPath>General/Gear/Comp/Comp</worngraphicPath>
+			<wornGraphicPath>General/Gear/Comp/Comp</wornGraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -170,7 +170,7 @@
     		 <tags>
    		     <li>PJ_Imp</li>
    		 </tags>
-		<worngraphicPath>Imp/Helmet/StormTrooperHelmet</worngraphicPath>
+		<wornGraphicPath>Imp/Helmet/StormTrooperHelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -214,7 +214,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>General/Gear/Jumpsuit/PilotJumpsuitY</worngraphicPath>
+     <wornGraphicPath>General/Gear/Jumpsuit/PilotJumpsuitY</wornGraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -234,4 +234,4 @@
     </colorGenerator>
     </ThingDef>
 		
-</ThingDefs>
+</Defs>

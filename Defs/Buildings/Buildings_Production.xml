@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
@@ -33,10 +33,10 @@
   </ThingDef>
 
   <ThingDef ParentName="BenchBase">
-    <DefName>Table_PJ_Bench</DefName>
+    <defName>Table_PJ_Bench</defName>
     <label>advanced fabrication bench</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A work station for assembling various advanced weapons and armor, and disassembling mechanoid corpses.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A work station for assembling various advanced weapons and armor, and disassembling mechanoid corpses.</description>
     <graphicData>
       <texPath>Buildings/TablePJ</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -48,11 +48,11 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <Steel>150</Steel>
       <Component>5</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -61,9 +61,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>0</Cleanliness>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -105,4 +105,4 @@
 
   
 
-</ThingDefs>
+</Defs>

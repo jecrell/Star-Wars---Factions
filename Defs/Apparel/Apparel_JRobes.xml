@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef ParentName="PJ_JediApparelMakeableBase">
     <defName>PJ_JFac_Robe</defName>
@@ -55,7 +55,7 @@
         <li>Legs</li>
 		<li>Shoulders</li>
       </bodyPartGroups>
-	  <worngraphicPath>Robes/JRobe</worngraphicPath>
+	  <wornGraphicPath>Robes/JRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -143,7 +143,7 @@
         <li>Legs</li>
 		<li>Shoulders</li>
       </bodyPartGroups>
-	  <worngraphicPath>Robes/JRobe</worngraphicPath>
+	  <wornGraphicPath>Robes/JRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -173,4 +173,4 @@
     </colorGenerator>
   </ThingDef>
  
-</ThingDefs>
+</Defs>

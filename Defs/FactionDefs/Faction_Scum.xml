@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
   <FactionDef>
 		<defName>PJ_Bounty</defName>
 		<label>Wretched hive of scum and villainy</label>
@@ -9,7 +9,6 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
 	<earliestRaidDays>35</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Boss</leaderTitle>
@@ -76,4 +75,4 @@
 
     <homeIconPath>World/ScumLogo</homeIconPath>
   </FactionDef>
-</FactionDefs>
+</Defs>

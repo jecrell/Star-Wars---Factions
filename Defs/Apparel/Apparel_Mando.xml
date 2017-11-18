@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
 <ThingDef Name="PJ_MandoApparelBase" Abstract="True">
@@ -119,7 +119,7 @@
     		 <tags>
 				<li>PJ_Mando</li>
 			</tags>
-			<worngraphicPath>General/Mando/XandoArmor</worngraphicPath>
+			<wornGraphicPath>General/Mando/XandoArmor</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
@@ -173,7 +173,7 @@
     		 <tags>
 				<li>PJ_Mando</li>
 			</tags>
-			<worngraphicPath>General/Mando/VetXandoArmor</worngraphicPath>
+			<wornGraphicPath>General/Mando/VetXandoArmor</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
@@ -227,7 +227,7 @@
     		 <tags>
    		     <li>PJ_Mando</li>
    		 </tags>
-		<worngraphicPath>General/Mando/Xhelmet</worngraphicPath>
+		<wornGraphicPath>General/Mando/Xhelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -278,7 +278,7 @@
     		 <tags>
 				<li>PJ_MandoB</li>
 			</tags>
-			<worngraphicPath>General/Mando/Stram/BXandoArmor</worngraphicPath>
+			<wornGraphicPath>General/Mando/Stram/BXandoArmor</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
@@ -294,4 +294,4 @@
 		</apparel>
 	</ThingDef>
 	
-</ThingDefs>
+</Defs>

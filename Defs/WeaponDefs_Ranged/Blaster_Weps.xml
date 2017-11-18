@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Abstract="True" Name="BaseWeapon">
 		<thingClass>ThingWithComps</thingClass>
@@ -96,7 +96,7 @@
       <texPath>Weapons/Blaster2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -119,7 +119,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_BlasterBolt_E11_X</projectileDef>
+        <defaultProjectile>PJ_BlasterBolt_E11_X</defaultProjectile>
         <warmupTime>1.53</warmupTime>
         <range>40</range>
         <soundCast>PJ_E11B</soundCast>
@@ -142,7 +142,7 @@
       <texPath>Weapons/DH17</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -165,7 +165,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_BlasterBolt_E11_X</projectileDef>
+        <defaultProjectile>PJ_BlasterBolt_E11_X</defaultProjectile>
         <warmupTime>1.53</warmupTime>
         <range>40</range>
         <soundCast>PJ_E11B</soundCast>
@@ -204,7 +204,7 @@
       <texPath>Weapons/Scoutblaster</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -226,7 +226,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_Pistol_Bolt</projectileDef>
+        <defaultProjectile>PJ_Pistol_Bolt</defaultProjectile>
         <warmupTime>0.63</warmupTime>
         <range>30</range>
         <soundCast>PJ_BPistol</soundCast>
@@ -252,7 +252,7 @@
       <texPath>Weapons/SE14</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -274,7 +274,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_Pistol_Bolt</projectileDef>
+        <defaultProjectile>PJ_Pistol_Bolt</defaultProjectile>
         <warmupTime>0.63</warmupTime>
         <range>25</range>
         <soundCast>PJ_BPistol</soundCast>
@@ -317,7 +317,7 @@
       <texPath>Weapons/DL44</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -339,7 +339,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_HPistol_Bolt</projectileDef>
+        <defaultProjectile>PJ_HPistol_Bolt</defaultProjectile>
         <warmupTime>0.83</warmupTime>
         <range>25</range>
         <soundCast>PJ_BPistolC</soundCast>
@@ -381,7 +381,7 @@
       <texPath>Weapons/DXR6</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -403,7 +403,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_DXR_Bolt</projectileDef>
+        <defaultProjectile>PJ_DXR_Bolt</defaultProjectile>
         <warmupTime>0.83</warmupTime>
         <range>26</range>
         <soundCast>PJ_DXRS</soundCast>
@@ -444,7 +444,7 @@
       <texPath>Weapons/JawaIon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -466,7 +466,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_Jawa_Bolt</projectileDef>
+        <defaultProjectile>PJ_Jawa_Bolt</defaultProjectile>
         <warmupTime>3.83</warmupTime>
         <range>26</range>
         <soundCast>PJ_BPistolB</soundCast>
@@ -509,7 +509,7 @@
       <texPath>Weapons/NymSlug</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -531,7 +531,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_Slug_Bolt</projectileDef>
+        <defaultProjectile>PJ_Slug_Bolt</defaultProjectile>
         <warmupTime>0.83</warmupTime>
         <range>24</range>
         <soundCast>PJ_SlugSnd</soundCast>
@@ -558,11 +558,10 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<speed>50</speed>
-			<damageDef>Flame</damageDef>
+			<damageDef>Bomb</damageDef>
 			<damageAmountBase>7</damageAmountBase>
 			<explosionRadius>2.1</explosionRadius>
 			<preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
-			<explosionSpawnChance>0.6</explosionSpawnChance>
 		</projectile>
 	</ThingDef>
   
@@ -574,7 +573,7 @@
       <texPath>Weapons/LauncherP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -596,7 +595,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LauncherP</projectileDef>
+        <defaultProjectile>Bullet_LauncherP</defaultProjectile>
         <warmupTime>2.83</warmupTime>
 		<forcedMissRadius>2.4</forcedMissRadius>
         <range>20</range>
@@ -642,7 +641,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	   <drawSize>2.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -669,7 +668,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_T21_Bolt</projectileDef>
+        <defaultProjectile>PJ_T21_Bolt</defaultProjectile>
         <warmupTime>1.63</warmupTime>
         <range>45</range>
         <soundCast>PJ_T21R</soundCast>
@@ -696,7 +695,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	   <drawSize>2.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -723,7 +722,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_T21_Bolt</projectileDef>
+        <defaultProjectile>PJ_T21_Bolt</defaultProjectile>
         <warmupTime>1.63</warmupTime>
         <range>45</range>
         <soundCast>PJ_T21R</soundCast>
@@ -763,7 +762,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	   <drawSize>2.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -790,7 +789,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_DLT_Bolt</projectileDef>
+        <defaultProjectile>PJ_DLT_Bolt</defaultProjectile>
         <warmupTime>1.43</warmupTime>
         <range>42</range>
         <soundCast>PJ_T21R</soundCast>
@@ -833,7 +832,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -860,7 +859,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_EE3_Bolt</projectileDef>
+        <defaultProjectile>PJ_EE3_Bolt</defaultProjectile>
         <warmupTime>2.23</warmupTime>
         <range>45</range>
         <soundCast>PJ_T21R</soundCast>
@@ -876,4 +875,4 @@
     </weaponTags>
   </ThingDef>
   
- </ThingDefs> 
+ </Defs> 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
 		<defName>PJ_RebelFac</defName>
@@ -9,7 +9,6 @@
     <baseSelectionWeight>1</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Leader</leaderTitle>
@@ -74,6 +73,8 @@
         <carriers>
           <Muffalo>2</Muffalo>
           <Dromedary>2</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
         </carriers>
         <guards>
           <PJ_RebGuard>250</PJ_RebGuard>
@@ -101,4 +102,4 @@
     <homeIconPath>World/RebIcon</homeIconPath>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

@@ -6,7 +6,7 @@
     <label>vibro</label>
     <workerClass>DamageWorker_AddInjury</workerClass>	
     <externalViolence>true</externalViolence>
-    <armorCategory>Heat</armorCategory>	
+    <armorCategory>Sharp</armorCategory>	
     <makesBlood>false</makesBlood>	
     <spreadOut>false</spreadOut>	
     <deathMessage>{0} has been cut to death.</deathMessage>

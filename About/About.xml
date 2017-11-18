@@ -2,14 +2,12 @@
 
 <ModMetaData>
 	<name>Star Wars - Factions</name>
-	<author>Defenders of Peace</author>
-	<targetVersion>0.17.0</targetVersion>
-	<description>Version 1.17.10
+	<author>Xen and Jecrell</author>
+	<targetVersion>0.18.0</targetVersion>
+	<description>Version 1.18.10
 
-	Thanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
-
-	Programming by Jecrell.
-	Assets and XML by Xen.
+	C# Programming by Jecrell.
+	C# updates, Art Assets, and XML by Xen.
 
 	Other contributors:
 	Berengar

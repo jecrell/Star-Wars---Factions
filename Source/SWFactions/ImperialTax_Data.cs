@@ -160,7 +160,7 @@ namespace SWFactions
                                 imperial.Map.info.parent.Label,
                                 amountPaid,
                                 empireDebt
-                }), MessageSound.Benefit);
+                }), MessageTypeDefOf.PositiveEvent);
             }
             else
             {
@@ -168,7 +168,7 @@ namespace SWFactions
                     {
                                 imperial.Map.info.parent.Label,
                                 amountOwed
-                    }), MessageSound.Benefit);
+                    }), MessageTypeDefOf.PositiveEvent);
             }
         }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
   <RecipeDef>
 		<defName>SWFactions_RepairsATST</defName>
@@ -130,4 +130,4 @@
 	<effectWorking>Repair</effectWorking>
   </RecipeDef>
 
-</RecipeDefs>
+</Defs>

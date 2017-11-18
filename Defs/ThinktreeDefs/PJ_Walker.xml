@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 
-<ThinkTrees>
+<Defs>
 
   <ThinkTreeDef>
     <defName>PJ_Walker_Thinktree</defName>
@@ -46,4 +46,4 @@
     </thinkRoot>
   </ThinkTreeDef>
   
-</ThinkTrees>
+</Defs>

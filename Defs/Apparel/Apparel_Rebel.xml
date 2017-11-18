@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="PJ_RebApparelBase" Abstract="True">
     <thingClass>Apparel</thingClass>
@@ -112,7 +112,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>General/Helmet/RebelHelmet</worngraphicPath>
+			<wornGraphicPath>General/Helmet/RebelHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -158,7 +158,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>General/Helmet/RebelLAVHelmet</worngraphicPath>
+			<wornGraphicPath>General/Helmet/RebelLAVHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -205,7 +205,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>General/Helmet/RebelSnowHelmet</worngraphicPath>
+			<wornGraphicPath>General/Helmet/RebelSnowHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -251,7 +251,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>General/Helmet/RebelScoutHelmet</worngraphicPath>
+			<wornGraphicPath>General/Helmet/RebelScoutHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -297,7 +297,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>General/Gear/Helmet/RebelPilotHelmet</worngraphicPath>
+			<wornGraphicPath>General/Gear/Helmet/RebelPilotHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -343,7 +343,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>General/Gear/Helmet/RebelBluHelmet</worngraphicPath>
+			<wornGraphicPath>General/Gear/Helmet/RebelBluHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -393,7 +393,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>General/Gear/RebOfficer/RebelOfficerUniform</worngraphicPath>
+     <wornGraphicPath>General/Gear/RebOfficer/RebelOfficerUniform</wornGraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -449,7 +449,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>General/Gear/Jumpsuit/RebelPilotJumpsuitO</worngraphicPath>
+     <wornGraphicPath>General/Gear/Jumpsuit/RebelPilotJumpsuitO</wornGraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -505,7 +505,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>General/Gear/Jumpsuit/RebelPilotJumpsuitB</worngraphicPath>
+     <wornGraphicPath>General/Gear/Jumpsuit/RebelPilotJumpsuitB</wornGraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -554,7 +554,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>General/Gear/JacketTroop</worngraphicPath>
+      <wornGraphicPath>General/Gear/JacketTroop</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -596,7 +596,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>General/Gear/JacketScout</worngraphicPath>
+      <wornGraphicPath>General/Gear/JacketScout</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -638,7 +638,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>General/Gear/Reb/JacketLAVTroop</worngraphicPath>
+      <wornGraphicPath>General/Gear/Reb/JacketLAVTroop</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -681,7 +681,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>General/Gear/CamoJacket/PJCamo</worngraphicPath>
+      <wornGraphicPath>General/Gear/CamoJacket/PJCamo</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -730,7 +730,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -782,7 +782,7 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>General/Gear/Vest/XPlate</worngraphicPath>
+      <wornGraphicPath>General/Gear/Vest/XPlate</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -812,4 +812,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

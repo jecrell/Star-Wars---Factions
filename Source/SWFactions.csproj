@@ -37,20 +37,20 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=1.0.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Harmony1091\0Harmony.dll</HintPath>
+      <HintPath>E:\Steam2\steamapps\common\RimWorld\Mods\JecsTools-A18\Assemblies\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>E:\Steam2\steamapps\common\RimWorld\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompLumbering, Version=1.17.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\CompLumbering\Assemblies\CompLumbering.dll</HintPath>
+      <HintPath>E:\Steam2\steamapps\common\RimWorld\Mods\JecsTools-A18\Assemblies\CompLumbering.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CompVehicle">
-      <HintPath>..\..\JecsTools\Assemblies\CompVehicle.dll</HintPath>
+      <HintPath>E:\Steam2\steamapps\common\RimWorld\Mods\JecsTools-A18\Assemblies\CompVehicle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -60,7 +60,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>E:\Steam2\steamapps\common\RimWorld\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

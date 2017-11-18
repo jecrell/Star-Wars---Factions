@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 <ThingDef Abstract="True" Name="PJ_Veh_BaseWeapon">
 		<thingClass>ThingWithComps</thingClass>
@@ -132,7 +132,7 @@
       <texPath>VehicleWeps/ATSTBl</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <Mass>6.85</Mass>
       <MarketValue>3200</MarketValue>
@@ -151,7 +151,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_ATST_Bullet</projectileDef>
+        <defaultProjectile>PJ_ATST_Bullet</defaultProjectile>
         <warmupTime>1.03</warmupTime>
         <range>27</range>
         <soundCast>PJ_ATST_Gun</soundCast>
@@ -191,7 +191,7 @@
       <texPath>VehicleWeps/ATATBl</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <Mass>6.85</Mass>
       <MarketValue>3200</MarketValue>
@@ -210,7 +210,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_ATST_Bullet</projectileDef>
+        <defaultProjectile>PJ_ATST_Bullet</defaultProjectile>
         <warmupTime>1.03</warmupTime>
         <range>27</range>
         <soundCast>PJ_ATST_Gun</soundCast>
@@ -250,7 +250,7 @@
       <texPath>VehicleWeps/TurretSpd_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <Mass>6.85</Mass>
       <MarketValue>3200</MarketValue>
@@ -269,7 +269,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PJ_Spd_Bullet</projectileDef>
+        <defaultProjectile>PJ_Spd_Bullet</defaultProjectile>
         <warmupTime>1.03</warmupTime>
         <range>27</range>
         <soundCast>PJ_ATST_Gun</soundCast>
@@ -284,4 +284,4 @@
     </weaponTags>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

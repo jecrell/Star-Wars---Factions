@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
   <FactionDef>
 		<defName>PJ_GalacticEmpire</defName>
 		<label>The Galactic Empire</label>
@@ -10,7 +10,6 @@
 	  <earliestRaidDays>35</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
     <autoFlee>false</autoFlee>
-    <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Moff</leaderTitle>
@@ -82,6 +81,8 @@
         <carriers>
           <Muffalo>2</Muffalo>
           <Dromedary>2</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
         </carriers>
         <guards>
           <PJ_ScoutTrooper>60</PJ_ScoutTrooper>
@@ -102,4 +103,4 @@
 
     <homeIconPath>World/EmpLogo</homeIconPath>
   </FactionDef>
-</FactionDefs>
+</Defs>
