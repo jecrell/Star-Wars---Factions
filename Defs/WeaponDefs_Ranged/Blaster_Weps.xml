@@ -129,6 +129,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+           <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
 	   <li>ImpBlaster</li>
     </weaponTags>
@@ -236,6 +255,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>ImpBlaster</li>
@@ -284,6 +322,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>ImpBlaster</li>
@@ -349,6 +406,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>ImpBlaster</li>
@@ -413,6 +489,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>Blaster</li>
@@ -476,6 +571,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>IonBlaster</li>
@@ -541,6 +655,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>Blaster</li>
@@ -606,6 +739,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>ImpBlaster</li>
@@ -678,6 +830,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>ImpBlaster</li>
@@ -732,6 +903,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
 	   <li>BlasterRifle</li>
     </weaponTags>
@@ -799,6 +989,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+      <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
 	    <li>ImpBlaster</li>
 	    <li>BlasterRifle</li>
@@ -869,6 +1078,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+           <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
        <li>MedievalShields_ValidSidearm</li>
 	   <li>BlasterRifle</li>
