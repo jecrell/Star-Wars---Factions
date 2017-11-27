@@ -28,6 +28,9 @@
   <PJ_RebFlight.label>反乱軍フライトスーツ</PJ_RebFlight.label>
   <PJ_RebFlight.description>反乱軍パイロットが着用する典型的なフライトスーツ。このオレンジ色のバージョンは、通常、X-wingのパイロットや悪名高い「ローグ中隊」のメンバーによって着用されます。</PJ_RebFlight.description>
 
+  <PJ_RebBFlight.label>反乱軍B-wingフライトスーツ</PJ_RebBFlight.label>
+  <PJ_RebBFlight.description>反乱軍パイロットが着用する典型的なフライトスーツ。この青色のバージョンは、他の宇宙戦闘機パイロットによって好まれることがあるが、通常、B-wingパイロットによって着用される。</PJ_RebBFlight.description>
+
   <PJ_Reb_TroopJacket.label>トルーパージャケット</PJ_Reb_TroopJacket.label>
   <PJ_Reb_TroopJacket.description>擦り傷や負傷を防止するための丈夫なトルーパージャケット。寒い季節に暖かい。</PJ_Reb_TroopJacket.description>
 

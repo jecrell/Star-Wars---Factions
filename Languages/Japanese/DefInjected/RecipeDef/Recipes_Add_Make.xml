@@ -203,6 +203,10 @@
   <Make_PJ_RebFlight.description>反乱軍フライトスーツを縫う。</Make_PJ_RebFlight.description>
   <Make_PJ_RebFlight.jobString>反乱軍フライトスーツを縫製中</Make_PJ_RebFlight.jobString>
 
+  <Make_PJ_RebBFlight.label>反乱軍B-wingフライトスーツを縫う</Make_PJ_RebBFlight.label>
+  <Make_PJ_RebBFlight.description>反乱軍B-wingフライトスーツを縫う。</Make_PJ_RebBFlight.description>
+  <Make_PJ_RebBFlight.jobString>反乱軍B-wingフライトスーツを縫製中</Make_PJ_RebBFlight.jobString>
+
   <Make_PJ_Reb_TroopJacket.label>トルーパージャケットを縫う</Make_PJ_Reb_TroopJacket.label>
   <Make_PJ_Reb_TroopJacket.description>トルーパージャケットを縫う。</Make_PJ_Reb_TroopJacket.description>
   <Make_PJ_Reb_TroopJacket.jobString>トルーパージャケットを縫製中</Make_PJ_Reb_TroopJacket.jobString>
@@ -323,6 +327,10 @@
   <Make_PJ_ATAT_Blaster.label>ATATメインブラスター砲を作る</Make_PJ_ATAT_Blaster.label>
   <Make_PJ_ATAT_Blaster.description>ATATメインブラスター砲を作る。</Make_PJ_ATAT_Blaster.description>
   <Make_PJ_ATAT_Blaster.jobString>ATATメインブラスター砲を製作中</Make_PJ_ATAT_Blaster.jobString>
+
+  <Make_PJ_Spd_Blaster.label>スピーダー用メインブラスター砲を作る</Make_PJ_Spd_Blaster.label>
+  <Make_PJ_Spd_Blaster.description>スピーダー用メインブラスター砲を作る。</Make_PJ_Spd_Blaster.description>
+  <Make_PJ_Spd_Blaster.jobString>スピーダー用メインブラスター砲を製作中</Make_PJ_Spd_Blaster.jobString>
 
 
 </LanguageData>
