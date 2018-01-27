@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+		<!-- ================== Vibroaxe ==================== -->
+
+  <PJ_Vibroaxe.Label>Вибротопор (прототип)</PJ_Vibroaxe.Label>
+  <PJ_Vibroaxe.Description>Кортозисно-волоконная алебарда, снабженная миниатюрными виброгенераторами.</PJ_Vibroaxe.Description>
+
+		<!-- ================== Vibrosword ==================== -->
+
+  <PJ_Vibrosword.Label>Вибромеч</PJ_Vibrosword.Label>
+  <PJ_Vibrosword.Description>Кортозисно-волоконный меч, снабженный миниатюрными виброгенераторами.</PJ_Vibrosword.Description>
+
+		<!-- ================== Vibro Cleaver ==================== -->
+
+  <PJ_Vibrocleaver.Label>Виброрапира (мандалорская)</PJ_Vibrocleaver.Label>
+  <PJ_Vibrocleaver.Description>Мандалорианский меч кортозисно-волоконный , снабженный миниатюрными виброгенераторами.</PJ_Vibrocleaver.Description>
+
+		<!-- ================== Vibro Cleaver ==================== -->
+
+  <PJ_VScythe.Label>Виброкоса</PJ_VScythe.Label>
+  <PJ_VScythe.Description>Современный кортозисно-волоконный  меч в стиле косы, оснащенный миниатюрными виброгенераторами.</PJ_VScythe.Description>
+
+		<!-- ================== Vibro DoubleSword ==================== -->
+
+  <PJ_Vibrodouble.Label>Двойной вибромеч</PJ_Vibrodouble.Label>
+  <PJ_Vibrodouble.Description>Старинное кортозисно-волоконное оружие с двойным лезвием и миниатюрными виброгенераторами.</PJ_Vibrodouble.Description>
+
+		<!-- ====== Xen's staff ====== -->
+
+  <PJ_StaffX.Label>Вибропосох (прототип)</PJ_StaffX.Label>
+  <PJ_StaffX.Description>Кортозисно-волоконный посох, снабженный миниатюрными виброгенераторами.</PJ_StaffX.Description>
+
+  <PJ_TStaff.Label>Вибропосох (таскены)</PJ_TStaff.Label>
+  <PJ_TStaff.Description>Кортозисно-волоконный посох, снабженный миниатюрными виброгенераторами.</PJ_TStaff.Description>
+
+</LanguageData>

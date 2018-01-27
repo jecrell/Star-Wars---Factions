@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_MakeSaberCase.Label>Сделать корпус светового меча</PJ_MakeSaberCase.Label>
+  <PJ_MakeSaberCase.Description>Сделайте наружный корпус для светового меча.</PJ_MakeSaberCase.Description>
+  <PJ_MakeSaberCase.jobString>Делает эфес светового меча.</PJ_MakeSaberCase.jobString>
+
+  <PJ_MakeSaberInternal.Label>Сделать внутренности светового меча</PJ_MakeSaberInternal.Label>
+  <PJ_MakeSaberInternal.Description>Сделать опасные внутренние элементы светового меча.</PJ_MakeSaberInternal.Description>
+  <PJ_MakeSaberInternal.jobString>Выравнивает кристаллическую матрицу.</PJ_MakeSaberInternal.jobString>
+
+</LanguageData>

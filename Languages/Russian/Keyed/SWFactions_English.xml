@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+  <!-- ======== 6 / 6 / 2017 ========== -->
+
+<PJ_WarDeclared>Война</PJ_WarDeclared>
+<PJ_WarDeclaredDesc>{0} объявила войну {1}. На вашей территории могут произойти боевые действия.</PJ_WarDeclaredDesc>
+
+<!-- ======== Initial Release ========== -->
+
+<PJ_ImperialGreeting_Title>Галактическая империя</PJ_ImperialGreeting_Title>
+
+<PJ_ImperialGreeting>{1} указывает {0} продлить декларацию помощи Империи.\n\nВ качестве несанкционированного урегулирования {2} обязуется оплатить регистрационный взнос {3} серебра, чтобы быть получить право пользования землей.\n\nВ соответствии с Имперскими Кодексами доходов в Имперском бюро налогообложения ежегодный подоходный налог в размере {4} всего заработанного серебра должен быть оплачен.\n\nНесоблюдение любого из этих требований будет означать, что все колонисты за нарушение Императорского Закона объявляются врагами Императора.</PJ_ImperialGreeting>
+
+<PJ_ImperialGreeting_Rejected>{0} грозно передает код в свой коммуникатор и вытягивает свое оружие.</PJ_ImperialGreeting_Rejected>
+
+<PJ_ImperialGreeting_Accept>Платить налоги</PJ_ImperialGreeting_Accept>
+
+<PJ_ImperialGreeting_Reject>Отклонить требования</PJ_ImperialGreeting_Reject>
+
+<PJ_ImperialTaxes_Paid>{0} заплатил {1} серебром в качестве налога Империи.</PJ_ImperialTaxes_Paid>
+
+<PJ_ImperialTaxes_Owed>{0} уплачено {1} серебра. {0} должен Империи {2} серебра.</PJ_ImperialTaxes_Owed>
+
+</LanguageData>

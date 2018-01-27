@@ -1,3 +1,6 @@
 J:\Modding\RimWorld\A17mods\SWFactionsA17\Assemblies\SWFactions.dll
 J:\Modding\RimWorld\A17mods\SWFactionsA17\Source\obj\Release\SWFactions.csprojResolveAssemblyReference.cache
 J:\Modding\RimWorld\A17mods\SWFactionsA17\Source\obj\Release\SWFactions.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Source\obj\Release\SWFactions.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Source\obj\Release\SWFactions.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Assemblies\SWFactions.dll

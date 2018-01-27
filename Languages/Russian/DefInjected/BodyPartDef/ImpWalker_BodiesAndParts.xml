@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <SWFactions_Cockpit.Label>Кокпит</SWFactions_Cockpit.Label>
+  <ATST_Neck.Label>Шея</ATST_Neck.Label>
+  <ATST_Head.Label>Голова</ATST_Head.Label>
+  <ATST_Frame.Label>Корпус</ATST_Frame.Label>
+
+<!-- ===== ATAT Parts ===== -->
+
+  <ATAT_Neck.Label>Шея</ATAT_Neck.Label>
+  <ATAT_Head.Label>Голова</ATAT_Head.Label>
+  <ATAT_Frame.Label>Корпус</ATAT_Frame.Label>
+  <LeftATATFLeg.Label>Левая нога</LeftATATFLeg.Label>
+  <LeftATATFFoot.Label>Левая стопа</LeftATATFFoot.Label>
+  <LeftATATRLeg.Label>Левая нога</LeftATATRLeg.Label>
+  <LeftATATRFoot.Label>Левая стопа</LeftATATRFoot.Label>
+  <RightATATFLeg.Label>Правая нога</RightATATFLeg.Label>
+  <RightATATFFoot.Label>Правая стопа</RightATATFFoot.Label>
+  <RightATATRLeg.Label>Правая нога</RightATATRLeg.Label>
+  <RightATATRFoot.Label>Правая стопа</RightATATRFoot.Label>
+
+</LanguageData>

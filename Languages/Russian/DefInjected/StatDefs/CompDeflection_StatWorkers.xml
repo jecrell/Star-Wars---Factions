@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <MeleeWeapon_DeflectionChance.Label>Шанс уклонения</MeleeWeapon_DeflectionChance.Label>
+  <MeleeWeapon_DeflectionChance.Description>Шанс отразить пули оружием ближнего боя.</MeleeWeapon_DeflectionChance.Description>
+
+</LanguageData>

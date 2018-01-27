@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_ATST_Bullet.Label>Бластерный болт AT-ST</PJ_ATST_Bullet.Label>
+
+  <PJ_ATST_Blaster.Label>Главная бластерная пушка AT-ST</PJ_ATST_Blaster.Label>
+  <PJ_ATST_Blaster.Description>Высоко-энергетическая пушка установленная на шагоход AT-ST</PJ_ATST_Blaster.Description>
+
+  <PJ_ATAT_Bullet.Label>Бластерный болт AT-АТ</PJ_ATAT_Bullet.Label>
+
+  <PJ_ATAT_Blaster.Label>Главное бластерное орудие АТ-АТ</PJ_ATAT_Blaster.Label>
+  <PJ_ATAT_Blaster.Description>Высоко-энергетическое орудие установленное на шагоход AT-АТ</PJ_ATAT_Blaster.Description>
+
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_CompArmor.Label>Композитная броня</PJ_CompArmor.Label>
+  <PJ_CompArmor.Description>Было время и место, где все были одеты в эту броню. Битвы опустошили многие планеты.</PJ_CompArmor.Description>
+
+  <PJ_GenFlight_Y.Label>Жёлтый летный костюм</PJ_GenFlight_Y.Label>
+  <PJ_GenFlight_Y.Description>Типичный летный костюм, который часто носили пилоты повстанцев. Эта желтая версия была доступна для коммерческих и частных покупок в течение многих лет, и как таковая, довольно распространена.</PJ_GenFlight_Y.Description>
+
+</LanguageData>

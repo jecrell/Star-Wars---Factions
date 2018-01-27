@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_MandoArmor.Label>Маедалорская броня</PJ_MandoArmor.Label>
+  <PJ_MandoArmor.Description>Мандалорская броня, была наиболее узнаваемым символом мандалорской культуры, была характерная броня для всего тела, которую носили мандалорианские воины и солдаты во всей истории Галактики.</PJ_MandoArmor.Description>
+
+  <PJ_VetMandoArmor.Label>Мандалорская ветеранская броня</PJ_VetMandoArmor.Label>
+  <PJ_VetMandoArmor.Description>Мандалорская броня, была наиболее узнаваемым символом мандалорской культуры, была характерная броня для всего тела, которую носили мандалорианские воины и солдаты во всей истории Галактики.</PJ_VetMandoArmor.Description>
+
+  <PJ_MandoHelm.Label>Маедалорский шлем</PJ_MandoHelm.Label>
+  <PJ_MandoHelm.Description>Всегда узнаваемый Т-образный визор мандалорского шлема пугает всю галактику.</PJ_MandoHelm.Description>
+
+	<!-- ====Strams==== -->
+
+  <PJ_BarkMandoArmor.Label>Броня клана Барки</PJ_BarkMandoArmor.Label>
+  <PJ_BarkMandoArmor.Description>Броня посвящена последователям почетного воина. Мандалорцы носят это облачение с знаками и кричат, За Баркииии!!!</PJ_BarkMandoArmor.Description>
+
+</LanguageData>

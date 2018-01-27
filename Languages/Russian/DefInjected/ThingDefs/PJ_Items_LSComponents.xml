@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_SaberCasing.Label>Корпус светового меча</PJ_SaberCasing.Label>
+  <PJ_SaberCasing.Description>Экранированный внешний корпус для светового меча. Содержит несколько компонентов, включая переключатель активатора и регуляторы длины лезвия.</PJ_SaberCasing.Description>
+
+  <PJ_SaberInternal.Label>Внутренние компоненты светового меча</PJ_SaberInternal.Label>
+  <PJ_SaberInternal.Description>Внутренние компоненты для светового меча, включая диатиумную энергетическую ячейку, кристаллическую энергетическую камеру и фокусирующую кристаллическую решетку.</PJ_SaberInternal.Description>
+
+</LanguageData>

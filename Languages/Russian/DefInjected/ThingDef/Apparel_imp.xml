@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_ImpUniform.label>Имперский комбинезон униформы (внутренняя сетка)</PJ_ImpUniform.label>
+  <PJ_ImpUniform.description>Униформа, которую носят боевые силы Галактической Империи.</PJ_ImpUniform.description>
+
+  <PJ_ImpUniformBlack.label>Имперская военно-морская униформа (внутри черный)</PJ_ImpUniformBlack.label>
+  <PJ_ImpUniformBlack.description>Заношенная униформа которую носили боевые силы Галактической Империи. Эта версия обычно носится офицерами среднего звена, назначенными на капитанские корабли или станции.</PJ_ImpUniformBlack.description>
+
+  <PJ_STOffUniform.label>Офицерская униформа штурмовика (внутренняя)</PJ_STOffUniform.label>
+  <PJ_STOffUniform.description>Униформа, которую носят боевые силы Галактической Империи. Эту версию обычно носят элитные штурмовики, или командиры подразделений.</PJ_STOffUniform.description>
+
+  <PJ_ImpNAVYSHELL.label>Имперская военно-морская униформа (Внешняя - черная)</PJ_ImpNAVYSHELL.label>
+  <PJ_ImpNAVYSHELL.description>Заношенная униформа которую носили боевые силы Галактической Империи. Эта версия обычно носится офицерами среднего звена, назначенными на капитанские корабли или станции.</PJ_ImpNAVYSHELL.description>
+
+  <PJ_ImpUniformBlackSHELL.label>Имперская военно-морская униформа (Внешняя - черная)</PJ_ImpUniformBlackSHELL.label>
+  <PJ_ImpUniformBlackSHELL.description>Заношенная униформа которую носили боевые силы Галактической Империи. Эта версия обычно носится офицерами среднего звена, назначенными на капитанские корабли или станции.</PJ_ImpUniformBlackSHELL.description>
+
+  <PJ_ImpUniformGrnSHELL.label>Имперская военно-морская униформа(Внешняя - зеленая)</PJ_ImpUniformGrnSHELL.label>
+  <PJ_ImpUniformGrnSHELL.description>Заношенная униформа которую носили боевые силы Галактической Империи. Эта версия обычно носится офицерами среднего и высшего звена, назначенными на капитанские корабли или станции.</PJ_ImpUniformGrnSHELL.description>
+
+  <PJ_ImpUniformBrownSHELL.label>Имперская военно-морская униформа(Внешняя - коричневая)</PJ_ImpUniformBrownSHELL.label>
+  <PJ_ImpUniformBrownSHELL.description>Заношенная униформа которую носили боевые силы Галактической Империи. Эту версию обычно носят низкопоставленные офицеры, назначенные на капитанские суда или станции.</PJ_ImpUniformBrownSHELL.description>
+
+  <PJ_ImpUniformISBSHELL.Label>Имперская ИБС униформа (внешняя)</PJ_ImpUniformISBSHELL.Label>
+  <PJ_ImpUniformISBSHELL.Description>Императорское бюро безопасности было сформировано самим галактическим императором Палпатином в качестве организации секретной полиции, посвященной искоренению врагов Нового Ордена и поддержанию стабильности на всех имперских территориях вскоре после провозглашения Нового Ордена. В течение четырнадцати лет организация выросла из нескольких агентов в организацию, вдвое превышающую Имперскую разведку.</PJ_ImpUniformISBSHELL.Description>
+
+  <PJ_TroopArmor.label>Броня штурмовика</PJ_TroopArmor.label>
+  <PJ_TroopArmor.description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу.</PJ_TroopArmor.description>
+
+  <PJ_TroopArmorJO.label>Броня штурмовика (команд.)</PJ_TroopArmorJO.label>
+  <PJ_TroopArmorJO.description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу.</PJ_TroopArmorJO.description>
+
+  <PJ_TroopArmorNCO.label>Броня штурмовика (серж.)</PJ_TroopArmorNCO.label>
+  <PJ_TroopArmorNCO.description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу.</PJ_TroopArmorNCO.description>
+
+  <PJ_TroopArmorSO.label>Броня штурмовика</PJ_TroopArmorSO.label>
+  <PJ_TroopArmorSO.description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу.</PJ_TroopArmorSO.description>
+
+  <PJ_TroopArmorSh.Label>Броня штурмовика береговой охраны</PJ_TroopArmorSh.Label>
+  <PJ_TroopArmorSh.Description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу.</PJ_TroopArmorSh.Description>
+
+  <PJ_TroopArmorShC.Label>Броня штурмовика береговой охраны (кап.)</PJ_TroopArmorShC.Label>
+  <PJ_TroopArmorShC.Description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу. Это капитанский вариант.</PJ_TroopArmorShC.Description>
+
+  <PJ_TroopArmorShSL.Label>Броня штурмовика береговой охраны (серж.)</PJ_TroopArmorShSL.Label>
+  <PJ_TroopArmorShSL.Description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу.</PJ_TroopArmorShSL.Description>
+
+  <PJ_TroopArmorDT.Label>Броня штурмовика смерти</PJ_TroopArmorDT.Label>
+  <PJ_TroopArmorDT.Description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу. Этот черный вариант используется солдатами, связанными с ИСБ.</PJ_TroopArmorDT.Description>
+
+  <PJ_TroopArmorDTC.Label>Броня штурмовика смерти (команд.)</PJ_TroopArmorDTC.Label>
+  <PJ_TroopArmorDTC.Description>Броня штурмовика была стандартной броней, которую носил имперский штурмовик. Белый пластоидный композит, надетый на черный костюм, броня представляла одну из лучших в Империи и внушала страх борцам за свободу. Этот черный вариант используется солдатами, связанными с ИСБ.</PJ_TroopArmorDTC.Description>
+
+  <!-- Helmets -->
+
+  <PJ_STHelm.label>Шлем штурмовика</PJ_STHelm.label>
+  <PJ_STHelm.description>Стандартный шлем штурмовика.</PJ_STHelm.description>
+
+  <PJ_SHHelm.Label>Шлем штурмовика береговой охраны</PJ_SHHelm.Label>
+  <PJ_SHHelm.Description>Шлем штурмовика, предназначенный для высадки на берег.</PJ_SHHelm.Description>
+
+  <PJ_DTHelm.Label>Шлем штурмовика смерти</PJ_DTHelm.Label>
+  <PJ_DTHelm.Description>Вариант шлема штурмовика ИСБ.</PJ_DTHelm.Description>
+
+  <PJ_SCTHelm.label>Шлем штурмовика разведчика</PJ_SCTHelm.label>
+  <PJ_SCTHelm.description>Шлем штурмовика, специализирующемся на разведке.</PJ_SCTHelm.description>
+
+  <PJ_TIEHelm.label>Шлем TIE пилота</PJ_TIEHelm.label>
+  <PJ_TIEHelm.description>Специализированный шлем, который носят пилоты TIE в Имперском флоте. Он очень хорошо изолирован и снабжен портативными кислородными соединениями, поскольку серия TIE обычно не поддерживает защиту на борту.</PJ_TIEHelm.description>
+
+  <PJ_ImpHat.label>Фуражка имперского командира</PJ_ImpHat.label>
+  <PJ_ImpHat.description>Командирская фуражка, одеваемая офицерами Имперских сил.</PJ_ImpHat.description>
+
+  <PJ_ImpSTOHat.Label>Фуражка имперского командира (темная)</PJ_ImpSTOHat.Label>
+  <PJ_ImpSTOHat.Description>Командирская фуражка, которую носят офицеры штурмовики, и офицеры ИСБ.</PJ_ImpSTOHat.Description>
+
+  <PJ_ImpNavyH.label>Имперский военно-морской шлем</PJ_ImpNavyH.label>
+  <PJ_ImpNavyH.description>Шлем носил низкопоставленный командно-технический персонал Имперских войск.</PJ_ImpNavyH.description>
+
+  <PJ_ImpHatBrn.label>Фуражка имперского командира</PJ_ImpHatBrn.label>
+  <PJ_ImpHatBrn.description>Командирская фуражка, носимая офицерами Имперских сил.</PJ_ImpHatBrn.description>
+
+  <PJ_ImpHatB.label>Фуражка имперского командира (черная)</PJ_ImpHatB.label>
+  <PJ_ImpHatB.description>Командирская фуражка, носимая офицерами Имперских сил.</PJ_ImpHatB.description>
+
+  <PJ_Apparel_Pants.label>Брюки униформы</PJ_Apparel_Pants.label>
+  <PJ_Apparel_Pants.description>Простой набор брюк униформы.</PJ_Apparel_Pants.description>
+
+</LanguageData>

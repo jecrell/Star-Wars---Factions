@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_ImpInspector.Label>Налоговый инспектор</PJ_ImpInspector.Label>
+  <PJ_ImpInspector.labelPlural>Налоговые инспектора</PJ_ImpInspector.labelPlural>
+  <PJ_ImpInspector.labelMale>Налоговый инспектор</PJ_ImpInspector.labelMale>
+  <PJ_ImpInspector.labelMalePlural>Налоговые инспектора</PJ_ImpInspector.labelMalePlural>
+  <PJ_ImpInspector.labelFemale>Налоговый инспектор</PJ_ImpInspector.labelFemale>
+  <PJ_ImpInspector.labelFemalePlural>Налоговые инспектора</PJ_ImpInspector.labelFemalePlural>
+
+  <PJ_ImpTaxOfficer.Label>Налоговый офицер</PJ_ImpTaxOfficer.Label>
+  <PJ_ImpTaxOfficer.labelPlural>Налоговые офицеры</PJ_ImpTaxOfficer.labelPlural>
+  <PJ_ImpTaxOfficer.labelMale>Налоговый офицер</PJ_ImpTaxOfficer.labelMale>
+  <PJ_ImpTaxOfficer.labelMalePlural>Налоговые офицеры</PJ_ImpTaxOfficer.labelMalePlural>
+  <PJ_ImpTaxOfficer.labelFemale>Налоговый офицер</PJ_ImpTaxOfficer.labelFemale>
+  <PJ_ImpTaxOfficer.labelFemalePlural>Налоговые офицеры</PJ_ImpTaxOfficer.labelFemalePlural>
+
+  <PJ_ImpSoldier.Label>Солдат</PJ_ImpSoldier.Label>
+  <PJ_ImpSoldier.labelPlural>Солдаты</PJ_ImpSoldier.labelPlural>
+  <PJ_ImpSoldier.labelMale>Солдат</PJ_ImpSoldier.labelMale>
+  <PJ_ImpSoldier.labelMalePlural>Солдаты</PJ_ImpSoldier.labelMalePlural>
+  <PJ_ImpSoldier.labelFemale>Солдат</PJ_ImpSoldier.labelFemale>
+  <PJ_ImpSoldier.labelFemalePlural>Солдаты</PJ_ImpSoldier.labelFemalePlural>
+
+  <PJ_ImpTrader.Label>Имперский Провизор</PJ_ImpTrader.Label>
+  <PJ_ImpTrader.labelPlural>Имперские Провизоры</PJ_ImpTrader.labelPlural>
+  <PJ_ImpTrader.labelMale>Имперский Провизор</PJ_ImpTrader.labelMale>
+  <PJ_ImpTrader.labelMalePlural>Имперские Провизоры</PJ_ImpTrader.labelMalePlural>
+  <PJ_ImpTrader.labelFemale>Имперский Провизор</PJ_ImpTrader.labelFemale>
+  <PJ_ImpTrader.labelFemalePlural>Имперские Провизоры</PJ_ImpTrader.labelFemalePlural>
+
+  <PJ_Stormtrooper.Label>Штурмовик</PJ_Stormtrooper.Label>
+  <PJ_Stormtrooper.labelPlural>Штурмовики</PJ_Stormtrooper.labelPlural>
+  <PJ_Stormtrooper.labelMale>Штурмовик</PJ_Stormtrooper.labelMale>
+  <PJ_Stormtrooper.labelMalePlural>Штурмовики</PJ_Stormtrooper.labelMalePlural>
+  <PJ_Stormtrooper.labelFemale>Штурмовик</PJ_Stormtrooper.labelFemale>
+  <PJ_Stormtrooper.labelFemalePlural>Штурмовики</PJ_Stormtrooper.labelFemalePlural>
+
+  <PJ_StormtrooperSO.Label>Штурмовик офицер</PJ_StormtrooperSO.Label>
+  <PJ_StormtrooperSO.labelPlural>Штурмовики офицеры</PJ_StormtrooperSO.labelPlural>
+  <PJ_StormtrooperSO.labelMale>Штурмовик офицер</PJ_StormtrooperSO.labelMale>
+  <PJ_StormtrooperSO.labelMalePlural>Штурмовики офицеры</PJ_StormtrooperSO.labelMalePlural>
+  <PJ_StormtrooperSO.labelFemale>Штурмовик офицер</PJ_StormtrooperSO.labelFemale>
+  <PJ_StormtrooperSO.labelFemalePlural>Штурмовики офицеры</PJ_StormtrooperSO.labelFemalePlural>
+
+  <PJ_ImpCommander.Label>Командир</PJ_ImpCommander.Label>
+  <PJ_ImpCommander.labelPlural>Командиры</PJ_ImpCommander.labelPlural>
+  <PJ_ImpCommander.labelMale>Командир</PJ_ImpCommander.labelMale>
+  <PJ_ImpCommander.labelMalePlural>Командиры</PJ_ImpCommander.labelMalePlural>
+  <PJ_ImpCommander.labelFemale>Командир</PJ_ImpCommander.labelFemale>
+  <PJ_ImpCommander.labelFemalePlural>Командиры</PJ_ImpCommander.labelFemalePlural>
+
+  <PJ_ScoutTrooper.Label>Штурмовик-разведчик</PJ_ScoutTrooper.Label>
+  <PJ_ScoutTrooper.labelPlural>Штурмовики-разведчики</PJ_ScoutTrooper.labelPlural>
+  <PJ_ScoutTrooper.labelMale>Штурмовик-разведчик</PJ_ScoutTrooper.labelMale>
+  <PJ_ScoutTrooper.labelMalePlural>Штурмовики-разведчики</PJ_ScoutTrooper.labelMalePlural>
+  <PJ_ScoutTrooper.labelFemale>Штурмовик-разведчик</PJ_ScoutTrooper.labelFemale>
+  <PJ_ScoutTrooper.labelFemalePlural>Штурмовики-разведчики</PJ_ScoutTrooper.labelFemalePlural>
+
+</LanguageData>

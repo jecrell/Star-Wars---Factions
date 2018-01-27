@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+		<!-- ================== STANDARD ==================== -->
+
+  <SWSaber_Lightsaber.Label>Световой меч (прототип)</SWSaber_Lightsaber.Label>
+  <SWSaber_Lightsaber.Description>Элегантное оружие, из более цивилизованной эпохи - или, как утверждается,.\n Основной, простой дизайн светового меча.</SWSaber_Lightsaber.Description>
+
+		<!-- ================== CURVED ==================== -->
+
+  <SWSaber_DookuSaber.Label>Световой меч (изогнутая рукоятка)</SWSaber_DookuSaber.Label>
+  <SWSaber_DookuSaber.Description>Элегантное оружие, их более цивилизованной эпохи. Знаковое оружие и значок должности для пользователей силы.\nЭта рукоять изогнута, что позволяет изменить угол атаки, от которого трудно защищаться.</SWSaber_DookuSaber.Description>
+
+		<!-- ======== Kylo Ren Crosshilt Saber ======== -->
+
+  <SWSaber_KyloSaber.Label>Световой меч (крестообразная рукоять)</SWSaber_KyloSaber.Label>
+  <SWSaber_KyloSaber.Description>Элегантное оружие, их более цивилизованной эпохи. Знаковое оружие и значок должности для пользователей силы.\nПохоже на использование треснувшего первичного кристалла.</SWSaber_KyloSaber.Description>
+
+		<!-- ======== Darth Maul Double Saber ======== -->
+
+  <SWSaber_Doublesaber.Label>Световой меч (двойной)</SWSaber_Doublesaber.Label>
+  <SWSaber_Doublesaber.Description>Элегантное оружие, их более цивилизованной эпохи. \nЭта рукоятка может похвастаться вторым эмиттером, что делает его экзотическим двуручным мечем.</SWSaber_Doublesaber.Description>
+
+		<!-- ======== Obi Wan Saber ======== -->
+
+  <SWSaber_ObiSaber.Label>Световой меч (рукоятка старого стиля)</SWSaber_ObiSaber.Label>
+  <SWSaber_ObiSaber.Description>Элегантное оружие, их более цивилизованной эпохи. Знаковое оружие и значок должности для пользователей силы.\nЭто классическая рукоять... очень знакомая на самом деле...</SWSaber_ObiSaber.Description>
+
+		<!-- ======== Palpatine's Electrum Saber ======== -->
+
+  <SWSaber_ElectrumSaber.Label>Световой меч (электр. рукоятка)</SWSaber_ElectrumSaber.Label>
+  <SWSaber_ElectrumSaber.Description>Элегантное оружие, их более цивилизованной эпохи. Знаковое оружие и значок должности для пользователей силы.\nЭта версия выглядит так, как будто она предназначена для человека с высокой должностью.</SWSaber_ElectrumSaber.Description>
+
+			<!-- ===== Ahsoka Tano ===== -->
+
+  <SWSaber_Ahsokasaber.Label>Световой меч (Асока Тано)</SWSaber_Ahsokasaber.Label>
+  <SWSaber_Ahsokasaber.Description>Элегантное оружие из более цивилизованной эпохи - или, как утверждается.\n Дизайн, используемый знаменитым джедаем прошлого.</SWSaber_Ahsokasaber.Description>
+
+		<!-- ===== Inquisitor Blade ===== -->
+
+  <SWSaber_Inquis.Label>Двойной световой меч (инквизитор)</SWSaber_Inquis.Label>
+  <SWSaber_Inquis.Description>Элегантное оружие из более цивилизованной эпохи - или, как утверждается.\n Дизайн, используемый тайными охотниками-джедаями Императора.</SWSaber_Inquis.Description>
+
+  <SWSaber_JGuard.Label>Световой посох почетного караула</SWSaber_JGuard.Label>
+  <SWSaber_JGuard.Description>Этот тип двуручного меча пользовался элитными охранниками джедаев, такими как охранники палат Совета.</SWSaber_JGuard.Description>
+
+				<!-- ===== Qui Gon Jinn ===== -->
+
+  <SWSaber_Quigon.Label>Световой меч (Квай-Гон Джинн)</SWSaber_Quigon.Label>
+  <SWSaber_Quigon.Description>Элегантное оружие из более цивилизованной эпохи - или, как утверждается.\n Этот дизайн использовался легендарным мастером-джедаем.</SWSaber_Quigon.Description>
+
+				<!-- ===== Darksaber ===== -->
+
+  <SWSaber_Darksaber.Label>Световой меч (тёмный меч)</SWSaber_Darksaber.Label>
+  <SWSaber_Darksaber.Description>Элегантное оружие из более цивилизованной эпохи - или, как утверждается.\n Дизайн основан легендарным Mandalorian Darksaber.</SWSaber_Darksaber.Description>
+
+						<!-- ===== Yoda saber ===== -->
+
+  <SWSaber_Yodasaber.Label>Световой меч (йода)</SWSaber_Yodasaber.Label>
+  <SWSaber_Yodasaber.Description>Элегантное оружие из более цивилизованной эпохи - или, как утверждается.\n Дизайн основан легендарным Mandalorian Darksaber.</SWSaber_Yodasaber.Description>
+
+				<!-- ======== Mace Windu Saber ======== -->
+
+  <SWSaber_MaceSaber.Label>Световой меч (Мейс Винду)</SWSaber_MaceSaber.Label>
+  <SWSaber_MaceSaber.Description>Элегантное оружие из более цивилизованной эпохи. Знаковое оружие и значок должности для пользователей силы.\nВ этой версии был гриб-облако-мир-мухаф ****, Мута'ф ****.</SWSaber_MaceSaber.Description>
+
+  <SWSaber_SaberPike.Label>Световая пика</SWSaber_SaberPike.Label>
+  <SWSaber_SaberPike.Description>Элегантное оружие из более цивилизованной эпохи. Знаковое оружие и значок должности для пользователей силы.\nЭто вариант пики, часто поддерживаемый гвардейцами-джедаями.</SWSaber_SaberPike.Description>
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_RebelFac.Label>Альянс повстанцев</PJ_RebelFac.Label>
+  <PJ_RebelFac.Description>Свободный союз фракций и правительств с общей целью - уничтожить Императора Палпатина и его Галактическую Империю.</PJ_RebelFac.Description>
+  <PJ_RebelFac.pawnsPlural>Альянс</PJ_RebelFac.pawnsPlural>
+  <PJ_RebelFac.leaderTitle>Лидер</PJ_RebelFac.leaderTitle>
+
+</LanguageData>

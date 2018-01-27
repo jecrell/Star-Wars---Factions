@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_GalacticEmpire.Label>Галактическая империя</PJ_GalacticEmpire.Label>
+  <PJ_GalacticEmpire.Description>Галактическая Империя, также известная как Первая Галактическая Империя или Новый Орден, и обычно называемая Империей или Орденом, была галактической, конституционной монархией и фашистским правительством, которая заменила Галактическую Республику после Войны Клонов.</PJ_GalacticEmpire.Description>
+  <PJ_GalacticEmpire.pawnsPlural>Имперские солдаты</PJ_GalacticEmpire.pawnsPlural>
+  <PJ_GalacticEmpire.leaderTitle>Гранд-мофф</PJ_GalacticEmpire.leaderTitle>
+  <PJ_GalacticEmpire.fixedName>Галактическая империя</PJ_GalacticEmpire.fixedName>
+
+</LanguageData>

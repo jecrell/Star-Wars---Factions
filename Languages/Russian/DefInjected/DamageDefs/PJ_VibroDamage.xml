@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <PJ_Vibro.Label>Вибро</PJ_Vibro.Label>
+  <PJ_Vibro.deathMessage>{0} был(а) зарезан(а) до смерти.</PJ_Vibro.deathMessage>
+
+  <PJ_BlasterDam.Label>Бластерный болт</PJ_BlasterDam.Label>
+  <PJ_BlasterDam.deathMessage>{0} был(а) убит(а) бластером!</PJ_BlasterDam.deathMessage>
+
+  <PJ_DXRDam.Label>Кислотный болт</PJ_DXRDam.Label>
+  <PJ_DXRDam.deathMessage>{0} был(а) убит(а) бластером!</PJ_DXRDam.deathMessage>
+
+</LanguageData>
