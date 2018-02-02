@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_MandoArmor.label>만도 갑옷</PJ_MandoArmor.label>
+  <PJ_MandoArmor.description>만도 갑옷은 만달로 리안 전사와 군인들이 착용했던 은하계 역사상 독특한 전신 갑옷 세트를 포괄하는 용어였습니다.</PJ_MandoArmor.description>
+  <PJ_VetMandoArmor.label>만도 베테랑 갑옷</PJ_VetMandoArmor.label>
+  <PJ_VetMandoArmor.description>만도 갑옷은 만달로 리안 전사와 군인들이 착용했던 은하계 역사상 독특한 전신 갑옷 세트를 포괄하는 용어였습니다.</PJ_VetMandoArmor.description>
+  <PJ_MandoHelm.label>만도 헬멧</PJ_MandoHelm.label>
+  <PJ_MandoHelm.description>만다리안 헬멧의 T자 모양 바이저는 은하계 전역에 두려움을 불러 일으킵니다.</PJ_MandoHelm.description>
+  <!-- Strams -->
+  <PJ_BarkMandoArmor.label>바키 일족 갑옷</PJ_BarkMandoArmor.label>
+  <PJ_BarkMandoArmor.description>영예로운 용사의 추종자들에게 지급된 방어구. 만달리안 인들은 이 싸구려 조끼를 착용하요 외쳤습니다. 바키를 위하여!!!!</PJ_BarkMandoArmor.description>
+</LanguageData>

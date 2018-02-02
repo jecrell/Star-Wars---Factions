@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_BulletDeflected.label>편향된 발사체</PJ_BulletDeflected.label>
+  <!-- Vibroaxe -->
+  <PJ_Vibroaxe.label>바이브로 도끼</PJ_Vibroaxe.label>
+  <PJ_Vibroaxe.description>코르토시스로 만들어진 폴암류, 소형 바이브로 셀을 장착하고 있습니다.</PJ_Vibroaxe.description>
+  <PJ_Vibroaxe.tools.0.label>손잡이</PJ_Vibroaxe.tools.0.label>
+  <PJ_Vibroaxe.tools.1.label>부분</PJ_Vibroaxe.tools.1.label>
+  <PJ_Vibroaxe.tools.2.label>칼날</PJ_Vibroaxe.tools.2.label>
+  <!-- Vibrosword -->
+  <PJ_Vibrosword.label>에차니 바이브로 검</PJ_Vibrosword.label>
+  <PJ_Vibrosword.description>코르토시스로 만들어진 검류, 소형 바이브로 셀을 장착하고 있습니다.</PJ_Vibrosword.description>
+  <PJ_Vibrosword.tools.0.label>손잡이</PJ_Vibrosword.tools.0.label>
+  <PJ_Vibrosword.tools.1.label>부분</PJ_Vibrosword.tools.1.label>
+  <PJ_Vibrosword.tools.2.label>칼날</PJ_Vibrosword.tools.2.label>
+  <!-- Vibro Cleaver -->
+  <PJ_Vibrocleaver.label>만도 바이브로 고기칼</PJ_Vibrocleaver.label>
+  <PJ_Vibrocleaver.description>코르토시스로 만들어진 검류, 소형 바이브로 셀을 장착하고 있습니다.</PJ_Vibrocleaver.description>
+  <PJ_Vibrocleaver.tools.0.label>손잡이</PJ_Vibrocleaver.tools.0.label>
+  <PJ_Vibrocleaver.tools.1.label>부분</PJ_Vibrocleaver.tools.1.label>
+  <PJ_Vibrocleaver.tools.2.label>칼날</PJ_Vibrocleaver.tools.2.label>
+  <PJ_VScythe.label>바이브로 낫</PJ_VScythe.label>
+  <PJ_VScythe.description>코르토시스로 만들어진 낫 스타일의 검, 소형 바이브로 셀을 장착하고 있습니다.</PJ_VScythe.description>
+  <PJ_VScythe.tools.0.label>손잡이</PJ_VScythe.tools.0.label>
+  <PJ_VScythe.tools.1.label>부분</PJ_VScythe.tools.1.label>
+  <PJ_VScythe.tools.2.label>칼날</PJ_VScythe.tools.2.label>
+  <!-- Vibro DoubleSword -->
+  <PJ_Vibrodouble.label>바이브로 더블 칼날</PJ_Vibrodouble.label>
+  <PJ_Vibrodouble.description>코르토시스로 만들어진 더블 칼날, 소형 바이브로 셀을 장착하고 있습니다.</PJ_Vibrodouble.description>
+  <PJ_Vibrodouble.tools.0.label>손잡이</PJ_Vibrodouble.tools.0.label>
+  <PJ_Vibrodouble.tools.1.label>두번째 칼날</PJ_Vibrodouble.tools.1.label>
+  <PJ_Vibrodouble.tools.2.label>칼날</PJ_Vibrodouble.tools.2.label>
+  <!-- Xen's staff -->
+  <PJ_StaffX.label>바이브로 지팡이</PJ_StaffX.label>
+  <PJ_StaffX.description>코르토시스로 만들어진 폴암류, 소형 바이브로 셀을 장착하고 있습니다.</PJ_StaffX.description>
+  <PJ_StaffX.tools.0.label>손잡이</PJ_StaffX.tools.0.label>
+  <PJ_StaffX.tools.1.label>부분</PJ_StaffX.tools.1.label>
+  <PJ_StaffX.tools.2.label>칼날</PJ_StaffX.tools.2.label>
+  <PJ_TStaff.label>투스켄 바이브로 지팡이</PJ_TStaff.label>
+  <PJ_TStaff.description>코르토시스로 만들어진 폴암류, 소형 바이브로 셀을 장착하고 있습니다.</PJ_TStaff.description>
+  <PJ_TStaff.tools.0.label>손잡이</PJ_TStaff.tools.0.label>
+  <PJ_TStaff.tools.1.label>부분</PJ_TStaff.tools.1.label>
+  <PJ_TStaff.tools.2.label>칼날</PJ_TStaff.tools.2.label>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_ATST_Bullet.label>ATST 블래스터 볼트</PJ_ATST_Bullet.label>
+  <PJ_ATST_Blaster.label>ATST 기본 블래스터 캐논</PJ_ATST_Blaster.label>
+  <PJ_ATST_Blaster.description>ATST 워커에 장착 된 고성능 블래스터 캐논</PJ_ATST_Blaster.description>
+  <PJ_ATAT_Bullet.label>ATST 블래스터 볼트</PJ_ATAT_Bullet.label>
+  <PJ_ATAT_Blaster.label>ATAT 기본 블래스터 캐논</PJ_ATAT_Blaster.label>
+  <PJ_ATAT_Blaster.description>ATAT 워커에 장착 된 고성능 블래스터 캐논</PJ_ATAT_Blaster.description>
+  <PJ_Spd_Bullet.label>스피더 블래스터 볼트</PJ_Spd_Bullet.label>
+  <PJ_Spd_Blaster.label>스피더 기본 블래스터 캐논</PJ_Spd_Blaster.label>
+  <PJ_Spd_Blaster.description>순찰 스피더에 장착 된 고성능 블래스터 캐논</PJ_Spd_Blaster.description>
+</LanguageData>

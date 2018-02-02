@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Engines_intake.label>취수 설비</Engines_intake.label>
+  <Speeder_Frontend.label>프론트 엔드</Speeder_Frontend.label>
+  <Speeder_Frame.label>뼈대</Speeder_Frame.label>
+  <RightSpeederEng.label>오른쪽 엔진</RightSpeederEng.label>
+  <RightLev.label>오른쪽 자기 부상</RightLev.label>
+  <LeftSpeederEng.label>왼쪽 엔진</LeftSpeederEng.label>
+  <LeftLev.label>왼쪽 자기 부상</LeftLev.label>
+</LanguageData>

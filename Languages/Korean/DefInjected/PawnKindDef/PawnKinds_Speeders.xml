@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Speeder -->
+  <SWFactions_SpeederKindImp.label>제국 순찰 스피더</SWFactions_SpeederKindImp.label>
+  <SWFactions_SpeederKindImp.labelPlural>제국 순찰 스피더들</SWFactions_SpeederKindImp.labelPlural>
+  <SWFactions_SpeederKindReb.label>반란군 순찰 스피더</SWFactions_SpeederKindReb.label>
+  <SWFactions_SpeederKindReb.labelPlural>반란군 순찰 스피더들</SWFactions_SpeederKindReb.labelPlural>
+</LanguageData>

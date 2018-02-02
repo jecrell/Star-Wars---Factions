@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- ATST -->
+  <SWFactions_WalkerThing.label>AT-ST</SWFactions_WalkerThing.label>
+  <SWFactions_WalkerThing.description>두 개의 다리가 달린 디자인으로 치킨 워커로도 알려져 있는 All Terrain Scout Tranport(AT-ST)는 클론 전쟁에서 공화국에 의해 사용 된 이족 보행기였습니다. 나중에는 제국에 의해 광범위하게 사용 되었습니다. AT-XT의 후계기입니다.</SWFactions_WalkerThing.description>
+  <SWFactions_WalkerThing.comps.1.roles.0.label>조종사</SWFactions_WalkerThing.comps.1.roles.0.label>
+  <SWFactions_WalkerThing.comps.1.roles.0.labelPlural>조종사들</SWFactions_WalkerThing.comps.1.roles.0.labelPlural>
+  <SWFactions_WalkerThing.comps.1.roles.1.label>포수</SWFactions_WalkerThing.comps.1.roles.1.label>
+  <SWFactions_WalkerThing.comps.1.roles.1.labelPlural>포수들</SWFactions_WalkerThing.comps.1.roles.1.labelPlural>
+  <SWFactions_WalkerThing.comps.1.roles.2.label>승객</SWFactions_WalkerThing.comps.1.roles.2.label>
+  <SWFactions_WalkerThing.comps.1.roles.2.labelPlural>승객들</SWFactions_WalkerThing.comps.1.roles.2.labelPlural>
+  <!-- Flesh Type: Mechanoid -->
+  <SWFactions_WalkerThing_Corpse.label>AT-ST 시체</SWFactions_WalkerThing_Corpse.label>
+  <SWFactions_WalkerThing_Corpse.description>AT-ST 시체</SWFactions_WalkerThing_Corpse.description>
+  <!-- ATAT -->
+  <SWFactions_ATATThing.label>AT-AT</SWFactions_ATATThing.label>
+  <SWFactions_ATATThing.description>All Terrain Armored Tranport(AT-AT)는 제국의 지상군이 사용하는 전투 4족 보행기입니다. 제국의 스타 디스트로이어, 타이전투기 등과 함께 제국 군사력의 상징 중 하나입니다.</SWFactions_ATATThing.description>
+  <SWFactions_ATATThing.comps.1.roles.0.label>조종사</SWFactions_ATATThing.comps.1.roles.0.label>
+  <SWFactions_ATATThing.comps.1.roles.0.labelPlural>조종사들</SWFactions_ATATThing.comps.1.roles.0.labelPlural>
+  <SWFactions_ATATThing.comps.1.roles.1.label>포수</SWFactions_ATATThing.comps.1.roles.1.label>
+  <SWFactions_ATATThing.comps.1.roles.1.labelPlural>포수들</SWFactions_ATATThing.comps.1.roles.1.labelPlural>
+  <SWFactions_ATATThing.comps.1.roles.2.label>승객</SWFactions_ATATThing.comps.1.roles.2.label>
+  <SWFactions_ATATThing.comps.1.roles.2.labelPlural>승객들</SWFactions_ATATThing.comps.1.roles.2.labelPlural>
+  <!-- Flesh Type: Mechanoid -->
+  <SWFactions_ATATThing_Corpse.label>AT-AT 시체</SWFactions_ATATThing_Corpse.label>
+  <SWFactions_ATATThing_Corpse.description>AT-AT 시체</SWFactions_ATATThing_Corpse.description>
+</LanguageData>

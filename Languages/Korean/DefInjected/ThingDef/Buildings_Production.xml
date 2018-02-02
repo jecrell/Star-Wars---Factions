@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Work tables -->
+  <Table_PJ_Bench.label>첨단 제조 작업대</Table_PJ_Bench.label>
+  <Table_PJ_Bench.description>다양하고 진보 된 무기와 갑옷을 만들고 메카노이드 시체를 분해할 수 있는 작업대</Table_PJ_Bench.description>
+  <Table_PJ_Bench_Blueprint.label>첨단 제조 작업대 (청사진)</Table_PJ_Bench_Blueprint.label>
+  <Table_PJ_Bench_Frame.label>첨단 제조 작업대 (건설 중)</Table_PJ_Bench_Frame.label>
+  <Table_PJ_Bench_Frame.description>다양하고 진보 된 무기와 갑옷을 만들고 메카노이드 시체를 분해할 수 있는 작업대</Table_PJ_Bench_Frame.description>
+</LanguageData>

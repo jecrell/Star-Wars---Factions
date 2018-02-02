@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_RebVillager.label>마을 사람</PJ_RebVillager.label>
+  <PJ_RebVillager.labelPlural>마을 사람들</PJ_RebVillager.labelPlural>
+  <PJ_RebCouncilman.label>반란군 사령관</PJ_RebCouncilman.label>
+  <PJ_RebCouncilman.labelPlural>반란군 사령관들</PJ_RebCouncilman.labelPlural>
+  <PJ_RebTrader.label>반란군 상인</PJ_RebTrader.label>
+  <PJ_RebTrader.labelPlural>반란군 상인들</PJ_RebTrader.labelPlural>
+  <PJ_RebGuard.label>반란군 경비병</PJ_RebGuard.label>
+  <PJ_RebGuard.labelPlural>반란군 경비병들</PJ_RebGuard.labelPlural>
+  <PJ_RebSoldier.label>반란군 군인</PJ_RebSoldier.label>
+  <PJ_RebSoldier.labelPlural>반란군 군인들</PJ_RebSoldier.labelPlural>
+  <PJ_RebLAVSoldier.label>반란군 군인</PJ_RebLAVSoldier.label>
+  <PJ_RebLAVSoldier.labelPlural>반란군 군인들</PJ_RebLAVSoldier.labelPlural>
+  <PJ_RebNadeSoldier.label>반란군 척탄병</PJ_RebNadeSoldier.label>
+  <PJ_RebNadeSoldier.labelPlural>반란군 척탄병들</PJ_RebNadeSoldier.labelPlural>
+  <PJ_RebPilot.label>반란군 조종사</PJ_RebPilot.label>
+  <PJ_RebPilot.labelPlural>반란군 조종사들</PJ_RebPilot.labelPlural>
+  <PJ_RebMerc.label>반란군 용병</PJ_RebMerc.label>
+  <PJ_RebMerc.labelPlural>빈린근 영뱡ㄷ,ㄹ</PJ_RebMerc.labelPlural>
+</LanguageData>

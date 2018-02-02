@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Regular Blasters -->
+  <PJ_BlasterBolt_E11_X.label>E-11 블래스터 볼트</PJ_BlasterBolt_E11_X.label>
+  <PJ_E11Blaster.label>E-11 블래스터 라이플</PJ_E11Blaster.label>
+  <PJ_E11Blaster.description>은하계 남북 전쟁 기간 중 블래스테크 산업에서 제조 된 E-11 블래스터 라이플은 스톰트루퍼들에게 표준 지급 된 블래스터 라이플입니다. 강력하고 가벼워서 은하계에 널리 사용 되었습니다.</PJ_E11Blaster.description>
+  <PJ_DH17Blaster.label>DH-17 블래스터 피스톨</PJ_DH17Blaster.label>
+  <PJ_DH17Blaster.description>블래스테크 산업에서 제조 된 DH-17 블래스터 피스톨은 일반적으로 반란군 병사들이 우주선 백병전에서 자주 사용하였으며 때로는 제국 장교들이 E-11 블래스터 라이플 대신에 사용하기도 했습니다.</PJ_DH17Blaster.description>
+  <PJ_Pistol_Bolt.label>블래스터 볼트</PJ_Pistol_Bolt.label>
+  <PJ_Scoutblaster.label>정찰병 블래스터</PJ_Scoutblaster.label>
+  <PJ_Scoutblaster.description>정찰병 블래스터는 제국 정찰병들이 사용하는 표준 무기였습니다. 클론 전쟁 후반에 클론 정찰병과 클론 쉐도우트루퍼들에게 지급된 것으로 알려져 있습니다.</PJ_Scoutblaster.description>
+  <PJ_SE14blaster.label>SE14 블래스터</PJ_SE14blaster.label>
+  <PJ_SE14blaster.description>블래스테크 산업에서 제작한 SE-14는 클론 전쟁에서 SR 전투 권총이라고도 불린 블래스터 권총입니다.</PJ_SE14blaster.description>
+  <PJ_HPistol_Bolt.label>블래스터 볼트</PJ_HPistol_Bolt.label>
+  <PJ_DL44blaster.label>DL-44 블래스터</PJ_DL44blaster.label>
+  <PJ_DL44blaster.description>블래스테크 산업에서 제작한 DL-44는 헤비 블래스터 피스톨로 공화국과 제국 시대에 사용되었습니다. 은하계에서 가장 강력한 블래스터 피스톨로 여겨졌으며 가까운 거리에서 엄청난 파괴력을 보여줬습니다. 그러나 그만큼 빨리 과열 되었던 것으로 보여집니다.</PJ_DL44blaster.description>
+  <PJ_DXR_Bolt.label>산성 볼트</PJ_DXR_Bolt.label>
+  <PJ_DXR6Carb.label>DXR-6 블래스터 카빈</PJ_DXR6Carb.label>
+  <PJ_DXR6Carb.description>DXR-6 헤비 카빈은 기능성, 신뢰성, 잠재적인 파괴력으로 은하계 전체에서 많이 사용되었습니다.</PJ_DXR6Carb.description>
+  <PJ_Jawa_Bolt.label>이온화 된 에너지 볼트</PJ_Jawa_Bolt.label>
+  <PJ_JawaIon.label>자와 이온 라이플</PJ_JawaIon.label>
+  <PJ_JawaIon.description>시스 전쟁 중 및 후에 암살자 드로이들과 전쟁 드로이드들이 보급 되면서 첨단 이온 무기가 생겨났습니다. 이것들은 청소부들과 함께 몰락했습니다.</PJ_JawaIon.description>
+  <PJ_Slug_Bolt.label>무거운 탄환</PJ_Slug_Bolt.label>
+  <PJ_NymSlug.label>님스 유탄발사기</PJ_NymSlug.label>
+  <PJ_NymSlug.description>악명 높은 갱스터 님과 그의 갱단이 선호하던 카빈입니다. 밀도가 높은 탄환을 발사하여 둔탁한 피해를 줍니다.</PJ_NymSlug.description>
+  <Bullet_LauncherP.label>발사체 발사기</Bullet_LauncherP.label>
+  <PJ_LauncherP.label>런처 피스톨</PJ_LauncherP.label>
+  <PJ_LauncherP.description>위험한 발사체를 발사가능하게 휴대용으로 디자인 된 총입니다. 해적단과 특공대원들이 선호합니다.</PJ_LauncherP.description>
+  <PJ_T21_Bolt.label>헤비 라이플 볼트</PJ_T21_Bolt.label>
+  <PJ_T21Rifle.label>T-21 블래스터 라이플</PJ_T21Rifle.label>
+  <PJ_T21Rifle.description>T-21 헤비 블래스터는 제국의 스톰트루퍼들이 사용한 가벼운 블래스터 모델이었습니다. 장거리에 특화되어 있지만 명중률이 낮습니다.</PJ_T21Rifle.description>
+  <PJ_DC15Rifle.label>DC-15 블래스터 라이플</PJ_DC15Rifle.label>
+  <PJ_DC15Rifle.description>DC-15A 블래스터 라이플은 클론병들을 위한 표준 무기 중 하나였습니다. 제국이 선호하는 DLT-19 라이플의 전 모델입니다.</PJ_DC15Rifle.description>
+  <PJ_DLT_Bolt.label>헤비 라이플 볼트</PJ_DLT_Bolt.label>
+  <PJ_DLT19Rifle.label>DLT-19 헤비 블래스터 라이플</PJ_DLT19Rifle.label>
+  <PJ_DLT19Rifle.description>DLT-19 헤비 블래스터 라이플은 블래스테크 산업에서 제조한 블래스터 라이플 모델입니다. 제국의 스톰트루퍼들과 공화국 복구를 위한 동맹군들이 많이 사용했습니다. 빨른 발사 속도와 장거리에 특화되어 많이 적을 제거하는 가장 일반적으로 사용되었습니다.</PJ_DLT19Rifle.description>
+  <PJ_EE3_Bolt.label>헤비 라이플 볼트</PJ_EE3_Bolt.label>
+  <PJ_EE3Carbine.label>EE-3 블래스터 카빈</PJ_EE3Carbine.label>
+  <PJ_EE3Carbine.description>EE-3 블래스터 카빈은 블래스테크에서 개발한 블래스터 중 하나이며 만달리안 인들이 애용했던 것으로 보입니다.</PJ_EE3Carbine.description>
+</LanguageData>

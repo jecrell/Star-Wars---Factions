@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_ScumSoldier.label>군인</PJ_ScumSoldier.label>
+  <PJ_ScumSoldier.labelPlural>군인들</PJ_ScumSoldier.labelPlural>
+  <PJ_Ruffian.label>악당</PJ_Ruffian.label>
+  <PJ_Ruffian.labelPlural>악당들</PJ_Ruffian.labelPlural>
+  <PJ_ScumBoss.label>두목</PJ_ScumBoss.label>
+  <PJ_ScumBoss.labelPlural>두목들</PJ_ScumBoss.labelPlural>
+  <PJ_BountyHunter.label>현상금 사냥꾼</PJ_BountyHunter.label>
+  <PJ_BountyHunter.labelPlural>현상금 사냥꾼들</PJ_BountyHunter.labelPlural>
+</LanguageData>

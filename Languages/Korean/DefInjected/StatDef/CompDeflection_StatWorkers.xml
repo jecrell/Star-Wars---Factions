@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MeleeWeapon_DeflectionChance.label>편향 기회</MeleeWeapon_DeflectionChance.label>
+  <MeleeWeapon_DeflectionChance.description>근접 무기로 원거리 투사체를 빗나가게 할 수 있는 기회</MeleeWeapon_DeflectionChance.description>
+</LanguageData>

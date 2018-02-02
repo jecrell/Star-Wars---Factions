@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SWFactions_RepairsATST.label>부분 수리 (50 강철, 10 플라스틸, 3 부품)</SWFactions_RepairsATST.label>
+  <SWFactions_RepairsATST.description>부품을 수리합니다.</SWFactions_RepairsATST.description>
+  <SWFactions_RepairsATST.jobString>부품을 수리합니다.</SWFactions_RepairsATST.jobString>
+  <SWFactions_RepairsATAT.label>부분 수리 (50 강철, 10 플라스틸, 3 부품)</SWFactions_RepairsATAT.label>
+  <SWFactions_RepairsATAT.description>부품을 수리합니다.</SWFactions_RepairsATAT.description>
+  <SWFactions_RepairsATAT.jobString>부품을 수리합니다.</SWFactions_RepairsATAT.jobString>
+  <SWFactions_RepairsSpeeder.label>부분 수리 (30 강철, 8 플라스틸, 2 부품)</SWFactions_RepairsSpeeder.label>
+  <SWFactions_RepairsSpeeder.description>부품을 수리합니다.</SWFactions_RepairsSpeeder.description>
+  <SWFactions_RepairsSpeeder.jobString>부품을 수리합니다.</SWFactions_RepairsSpeeder.jobString>
+</LanguageData>

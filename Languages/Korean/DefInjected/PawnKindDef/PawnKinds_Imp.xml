@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ImpBase.label>제국주의자</ImpBase.label>
+  <ImpBase.labelPlural>제국주의자들</ImpBase.labelPlural>
+  <PJ_ImpInspector.label>세금 감사관</PJ_ImpInspector.label>
+  <PJ_ImpInspector.labelPlural>세금 감사관들</PJ_ImpInspector.labelPlural>
+  <PJ_ImpTaxOfficer.label>세금 책임자</PJ_ImpTaxOfficer.label>
+  <PJ_ImpTaxOfficer.labelPlural>세금 책임자들</PJ_ImpTaxOfficer.labelPlural>
+  <PJ_ImpSoldier.label>군인</PJ_ImpSoldier.label>
+  <PJ_ImpSoldier.labelPlural>군인들</PJ_ImpSoldier.labelPlural>
+  <PJ_ImpTrader.label>제국 프로비져너</PJ_ImpTrader.label>
+  <PJ_ImpTrader.labelPlural>제국 프로비져너들</PJ_ImpTrader.labelPlural>
+  <PJ_Stormtrooper.label>스톰트루퍼</PJ_Stormtrooper.label>
+  <PJ_Stormtrooper.labelPlural>스톰트루퍼들</PJ_Stormtrooper.labelPlural>
+  <PJ_StormtrooperSO.label>스톰트루퍼 장교</PJ_StormtrooperSO.label>
+  <PJ_StormtrooperSO.labelPlural>스톰트루퍼 장교들</PJ_StormtrooperSO.labelPlural>
+  <PJ_ImpCommander.label>사령관</PJ_ImpCommander.label>
+  <PJ_ImpCommander.labelPlural>사령관들</PJ_ImpCommander.labelPlural>
+  <PJ_ScoutTrooper.label>정찰트루퍼</PJ_ScoutTrooper.label>
+  <PJ_ScoutTrooper.labelPlural>정찰트루퍼들</PJ_ScoutTrooper.labelPlural>
+</LanguageData>

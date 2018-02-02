@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PJ_CompArmor.label>복합 갑옷</PJ_CompArmor.label>
+  <PJ_CompArmor.description>매우 많은 시간동안 모두에게 사랑받던 갑옷입니다.</PJ_CompArmor.description>
+  <!-- Helm For Later
+	<ThingDef ParentName="CompHelmetMakeableBase">
+	<defName>PJ_STHelm</defName>
+	<label>Stormtrooper helm</label>
+	<techLevel>Spacer</techLevel>
+	<description>A standard-issue stormtrooper helmet.</description>
+	<graphicData> 
+		<texPath>Imp/Helmet/StormTrooperHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>4</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>6</Component>
+    </costList>
+	<statBases>
+      <Mass>2.4</Mass>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>PJ_Imp</li>
+   		 </tags>
+		<wornGraphicPath>Imp/Helmet/StormTrooperHelmet</wornGraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef> -->
+  <PJ_GenFlight_Y.label>노란색 조종사 슈트</PJ_GenFlight_Y.label>
+  <PJ_GenFlight_Y.description>일반적으로 반란군 조종사가 착용하는 전형적인 비행복입니다. 이 옷은 상업용 및 개인용으로도 구입이 가능합니다.</PJ_GenFlight_Y.description>
+</LanguageData>

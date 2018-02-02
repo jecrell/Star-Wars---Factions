@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Speeder -->
+  <SWFactions_SpeederThing.label>스피더</SWFactions_SpeederThing.label>
+  <SWFactions_SpeederThing.description>육상 순찰대는 핼성 순찰을 위해 설계되었으며 몸체에 가볍고 연사 가능한 블래스터가 장착되어 있습니다. 해당 블래스터는 180도 움직임이 가능하며 조수석에서 조종하여 발사합니다.</SWFactions_SpeederThing.description>
+  <SWFactions_SpeederThing.comps.1.roles.0.label>운전수</SWFactions_SpeederThing.comps.1.roles.0.label>
+  <SWFactions_SpeederThing.comps.1.roles.0.labelPlural>운전수들</SWFactions_SpeederThing.comps.1.roles.0.labelPlural>
+  <SWFactions_SpeederThing.comps.1.roles.1.label>포수</SWFactions_SpeederThing.comps.1.roles.1.label>
+  <SWFactions_SpeederThing.comps.1.roles.1.labelPlural>포수들</SWFactions_SpeederThing.comps.1.roles.1.labelPlural>
+  <SWFactions_SpeederThing.comps.1.roles.2.label>승객</SWFactions_SpeederThing.comps.1.roles.2.label>
+  <SWFactions_SpeederThing.comps.1.roles.2.labelPlural>승객들</SWFactions_SpeederThing.comps.1.roles.2.labelPlural>
+  <!-- Flesh Type: Mechanoid -->
+  <SWFactions_SpeederThing_Corpse.label>스피더 시체</SWFactions_SpeederThing_Corpse.label>
+  <SWFactions_SpeederThing_Corpse.description>스피더 시체</SWFactions_SpeederThing_Corpse.description>
+</LanguageData>
