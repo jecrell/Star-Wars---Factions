@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SWFactions_RepairsATST.label>维修AT-AS（钢铁：50，玻璃钢：10，零件：3）</SWFactions_RepairsATST.label>
+  <SWFactions_RepairsATST.description>维修AT-AS。</SWFactions_RepairsATST.description>
+  <SWFactions_RepairsATST.jobString>正在维修AT-AS。</SWFactions_RepairsATST.jobString>
+
+  <SWFactions_RepairsATAT.label>维修AT-AT（钢铁：50，玻璃钢：10，零件：3）</SWFactions_RepairsATAT.label>
+  <SWFactions_RepairsATAT.description>维修AT-AT。</SWFactions_RepairsATAT.description>
+  <SWFactions_RepairsATAT.jobString>正在维修AT-AT。</SWFactions_RepairsATAT.jobString>
+
+  <SWFactions_RepairsSpeeder.label>维修陆行艇（钢铁：30，玻璃钢：8，零件：2）</SWFactions_RepairsSpeeder.label>
+  <SWFactions_RepairsSpeeder.description>维修陆行艇。</SWFactions_RepairsSpeeder.description>
+  <SWFactions_RepairsSpeeder.jobString>正在维修陆行艇。</SWFactions_RepairsSpeeder.jobString>
+
+</LanguageData>

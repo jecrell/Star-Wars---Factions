@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+  <!-- ======== 6 / 6 / 2017 ========== -->
+
+  <PJ_WarDeclared>War</PJ_WarDeclared>
+  <PJ_WarDeclaredDesc>{0} has declared war on {1}. In-fighting may occur on your territory.</PJ_WarDeclaredDesc>
+
+  <!-- ======== Initial Release ========== -->
+
+  <PJ_ImperialGreeting_Title>银河帝国</PJ_ImperialGreeting_Title>
+
+  <PJ_ImperialGreeting>一名自称叫{0}的{1}向你宣告了帝国的要求。\n\n作为未被承认的非官方聚居点，{2}需要向帝国缴纳{3}白银的土地租赁费和土地使用税。\n\n根据帝国法典，经帝国税务局审核，该殖民地须每年积极缴纳{4}白银的个人和集体的各种税务。\n\n不论以何种方式违反以上所述，整个殖民地都将被帝国视为必须消灭的敌人。</PJ_ImperialGreeting>
+
+  <PJ_ImperialGreeting_Rejected>{0}在通讯器中汇报了情况并开始调动武装力量。</PJ_ImperialGreeting_Rejected>
+
+  <PJ_ImperialGreeting_Accept>缴纳税金</PJ_ImperialGreeting_Accept>
+
+  <PJ_ImperialGreeting_Reject>断然拒绝</PJ_ImperialGreeting_Reject>
+
+  <PJ_ImperialTaxes_Paid>{0}支付了{1}白银做为向银河帝国缴纳的税金。</PJ_ImperialTaxes_Paid>
+
+  <PJ_ImperialTaxes_Owed>{0}支付了{1}白银。{0}还欠银河帝国{2}白银。</PJ_ImperialTaxes_Owed>
+
+  <!--<PJ_WarDeclared>战争</PJ_WarDeclared>-->
+  <!--<PJ_WarDeclaredDesc>{0}向{1}宣战，战斗随时可能蔓延到你的殖民地。</PJ_WarDeclaredDesc>-->
+
+</LanguageData>
