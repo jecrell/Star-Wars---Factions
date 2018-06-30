@@ -26,8 +26,8 @@ namespace SWFactions
                 Find.FactionManager.FirstFactionOfDef(FactionDef.Named("PJ_GalacticEmpire")) is Faction impFaction)
             {
                 hostilityDeclared = true;
-                impFaction.SetHostileTo(rebelFaction, true);
-                rebelFaction.SetHostileTo(impFaction, true);
+                impFaction.TrySetNotAlly(rebelFaction, true);
+                rebelFaction.TrySetNotAlly(impFaction, true);
                 Find.LetterStack.ReceiveLetter("PJ_WarDeclared".Translate(), "PJ_WarDeclaredDesc".Translate(
                     new object[] { rebelFaction.def.label, impFaction.def.label }
                     ), DefDatabase<LetterDef>.GetNamed("PJ_BadUrgent"), null);

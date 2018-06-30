@@ -5,10 +5,11 @@
     <defName>Engines_intake</defName>
     <label>Intakes</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
       <li>BreathingPathway</li>
       <li>EatingPathway</li>
@@ -20,10 +21,11 @@
     <defName>Speeder_Frontend</defName>
     <label>Frontent</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
     <li>ManipulationLimbCore</li>
     </tags>
@@ -33,20 +35,22 @@
     <defName>Speeder_Frame</defName>
     <label>frame</label>
     <hitPoints>40</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
   </BodyPartDef>
 
   <BodyPartDef>
     <defName>RightSpeederEng</defName>
     <label>right engine</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
       <li>MovingLimbCore</li>
     </tags>
@@ -56,10 +60,11 @@
     <defName>RightLev</defName>
     <label>right maglev</label>
     <hitPoints>20</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
       <li>MovingLimbSegment</li>
     </tags>
@@ -69,10 +74,11 @@
     <defName>LeftSpeederEng</defName>
     <label>left engine</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
       <li>MovingLimbCore</li>
     </tags>
@@ -82,10 +88,11 @@
     <defName>LeftLev</defName>
     <label>left maglev</label>
     <hitPoints>20</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
       <li>MovingLimbSegment</li>
     </tags>

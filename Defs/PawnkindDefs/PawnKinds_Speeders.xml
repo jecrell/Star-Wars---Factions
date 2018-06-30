@@ -5,7 +5,7 @@
   <ThingDef ParentName="BaseWalker">
     <defName>SWFactions_SpeederThing</defName>
     <label>Speeder</label>
-    <description>A landspeeder redesigned for planetary patrol that is well armored and mounts a light repeating blaster on the main body. The blaster had a 180 degrees fire arc and was fired by the gunner in the forward passenger seat. </description>
+    <description>A landspeeder redesigned for planetary patrol that is well armored and mounts a light repeating blaster on the main body. The blaster had a 180 degrees fire arc and was fired by the gunner in the forward passenger seat.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
@@ -64,7 +64,7 @@
     <butcherProducts>
       <Steel>40</Steel>
       <Plasteel>25</Plasteel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </butcherProducts>
 	<comps>
 	  <li Class="CompVehicle.CompProperties_Vehicle">

@@ -6,7 +6,7 @@
   <PJ_VibroSonic.comps.0.labelTendedWell>Перевязан</PJ_VibroSonic.comps.0.labelTendedWell>
   <PJ_VibroSonic.comps.0.labelTendedWellInner>Зашит</PJ_VibroSonic.comps.0.labelTendedWellInner>
   <PJ_VibroSonic.comps.0.labelSolidTendedWell>Прочно</PJ_VibroSonic.comps.0.labelSolidTendedWell>
-  <PJ_VibroSonic.comps.2.oldLabel>Шрам от звука</PJ_VibroSonic.comps.2.oldLabel>
+  <PJ_VibroSonic.comps.2.permanentLabel>Шрам от звука</PJ_VibroSonic.comps.2.permanentLabel>
   <PJ_VibroSonic.injuryProps.destroyedLabel>Отренанно</PJ_VibroSonic.injuryProps.destroyedLabel>
   <PJ_VibroSonic.injuryProps.destroyedOutLabel>Вырезанно</PJ_VibroSonic.injuryProps.destroyedOutLabel>
 
@@ -14,7 +14,7 @@
   <PJ_AcBurn.comps.0.labelTendedWell>Нейтролизован</PJ_AcBurn.comps.0.labelTendedWell>
   <PJ_AcBurn.comps.0.labelTendedWellInner>Обработан</PJ_AcBurn.comps.0.labelTendedWellInner>
   <PJ_AcBurn.comps.0.labelSolidTendedWell>Хорошой обработан</PJ_AcBurn.comps.0.labelSolidTendedWell>
-  <PJ_AcBurn.comps.2.oldLabel>Кислотный шрам</PJ_AcBurn.comps.2.oldLabel>
+  <PJ_AcBurn.comps.2.permanentLabel>Кислотный шрам</PJ_AcBurn.comps.2.permanentLabel>
   <PJ_AcBurn.injuryProps.destroyedLabel>Расплавлено</PJ_AcBurn.injuryProps.destroyedLabel>
   <PJ_AcBurn.injuryProps.destroyedOutLabel>Выплавлено</PJ_AcBurn.injuryProps.destroyedOutLabel>
 
@@ -22,7 +22,7 @@
   <PJ_BBurn.comps.0.labelTendedWell>Перевязан</PJ_BBurn.comps.0.labelTendedWell>
   <PJ_BBurn.comps.0.labelTendedWellInner>Зашивают</PJ_BBurn.comps.0.labelTendedWellInner>
   <PJ_BBurn.comps.0.labelSolidTendedWell>Ухоженный</PJ_BBurn.comps.0.labelSolidTendedWell>
-  <PJ_BBurn.comps.2.oldLabel>Шрам от бластера</PJ_BBurn.comps.2.oldLabel>
+  <PJ_BBurn.comps.2.permanentLabel>Шрам от бластера</PJ_BBurn.comps.2.permanentLabel>
   <PJ_BBurn.injuryProps.destroyedLabel>Оторвано бластером</PJ_BBurn.injuryProps.destroyedLabel>
   <PJ_BBurn.injuryProps.destroyedOutLabel>Отстрелено бластером</PJ_BBurn.injuryProps.destroyedOutLabel>
 

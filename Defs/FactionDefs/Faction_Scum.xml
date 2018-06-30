@@ -5,24 +5,20 @@
 		<label>Wretched hive of scum and villainy</label>
 <description>Groups of shady underworld-types.</description>
     <pawnsPlural>Scum</pawnsPlural>
-    <baseSelectionWeight>0.5</baseSelectionWeight>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
 	<earliestRaidDays>35</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Boss</leaderTitle>
-    <appreciative>false</appreciative>
+    <permanentEnemy>true</permanentEnemy>
     <expandingIconTexture>World/ScumLogo</expandingIconTexture>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
     </colorSpectrum>
-    <startingGoodwill>
-      <min>-99</min>
-      <max>-90</max>
-    </startingGoodwill>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
-		<baseNameMaker>NamerFactionBasePirate</baseNameMaker>
+		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<hairTags>
@@ -31,18 +27,22 @@
 			<li>Punk</li>
 			<li>Tribal</li>
 		</hairTags>
-    <naturalColonyGoodwill>
-      <min>-99</min>
-      <max>-99</max>
-    </naturalColonyGoodwill>
     <allowedArrivalTemperatureRange>
       <min>-75</min>
       <max>60</max>
     </allowedArrivalTemperatureRange>
-
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
           <PJ_ScumSoldier>200</PJ_ScumSoldier>
@@ -52,7 +52,7 @@
         </options>
       </li>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <commonality>25</commonality>
         <options>
           <PJ_ScumBoss>50</PJ_ScumBoss>
@@ -61,7 +61,7 @@
         </options>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
           <PJ_ScumSoldier>200</PJ_ScumSoldier>
           <PJ_ScumBoss>5</PJ_ScumBoss>

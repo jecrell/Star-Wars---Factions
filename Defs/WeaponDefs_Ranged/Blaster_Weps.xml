@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Abstract="True" Name="BaseWeapon">
+	<ThingDef Abstract="True" Name="BaseSWWeapon">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -14,6 +14,7 @@
 		<selectable>true</selectable>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.4</Mass>
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>2</DeteriorationRate>
 			<Beauty>-6</Beauty>
@@ -30,7 +31,7 @@
 		</graphicData>
 	</ThingDef>
 
-  <ThingDef Name="BaseImpGun" Abstract="True" ParentName="BaseWeapon">
+  <ThingDef Name="BaseImpGun" Abstract="True" ParentName="BaseSWWeapon">
 		<techLevel>Spacer</techLevel>
 		<smeltable>true</smeltable>
 		<thingCategories>
@@ -44,7 +45,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <nameMaker>NamerArtWeaponGun</nameMaker>
         <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -91,12 +92,12 @@
   <ThingDef ParentName="BaseImpMakeableGun">
     <defName>PJ_E11Blaster</defName>
     <label>E-11 Blaster Rifle</label>
-    <description>Manufactured by BlasTech Industries during the Galactic Civil War, the E-11 Blaster Rifle is the standard blaster rifle of the Imperial stormtroopers. A powerful, light and compact weapon, the E-11 was used widely through the galaxy. </description>
+    <description>Manufactured by BlasTech Industries during the Galactic Civil War, the E-11 Blaster Rifle is the standard blaster rifle of the Imperial stormtroopers. A powerful, light and compact weapon, the E-11 was used widely through the galaxy.</description>
     <graphicData>
       <texPath>Weapons/Blaster2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -113,7 +114,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -156,12 +157,12 @@
      <ThingDef ParentName="BaseImpMakeableGun">
     <defName>PJ_DH17Blaster</defName>
     <label>DH-17 Blaster Pistol</label>
-    <description>Manufactured by BlasTech Industries, the DH-17 blaster pistol was commonly used by soldiers of the Rebel Alliance for conflicts aboard starships, and sometimes the officers of the Galactic Empire carried it instead of the standard E-11 blaster rifles. </description>
+    <description>Manufactured by BlasTech Industries, the DH-17 blaster pistol was commonly used by soldiers of the Rebel Alliance for conflicts aboard starships, and sometimes the officers of the Galactic Empire carried it instead of the standard E-11 blaster rifles.</description>
     <graphicData>
       <texPath>Weapons/DH17</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -178,7 +179,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -223,7 +224,7 @@
       <texPath>Weapons/Scoutblaster</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -239,7 +240,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -290,7 +291,7 @@
       <texPath>Weapons/SE14</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -306,7 +307,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -374,7 +375,7 @@
       <texPath>Weapons/DL44</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -390,7 +391,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -457,7 +458,7 @@
       <texPath>Weapons/DXR6</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -473,7 +474,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -539,7 +540,7 @@
       <texPath>Weapons/JawaIon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -555,7 +556,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -623,7 +624,7 @@
       <texPath>Weapons/NymSlug</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -639,7 +640,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -694,7 +695,7 @@
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>7</damageAmountBase>
 			<explosionRadius>2.1</explosionRadius>
-			<preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
 		</projectile>
 	</ThingDef>
   
@@ -706,7 +707,7 @@
       <texPath>Weapons/LauncherP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -722,7 +723,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -732,7 +733,7 @@
         <warmupTime>2.83</warmupTime>
 		<forcedMissRadius>2.4</forcedMissRadius>
         <range>20</range>
-        <soundCast>ShotIncendiaryLauncher</soundCast>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -793,7 +794,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	   <drawSize>2.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -809,7 +810,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>	
 	<comps>
 		  <li>
@@ -866,7 +867,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	   <drawSize>2.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -882,7 +883,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>	
 	<comps>
 		  <li>
@@ -952,7 +953,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	   <drawSize>2.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -968,7 +969,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>	
 	<comps>
 		  <li>
@@ -1041,7 +1042,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.2</drawSize>	
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
@@ -1057,7 +1058,7 @@
     <costList>
       <Steel>125</Steel>
       <Plasteel>55</Plasteel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>	
 		<comps>
 		  <li>

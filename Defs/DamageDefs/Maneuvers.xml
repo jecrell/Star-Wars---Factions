@@ -8,7 +8,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>PJ_Vibro</meleeDamageDef>
     </verb>
-    <combatLogRules>Maneuver_Slash</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
 
   <ManeuverDef>
@@ -18,7 +22,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>PJ_Vibro</meleeDamageDef>
     </verb>
-    <combatLogRules>Maneuver_Stab</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
 
 </Defs>

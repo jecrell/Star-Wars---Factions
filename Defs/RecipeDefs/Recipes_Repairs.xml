@@ -6,8 +6,10 @@
 		<label>repair part (50 steel, 10 plasteel, 3 components)</label>
 		<description>Repairs a part.</description>
 		<workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
+		<requireBed>false</requireBed>
 		<jobString>Repairing part.</jobString>
 		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
 		<ingredients>
 			<li>
 				<filter>
@@ -28,7 +30,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Component</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -38,7 +40,7 @@
       <thingDefs>
 				<li>Steel</li>
 				<li>Plasteel</li>
-				<li>Component</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>		
 	<effectWorking>Repair</effectWorking>
@@ -49,8 +51,10 @@
 		<label>repair part (50 steel, 10 plasteel, 3 components)</label>
 		<description>Repairs a part.</description>
 		<workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
+		<requireBed>false</requireBed>
 		<jobString>Repairing part.</jobString>
 		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
 		<ingredients>
 			<li>
 				<filter>
@@ -71,7 +75,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Component</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -81,7 +85,7 @@
       <thingDefs>
 				<li>Steel</li>
 				<li>Plasteel</li>
-				<li>Component</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>		
 	<effectWorking>Repair</effectWorking>
@@ -92,8 +96,10 @@
 		<label>repair part (30 steel, 8 plasteel, 2 components)</label>
 		<description>Repairs a part.</description>
 		<workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
+		<requireBed>false</requireBed>
 		<jobString>Repairing part.</jobString>
 		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
 		<ingredients>
 			<li>
 				<filter>
@@ -114,7 +120,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Component</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -124,7 +130,7 @@
       <thingDefs>
 				<li>Steel</li>
 				<li>Plasteel</li>
-				<li>Component</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>		
 	<effectWorking>Repair</effectWorking>

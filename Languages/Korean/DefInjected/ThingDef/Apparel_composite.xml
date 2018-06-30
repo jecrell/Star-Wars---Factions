@@ -19,7 +19,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>

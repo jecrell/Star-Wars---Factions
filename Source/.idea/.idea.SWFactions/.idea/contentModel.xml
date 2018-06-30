@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Assemblies" t="ExcludeRecursive" />
+    <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source" t="IncludeRecursive">
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Rule_PlanetName.cs" t="Include" />
+      </e>
+      <e p="SWFactions" t="Include">
+        <e p="ImperialTax_Data.cs" t="Include" />
+        <e p="SWFactions_Utility.cs" t="Include" />
+        <e p="WarComponent.cs" t="Include" />
+      </e>
+      <e p="SWFactions.csproj" t="IncludeRecursive" />
+      <e p="SWFactions.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\mattw\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_SWFactions.776617162.00" t="ExcludeRecursive" />
+  </component>
+</project>

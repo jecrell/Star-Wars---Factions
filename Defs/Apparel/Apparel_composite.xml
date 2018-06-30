@@ -15,6 +15,7 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>0.5</Flammability>
+			<Mass>0.2</Mass>
 			<DeteriorationRate>0.5</DeteriorationRate>
 			<SellPriceFactor>0.75</SellPriceFactor>
 		</statBases>
@@ -97,7 +98,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -150,7 +151,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>

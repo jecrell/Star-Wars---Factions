@@ -14,6 +14,7 @@
 		<selectable>true</selectable>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.4</Mass>
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>2</DeteriorationRate>
 			<Beauty>-6</Beauty>
@@ -44,7 +45,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <nameMaker>NamerArtWeaponGun</nameMaker>
         <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -132,7 +133,7 @@
       <texPath>VehicleWeps/ATSTBl</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <Mass>6.85</Mass>
       <MarketValue>3200</MarketValue>
@@ -145,7 +146,7 @@
     <costList>
       <Steel>200</Steel>
       <Plasteel>60</Plasteel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>	
     <verbs>
       <li>
@@ -191,7 +192,7 @@
       <texPath>VehicleWeps/ATATBl</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <Mass>6.85</Mass>
       <MarketValue>3200</MarketValue>
@@ -204,7 +205,7 @@
     <costList>
       <Steel>230</Steel>
       <Plasteel>65</Plasteel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -250,7 +251,7 @@
       <texPath>VehicleWeps/TurretSpd_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <Mass>6.85</Mass>
       <MarketValue>3200</MarketValue>
@@ -263,7 +264,7 @@
     <costList>
       <Steel>200</Steel>
       <Plasteel>60</Plasteel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li>

@@ -65,7 +65,7 @@
     <butcherProducts>
       <Steel>40</Steel>
       <Plasteel>25</Plasteel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </butcherProducts>
 	<comps>
 	  <li Class="CompVehicle.CompProperties_Vehicle">
@@ -156,7 +156,7 @@
     <ThingDef ParentName="BaseWalker">
     <defName>SWFactions_ATATThing</defName>
     <label>AT-AT</label>
-    <description>The All Terrain Armored Transport (AT-AT) is a four-legged combat walker used by the ground forces of the Galactic Empire. With the Imperial-class Star Destroyer and the TIE/ln space superiority starfighter, it is one of the most famous symbols of the Empire's military might. </description>
+    <description>The All Terrain Armored Transport (AT-AT) is a four-legged combat walker used by the ground forces of the Galactic Empire. With the Imperial-class Star Destroyer and the TIE/ln space superiority starfighter, it is one of the most famous symbols of the Empire's military might.</description>
     <statBases>
       <MoveSpeed>3</MoveSpeed>
       <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
@@ -216,7 +216,7 @@
     <butcherProducts>
       <Steel>40</Steel>
       <Plasteel>25</Plasteel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </butcherProducts>
 	<comps>
 	  <li Class="CompVehicle.CompProperties_Vehicle">
@@ -312,7 +312,7 @@
     <altitudeLayer>Pawn</altitudeLayer>
     <useHitPoints>false</useHitPoints>
     <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
     <statBases>
       <Mass>70</Mass>
       <PsychicSensitivity>0</PsychicSensitivity>

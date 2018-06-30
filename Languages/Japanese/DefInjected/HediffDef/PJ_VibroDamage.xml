@@ -5,7 +5,7 @@
   <PJ_VibroSonic.comps.0.labelTendedWell>包帯</PJ_VibroSonic.comps.0.labelTendedWell>
   <PJ_VibroSonic.comps.0.labelTendedWellInner>縫合</PJ_VibroSonic.comps.0.labelTendedWellInner>
   <PJ_VibroSonic.comps.0.labelSolidTendedWell>セット</PJ_VibroSonic.comps.0.labelSolidTendedWell>
-  <PJ_VibroSonic.comps.2.oldLabel>衝撃波切傷跡</PJ_VibroSonic.comps.2.oldLabel>
+  <PJ_VibroSonic.comps.2.permanentLabel>衝撃波切傷跡</PJ_VibroSonic.comps.2.permanentLabel>
   <PJ_VibroSonic.injuryProps.destroyedLabel>切り裂かれた</PJ_VibroSonic.injuryProps.destroyedLabel>
   <PJ_VibroSonic.injuryProps.destroyedOutLabel>切り飛ばされた</PJ_VibroSonic.injuryProps.destroyedOutLabel>
 
@@ -13,7 +13,7 @@
   <PJ_BBurn.comps.0.labelTendedWell>包帯</PJ_BBurn.comps.0.labelTendedWell>
   <PJ_BBurn.comps.0.labelTendedWellInner>縫合</PJ_BBurn.comps.0.labelTendedWellInner>
   <PJ_BBurn.comps.0.labelSolidTendedWell>セット</PJ_BBurn.comps.0.labelSolidTendedWell>
-  <PJ_BBurn.comps.2.oldLabel>ブラスター火傷跡</PJ_BBurn.comps.2.oldLabel>
+  <PJ_BBurn.comps.2.permanentLabel>ブラスター火傷跡</PJ_BBurn.comps.2.permanentLabel>
   <PJ_BBurn.injuryProps.destroyedLabel>吹き飛ばされた</PJ_BBurn.injuryProps.destroyedLabel>
   <PJ_BBurn.injuryProps.destroyedOutLabel>吹き飛んだ</PJ_BBurn.injuryProps.destroyedOutLabel>
 
@@ -21,7 +21,7 @@
   <PJ_AcBurn.comps.0.labelTendedWell>酸中和</PJ_AcBurn.comps.0.labelTendedWell>
   <PJ_AcBurn.comps.0.labelTendedWellInner>縫合</PJ_AcBurn.comps.0.labelTendedWellInner>
   <PJ_AcBurn.comps.0.labelSolidTendedWell>セット</PJ_AcBurn.comps.0.labelSolidTendedWell>
-  <PJ_AcBurn.comps.2.oldLabel>酸性火傷跡</PJ_AcBurn.comps.2.oldLabel>
+  <PJ_AcBurn.comps.2.permanentLabel>酸性火傷跡</PJ_AcBurn.comps.2.permanentLabel>
   <PJ_AcBurn.injuryProps.destroyedLabel>溶けた</PJ_AcBurn.injuryProps.destroyedLabel>
   <PJ_AcBurn.injuryProps.destroyedOutLabel>溶け落ちた</PJ_AcBurn.injuryProps.destroyedOutLabel>
 

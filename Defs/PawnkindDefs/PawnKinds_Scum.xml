@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <Defs>
 
-
-  <PawnKindDef Abstract="True" Name="PJ_SVBase" >
+  <PawnKindDef Abstract="True" Name="PJ_SVBase">
     <race>Human</race>
     <defaultFactionType>PJ_Bounty</defaultFactionType>
     <baseRecruitDifficulty>0.5</baseRecruitDifficulty>
@@ -24,7 +24,7 @@
       <min>1000</min>
       <max>1500</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.51</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.51</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2040</min>
       <max>3000</max>
@@ -48,7 +48,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -113,7 +113,7 @@
       <min>7570</min>
       <max>8170</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2040</min>
       <max>3000</max>
@@ -142,7 +142,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>5</max>
@@ -178,7 +178,7 @@
 	  <li>Spacer</li>
     <li>PJ_Comp</li>
     </apparelTags>
-    <apparelAllowHeadwearChance>0.2</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>1480</min>
       <max>2300</max>
@@ -207,7 +207,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>

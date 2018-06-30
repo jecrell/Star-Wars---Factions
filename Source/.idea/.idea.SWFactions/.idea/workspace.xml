@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58001e65-9a04-4468-a52b-e4a49414a65d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </ComponentIndustrial>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ImperialTax_Data.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SWFactions/ImperialTax_Data.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="150" selection-end-column="13" />
+              <folding>
+                <marker date="1511798436653" expanded="false" signature="6:197" ph="..." />
+                <marker date="1511798436653" expanded="true" signature="219:8222" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="272:8220" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="713:734" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="744:2888" ph="Meeting" />
+                <marker date="1511798436653" expanded="true" signature="824:1218" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="862:1038" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="1090:1208" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="1277:2860" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="1454:1689" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="2129:2185" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="2953:3569" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="3043:3559" ph="/* List&lt;Pawn&gt; imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) =&gt; x.Faction == imperial.Factio ... */" />
+                <marker date="1511798436653" expanded="true" signature="3635:4441" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="3714:4431" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="3778:4073" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="4151:4417" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="4501:4901" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="4694:4864" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="4763:4850" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="4966:6452" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="5187:5611" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="5279:5597" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="5646:6131" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="5912:6082" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="6148:6442" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="6263:6393" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="6503:7619" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="6568:7574" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="6628:7560" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="6710:7542" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="6779:7520" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="7242:7462" ph="{...}" />
+                <marker date="1511798436653" expanded="true" signature="7662:8214" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </ComponentIndustrial>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SWFactions/ImperialTax_Data.cs" root0="FORCE_HIGHLIGHTING" />
+  </ComponentIndustrial>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </ComponentIndustrial>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="110" />
+    <option name="width" value="1936" />
+    <option name="height" value="855" />
+  </ComponentIndustrial>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SWFactions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </ComponentIndustrial>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RimworldModReleaseTool.exe" />
+  </ComponentIndustrial>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </ComponentIndustrial>
+  <component name="RunManager" selected=".NET Executable.Deployer">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+    <configuration name="Deployer" type="RunExe" factoryName=".NET Executable">
+      <option name="EXE_PATH" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\RimworldModReleaseTool.exe" />
+      <option name="PROGRAM_PARAMETERS" value="D:\SteamLibrary\steamapps\common\RimWorld\Mods\Star-Wars---Factions" />
+      <option name="WORKING_DIRECTORY" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue=".NET Executable.Deployer" />
+      <item index="1" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </ComponentIndustrial>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </ComponentIndustrial>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58001e65-9a04-4468-a52b-e4a49414a65d" name="Default" comment="" />
+      <created>1517025565122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517025565122</updated>
+      <workItem from="1517025566941" duration="1499000" />
+      <workItem from="1517537186234" duration="132000" />
+      <workItem from="1517797416919" duration="342000" />
+      <workItem from="1521898117024" duration="1240000" />
+    </task>
+    <servers />
+  </ComponentIndustrial>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3213000" />
+  </ComponentIndustrial>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </ComponentIndustrial>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40952381" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111707844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </ComponentIndustrial>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </ComponentIndustrial>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </ComponentIndustrial>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </ComponentIndustrial>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SWFactions/ImperialTax_Data.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511798436653" expanded="false" signature="6:197" ph="..." />
+            <marker date="1511798436653" expanded="true" signature="219:8222" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="272:8220" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="713:734" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="744:2888" ph="Meeting" />
+            <marker date="1511798436653" expanded="true" signature="824:1218" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="862:1038" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1090:1208" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1277:2860" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1454:1689" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2129:2185" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2953:3569" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3043:3559" ph="/* List&lt;Pawn&gt; imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) =&gt; x.Faction == imperial.Factio ... */" />
+            <marker date="1511798436653" expanded="true" signature="3635:4441" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3714:4431" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3778:4073" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4151:4417" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4501:4901" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4694:4864" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4763:4850" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4966:6452" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5187:5611" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5279:5597" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5646:6131" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5912:6082" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6148:6442" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6263:6393" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6503:7619" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6568:7574" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6628:7560" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6710:7542" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6779:7520" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7242:7462" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7662:8214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWFactions/ImperialTax_Data.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511798436653" expanded="false" signature="6:197" ph="..." />
+            <marker date="1511798436653" expanded="true" signature="219:8222" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="272:8220" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="713:734" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="744:2888" ph="Meeting" />
+            <marker date="1511798436653" expanded="true" signature="824:1218" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="862:1038" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1090:1208" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1277:2860" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1454:1689" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2129:2185" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2953:3569" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3043:3559" ph="/* List&lt;Pawn&gt; imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) =&gt; x.Faction == imperial.Factio ... */" />
+            <marker date="1511798436653" expanded="true" signature="3635:4441" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3714:4431" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3778:4073" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4151:4417" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4501:4901" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4694:4864" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4763:4850" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4966:6452" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5187:5611" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5279:5597" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5646:6131" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5912:6082" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6148:6442" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6263:6393" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6503:7619" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6568:7574" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6628:7560" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6710:7542" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6779:7520" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7242:7462" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7662:8214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWFactions/ImperialTax_Data.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511798436653" expanded="false" signature="6:197" ph="..." />
+            <marker date="1511798436653" expanded="true" signature="219:8222" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="272:8220" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="713:734" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="744:2888" ph="Meeting" />
+            <marker date="1511798436653" expanded="true" signature="824:1218" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="862:1038" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1090:1208" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1277:2860" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1454:1689" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2129:2185" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2953:3569" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3043:3559" ph="/* List&lt;Pawn&gt; imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) =&gt; x.Faction == imperial.Factio ... */" />
+            <marker date="1511798436653" expanded="true" signature="3635:4441" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3714:4431" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3778:4073" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4151:4417" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4501:4901" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4694:4864" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4763:4850" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4966:6452" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5187:5611" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5279:5597" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5646:6131" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5912:6082" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6148:6442" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6263:6393" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6503:7619" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6568:7574" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6628:7560" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6710:7542" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6779:7520" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7242:7462" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7662:8214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWFactions/ImperialTax_Data.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="150" selection-end-column="13" />
+          <folding>
+            <marker date="1511798436653" expanded="false" signature="6:197" ph="..." />
+            <marker date="1511798436653" expanded="true" signature="219:8222" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="272:8220" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="713:734" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="744:2888" ph="Meeting" />
+            <marker date="1511798436653" expanded="true" signature="824:1218" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="862:1038" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1090:1208" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1277:2860" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="1454:1689" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2129:2185" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="2953:3569" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3043:3559" ph="/* List&lt;Pawn&gt; imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) =&gt; x.Faction == imperial.Factio ... */" />
+            <marker date="1511798436653" expanded="true" signature="3635:4441" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3714:4431" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="3778:4073" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4151:4417" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4501:4901" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4694:4864" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4763:4850" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="4966:6452" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5187:5611" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5279:5597" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5646:6131" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="5912:6082" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6148:6442" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6263:6393" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6503:7619" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6568:7574" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6628:7560" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6710:7542" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="6779:7520" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7242:7462" ph="{...}" />
+            <marker date="1511798436653" expanded="true" signature="7662:8214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </ComponentIndustrial>
+</project>

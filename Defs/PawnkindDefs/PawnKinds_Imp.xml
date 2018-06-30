@@ -28,7 +28,7 @@
       <min>6000</min>
       <max>6000</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2040</min>
       <max>3000</max>
@@ -56,7 +56,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -70,7 +70,7 @@
     <defName>PJ_ImpInspector</defName>
     <label>Tax Inspector</label>
     <isFighter>true</isFighter>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>
       <min>200</min>
       <max>200</max>
@@ -86,7 +86,7 @@
     <defName>PJ_ImpTaxOfficer</defName>
     <label>Tax Officer</label>
     <isFighter>true</isFighter>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>
       <min>200</min>
       <max>200</max>
@@ -188,7 +188,7 @@
       <li>PJ_ImpUniform</li>
       <li>PJ_ImpHatB</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2040</min>
       <max>3000</max>
@@ -216,7 +216,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -254,7 +254,7 @@
       <li>PJ_SCTHelm</li>
       <li>PJ_TroopArmorNCO</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>0.2</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>1480</min>
       <max>2300</max>
@@ -282,7 +282,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>

@@ -5,10 +5,11 @@
     <defName>SWFactions_Thermometer</defName>
     <label>thermometer</label>
     <hitPoints>1</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <frostbiteVulnerability>0.01</frostbiteVulnerability>
   </BodyPartDef>
 
@@ -16,17 +17,18 @@
     <defName>SWFactions_Cockpit</defName>
     <label>cockpit</label>
     <hitPoints>40</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
       <li>SightSource</li>
       <li>HearingSource</li>
       <li>ConsciousnessSource</li>
-	  <li>PilotSeat</li>
-	  <li>GunnerSeat</li>
-	  <li>PassengerSeat</li>
+	    <li>PilotSeat</li>
+	    <li>GunnerSeat</li>
+	    <li>PassengerSeat</li>
     </tags>
   </BodyPartDef>
 
@@ -34,10 +36,11 @@
     <defName>ATST_Neck</defName>
     <label>neck</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
       <li>BreathingPathway</li>
       <li>EatingPathway</li>
@@ -49,10 +52,11 @@
     <defName>ATST_Head</defName>
     <label>head</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <tags>
     <li>ManipulationLimbCore</li>
     </tags>
@@ -62,10 +66,11 @@
     <defName>ATST_Frame</defName>
     <label>frame</label>
     <hitPoints>40</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
   </BodyPartDef>
 
 <!-- ===== ATAT Parts ===== -->
@@ -74,10 +79,11 @@
     <defName>ATAT_Neck</defName>
     <label>neck</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>BreathingPathway</li>
       <li>EatingPathway</li>
@@ -89,10 +95,11 @@
     <defName>ATAT_Head</defName>
     <label>head</label>
     <hitPoints>60</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
     <li>ManipulationLimbCore</li>
     </tags>
@@ -102,20 +109,22 @@
     <defName>ATAT_Frame</defName>
     <label>frame</label>
     <hitPoints>60</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
   </BodyPartDef>
 
   <BodyPartDef>
     <defName>LeftATATFLeg</defName>
     <label>left leg</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbCore</li>
     </tags>
@@ -125,10 +134,11 @@
     <defName>LeftATATFFoot</defName>
     <label>left foot</label>
     <hitPoints>20</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbSegment</li>
     </tags>
@@ -138,10 +148,11 @@
     <defName>LeftATATRLeg</defName>
     <label>left leg</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbCore</li>
     </tags>
@@ -151,10 +162,11 @@
     <defName>LeftATATRFoot</defName>
     <label>left foot</label>
     <hitPoints>20</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbSegment</li>
     </tags>
@@ -164,10 +176,11 @@
     <defName>RightATATFLeg</defName>
     <label>right leg</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbCore</li>
     </tags>
@@ -177,10 +190,11 @@
     <defName>RightATATFFoot</defName>
     <label>right foot</label>
     <hitPoints>20</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbSegment</li>
     </tags>
@@ -190,10 +204,11 @@
     <defName>RightATATRLeg</defName>
     <label>right leg</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbCore</li>
     </tags>
@@ -203,10 +218,11 @@
     <defName>RightATATRFoot</defName>
     <label>right foot</label>
     <hitPoints>20</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
     <tags>
       <li>MovingLimbSegment</li>
     </tags>
@@ -248,12 +264,14 @@
           </parts>
         </li>
         <li>
-          <def>LeftMechanicalLeg</def>
+          <def>MechanicalLeg</def>
+          <customLabel>left leg</customLabel>
           <coverage>0.3</coverage>
           <height>Bottom</height>
           <parts>
             <li>
-              <def>LeftMechanicalFoot</def>
+              <def>MechanicalFoot</def>
+              <customLabel>left foot</customLabel>
               <coverage>0.2</coverage>
               <groups>
               <li>LeftBlade</li>
@@ -262,12 +280,14 @@
           </parts>
         </li>
         <li>
-          <def>RightMechanicalLeg</def>
+          <def>MechanicalLeg</def>
+          <customLabel>right leg</customLabel>
           <coverage>0.3</coverage>
           <height>Bottom</height>
           <parts>
             <li>
-              <def>RightMechanicalFoot</def>
+              <def>MechanicalFoot</def>
+              <customLabel>right foot</customLabel>
               <coverage>0.2</coverage>
               <groups>
               <li>RightBlade</li>

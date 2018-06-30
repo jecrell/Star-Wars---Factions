@@ -4,7 +4,7 @@
   <PJ_VibroSonic.comps.0.labelTendedWell>bandagiert</PJ_VibroSonic.comps.0.labelTendedWell>
   <PJ_VibroSonic.comps.0.labelTendedWellInner>genäht</PJ_VibroSonic.comps.0.labelTendedWellInner>
   <PJ_VibroSonic.comps.0.labelSolidTendedWell>unbeweglich</PJ_VibroSonic.comps.0.labelSolidTendedWell>
-  <PJ_VibroSonic.comps.2.oldLabel>vernarbt</PJ_VibroSonic.comps.2.oldLabel>
+  <PJ_VibroSonic.comps.2.permanentLabel>vernarbt</PJ_VibroSonic.comps.2.permanentLabel>
   <PJ_VibroSonic.injuryProps.destroyedLabel>abgeschnitten</PJ_VibroSonic.injuryProps.destroyedLabel>
   <PJ_VibroSonic.injuryProps.destroyedOutLabel>ausgeschnitten</PJ_VibroSonic.injuryProps.destroyedOutLabel>
 </LanguageData>

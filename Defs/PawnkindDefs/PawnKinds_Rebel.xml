@@ -28,10 +28,10 @@
       <min>300</min>
       <max>1900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
-      <min>225</min>
-      <max>1250</max>
+      <min>1285</min>
+      <max>1380</max>
     </weaponMoney>
     <weaponTags>
       <li>Blaster</li>
@@ -121,7 +121,7 @@
     <li>PJ_Reb_TroopJacket</li>
 	  <li>PJ_RebHat</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>
@@ -171,7 +171,7 @@
     <li>PJ_Reb_CamoJacket</li>
 	  <li>PJ_RebScoutHat</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>
@@ -221,7 +221,7 @@
     <li>PJ_Reb_ScoutLAVJacket</li>
 	  <li>PJ_RebLAVHat</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>
@@ -271,7 +271,7 @@
     <li>PJ_Reb_ScoutJacket</li>
 	  <li>PJ_RebScoutHat</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>
@@ -319,7 +319,7 @@
     <li>PJ_RebFlight</li>
 	  <li>PJ_RebPilot_H_Red</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>
@@ -366,7 +366,7 @@
 	  <li>Military</li>
 	  <li>PJ_Comp</li>
     </apparelTags>
-    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2200</min>
       <max>2600</max>

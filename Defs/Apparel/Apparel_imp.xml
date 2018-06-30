@@ -13,7 +13,8 @@
 		</graphicData>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<statBases>
-		<WorkToMake>22000</WorkToMake>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>0.4</Mass>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>0.5</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
@@ -521,7 +522,7 @@
 		<defName>PJ_TroopArmor</defName>
 		<label>Stormtrooper armor</label>
 		<techLevel>Spacer</techLevel>
-		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
+		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters.</description>
 		<graphicData>
 			<texPath>Imp/Gear/St/STArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -533,7 +534,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -573,7 +574,7 @@
 		<defName>PJ_TroopArmorJO</defName>
 		<label>Stormtrooper armor(JO)</label>
 		<techLevel>Spacer</techLevel>
-		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
+		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters.</description>
 		<graphicData>
 			<texPath>Imp/Gear/Stjo/STJOArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -585,7 +586,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -624,7 +625,7 @@
 		<defName>PJ_TroopArmorNCO</defName>
 		<label>Stormtrooper armor(NCO)</label>
 		<techLevel>Spacer</techLevel>
-		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
+		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters.</description>
 		<graphicData>
 			<texPath>Imp/Gear/Stnco/STNCOArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -636,7 +637,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -675,7 +676,7 @@
 		<defName>PJ_TroopArmorSO</defName>
 		<label>Stormtrooper armor(SO)</label>
 		<techLevel>Spacer</techLevel>
-		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
+		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters.</description>
 		<graphicData>
 			<texPath>Imp/Gear/Stso/STSOArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -687,7 +688,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -726,7 +727,7 @@
 		<defName>PJ_TroopArmorSh</defName>
 		<label>Shoretrooper armor</label>
 		<techLevel>Spacer</techLevel>
-		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
+		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters.</description>
 		<graphicData>
 			<texPath>Imp/Gear/Sh/ShoreArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -738,7 +739,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -789,7 +790,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -828,7 +829,7 @@
 		<defName>PJ_TroopArmorShSL</defName>
 		<label>Shoretrooper armor(SL)</label>
 		<techLevel>Spacer</techLevel>
-		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters. </description>
+		<description>Stormtrooper armor was the standard armor worn by the Imperial stormtrooper. A white plastoid composite worn over a black body glove, the armor represented some of the best in the Empire and was dreaded by rebel freedom fighters.</description>
 		<graphicData>
 			<texPath>Imp/Gear/ShSL/ShoreSLArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -840,7 +841,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -891,7 +892,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -942,7 +943,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -996,7 +997,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>
@@ -1042,7 +1043,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>
@@ -1088,7 +1089,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>
@@ -1134,7 +1135,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>
@@ -1180,7 +1181,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>
@@ -1225,8 +1226,7 @@
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<Insulation_Cold>-14</Insulation_Cold>
 			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
@@ -1274,8 +1274,7 @@
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<Insulation_Cold>-14</Insulation_Cold>
 			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
@@ -1320,8 +1319,7 @@
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<Insulation_Cold>-14</Insulation_Cold>
 			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
@@ -1366,8 +1364,7 @@
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<Insulation_Cold>-14</Insulation_Cold>
 			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
@@ -1413,8 +1410,7 @@
 			<MaxHitPoints>350</MaxHitPoints>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-			<ArmorRating_Electric>0.2</ArmorRating_Electric>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<Insulation_Cold>-14</Insulation_Cold>
 			<Insulation_Heat>16</Insulation_Heat>
 		</statBases>
@@ -1453,7 +1449,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>

@@ -70,7 +70,7 @@ namespace SWFactions
             
             string text2 = "PJ_ImperialGreeting_Rejected".Translate(new object[]
             {
-                imperial.NameStringShort
+                imperial.LabelShort
             });
             DiaNode diaNode2 = new DiaNode(text2);
             DiaOption diaOption2 = new DiaOption("OK".Translate());
@@ -90,7 +90,7 @@ namespace SWFactions
         #endregion Meeting
         public void ResolveDeclarationOfHostility(Pawn imperial)
         {
-            imperial.Faction.SetHostileTo(Faction.OfPlayer, true);
+            imperial.Faction.TrySetNotAlly(Faction.OfPlayer, true);
             //List<Pawn> imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) => x.Faction == imperial.Faction);
             //if (imperialsOnSite != null && imperialsOnSite.Count > 0)
             //    {

@@ -2,14 +2,14 @@
 <Defs>
 
   <ThingDef Name="BuildingBase" Abstract="True">
-    <category>Building</category>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <category>Buildings</category>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
   </ThingDef>
 
   <!-- ========================= Work tables ==========================-->
@@ -50,9 +50,9 @@
     </graphicData>
     <costList>
       <Steel>150</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>Buildings</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -77,7 +77,6 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
         <basePowerConsumption>350</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>

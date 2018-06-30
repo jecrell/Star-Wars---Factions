@@ -14,6 +14,7 @@
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.4</Mass>
 			<Flammability>0.5</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
 			<SellPriceFactor>0.75</SellPriceFactor>
@@ -99,7 +100,7 @@
     <costList>
       <Steel>8</Steel>
       <Plasteel>120</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -153,7 +154,7 @@
     <costList>
       <Steel>18</Steel>
       <Plasteel>130</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -207,7 +208,7 @@
     <costList>
       <Steel>4</Steel>
       <Plasteel>60</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>
@@ -258,7 +259,7 @@
     <costList>
       <Steel>18</Steel>
       <Plasteel>130</Plasteel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
 		<statBases>
       <Mass>14</Mass>

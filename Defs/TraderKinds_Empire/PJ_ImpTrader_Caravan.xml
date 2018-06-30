@@ -34,7 +34,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Component</thingDef>
+        <thingDef>ComponentIndustrial</thingDef>
         <price>Expensive</price>
         <countRange>
           <min>30</min>
@@ -243,7 +243,7 @@
       </li>
     -->
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Medicine</thingDef>
+        <thingDef>MedicineUltratech</thingDef>
         <price>Expensive</price>
         <countRange>
           <min>10</min>
@@ -301,7 +301,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Medicine</thingDef>
+        <thingDef>MedicineUltratech</thingDef>
         <price>Expensive</price>
         <countRange>
           <min>2</min>
@@ -334,9 +334,14 @@
     -->
       <li Class="StockGenerator_Animals">
         <checkTemperature>true</checkTemperature>
-        <tradeTags>
-          <li>BadassAnimal</li>
-        </tradeTags>
+           <tradeTagsSell>
+          <li>AnimalFighter</li>
+          <li>AnimalExotic</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalFighter</li>
+          <li>AnimalCommon</li>
+        </tradeTagsBuy>
         <kindCountRange>
           <min>1</min>
           <max>2</max>

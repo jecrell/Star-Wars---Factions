@@ -16,7 +16,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
         <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -27,7 +27,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
-		<li>ComponentAssemblyBench</li>
+		<li>TableMachining</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
@@ -43,18 +43,20 @@
 				<categories>
 				<li>Root</li>
 				</categories>
-				<exceptedThingDefs>
+				<disallowedThingDefs>
 					<li>Silver</li>
 					<li>Gold</li>
 					<li>WoodLog</li>
-				</exceptedThingDefs>	
+				</disallowedThingDefs>	
 			</defaultIngredientFilter>  	  
 		</recipeMaker>
         <stuffCategories>
           <li>Metallic</li>
         </stuffCategories>
         <costStuffCount>150</costStuffCount>		
-		<canBeSpawningInventory>false</canBeSpawningInventory>
+		    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
 		</ThingDef>
 	
 
@@ -95,7 +97,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
@@ -177,7 +179,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
@@ -259,7 +261,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
@@ -342,7 +344,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
@@ -425,7 +427,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3000</MarketValue>
@@ -512,7 +514,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>13000</MarketValue>
@@ -596,7 +598,7 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>			
 		</graphicData>
 	    <tickerType>Normal</tickerType>
-		<soundInteract>InteractAutopistol</soundInteract>
+		<soundInteract>Interact_Autopistol</soundInteract>
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>13000</MarketValue>
