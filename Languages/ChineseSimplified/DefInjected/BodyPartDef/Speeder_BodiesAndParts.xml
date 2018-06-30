@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Engines_intake.label>Intakes</Engines_intake.label>
+  <Speeder_Frontend.label>Frontent</Speeder_Frontend.label>
+  <Speeder_Frame.label>frame</Speeder_Frame.label>
+  <RightSpeederEng.label>right engine</RightSpeederEng.label>
+  <RightLev.label>right maglev</RightLev.label>
+  <LeftSpeederEng.label>left engine</LeftSpeederEng.label>
+  <LeftLev.label>left maglev</LeftLev.label>
+
+
+  <!--<Engines_intake.label>进气系统</Engines_intake.label>-->
+  <!--<Speeder_Frontend.label>头部</Speeder_Frontend.label>-->
+  <!--<Speeder_Frame.label>机身</Speeder_Frame.label>-->
+  <!--<RightSpeederEng.label>右引擎</RightSpeederEng.label>-->
+  <!--<RightLev.label>右涡轮</RightLev.label>-->
+  <!--<LeftSpeederEng.label>左引擎</LeftSpeederEng.label>-->
+  <!--<LeftLev.label>左涡轮</LeftLev.label>-->
+
+</LanguageData>

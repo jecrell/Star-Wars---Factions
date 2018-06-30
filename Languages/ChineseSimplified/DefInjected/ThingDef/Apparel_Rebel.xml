@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_RebHat.label>[SW]义军头盔</PJ_RebHat.label>
+  <PJ_RebHat.description>曾经是银河共和国部队的制式头盔，义军成员多数佩戴这种头盔。</PJ_RebHat.description>
+
+  <PJ_RebLAVHat.label>[SW]义军头盔（侦察）</PJ_RebLAVHat.label>
+  <PJ_RebLAVHat.description>一顶带伪装的侦察头盔，义军成员佩戴的头盔。</PJ_RebLAVHat.description>
+
+  <PJ_RebSnowHat.label>[SW]义军头盔（寒地）</PJ_RebSnowHat.label>
+  <PJ_RebSnowHat.description>曾经是银河共和国部队寒地作战的制式头盔，义军成员多数佩戴这种头盔。</PJ_RebSnowHat.description>
+
+  <PJ_RebScoutHat.label>[SW]义军头盔（侦察+丛林）</PJ_RebScoutHat.label>
+  <PJ_RebScoutHat.description>一顶带伪装的侦察头盔，义军成员佩戴的头盔。</PJ_RebScoutHat.description>
+
+  <PJ_RebPilot_H_Red.label>[SW]义军飞行员头盔（红）</PJ_RebPilot_H_Red.label>
+  <PJ_RebPilot_H_Red.description>义军飞行员佩戴的头盔，这个涂装似乎来自红色飞行中队。</PJ_RebPilot_H_Red.description>
+
+  <PJ_RebPilot_H_Blue.label>[SW]义军飞行员头盔（蓝）</PJ_RebPilot_H_Blue.label>
+  <PJ_RebPilot_H_Blue.description>义军飞行员佩戴的头盔，这个涂装似乎来自蓝色飞行中队。</PJ_RebPilot_H_Blue.description>
+
+  <!-- Clothing -->
+
+  <PJ_RebOfficer.label>[SW]义军军官服</PJ_RebOfficer.label>
+  <PJ_RebOfficer.description>一件为义军同盟军官设计的制服。</PJ_RebOfficer.description>
+
+  <PJ_RebFlight.label>[SW]义军飞行服（橙）</PJ_RebFlight.label>
+  <PJ_RebFlight.description>一件义军飞行员的专用飞行服，橙色版算是X翼战机飞行员以及“臭名昭著”的侠盗中队成员的首选。</PJ_RebFlight.description>
+
+  <PJ_Reb_TroopJacket.label>[SW]义军夹克冲锋衣</PJ_Reb_TroopJacket.label>
+  <PJ_Reb_TroopJacket.description>一件耐打耐摔的坚固夹克，在寒冷的天气也有点保暖作用。</PJ_Reb_TroopJacket.description>
+
+  <PJ_Reb_ScoutJacket.label>[SW]义军夹克侦察服</PJ_Reb_ScoutJacket.label>
+  <PJ_Reb_ScoutJacket.description>一件耐打耐摔的坚固夹克，在寒冷的天气也有点保暖作用。</PJ_Reb_ScoutJacket.description>
+
+  <PJ_Reb_ScoutLAVJacket.label>[SW]义军夹克侦察服（褐）</PJ_Reb_ScoutLAVJacket.label>
+  <PJ_Reb_ScoutLAVJacket.description>一件耐打耐摔的坚固夹克，在寒冷的天气也有点保暖作用。</PJ_Reb_ScoutLAVJacket.description>
+
+  <PJ_Reb_CamoJacket.label>[SW]义军夹克迷彩服</PJ_Reb_CamoJacket.label>
+  <PJ_Reb_CamoJacket.description>一件添加了军用迷彩元素的坚固夹克，在寒冷的天气也有点保暖作用。</PJ_Reb_CamoJacket.description>
+
+  <PJ_RebCollarShirt.label>[SW]义军改良衬衫</PJ_RebCollarShirt.label>
+  <PJ_RebCollarShirt.description>一件简单结实的翻领纽扣衬衫。</PJ_RebCollarShirt.description>
+
+  <PJ_Apparel_XVestPlate.label>[SW]义军防弹背心</PJ_Apparel_XVestPlate.label>
+  <PJ_Apparel_XVestPlate.description>胸前背后插了些装甲板的背心，好歹能增加点对枪炮的防护作用吧？</PJ_Apparel_XVestPlate.description>
+
+</LanguageData>

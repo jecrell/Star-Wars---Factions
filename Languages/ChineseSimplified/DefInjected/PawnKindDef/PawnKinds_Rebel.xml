@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_RebVillager.label>义军成员</PJ_RebVillager.label>
+  <PJ_RebVillager.labelPlural>义军成员</PJ_RebVillager.labelPlural>
+
+  <PJ_RebCouncilman.label>义军议员</PJ_RebCouncilman.label>
+  <PJ_RebCouncilman.labelPlural>义军议员</PJ_RebCouncilman.labelPlural>
+
+  <PJ_RebTrader.label>义军商人</PJ_RebTrader.label>
+  <PJ_RebTrader.labelPlural>义军商人</PJ_RebTrader.labelPlural>
+
+  <PJ_RebGuard.label>义军护卫</PJ_RebGuard.label>
+  <PJ_RebGuard.labelPlural>义军护卫</PJ_RebGuard.labelPlural>
+
+  <PJ_RebSoldier.label>义军战士</PJ_RebSoldier.label>
+  <PJ_RebSoldier.labelPlural>义军战士</PJ_RebSoldier.labelPlural>
+
+  <PJ_RebLAVSoldier.label>义军装甲兵</PJ_RebLAVSoldier.label>
+  <PJ_RebLAVSoldier.labelPlural>义军装甲兵</PJ_RebLAVSoldier.labelPlural>
+
+  <PJ_RebNadeSoldier.label>义军掷弹兵</PJ_RebNadeSoldier.label>
+  <PJ_RebNadeSoldier.labelPlural>义军掷弹兵</PJ_RebNadeSoldier.labelPlural>
+
+  <PJ_RebPilot.label>义军飞行员</PJ_RebPilot.label>
+  <PJ_RebPilot.labelPlural>义军飞行员</PJ_RebPilot.labelPlural>
+
+  <PJ_RebMerc.label>义军雇佣兵</PJ_RebMerc.label>
+  <PJ_RebMerc.labelPlural>义军雇佣兵</PJ_RebMerc.labelPlural>
+
+</LanguageData>

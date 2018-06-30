@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_BulletDeflected.label>简易炮弹</PJ_BulletDeflected.label>
+
+
+  <!-- Vibroaxe -->
+
+  <PJ_Vibroaxe.label>[SW]振动斧（原型）</PJ_Vibroaxe.label>
+  <PJ_Vibroaxe.description>一柄科托西斯金属打造的斧形武器，它装有微型超声波发生器斧刃表面制造振动，使用者可以轻松的切割大部分物体。</PJ_Vibroaxe.description>
+
+
+  <!-- Vibrosword -->
+
+  <PJ_Vibrosword.label>[SW]振动剑（伊查尼）</PJ_Vibrosword.label>
+  <PJ_Vibrosword.description>一柄伊查尼族用科托西斯金属打造的剑形武器，它装有微型超声波发生器剑刃表面制造振动，使用者可以轻松的切割大部分物体。</PJ_Vibrosword.description>
+
+
+  <!-- Vibro Cleaver -->
+
+  <PJ_Vibrocleaver.label>[SW]振动刀（曼达洛）</PJ_Vibrocleaver.label>
+  <PJ_Vibrocleaver.description>一柄曼达洛人用科托西斯金属打造的刀形武器，它装有微型超声波发生器刀刃表面制造振动，使用者可以轻松的切割大部分物体。</PJ_Vibrocleaver.description>
+
+  <PJ_VScythe.label>[SW]振动镰刀</PJ_VScythe.label>
+  <PJ_VScythe.description>一柄用科托西斯金属打造的镰刀式的剑形武器，外形十分拉风。它装有微型超声波发生器剑刃表面制造振动，使用者可以轻松的切割大部分物体。</PJ_VScythe.description>
+
+
+  <!-- Vibro DoubleSword -->
+
+  <PJ_Vibrodouble.label>[SW]振动双头剑</PJ_Vibrodouble.label>
+  <PJ_Vibrodouble.description>一把用科托西斯金属打造的古老双头剑形武器，它装有微型超声波发生器剑刃表面制造振动，使用者可以轻松的切割大部分物体。</PJ_Vibrodouble.description>
+
+
+  <!-- Xen's staff -->
+
+  <PJ_StaffX.label>[SW]振动杖（原型）</PJ_StaffX.label>
+  <PJ_StaffX.description>一柄用科托西斯金属打造的双头杖形武器，它装有微型超声波发生器剑刃表面制造振动，使用者可以轻松的切割大部分物体。</PJ_StaffX.description>
+
+  <PJ_TStaff.label>[SW]振动加德菲（塔斯肯）</PJ_TStaff.label>
+  <PJ_TStaff.description>塔斯肯族的传统武器，用四处抢来的科托西斯金属打造的尾部带钩的棍形武器，塔斯肯族喜欢淬毒的天性使得它十分致命。</PJ_TStaff.description>
+
+</LanguageData>

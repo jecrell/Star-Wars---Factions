@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_MandoArmor.label>[SW]曼达洛盔甲</PJ_MandoArmor.label>
+  <PJ_MandoArmor.description>曼达洛文化最具标志性的符号，曼达洛武士穿戴各种篆刻特殊符号的独特全身甲战斗的传统几乎贯穿了整个银河系历史。</PJ_MandoArmor.description>
+
+  <PJ_VetMandoArmor.label>[SW]曼达洛精锐盔甲</PJ_VetMandoArmor.label>
+  <PJ_VetMandoArmor.description>曼达洛文化最具标志性的符号，曼达洛武士穿戴各种篆刻特殊符号的独特全身甲战斗的传统几乎贯穿了整个银河系历史。</PJ_VetMandoArmor.description>
+
+  <PJ_MandoHelm.label>[SW]曼达洛战盔</PJ_MandoHelm.label>
+  <PJ_MandoHelm.description>这顶设计成T型面罩的曼达洛战盔几乎无人不识，它曾带给整个银河系的恐惧并没有消弭于时间。</PJ_MandoHelm.description>
+
+  <!-- Strams -->
+
+  <PJ_BarkMandoArmor.label>[SW]曼达洛“钢铁之心”传承盔甲</PJ_BarkMandoArmor.label>
+  <PJ_BarkMandoArmor.description>追寻曼达洛战士荣誉的勇者们专用的盔甲，每一位穿上这件篆刻传承符号的曼达洛人都情不自禁的哭了。为了钢铁之心!!!</PJ_BarkMandoArmor.description>
+
+</LanguageData>

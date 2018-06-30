@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PJ_VibroSonic.label>冲击波（振动）</PJ_VibroSonic.label>
+  <PJ_VibroSonic.comps.0.labelTendedWell>已包扎</PJ_VibroSonic.comps.0.labelTendedWell>
+  <PJ_VibroSonic.comps.0.labelTendedWellInner>已缝合</PJ_VibroSonic.comps.0.labelTendedWellInner>
+  <PJ_VibroSonic.comps.0.labelSolidTendedWell>set</PJ_VibroSonic.comps.0.labelSolidTendedWell>
+  <PJ_VibroSonic.comps.2.oldLabel>伤疤（振动）</PJ_VibroSonic.comps.2.oldLabel>
+  <PJ_VibroSonic.injuryProps.destroyedLabel>被切下</PJ_VibroSonic.injuryProps.destroyedLabel>
+  <PJ_VibroSonic.injuryProps.destroyedOutLabel>被切掉</PJ_VibroSonic.injuryProps.destroyedOutLabel>
+
+  <PJ_BBurn.label>烧伤（爆能）</PJ_BBurn.label>
+  <PJ_BBurn.comps.0.labelTendedWell>已包扎</PJ_BBurn.comps.0.labelTendedWell>
+  <PJ_BBurn.comps.0.labelTendedWellInner>已缝合</PJ_BBurn.comps.0.labelTendedWellInner>
+  <PJ_BBurn.comps.0.labelSolidTendedWell>精心照料</PJ_BBurn.comps.0.labelSolidTendedWell>
+  <PJ_BBurn.comps.2.oldLabel>伤疤（爆能）</PJ_BBurn.comps.2.oldLabel>
+  <PJ_BBurn.injuryProps.destroyedLabel>被射坏</PJ_BBurn.injuryProps.destroyedLabel>
+  <PJ_BBurn.injuryProps.destroyedOutLabel>被射掉</PJ_BBurn.injuryProps.destroyedOutLabel>
+
+  <PJ_AcBurn.label>灼伤（强酸）</PJ_AcBurn.label>
+  <PJ_AcBurn.comps.0.labelTendedWell>已中和</PJ_AcBurn.comps.0.labelTendedWell>
+  <PJ_AcBurn.comps.0.labelTendedWellInner>已处理</PJ_AcBurn.comps.0.labelTendedWellInner>
+  <PJ_AcBurn.comps.0.labelSolidTendedWell>处理得很好</PJ_AcBurn.comps.0.labelSolidTendedWell>
+  <PJ_AcBurn.comps.2.oldLabel>伤疤（强酸）</PJ_AcBurn.comps.2.oldLabel>
+  <PJ_AcBurn.injuryProps.destroyedLabel>被溶解</PJ_AcBurn.injuryProps.destroyedLabel>
+  <PJ_AcBurn.injuryProps.destroyedOutLabel>完全溶解</PJ_AcBurn.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>

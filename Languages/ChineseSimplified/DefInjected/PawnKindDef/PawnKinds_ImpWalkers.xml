@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ATST -->
+
+  <SWFactions_WalkerKind.label>全地形侦察步行机</SWFactions_WalkerKind.label>
+  <SWFactions_WalkerKind.labelPlural>全地形侦察步行机</SWFactions_WalkerKind.labelPlural>
+  
+  <!-- ATAT -->
+
+  <SWFactions_ATATKind.label>全地形装甲步行机</SWFactions_ATATKind.label>
+  <SWFactions_ATATKind.labelPlural>全地形装甲步行机</SWFactions_ATATKind.labelPlural>
+
+</LanguageData>
