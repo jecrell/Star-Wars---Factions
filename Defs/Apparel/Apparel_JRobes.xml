@@ -31,7 +31,7 @@
 	  <Insulation_Heat>30</Insulation_Heat>
     </statBases>
 		<equippedStatOffsets>
-			<ShootingAccuracy>0.05</ShootingAccuracy>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
 			<PsychicSensitivity>-0.05</PsychicSensitivity>
 			<MoveSpeed>0.20</MoveSpeed>
 			<PlantWorkSpeed>0.025</PlantWorkSpeed>
@@ -118,7 +118,7 @@
 	  <Insulation_Heat>30</Insulation_Heat>
     </statBases>
 		<equippedStatOffsets>
-			<ShootingAccuracy>0.05</ShootingAccuracy>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
 			<PsychicSensitivity>-0.05</PsychicSensitivity>
 			<MoveSpeed>0.20</MoveSpeed>
 			<PlantWorkSpeed>0.025</PlantWorkSpeed>

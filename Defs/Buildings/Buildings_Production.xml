@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef Name="BuildingBase" Abstract="True">
-    <category>Buildings</category>
+    <category>Building</category>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -52,7 +52,7 @@
       <Steel>150</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
-    <altitudeLayer>Buildings</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
