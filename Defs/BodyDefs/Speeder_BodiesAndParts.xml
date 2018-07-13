@@ -5,7 +5,7 @@
     <defName>Engines_intake</defName>
     <label>Intakes</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -21,7 +21,7 @@
     <defName>Speeder_Frontend</defName>
     <label>Frontent</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -35,7 +35,7 @@
     <defName>Speeder_Frame</defName>
     <label>frame</label>
     <hitPoints>40</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -46,7 +46,7 @@
     <defName>RightSpeederEng</defName>
     <label>right engine</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -60,7 +60,7 @@
     <defName>RightLev</defName>
     <label>right maglev</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -74,7 +74,7 @@
     <defName>LeftSpeederEng</defName>
     <label>left engine</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -88,7 +88,7 @@
     <defName>LeftLev</defName>
     <label>left maglev</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>

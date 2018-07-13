@@ -5,7 +5,7 @@
     <defName>SWFactions_Thermometer</defName>
     <label>thermometer</label>
     <hitPoints>1</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -17,7 +17,7 @@
     <defName>SWFactions_Cockpit</defName>
     <label>cockpit</label>
     <hitPoints>40</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -36,7 +36,7 @@
     <defName>ATST_Neck</defName>
     <label>neck</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -52,7 +52,7 @@
     <defName>ATST_Head</defName>
     <label>head</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -66,7 +66,7 @@
     <defName>ATST_Frame</defName>
     <label>frame</label>
     <hitPoints>40</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -79,7 +79,7 @@
     <defName>ATAT_Neck</defName>
     <label>neck</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -95,7 +95,7 @@
     <defName>ATAT_Head</defName>
     <label>head</label>
     <hitPoints>60</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -109,7 +109,7 @@
     <defName>ATAT_Frame</defName>
     <label>frame</label>
     <hitPoints>60</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -120,7 +120,7 @@
     <defName>LeftATATFLeg</defName>
     <label>left leg</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -134,7 +134,7 @@
     <defName>LeftATATFFoot</defName>
     <label>left foot</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -148,7 +148,7 @@
     <defName>LeftATATRLeg</defName>
     <label>left leg</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -162,7 +162,7 @@
     <defName>LeftATATRFoot</defName>
     <label>left foot</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -176,7 +176,7 @@
     <defName>RightATATFLeg</defName>
     <label>right leg</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -190,7 +190,7 @@
     <defName>RightATATFFoot</defName>
     <label>right foot</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -204,7 +204,7 @@
     <defName>RightATATRLeg</defName>
     <label>right leg</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -218,7 +218,7 @@
     <defName>RightATATRFoot</defName>
     <label>right foot</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
