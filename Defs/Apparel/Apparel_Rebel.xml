@@ -105,7 +105,7 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<SocialImpact>0.05</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
@@ -151,7 +151,7 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<SocialImpact>0.05</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
@@ -198,7 +198,7 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<SocialImpact>0.05</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
@@ -244,7 +244,7 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<SocialImpact>0.05</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
@@ -290,7 +290,7 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<SocialImpact>0.05</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
@@ -336,7 +336,7 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<SocialImpact>0.05</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>

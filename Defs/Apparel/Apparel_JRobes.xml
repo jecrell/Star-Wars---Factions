@@ -38,7 +38,7 @@
 			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
 			<MeleeHitChance>0.035</MeleeHitChance>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.025</RecruitPrisonerChance>
+			<NegotiationAbility>0.025</NegotiationAbility>
 			<SocialImpact>0.015</SocialImpact>
 			<TradePriceImprovement>0.025</TradePriceImprovement>
 			<MedicalOperationSpeed>0.03</MedicalOperationSpeed>
@@ -125,7 +125,7 @@
 			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
 			<MeleeHitChance>0.035</MeleeHitChance>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<RecruitPrisonerChance>0.025</RecruitPrisonerChance>
+			<NegotiationAbility>0.025</NegotiationAbility>
 			<SocialImpact>0.015</SocialImpact>
 			<TradePriceImprovement>0.025</TradePriceImprovement>
 			<MedicalOperationSpeed>0.03</MedicalOperationSpeed>
