@@ -32,7 +32,7 @@
         <defaultCooldownTime>3.65</defaultCooldownTime>
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
-        <commonality>0.01</commonality>
+        <chanceFactor>0.01</chanceFactor>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       </li>
     </verbs>
@@ -183,7 +183,7 @@
         <defaultCooldownTime>3.65</defaultCooldownTime>
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
-        <commonality>0.01</commonality>
+        <chanceFactor>0.01</chanceFactor>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       </li>
     </verbs>
