@@ -72,13 +72,11 @@
         </options>
       </li>
       <li>
-        <kindDef>Combat</kindDef>
-        <commonality>25</commonality>
+        <kindDef>Peaceful</kindDef>
+        <commonality>100</commonality>
         <options>
-          <PJ_ImpInspector>1</PJ_ImpInspector>
-          <PJ_ImpTaxOfficer>1</PJ_ImpTaxOfficer>
-          <PJ_ImpCommander>250</PJ_ImpCommander>
-          <PJ_Stormtrooper>250</PJ_Stormtrooper>
+          <PJ_ImpInspector>200</PJ_ImpInspector>
+          <PJ_ImpTaxOfficer>200</PJ_ImpTaxOfficer>
           <PJ_ScoutTrooper>250</PJ_ScoutTrooper>
         </options>
       </li>

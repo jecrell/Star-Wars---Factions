@@ -75,6 +75,20 @@
         </options>
       </li>
       <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <PJ_RebVillager>50</PJ_RebVillager>
+          <PJ_RebGuard>250</PJ_RebGuard>
+          <PJ_RebPilot>200</PJ_RebPilot>
+          <PJ_RebCouncilman>250</PJ_RebCouncilman>
+          <PJ_RebMerc>150</PJ_RebMerc>
+          <PJ_RebLAVSoldier>150</PJ_RebLAVSoldier>
+		      <PJ_RebSoldier>150</PJ_RebSoldier>
+		      <PJ_RebMerc>200</PJ_RebMerc>
+          <PJ_RebNadeSoldier>250</PJ_RebNadeSoldier>
+        </options>
+      </li>
+      <li>
         <kindDef>Trader</kindDef>
         <traders>
           <PJ_RebTrader>1</PJ_RebTrader>

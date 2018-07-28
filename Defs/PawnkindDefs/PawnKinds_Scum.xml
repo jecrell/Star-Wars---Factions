@@ -16,7 +16,7 @@
     </gearHealthRange>
 	  <apparelTags>
 	  <li>Soldier</li>
-    <li>Outlander</li>
+    <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
 	  <li>Spacer</li>
     <li>PJ_Scum</li>
     </apparelTags>
@@ -105,7 +105,7 @@
     </gearHealthRange>
 	<apparelTags>
 	  <li>Soldier</li>
-    <li>Outlander</li>
+    <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
 	  <li>Spacer</li>
 	  <li>PJ_Mando</li>
     </apparelTags>
@@ -174,7 +174,7 @@
     </apparelMoney>
 	<apparelTags>
 	  <li>Soldier</li>
-    <li>Outlander</li>
+    <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
 	  <li>Spacer</li>
     <li>PJ_Comp</li>
     </apparelTags>

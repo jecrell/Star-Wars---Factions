@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="PJ_JediApparelMakeableBase">
+	<ThingDef ParentName="ApparelMakeableBase">
     <defName>PJ_JFac_Robe</defName>
     <label>Custom Jedi Robe</label>
     <description>A Jedi's robes</description>
@@ -27,7 +27,7 @@
       <ArmorRating_Blunt>0.93</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.93</ArmorRating_Sharp>
 	  <ArmorRating_Heat>0.98</ArmorRating_Heat>
-      <Insulation_Cold>-30</Insulation_Cold>
+      <Insulation_Cold>30</Insulation_Cold>
 	  <Insulation_Heat>30</Insulation_Heat>
     </statBases>
 		<equippedStatOffsets>
@@ -88,7 +88,7 @@
     </colorGenerator>
   </ThingDef>
   
-  	<ThingDef ParentName="PJ_JediApparelMakeableBase">
+  	<ThingDef ParentName="ApparelMakeableBase">
     <defName>PJ_SithFac_Robe</defName>
     <label>Custom Sith robes</label>
     <description>A Dark Side version of Jedi Robes</description>
@@ -114,7 +114,7 @@
      <ArmorRating_Blunt>0.93</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.93</ArmorRating_Sharp>
 	  <ArmorRating_Heat>0.98</ArmorRating_Heat>
-      <Insulation_Cold>-30</Insulation_Cold>
+      <Insulation_Cold>30</Insulation_Cold>
 	  <Insulation_Heat>30</Insulation_Heat>
     </statBases>
 		<equippedStatOffsets>

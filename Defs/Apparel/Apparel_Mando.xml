@@ -2,89 +2,8 @@
 <Defs>
 
 
-<ThingDef Name="PJ_MandoApparelBase" Abstract="True">
-		<thingClass>Apparel</thingClass>
-		<category>Item</category>
-		<selectable>True</selectable>
-		<pathCost>10</pathCost>
-		<useHitPoints>True</useHitPoints>
-		<graphicData>
-			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-		</graphicData>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>0.4</Mass>
-			<Flammability>0.5</Flammability>
-			<DeteriorationRate>0.5</DeteriorationRate>
-			<SellPriceFactor>0.75</SellPriceFactor>
-		</statBases>
-		<altitudeLayer>Item</altitudeLayer>
-		<alwaysHaulable>True</alwaysHaulable>
-		<tickerType>Never</tickerType>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li>
-				<compClass>CompColorable</compClass>
-			</li>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-		</comps>
-	</ThingDef>
-
-
-	<ThingDef Name="PJ_MandoApparelMakeBase" ParentName="PJ_MandoApparelBase" Abstract="True">
-		<recipeMaker>
-			<workSpeedStat>TailoringSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Tailor</effectWorking>
-			<soundWorking>Recipe_Tailor</soundWorking>
-			<recipeUsers>
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
-	</ThingDef>
 	
-	<ThingDef Name="PJ_MandoArmorMakeBase" ParentName="PJ_MandoApparelBase" Abstract="True">
-		<recipeMaker>
-			<workSpeedStat>SmithingSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Machining</soundWorking>
-			<recipeUsers>
-				<li>Table_PJ_Bench</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
-	</ThingDef>
-	
-	<ThingDef Name="PJ_MandoHatBase" ParentName="PJ_MandoApparelBase" Abstract="True">
-		<thingCategories>
-			<li>Headgear</li>
-		</thingCategories>
-	</ThingDef>
-
-	<ThingDef Name="PJ_MandoHatMakeBase" ParentName="PJ_MandoApparelMakeBase" Abstract="True">
-		<thingCategories>
-			<li>Headgear</li>
-		</thingCategories>
-	</ThingDef>
-	
-
-
-	<ThingDef Name="PJ_MandoHelmMakeBase" ParentName="PJ_MandoArmorMakeBase" Abstract="True">
-		<thingCategories>
-			<li>Headgear</li>
-		</thingCategories>
-	</ThingDef>
-
-
-
-	
-	<ThingDef ParentName="PJ_MandoArmorMakeBase">
+	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>PJ_MandoArmor</defName>
 		<label>Mando armor</label>
 		<techLevel>Spacer</techLevel>
@@ -110,7 +29,7 @@
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.4</ArmorRating_Heat>
-			<Insulation_Cold>-45</Insulation_Cold>
+			<Insulation_Cold>45</Insulation_Cold>
 			<Insulation_Heat>45</Insulation_Heat>
 		</statBases>
     <thingCategories>
@@ -138,7 +57,7 @@
 
 	
 	
-		<ThingDef ParentName="PJ_MandoArmorMakeBase">
+		<ThingDef ParentName="ArmorMachineableBase">
 		<defName>PJ_VetMandoArmor</defName>
 		<label>Mando Veteran armor</label>
 		<techLevel>Spacer</techLevel>
@@ -164,7 +83,7 @@
 			<ArmorRating_Blunt>0.39</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.78</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.46</ArmorRating_Heat>
-			<Insulation_Cold>-48</Insulation_Cold>
+			<Insulation_Cold>48</Insulation_Cold>
 			<Insulation_Heat>48</Insulation_Heat>
 		</statBases>
     <thingCategories>
@@ -192,7 +111,7 @@
 	
 	
 	
-	<ThingDef ParentName="PJ_MandoHelmMakeBase">
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
 	<defName>PJ_MandoHelm</defName>
 	<label>Mando helm</label>
 	<techLevel>Spacer</techLevel>
@@ -218,7 +137,7 @@
 		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.4</ArmorRating_Heat>
-		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Cold>25</Insulation_Cold>
 		<Insulation_Heat>25</Insulation_Heat>
 	</statBases>
 	<apparel>
@@ -243,7 +162,7 @@
 	<!-- ====Strams==== -->
 	
 	
-		<ThingDef ParentName="PJ_MandoArmorMakeBase">
+		<ThingDef ParentName="ArmorMachineableBase">
 		<defName>PJ_BarkMandoArmor</defName>
 		<label>Barky's clan armor</label>
 		<techLevel>Spacer</techLevel>
@@ -269,7 +188,7 @@
 			<ArmorRating_Blunt>0.59</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.88</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.56</ArmorRating_Heat>
-			<Insulation_Cold>-48</Insulation_Cold>
+			<Insulation_Cold>48</Insulation_Cold>
 			<Insulation_Heat>48</Insulation_Heat>
 		</statBases>
     <thingCategories>

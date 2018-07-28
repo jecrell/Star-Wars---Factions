@@ -37,7 +37,8 @@
     </verbs>
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>CompVehicle_Simple</thinkTreeMain>
+      <thinkTreeMain>ThinkVehicle</thinkTreeMain>
+      <thinkTreeConstant>ThinkVehicleConstant</thinkTreeConstant>
       <body>SWFactions_ATSTHull</body>
       <baseBodySize>1.0</baseBodySize>
       <baseHealthScale>10.0</baseHealthScale>
@@ -125,7 +126,7 @@
 		<label>AT-ST</label>
 		<race>SWFactions_WalkerThing</race>
 		<combatPower>260</combatPower>
-		<defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
+		<defaultFactionType>PlayerColony</defaultFactionType>
 		<aiAvoidCover>true</aiAvoidCover>
 		<lifeStages>
 			<li>
@@ -187,7 +188,8 @@
     </verbs>
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>CompVehicle_Simple</thinkTreeMain>
+      <thinkTreeMain>ThinkVehicle</thinkTreeMain>
+      <thinkTreeConstant>ThinkVehicleConstant</thinkTreeConstant>
       <body>SWFactions_ATATHull</body>
       <baseBodySize>1.0</baseBodySize>
       <baseHealthScale>10.0</baseHealthScale>
@@ -275,8 +277,8 @@
 		<label>AT-AT</label>
 		<race>SWFactions_ATATThing</race>
 		<combatPower>260</combatPower>
-		<defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
 		<aiAvoidCover>true</aiAvoidCover>
+		<defaultFactionType>PlayerColony</defaultFactionType>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
