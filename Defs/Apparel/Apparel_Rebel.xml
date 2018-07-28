@@ -46,7 +46,7 @@
     </recipeMaker>
   </ThingDef>
   
-  <ThingDef Name="PJ_RebArmorMakeableBase" ParentName="PJ_RebApparelBase" Abstract="True">
+  <ThingDef Name="PJ_RebArmorSmithableBase" ParentName="PJ_RebApparelBase" Abstract="True">
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -74,7 +74,7 @@
 	
 
 
-	<ThingDef Name="PJ_RebHelmetMakeableBase" ParentName="PJ_RebArmorMakeableBase" Abstract="True">
+	<ThingDef Name="PJ_RebHelmetMakeableBase" ParentName="PJ_RebArmorSmithableBase" Abstract="True">
 		<thingCategories>
 			<li>Headgear</li>
 		</thingCategories>
@@ -748,7 +748,7 @@
 </ThingDef>
 
 
-  <ThingDef ParentName="PJ_RebArmorMakeableBase">
+  <ThingDef ParentName="PJ_RebArmorSmithableBase">
     <defName>PJ_Apparel_XVestPlate</defName>
     <label>reinforced armor vest</label>
     <description>A vest with armor plates inserted on the chest and back. Protects against gunfire.</description>

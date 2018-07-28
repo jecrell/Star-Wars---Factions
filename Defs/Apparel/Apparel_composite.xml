@@ -48,7 +48,7 @@
 		</recipeMaker>
 	</ThingDef>
 	
-	<ThingDef Name="CompArmorMakeableBase" ParentName="CompApparelBase" Abstract="True">
+	<ThingDef Name="CompArmorSmithableBase" ParentName="CompApparelBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -75,14 +75,14 @@
 	
 
 
-	<ThingDef Name="CompHelmetMakeableBase" ParentName="CompArmorMakeableBase" Abstract="True">
+	<ThingDef Name="CompHelmetMakeableBase" ParentName="CompArmorSmithableBase" Abstract="True">
 		<thingCategories>
 			<li>Headgear</li>
 		</thingCategories>
 	</ThingDef>
 
 	
-	<ThingDef ParentName="CompArmorMakeableBase">
+	<ThingDef ParentName="CompArmorSmithableBase">
 		<defName>PJ_CompArmor</defName>
 		<label>Composite armor</label>
 		<techLevel>Spacer</techLevel>

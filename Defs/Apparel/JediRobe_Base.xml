@@ -49,7 +49,7 @@
 		</recipeMaker>
 	</ThingDef>
 	
-	<ThingDef Name="PJ_JediArmorMakeableBase" ParentName="PJ_JediApparelBase" Abstract="True">
+	<ThingDef Name="PJ_JediArmorSmithableBase" ParentName="PJ_JediApparelBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -76,7 +76,7 @@
 	
 
 
-	<ThingDef Name="PJ_JediHelmMakeableBase" ParentName="PJ_JediArmorMakeableBase" Abstract="True">
+	<ThingDef Name="PJ_JediHelmMakeableBase" ParentName="PJ_JediArmorSmithableBase" Abstract="True">
 		<thingCategories>
 			<li>Headgear</li>
 		</thingCategories>
