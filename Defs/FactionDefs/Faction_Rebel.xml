@@ -23,7 +23,7 @@
 		<factionNameMaker>SWFactions_NamerFactionRebels</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategory>Civil</backstoryCategory>
+		<backstoryCategories><li>Civil</li></backstoryCategories>
 		<hairTags>
 			<li>Rural</li>
 			<li>Urban</li>

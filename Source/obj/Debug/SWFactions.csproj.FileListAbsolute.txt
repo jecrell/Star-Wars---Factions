@@ -7,5 +7,7 @@ D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Sou
 F:\Steam\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Source\obj\Debug\SWFactions.csprojResolveAssemblyReference.cache
 F:\Steam\steamapps\common\RimWorld\Mods\Star-Wars---Factions\Source\obj\Debug\SWFactions.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Assemblies\SWFactions.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source\obj\Debug\SWFactions.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source\obj\Debug\SWFactions.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source\obj\Debug\SWFactions.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source\obj\Debug\SWFactions.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source\obj\Debug\SWFactions.csproj.CopyComplete

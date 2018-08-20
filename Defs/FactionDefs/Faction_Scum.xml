@@ -20,7 +20,7 @@
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategory>Raider</backstoryCategory>
+		<backstoryCategories><li>Raider</li></backstoryCategories>
 		<hairTags>
 			<li>Urban</li>
 			<li>Rural</li>

@@ -25,7 +25,7 @@
 		<fixedName>The Galactic Empire</fixedName>
 		<settlementNameMaker>NamerImpBase</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategory>Civil</backstoryCategory>
+		<backstoryCategories><li>Civil</li></backstoryCategories>
 		<hairTags>
 			<li>Urban</li>
 			<li>Rural</li>
