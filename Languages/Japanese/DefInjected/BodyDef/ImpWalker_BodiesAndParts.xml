@@ -4,6 +4,10 @@
   <!-- ATST Body -->
 
   <SWFactions_ATSTHull.label>スカウト・ウォーカー</SWFactions_ATSTHull.label>
+  <SWFactions_ATSTHull.corePart.parts.1.customLabel>左脚</SWFactions_ATSTHull.corePart.parts.1.customLabel>
+  <SWFactions_ATSTHull.corePart.parts.1.parts.0.customLabel>左足</SWFactions_ATSTHull.corePart.parts.1.parts.0.customLabel>
+  <SWFactions_ATSTHull.corePart.parts.2.customLabel>右脚</SWFactions_ATSTHull.corePart.parts.2.customLabel>
+  <SWFactions_ATSTHull.corePart.parts.2.parts.0.customLabel>右足</SWFactions_ATSTHull.corePart.parts.2.parts.0.customLabel>
 
 
   <!-- ATAT stuff -->
