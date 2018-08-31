@@ -24,11 +24,12 @@
      <WorkToMake>159000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>4050</MarketValue>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.45</ArmorRating_Heat>
-			<Insulation_Cold>-45</Insulation_Cold>
-			<Insulation_Heat>45</Insulation_Heat>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.72</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>8</EquipDelay>
 		</statBases>
     <thingCategories>
       <li>Apparel</li>
