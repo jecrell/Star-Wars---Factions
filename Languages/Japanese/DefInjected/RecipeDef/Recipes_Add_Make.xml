@@ -50,7 +50,7 @@
   <Make_PJ_ImpUniformISBSHELL.jobString>帝国情報部制服(外套)を縫製中</Make_PJ_ImpUniformISBSHELL.jobString>
 
 
-  <!-- Recipe Users: TableMachining -->
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
   <Make_PJ_TroopArmor.label>ストームトルーパーアーマーを作る</Make_PJ_TroopArmor.label>
   <Make_PJ_TroopArmor.description>ストームトルーパーアーマーを作る。</Make_PJ_TroopArmor.description>
@@ -87,6 +87,9 @@
   <Make_PJ_TroopArmorDTC.label>デストルーパーアーマー(士官)を作る</Make_PJ_TroopArmorDTC.label>
   <Make_PJ_TroopArmorDTC.description>デストルーパーアーマー(士官)を作る。</Make_PJ_TroopArmorDTC.description>
   <Make_PJ_TroopArmorDTC.jobString>デストルーパーアーマー(士官)を製作中</Make_PJ_TroopArmorDTC.jobString>
+
+
+  <!-- Recipe Users: TableMachining -->
 
   <Make_PJ_STHelm.label>ストームトルーパーヘルムを作る</Make_PJ_STHelm.label>
   <Make_PJ_STHelm.description>ストームトルーパーヘルムを作る。</Make_PJ_STHelm.description>
@@ -162,9 +165,6 @@
   <Make_PJ_BarkMandoArmor.description>バーク氏族の鎧を作る。</Make_PJ_BarkMandoArmor.description>
   <Make_PJ_BarkMandoArmor.jobString>バーク氏族の鎧を製作中</Make_PJ_BarkMandoArmor.jobString>
 
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
-
   <Make_PJ_RebHat.label>反乱同盟ヘルメットを作る</Make_PJ_RebHat.label>
   <Make_PJ_RebHat.description>反乱同盟ヘルメットを作る。</Make_PJ_RebHat.description>
   <Make_PJ_RebHat.jobString>反乱同盟ヘルメットを製作中</Make_PJ_RebHat.jobString>
@@ -180,9 +180,6 @@
   <Make_PJ_RebScoutHat.label>反乱軍偵察ヘルメット(森)を作る</Make_PJ_RebScoutHat.label>
   <Make_PJ_RebScoutHat.description>反乱軍偵察ヘルメット(森)を作る。</Make_PJ_RebScoutHat.description>
   <Make_PJ_RebScoutHat.jobString>反乱軍偵察ヘルメット(森)を製作中</Make_PJ_RebScoutHat.jobString>
-
-
-  <!-- Recipe Users: TableMachining -->
 
   <Make_PJ_RebPilot_H_Red.label>同盟パイロットヘルメット(赤)を作る</Make_PJ_RebPilot_H_Red.label>
   <Make_PJ_RebPilot_H_Red.description>同盟パイロットヘルメット(赤)を作る。</Make_PJ_RebPilot_H_Red.description>
@@ -228,14 +225,14 @@
   <Make_PJ_RebCollarShirt.jobString>改造シャツを縫製中</Make_PJ_RebCollarShirt.jobString>
 
 
-  <!-- Recipe Users: TableMachining -->
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
   <Make_PJ_Apparel_XVestPlate.label>装甲補強ベストを作る</Make_PJ_Apparel_XVestPlate.label>
   <Make_PJ_Apparel_XVestPlate.description>装甲補強ベストを作る。</Make_PJ_Apparel_XVestPlate.description>
   <Make_PJ_Apparel_XVestPlate.jobString>装甲補強ベストを製作中</Make_PJ_Apparel_XVestPlate.jobString>
 
 
-  <!-- Recipe Users: ComponentAssemblyBench -->
+  <!-- Recipe Users: TableMachining -->
 
   <Make_PJ_Vibroaxe.label>バイブロ＝アックス(試作品)を作る</Make_PJ_Vibroaxe.label>
   <Make_PJ_Vibroaxe.description>バイブロ＝アックス(試作品)を作る。</Make_PJ_Vibroaxe.description>
