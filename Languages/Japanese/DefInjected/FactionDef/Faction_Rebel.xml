@@ -4,6 +4,7 @@
   <PJ_RebelFac.label>反乱同盟</PJ_RebelFac.label>
   <PJ_RebelFac.description>旧共和国の元老院議員モン=モスマによって出された反乱宣言(われわれ反乱同盟は銀河の自由市民の名においてまた彼らの権限に基づきわれわれの決意をここに宣言する)によって銀河皇帝シーヴ=パルパティーンと彼の銀河帝国に対する抵抗運動の開始が正式に宣言された。正式な名称は「共和国再建のための同盟」であり通称反乱同盟,反乱軍,同盟軍と呼ばれる。この共通の目的を持つ複数の抵抗組織や政府,派閥の集合体である。</PJ_RebelFac.description>
   <PJ_RebelFac.pawnsPlural>反乱軍兵士</PJ_RebelFac.pawnsPlural>
+  <PJ_RebelFac.pawnSingular>メンバー</PJ_RebelFac.pawnSingular>
   <PJ_RebelFac.leaderTitle>リーダー</PJ_RebelFac.leaderTitle>
 
 
