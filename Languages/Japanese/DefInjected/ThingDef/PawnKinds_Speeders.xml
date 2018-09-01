@@ -12,8 +12,8 @@
   <SWFactions_SpeederThing.comps.1.roles.2.label>乗員</SWFactions_SpeederThing.comps.1.roles.2.label>
   <SWFactions_SpeederThing.comps.1.roles.2.labelPlural>乗員</SWFactions_SpeederThing.comps.1.roles.2.labelPlural>
   <!-- Flesh Type: Mechanoid -->
-  <SWFactions_SpeederThing_Corpse.label>スピーダーの故障個体</SWFactions_SpeederThing_Corpse.label>
-  <SWFactions_SpeederThing_Corpse.description>スピーダーの故障個体</SWFactions_SpeederThing_Corpse.description>
+  <Corpse_SWFactions_SpeederThing.label>スピーダーの故障個体</Corpse_SWFactions_SpeederThing.label>
+  <Corpse_SWFactions_SpeederThing.description>スピーダーの故障個体</Corpse_SWFactions_SpeederThing.description>
 
 
 </LanguageData>
