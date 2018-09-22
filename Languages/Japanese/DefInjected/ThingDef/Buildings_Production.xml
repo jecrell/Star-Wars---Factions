@@ -5,9 +5,9 @@
 
   <Table_PJ_Bench.label>先進製造作業台</Table_PJ_Bench.label>
   <Table_PJ_Bench.description>様々な先進的な武器や防具を組み立てるための作業台。またメカノイドの死体を分解する事もできます。</Table_PJ_Bench.description>
-  <Blueprint_Table_PJ_Bench.label>先進製造作業台(設計)</Blueprint_Table_PJ_Bench.label>
-  <Frame_Table_PJ_Bench.label>先進製造作業台(施工)</Frame_Table_PJ_Bench.label>
-  <Frame_Table_PJ_Bench.description>様々な先進的な武器や防具を組み立てるための作業台。またメカノイドの死体を分解する事もできます。</Frame_Table_PJ_Bench.description>
+  <Table_PJ_Bench_Blueprint.label>先進製造作業台(設計)</Table_PJ_Bench_Blueprint.label>
+  <Table_PJ_Bench_Frame.label>先進製造作業台(施工)</Table_PJ_Bench_Frame.label>
+  <Table_PJ_Bench_Frame.description>様々な先進的な武器や防具を組み立てるための作業台。またメカノイドの死体を分解する事もできます。</Table_PJ_Bench_Frame.description>
 
 
 </LanguageData>

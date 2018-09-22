@@ -12,8 +12,8 @@
   <SWFactions_WalkerThing.comps.1.roles.2.label>乗員</SWFactions_WalkerThing.comps.1.roles.2.label>
   <SWFactions_WalkerThing.comps.1.roles.2.labelPlural>乗員</SWFactions_WalkerThing.comps.1.roles.2.labelPlural>
   <!-- Flesh Type: Mechanoid -->
-  <Corpse_SWFactions_WalkerThing.label>AT-STの故障個体</Corpse_SWFactions_WalkerThing.label>
-  <Corpse_SWFactions_WalkerThing.description>AT-STの故障個体</Corpse_SWFactions_WalkerThing.description>
+  <SWFactions_WalkerThing_Corpse.label>AT-STの故障個体</SWFactions_WalkerThing_Corpse.label>
+  <SWFactions_WalkerThing_Corpse.description>AT-STの故障個体</SWFactions_WalkerThing_Corpse.description>
 
 
   <!-- ATAT -->
@@ -27,8 +27,8 @@
   <SWFactions_ATATThing.comps.1.roles.2.label>乗員</SWFactions_ATATThing.comps.1.roles.2.label>
   <SWFactions_ATATThing.comps.1.roles.2.labelPlural>乗員</SWFactions_ATATThing.comps.1.roles.2.labelPlural>
   <!-- Flesh Type: Mechanoid -->
-  <Corpse_SWFactions_ATATThing.label>AT-ATの故障個体</Corpse_SWFactions_ATATThing.label>
-  <Corpse_SWFactions_ATATThing.description>AT-ATの故障個体</Corpse_SWFactions_ATATThing.description>
+  <SWFactions_ATATThing_Corpse.label>AT-ATの故障個体</SWFactions_ATATThing_Corpse.label>
+  <SWFactions_ATATThing_Corpse.description>AT-ATの故障個体</SWFactions_ATATThing_Corpse.description>
 
 
 </LanguageData>

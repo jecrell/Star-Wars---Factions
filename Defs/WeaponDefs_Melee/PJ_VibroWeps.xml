@@ -20,6 +20,12 @@
         <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
+		  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
+		    <compClass>CompSlotLoadable.CompSlotLoadable</compClass>
+		    <slots>
+				<li>PJ_VibroMotorSlot</li>
+			</slots>
+		  </li>
     </comps>
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>

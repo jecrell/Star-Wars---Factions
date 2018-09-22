@@ -2,26 +2,26 @@
 <LanguageData>
 
   <PJ_VibroSonic.label>衝撃波切創</PJ_VibroSonic.label>
-  <PJ_VibroSonic.comps.0.labelTendedWell>包帯</PJ_VibroSonic.comps.0.labelTendedWell>
-  <PJ_VibroSonic.comps.0.labelTendedWellInner>縫合</PJ_VibroSonic.comps.0.labelTendedWellInner>
-  <PJ_VibroSonic.comps.0.labelSolidTendedWell>セット</PJ_VibroSonic.comps.0.labelSolidTendedWell>
-  <PJ_VibroSonic.comps.2.permanentLabel>古傷(切傷)</PJ_VibroSonic.comps.2.permanentLabel>
+  <PJ_VibroSonic.comps.HediffCompProperties_TendDuration.labelTendedWell>包帯</PJ_VibroSonic.comps.HediffCompProperties_TendDuration.labelTendedWell>
+  <PJ_VibroSonic.comps.HediffCompProperties_TendDuration.labelTendedWellInner>縫合</PJ_VibroSonic.comps.HediffCompProperties_TendDuration.labelTendedWellInner>
+  <PJ_VibroSonic.comps.HediffCompProperties_TendDuration.labelSolidTendedWell>セット</PJ_VibroSonic.comps.HediffCompProperties_TendDuration.labelSolidTendedWell>
+  <PJ_VibroSonic.comps.HediffCompProperties_GetsPermanent.permanentLabel>古傷(切傷)</PJ_VibroSonic.comps.HediffCompProperties_GetsPermanent.permanentLabel>
   <PJ_VibroSonic.injuryProps.destroyedLabel>切り裂かれた</PJ_VibroSonic.injuryProps.destroyedLabel>
   <PJ_VibroSonic.injuryProps.destroyedOutLabel>切り飛ばされた</PJ_VibroSonic.injuryProps.destroyedOutLabel>
 
   <PJ_BBurn.label>ブラスター火傷</PJ_BBurn.label>
-  <PJ_BBurn.comps.0.labelTendedWell>包帯</PJ_BBurn.comps.0.labelTendedWell>
-  <PJ_BBurn.comps.0.labelTendedWellInner>縫合</PJ_BBurn.comps.0.labelTendedWellInner>
-  <PJ_BBurn.comps.0.labelSolidTendedWell>セット</PJ_BBurn.comps.0.labelSolidTendedWell>
-  <PJ_BBurn.comps.2.permanentLabel>古傷(やけど)</PJ_BBurn.comps.2.permanentLabel>
+  <PJ_BBurn.comps.HediffCompProperties_TendDuration.labelTendedWell>包帯</PJ_BBurn.comps.HediffCompProperties_TendDuration.labelTendedWell>
+  <PJ_BBurn.comps.HediffCompProperties_TendDuration.labelTendedWellInner>縫合</PJ_BBurn.comps.HediffCompProperties_TendDuration.labelTendedWellInner>
+  <PJ_BBurn.comps.HediffCompProperties_TendDuration.labelSolidTendedWell>セット</PJ_BBurn.comps.HediffCompProperties_TendDuration.labelSolidTendedWell>
+  <PJ_BBurn.comps.HediffCompProperties_GetsPermanent.permanentLabel>古傷(やけど)</PJ_BBurn.comps.HediffCompProperties_GetsPermanent.permanentLabel>
   <PJ_BBurn.injuryProps.destroyedLabel>吹き飛ばされた</PJ_BBurn.injuryProps.destroyedLabel>
   <PJ_BBurn.injuryProps.destroyedOutLabel>吹き飛んだ</PJ_BBurn.injuryProps.destroyedOutLabel>
 
   <PJ_AcBurn.label>酸性火傷</PJ_AcBurn.label>
-  <PJ_AcBurn.comps.0.labelTendedWell>酸中和</PJ_AcBurn.comps.0.labelTendedWell>
-  <PJ_AcBurn.comps.0.labelTendedWellInner>縫合</PJ_AcBurn.comps.0.labelTendedWellInner>
-  <PJ_AcBurn.comps.0.labelSolidTendedWell>セット</PJ_AcBurn.comps.0.labelSolidTendedWell>
-  <PJ_AcBurn.comps.2.permanentLabel>古傷(やけど)</PJ_AcBurn.comps.2.permanentLabel>
+  <PJ_AcBurn.comps.HediffCompProperties_TendDuration.labelTendedWell>酸中和</PJ_AcBurn.comps.HediffCompProperties_TendDuration.labelTendedWell>
+  <PJ_AcBurn.comps.HediffCompProperties_TendDuration.labelTendedWellInner>縫合</PJ_AcBurn.comps.HediffCompProperties_TendDuration.labelTendedWellInner>
+  <PJ_AcBurn.comps.HediffCompProperties_TendDuration.labelSolidTendedWell>セット</PJ_AcBurn.comps.HediffCompProperties_TendDuration.labelSolidTendedWell>
+  <PJ_AcBurn.comps.HediffCompProperties_GetsPermanent.permanentLabel>古傷(やけど)</PJ_AcBurn.comps.HediffCompProperties_GetsPermanent.permanentLabel>
   <PJ_AcBurn.injuryProps.destroyedLabel>溶けた</PJ_AcBurn.injuryProps.destroyedLabel>
   <PJ_AcBurn.injuryProps.destroyedOutLabel>溶け落ちた</PJ_AcBurn.injuryProps.destroyedOutLabel>
 

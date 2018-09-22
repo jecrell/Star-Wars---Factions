@@ -9,11 +9,9 @@
   <PJ_E11Blaster.description>銀河内戦中にブラステック・インダストリーズ社によって製造されたE-11ブラスターライフルは、帝国ストームトルーパーの標準装備的なブラスターライフルです。強力で軽くコンパクトな武器であるE-11は、銀河で広く使われています。</PJ_E11Blaster.description>
   <PJ_E11Blaster.tools.0.label>ストック</PJ_E11Blaster.tools.0.label>
   <PJ_E11Blaster.tools.1.label>バレル</PJ_E11Blaster.tools.1.label>
-  <PJ_E11Blaster.verbs.Verb_Shoot.label>E-11ブラスターライフル</PJ_E11Blaster.verbs.Verb_Shoot.label>
 
   <PJ_DH17Blaster.label>DH-17ブラスターピストル</PJ_DH17Blaster.label>
   <PJ_DH17Blaster.description>ブラステック・インダストリーズ社製のDH-17ブラスターピストルは、反乱同盟の兵士によって宇宙船の拿捕の時に一般的に使用され、時には銀河帝国の将校がE-11ブラスター標準装備の代わりに使用しました。</PJ_DH17Blaster.description>
-  <PJ_DH17Blaster.verbs.Verb_Shoot.label>DH-17ブラスターピストル</PJ_DH17Blaster.verbs.Verb_Shoot.label>
 
   <PJ_Pistol_Bolt.label>ブラスター弾</PJ_Pistol_Bolt.label>
 
@@ -21,13 +19,11 @@
   <PJ_Scoutblaster.description>このホールド=アウトブラストピストルは、スカウトピストルと呼ばれることもありますが、一般的にスカウトトルーパー・ブラスターピストルと呼ばれ、銀河帝国のスカウトトルーパーが使用する標準的な武器です。第41エリート兵団とクローン・シャドウ・トルーパーのクローン・スカウト・トルーパーは、クローンウォーズの後期にこれらの武器を携行することも知られていました。</PJ_Scoutblaster.description>
   <PJ_Scoutblaster.tools.0.label>グリップ</PJ_Scoutblaster.tools.0.label>
   <PJ_Scoutblaster.tools.1.label>バレル</PJ_Scoutblaster.tools.1.label>
-  <PJ_Scoutblaster.verbs.Verb_Shoot.label>EC-17スカウトピストル</PJ_Scoutblaster.verbs.Verb_Shoot.label>
 
   <PJ_SE14blaster.label>SE14ブラスターピストル</PJ_SE14blaster.label>
   <PJ_SE14blaster.description>SR戦闘ピストルとも呼ばれるSE-14、クローン戦争中に使用された分離主義者ブラスターピストルは、ブラステック・インダストリーズ社が製造した基本的なブラスターピストルでした。</PJ_SE14blaster.description>
   <PJ_SE14blaster.tools.0.label>グリップ</PJ_SE14blaster.tools.0.label>
   <PJ_SE14blaster.tools.1.label>バレル</PJ_SE14blaster.tools.1.label>
-  <PJ_SE14blaster.verbs.Verb_Shoot.label>SE14ブラスターピストル</PJ_SE14blaster.verbs.Verb_Shoot.label>
 
   <PJ_HPistol_Bolt.label>ブラスター弾</PJ_HPistol_Bolt.label>
 
@@ -35,7 +31,6 @@
   <PJ_DL44blaster.description>DL-44重ブラスターピストルは、銀河共和国と帝国時代に使用されたブラステック・インダストリーズ社製の強力なブラスターピストルの一種でした。それは銀河の中で最も強力なブラスターピストルの1つと考えられ近距離で大きなダメージを与えた。しかし、それはすぐにオーバーヒートしました。</PJ_DL44blaster.description>
   <PJ_DL44blaster.tools.0.label>グリップ</PJ_DL44blaster.tools.0.label>
   <PJ_DL44blaster.tools.1.label>バレル</PJ_DL44blaster.tools.1.label>
-  <PJ_DL44blaster.verbs.Verb_Shoot.label>DL-44重ブラスターピストル</PJ_DL44blaster.verbs.Verb_Shoot.label>
 
   <PJ_DXR_Bolt.label>酸性弾</PJ_DXR_Bolt.label>
 
@@ -43,7 +38,6 @@
   <PJ_DXR6Carb.description>DXR-6重ブラスターカービンは、銀河中で多く使用されており、汎用性、信頼性、そして破壊的な可能性を秘めています。</PJ_DXR6Carb.description>
   <PJ_DXR6Carb.tools.0.label>ストック</PJ_DXR6Carb.tools.0.label>
   <PJ_DXR6Carb.tools.1.label>バレル</PJ_DXR6Carb.tools.1.label>
-  <PJ_DXR6Carb.verbs.Verb_Shoot.label>DXR-6重ブラスターカービン</PJ_DXR6Carb.verbs.Verb_Shoot.label>
 
   <PJ_Jawa_Bolt.label>イオン化エネルギー弾</PJ_Jawa_Bolt.label>
 
@@ -51,7 +45,6 @@
   <PJ_JawaIon.description>シス大戦の最中と後に暗殺者ドロイドや戦闘ドロイドが流行し、戦闘に先駆けて高度なイオン兵器が作られました。これは廃品回収業者のジャワ族がドロイド狩りに使いました。</PJ_JawaIon.description>
   <PJ_JawaIon.tools.0.label>ストック</PJ_JawaIon.tools.0.label>
   <PJ_JawaIon.tools.1.label>バレル</PJ_JawaIon.tools.1.label>
-  <PJ_JawaIon.verbs.Verb_Shoot.label>ジャワ族のイオンブラスター</PJ_JawaIon.verbs.Verb_Shoot.label>
 
   <PJ_Slug_Bolt.label>重実体弾</PJ_Slug_Bolt.label>
 
@@ -59,7 +52,6 @@
   <PJ_NymSlug.description>悪名高いギャングスター・ニムと彼のギャングが好むスラッグ発射武器。それは固形の弾丸(スラッグ)を発射し、衝撃によるダメージを与える。</PJ_NymSlug.description>
   <PJ_NymSlug.tools.0.label>ストック</PJ_NymSlug.tools.0.label>
   <PJ_NymSlug.tools.1.label>バレル</PJ_NymSlug.tools.1.label>
-  <PJ_NymSlug.verbs.Verb_Shoot.label>ニムのスラッグスローワー</PJ_NymSlug.verbs.Verb_Shoot.label>
 
   <Bullet_LauncherP.label>ランチャー弾</Bullet_LauncherP.label>
 
@@ -67,7 +59,6 @@
   <PJ_LauncherP.description>この危険な実体弾発射器は持ち運べる様に設計されています。宇宙海賊とコマンド部隊が好んで使います。</PJ_LauncherP.description>
   <PJ_LauncherP.tools.0.label>グリップ</PJ_LauncherP.tools.0.label>
   <PJ_LauncherP.tools.1.label>バレル</PJ_LauncherP.tools.1.label>
-  <PJ_LauncherP.verbs.Verb_Shoot.label>ランチャーピストル</PJ_LauncherP.verbs.Verb_Shoot.label>
 
   <PJ_T21_Bolt.label>重ライフル弾</PJ_T21_Bolt.label>
 
@@ -75,13 +66,11 @@
   <PJ_T21Rifle.description>T-21ヘビーブラスターは、銀河帝国のストームトルーパー隊の一部が使用していた軽連射式ブラスターブラスターでした。 しかし、連射速度は遅く、長距離からきわめて大きなダメージを与えることが可能でした。</PJ_T21Rifle.description>
   <PJ_T21Rifle.tools.0.label>ストック</PJ_T21Rifle.tools.0.label>
   <PJ_T21Rifle.tools.1.label>バレル</PJ_T21Rifle.tools.1.label>
-  <PJ_T21Rifle.verbs.Verb_Shoot.label>T-21ブラスターライフル</PJ_T21Rifle.verbs.Verb_Shoot.label>
 
   <PJ_DC15Rifle.label>DC-15Aブラスターライフル</PJ_DC15Rifle.label>
   <PJ_DC15Rifle.description>DC-15Aブラスター（DC-15A blaster）とDC-15ブラスター（DC-15 blaster）はブラステックインダストリーズ社が製造した共和国グランドアーミーのブラスターです。より大型のDC-15ブラスター・ライフルと並ぶクローントルーパーの標準兵装のひとつでした。銀河帝国が好んだDLT-19重ブラスターライフルの元となりました。</PJ_DC15Rifle.description>
   <PJ_DC15Rifle.tools.0.label>ストック</PJ_DC15Rifle.tools.0.label>
   <PJ_DC15Rifle.tools.1.label>バレル</PJ_DC15Rifle.tools.1.label>
-  <PJ_DC15Rifle.verbs.Verb_Shoot.label>DC-15Aブラスターライフル</PJ_DC15Rifle.verbs.Verb_Shoot.label>
 
   <PJ_DLT_Bolt.label>重ブラスター弾</PJ_DLT_Bolt.label>
 
@@ -89,15 +78,13 @@
   <PJ_DLT19Rifle.description>DLT-19重ブラスターライフル（DLT-19 heavy blaster rifle）はブラステックインダストリーズ社が製造したブラスターライフル。銀河内戦中、帝国軍のストームトルーパーや反乱同盟軍の自由戦士達が使用しました。高い連射速度と遠距離の標的に対する破壊力を誇り、敵集団の敵の足止めや撃破に有効的でした。</PJ_DLT19Rifle.description>
   <PJ_DLT19Rifle.tools.0.label>ストック</PJ_DLT19Rifle.tools.0.label>
   <PJ_DLT19Rifle.tools.1.label>バレル</PJ_DLT19Rifle.tools.1.label>
-  <PJ_DLT19Rifle.verbs.Verb_Shoot.label>DLT-19重ブラスターライフル</PJ_DLT19Rifle.verbs.Verb_Shoot.label>
 
   <PJ_EE3_Bolt.label>重ブラスター弾</PJ_EE3_Bolt.label>
 
   <PJ_EE3Carbine.label>EE-3カービンライフル</PJ_EE3Carbine.label>
-  <PJ_EE3Carbine.description>EE-3カービンライフル（EE-3 carbine rifle）はクローン戦争や銀河内戦期に使用されていたブラステックインダストリーズ社製のブラスターカービンである。電子スコープを備え、3点のバースト射撃が可能でした。特にスギやボバ・フェットといったマンダロリアンの賞金稼ぎたちが使用していました。</PJ_EE3Carbine.description>
+  <PJ_EE3Carbine.description>EE-3カービンライフル（EE-3 carbine rifle）はクローン戦争や銀河内戦期に使用されていたブラステックインダストリーズ社製のブラスターカービンである。電子スコープを備え、3点のバースト射撃が可能でした。特にスギやボバ・フェットといったマンダロリアンの賞金稼ぎたちが使用していました。 </PJ_EE3Carbine.description>
   <PJ_EE3Carbine.tools.0.label>ストック</PJ_EE3Carbine.tools.0.label>
   <PJ_EE3Carbine.tools.1.label>バレル</PJ_EE3Carbine.tools.1.label>
-  <PJ_EE3Carbine.verbs.Verb_Shoot.label>EE-3カービンライフル</PJ_EE3Carbine.verbs.Verb_Shoot.label>
 
 
 </LanguageData>

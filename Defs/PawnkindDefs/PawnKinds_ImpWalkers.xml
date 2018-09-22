@@ -14,21 +14,21 @@
     </statBases>
     <verbs>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>4.65</defaultCooldownTime>
         <meleeDamageBaseAmount>40</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftBlade</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>4.65</defaultCooldownTime>
         <meleeDamageBaseAmount>40</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
         <linkedBodyPartsGroup>RightBlade</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>3.65</defaultCooldownTime>
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
@@ -165,21 +165,21 @@
     </statBases>
     <verbs>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>4.65</defaultCooldownTime>
         <meleeDamageBaseAmount>40</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftBlade</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>4.65</defaultCooldownTime>
         <meleeDamageBaseAmount>40</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
         <linkedBodyPartsGroup>RightBlade</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>3.65</defaultCooldownTime>
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>

@@ -4,7 +4,7 @@
   <!-- Speeder -->
 
   <SWFactions_SpeederThing.label>スピーダー</SWFactions_SpeederThing.label>
-  <SWFactions_SpeederThing.description>地上偵察任務のために設計されたランドスピーダーは、装甲されており、本体には軽ブラスター砲を搭載しています。このブラスターは180度の熱線放射を放ち、助手席の前に設置されて砲手によって発砲されます。</SWFactions_SpeederThing.description>
+  <SWFactions_SpeederThing.description>地上偵察任務のために設計されたランドスピーダーは、装甲されており、本体には軽ブラスター砲を搭載しています。このブラスターは180度の熱線放射を放ち、助手席の前に設置されて砲手によって発砲されます。 </SWFactions_SpeederThing.description>
   <SWFactions_SpeederThing.comps.1.roles.0.label>操縦者</SWFactions_SpeederThing.comps.1.roles.0.label>
   <SWFactions_SpeederThing.comps.1.roles.0.labelPlural>操縦者</SWFactions_SpeederThing.comps.1.roles.0.labelPlural>
   <SWFactions_SpeederThing.comps.1.roles.1.label>砲手</SWFactions_SpeederThing.comps.1.roles.1.label>
@@ -12,8 +12,8 @@
   <SWFactions_SpeederThing.comps.1.roles.2.label>乗員</SWFactions_SpeederThing.comps.1.roles.2.label>
   <SWFactions_SpeederThing.comps.1.roles.2.labelPlural>乗員</SWFactions_SpeederThing.comps.1.roles.2.labelPlural>
   <!-- Flesh Type: Mechanoid -->
-  <Corpse_SWFactions_SpeederThing.label>スピーダーの故障個体</Corpse_SWFactions_SpeederThing.label>
-  <Corpse_SWFactions_SpeederThing.description>スピーダーの故障個体</Corpse_SWFactions_SpeederThing.description>
+  <SWFactions_SpeederThing_Corpse.label>スピーダーの故障個体</SWFactions_SpeederThing_Corpse.label>
+  <SWFactions_SpeederThing_Corpse.description>スピーダーの故障個体</SWFactions_SpeederThing_Corpse.description>
 
 
 </LanguageData>

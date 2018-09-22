@@ -24,11 +24,9 @@
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>0.5</Mass>
-      <ArmorRating_Blunt>0.93</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.93</ArmorRating_Sharp>
-	  <ArmorRating_Heat>0.98</ArmorRating_Heat>
-      <Insulation_Cold>30</Insulation_Cold>
-	  <Insulation_Heat>30</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.95</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.95</StuffEffectMultiplierInsulation_Heat>
     </statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
@@ -111,11 +109,9 @@
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>0.5</Mass>
-     <ArmorRating_Blunt>0.93</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.93</ArmorRating_Sharp>
-	  <ArmorRating_Heat>0.98</ArmorRating_Heat>
-      <Insulation_Cold>30</Insulation_Cold>
-	  <Insulation_Heat>30</Insulation_Heat>
+     <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.95</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.95</StuffEffectMultiplierInsulation_Heat>
     </statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>

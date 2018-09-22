@@ -5,7 +5,7 @@
     <defName>PJ_VibroSlash</defName>
     <requiredCapacity>PJ_VibroCut</requiredCapacity>
     <verb>
-      <verbClass>Verb_MeleeAttack</verbClass>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>PJ_Vibro</meleeDamageDef>
     </verb>
     <logEntryDef>MeleeAttack</logEntryDef>
@@ -19,7 +19,7 @@
     <defName>PJ_VibroStabM</defName>
     <requiredCapacity>PJ_VibroStab</requiredCapacity>
     <verb>
-      <verbClass>Verb_MeleeAttack</verbClass>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>PJ_Vibro</meleeDamageDef>
     </verb>
     <logEntryDef>MeleeAttack</logEntryDef>
