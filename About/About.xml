@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <ModMetaData>
-	<name>Star Wars - Factions</name>
-	<author>Xen and Jecrell</author>
-	<targetVersion>0.19.0</targetVersion>
-	<description>Version 1.18.10
+  <name>Star Wars - Factions</name>
+  <author>Xen and Jecrell</author>
+  <targetVersion>0.19.0</targetVersion>
+  <description>1.19.0.2
 
 	C# Programming by Jecrell.
 	C# updates, Art Assets, and XML by Xen.
@@ -14,6 +13,5 @@
 	SmartCheeta
 
 	Patreon Patrons:
-	Jedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black
-	</description>
+	Jedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black</description>
 </ModMetaData>
