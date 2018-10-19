@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 		<defName>PJ_RebHat</defName>
 		<label>Rebel Alliance helmet</label>
 		<description>The standard helmet for troops in the Old Republic, now often used by rebels.</description>
@@ -46,7 +46,7 @@
 		</apparel>
 	</ThingDef>
 
-		<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 		<defName>PJ_RebLAVHat</defName>
 		<label>Rebel Scout helmet (brown)</label>
 		<description>A camoflage scouting helmet, used be members of the Rebel Alliance.</description>
@@ -92,7 +92,7 @@
 	</ThingDef>
 	
 	
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 		<defName>PJ_RebSnowHat</defName>
 		<label>Rebel Cold Helmet</label>
 		<description>The standard helmet for cold-climate troops in the Old Republic, now often used by rebels.</description>
@@ -137,7 +137,7 @@
 		</apparel>
 	</ThingDef>
 	
-		<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 		<defName>PJ_RebScoutHat</defName>
 		<label>Rebel scout helmet(forest)</label>
 		<description>A camoflage scouting helmet, used be members of the Rebel Alliance.</description>
@@ -182,7 +182,7 @@
 		</apparel>
 	</ThingDef>
 	
-		<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 		<defName>PJ_RebPilot_H_Red</defName>
 		<label>Alliance Pilot Helmet (Red)</label>
 		<description>A helmet generally worn by Alliance fighter pilots. This one appears to have come from Red squadron.</description>
@@ -227,7 +227,7 @@
 		</apparel>
 	</ThingDef>
 	
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 		<defName>PJ_RebPilot_H_Blue</defName>
 		<label>Alliance Pilot Helmet (Blue)</label>
 		<description>A helmet generally worn by Alliance fighter pilots. This one appears to have come from one of the Blue squadrons.</description>

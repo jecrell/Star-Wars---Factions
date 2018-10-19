@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ArmorMachineableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_CompArmor</defName>
 		<label>Composite armor</label>
 		<techLevel>Spacer</techLevel>

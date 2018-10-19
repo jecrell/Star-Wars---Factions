@@ -4,7 +4,7 @@
   <!--=============== Pure stuffs: Basics ====================-->
 
 
-  <ThingDef ParentName="ResourceBase">
+  <ThingDef ParentName="ResourceBasePJ">
     <defName>PJ_ImperialCredit</defName>
     <label>Imperial Credit</label>
     <description>The main currency in use in the galaxy since the time of the Galactic Republic.</description>
@@ -24,13 +24,14 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stackLimit>1000000</stackLimit>
+    <stackLimit>10000</stackLimit>
     <smallVolume>true</smallVolume>
   </ThingDef>
 
   <!--================== Bases ==================-->
 
-  <ThingDef Name="ResourceBase" Abstract="True">
+
+  <ThingDef Name="ResourceBasePJ" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
