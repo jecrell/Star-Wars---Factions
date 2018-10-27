@@ -23,25 +23,30 @@ namespace SWFactions
                 !hostilityDeclared)
             {
                 hostilityDeclared = true;
+
+
                 if (Find.FactionManager.FirstFactionOfDef(DefDatabase<FactionDef>.GetNamedSilentFail("PJ_RebelFac")) is
                         Faction rebelFaction &&
                     Find.FactionManager.FirstFactionOfDef(
                             DefDatabase<FactionDef>.GetNamedSilentFail("PJ_GalacticEmpire"))
                         is Faction impFaction)
                 {
+
                     impFaction.TrySetNotAlly(rebelFaction, true);
                     rebelFaction.TrySetNotAlly(impFaction, true);
+                    
+
+                    impFaction.TrySetRelationKind(rebelFaction, FactionRelationKind.Hostile);
+                    rebelFaction.TrySetRelationKind(impFaction, FactionRelationKind.Hostile);
+                    
+
                     Find.LetterStack.ReceiveLetter("PJ_WarDeclared".Translate(), "PJ_WarDeclaredDesc".Translate(
                         new object[] {rebelFaction.def.label, impFaction.def.label}
                     ), DefDatabase<LetterDef>.GetNamed("PJ_BadUrgent"), null);
+
+
                 }
             }
-        }
-
-        public override void ExposeData()
-        {
-            base.ExposeData();
-            Scribe_Values.Look<bool>(ref this.hostilityDeclared, "hostilityDeclared", false);
         }
     }
 }
