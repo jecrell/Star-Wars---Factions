@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+  <ThingDef Name="ArmorPJMachineableBase" ParentName="ApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>Table_PJ_Bench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Gold</li>
+          <li>Silver</li>
+          <li>Jade</li>
+          <li>Uranium</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="ArmorPJHelmetMakeableBase" ParentName="ArmorPJMachineableBase" Abstract="True">
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+  </ThingDef>
+
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>PJ_ImpUniform</defName>
     <label>Imperial Uniform Bodysuit(Inner-Mesh)</label>
@@ -54,6 +86,7 @@
       </options>
     </colorGenerator>
     </ThingDef>
+
 
 	  <ThingDef ParentName="ApparelMakeableBase">
     <defName>PJ_ImpUniformBlack</defName>
@@ -435,7 +468,7 @@
 
 <!-- ====== Armors ====== -->
 
-	<ThingDef ParentName="ArmorSmithableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmor</defName>
 		<label>Stormtrooper armor</label>
 		<techLevel>Spacer</techLevel>
@@ -487,7 +520,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorSmithableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorJO</defName>
 		<label>Stormtrooper armor(JO)</label>
 		<techLevel>Spacer</techLevel>
@@ -538,7 +571,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorSmithableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorNCO</defName>
 		<label>Stormtrooper armor(NCO)</label>
 		<techLevel>Spacer</techLevel>
@@ -589,7 +622,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorSmithableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorSO</defName>
 		<label>Stormtrooper armor(SO)</label>
 		<techLevel>Spacer</techLevel>
@@ -640,7 +673,7 @@
 		</apparel>
 	</ThingDef>
 
-<ThingDef ParentName="ArmorSmithableBase">
+<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorSh</defName>
 		<label>Shoretrooper armor</label>
 		<techLevel>Spacer</techLevel>
@@ -691,7 +724,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorSmithableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorShC</defName>
 		<label>Shoretrooper armor(Cpt)</label>
 		<techLevel>Spacer</techLevel>
@@ -742,7 +775,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorSmithableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorShSL</defName>
 		<label>Shoretrooper armor(SL)</label>
 		<techLevel>Spacer</techLevel>
@@ -793,7 +826,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorSmithableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorDT</defName>
 		<label>Deathtrooper armor</label>
 		<techLevel>Spacer</techLevel>
@@ -844,7 +877,7 @@
 		</apparel>
 	</ThingDef>
 
-<ThingDef ParentName="ArmorSmithableBase">
+<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_TroopArmorDTC</defName>
 		<label>Deathtrooper armor(Cmd)</label>
 		<techLevel>Spacer</techLevel>
@@ -898,7 +931,7 @@
 
 <!-- ====== Helmets ====== -->
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 	<defName>PJ_STHelm</defName>
 	<label>Stormtrooper helm</label>
 	<techLevel>Spacer</techLevel>
@@ -944,7 +977,7 @@
 	</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 	<defName>PJ_SHHelm</defName>
 	<label>Shoretrooper helm</label>
 	<techLevel>Spacer</techLevel>
@@ -990,7 +1023,7 @@
 	</apparel>
 	</ThingDef>
 
-		<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 	<defName>PJ_DTHelm</defName>
 	<label>Stormtrooper helm</label>
 	<techLevel>Spacer</techLevel>
@@ -1036,7 +1069,7 @@
 	</apparel>
 	</ThingDef>
 
-		<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 	<defName>PJ_SCTHelm</defName>
 	<label>Scout trooper helmet</label>
 	<techLevel>Spacer</techLevel>
@@ -1082,7 +1115,7 @@
 	</apparel>
 	</ThingDef>
 	
-		<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 	<defName>PJ_TIEHelm</defName>
 	<label>TIE pilot helmet</label>
 	<techLevel>Spacer</techLevel>

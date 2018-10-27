@@ -3,7 +3,7 @@
 
 
 	
-	<ThingDef ParentName="ArmorMachineableBase">
+	<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_MandoArmor</defName>
 		<label>Mando armor</label>
 		<techLevel>Spacer</techLevel>
@@ -57,7 +57,7 @@
 
 	
 	
-		<ThingDef ParentName="ArmorMachineableBase">
+		<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_VetMandoArmor</defName>
 		<label>Mando Veteran armor</label>
 		<techLevel>Spacer</techLevel>
@@ -111,7 +111,7 @@
 	
 	
 	
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="ArmorPJHelmetMakeableBase">
 	<defName>PJ_MandoHelm</defName>
 	<label>Mando helm</label>
 	<techLevel>Spacer</techLevel>
@@ -162,7 +162,7 @@
 	<!-- ====Strams==== -->
 	
 	
-		<ThingDef ParentName="ArmorMachineableBase">
+		<ThingDef ParentName="ArmorPJMachineableBase">
 		<defName>PJ_BarkMandoArmor</defName>
 		<label>Barky's clan armor</label>
 		<techLevel>Spacer</techLevel>
