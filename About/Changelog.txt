@@ -1,3 +1,7 @@
+1.20.0.1 (02-05-2019)
+========================
+No longer uses Building and WorkTable as abstracts
+
 1.20.0.0 (10-19-2018)
 ========================
 Initial update for RimWorld 1.0.

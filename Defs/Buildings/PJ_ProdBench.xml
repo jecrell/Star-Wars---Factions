@@ -1,36 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ThingDef Name="BuildingBase" Abstract="True">
-    <category>Building</category>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
-  </ThingDef>
-
-  <!-- ========================= Work tables ==========================-->
-
-  <ThingDef Name="BenchBase" ParentName="BuildingBase" Abstract="True">
-    <castEdgeShadows>true</castEdgeShadows>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <canOverlapZones>false</canOverlapZones>
-		<building>
-			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
-			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
-		</building>
-		<comps>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
-		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
-		</placeWorkers>
-  </ThingDef>
 
   <ThingDef ParentName="BenchBase">
     <defName>Table_PJ_Bench</defName>
