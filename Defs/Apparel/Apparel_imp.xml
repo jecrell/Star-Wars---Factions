@@ -4,7 +4,7 @@
 
   <ThingDef Name="ArmorPJMachineableBase" ParentName="ApparelBase" Abstract="True">
     <recipeMaker>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>

@@ -14,7 +14,7 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Moff</leaderTitle>
     <permanentEnemy>false</permanentEnemy>
-    <expandingIconTexture>World/EmpLogo</expandingIconTexture>
+    <factionIconPath>World/EmpLogo</factionIconPath>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
     </colorSpectrum>
@@ -107,7 +107,6 @@
         </options>
       </li>
     </pawnGroupMakers>
-
-    <homeIconPath>World/EmpLogo</homeIconPath>
+    <settlementTexturePath>World/EmpLogo</settlementTexturePath>
   </FactionDef>
 </Defs>

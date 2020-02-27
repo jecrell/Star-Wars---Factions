@@ -13,7 +13,7 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Boss</leaderTitle>
     <permanentEnemy>true</permanentEnemy>
-    <expandingIconTexture>World/ScumLogo</expandingIconTexture>
+    <factionIconPath>World/ScumLogo</factionIconPath>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
     </colorSpectrum>
@@ -73,6 +73,6 @@
       </li>
     </pawnGroupMakers>
 
-    <homeIconPath>World/ScumLogo</homeIconPath>
+    <settlementTexturePath>World/ScumLogo</settlementTexturePath>
   </FactionDef>
 </Defs>

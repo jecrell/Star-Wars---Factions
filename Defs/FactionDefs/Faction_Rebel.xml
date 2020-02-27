@@ -12,7 +12,6 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Leader</leaderTitle>
-    <expandingIconTexture>World/RebIcon</expandingIconTexture>
     <colorSpectrum>
       <li>(1.0, 0.1, 0.1)</li>
     </colorSpectrum>
@@ -122,7 +121,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/RebIcon</homeIconPath>
+    <settlementTexturePath>World/RebIcon</settlementTexturePath>
   </FactionDef>
 
 </Defs>

@@ -42,7 +42,6 @@
 			<MedicalOperationSpeed>0.03</MedicalOperationSpeed>
 			<WorkSpeedGlobal>0.025</WorkSpeedGlobal>
 			<MiningSpeed>0.05</MiningSpeed>
-			<SmithingSpeed>0.028</SmithingSpeed>
 			<MeleeDodgeChance>0.3</MeleeDodgeChance>
 		</equippedStatOffsets>
     <apparel>
@@ -127,7 +126,6 @@
 			<MedicalOperationSpeed>0.03</MedicalOperationSpeed>
 			<WorkSpeedGlobal>0.025</WorkSpeedGlobal>
 			<MiningSpeed>0.05</MiningSpeed>
-			<SmithingSpeed>0.028</SmithingSpeed>
 			<MeleeDodgeChance>0.3</MeleeDodgeChance>
 		</equippedStatOffsets>
     <apparel>

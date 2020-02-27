@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BuildingBase" Abstract="True">
+  <ThingDef Name="PJBuildingBase" Abstract="True">
     <category>Building</category>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
@@ -14,14 +14,10 @@
 
   <!-- ========================= Work tables ==========================-->
 
-  <ThingDef Name="BenchBase" ParentName="BuildingBase" Abstract="True">
+  <ThingDef Name="PJBenchBase" ParentName="PJBuildingBase" Abstract="True">
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <canOverlapZones>false</canOverlapZones>
-		<building>
-			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
-			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
-		</building>
 		<comps>
 			<li>
 				<compClass>CompReportWorkSpeed</compClass>
@@ -29,10 +25,11 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="PJBenchBase">
     <defName>Table_PJ_Bench</defName>
     <label>advanced fabrication bench</label>
     <thingClass>Building_WorkTable</thingClass>
