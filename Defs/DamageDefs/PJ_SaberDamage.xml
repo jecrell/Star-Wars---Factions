@@ -6,11 +6,11 @@
 	<DamageDef>
     <defName>PJ_SonicDam</defName>
     <label>Sonic damage</label>
-    <workerClass>DamageWorker_Cut</workerClass>	
+    <description>A loud noise caused this damage.</description>
+    <workerClass>DamageWorker_Cut</workerClass>
     <externalViolence>true</externalViolence>
-    <armorCategory>Blunt</armorCategory>	
-    <makesBlood>true</makesBlood>	
-     	
+    <armorCategory>Blunt</armorCategory>
+    <makesBlood>true</makesBlood>
     <deathMessage>{0} has died from sonic fractures.</deathMessage>
     <hediff>PJ_SonicBoom</hediff>
     <hediffSkin>PJ_SonicBoom</hediffSkin>
@@ -30,9 +30,10 @@
   	<HediffDef>
 		<defName>PJ_SonicBoom</defName>
 		<label>sonic fracture</label>
+    <description>A loud noise has caused damage.</description>
 		<hediffClass>Hediff_Injury</hediffClass>
 		<tendable>true</tendable>
-		<displayWound>true</displayWound>		
+		<displayWound>true</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>bandaged</labelTendedWell>
@@ -55,16 +56,16 @@
 			<destroyedOutLabel>vaporized</destroyedOutLabel>
 		</injuryProps>
 	</HediffDef>
-	
-	
+
+
 	<DamageDef>
 		<defName>PJ_PontiteDam</defName>
 		<label>Saber frost</label>
-		<workerClass>DamageWorker_Cut</workerClass>	
+		<workerClass>DamageWorker_Cut</workerClass>
 		<externalViolence>true</externalViolence>
-		<armorCategory>PJ_Lightsaber_Heat</armorCategory>	
-		 
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>	
+		<armorCategory>PJ_Lightsaber_Heat</armorCategory>
+    <description>This wound seemed to be caused by a Lightsaber...</description>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<deathMessage>{0} died from freezing lightsaber wounds.</deathMessage>
 		<hediff>Frostbite</hediff>
     <hediffSkin>Frostbite</hediffSkin>
@@ -80,5 +81,5 @@
     </cutExtraTargetsCurve>
     <cutCleaveBonus>1.4</cutCleaveBonus>
 	</DamageDef>
-  
+
 </Defs>
