@@ -1,6 +1,6 @@
-https://discordapp.com/api/webhooks/513416032690372618/SYHfStkpTbun9iA6gxwQ7vLVU5m-ldiiM6dRrbwVGGYRVBQJJWwtCP_VsTWjk-RAgfn5 (02-29-2020)
+1.21.0.0 (02-29-2020)
 ========================
-RimWorld has been updated to version 1.1. Star Wars Factions needed to have some revisions to match the new changes to RimWorld. Factions are now properly hostile on start. When refusing to pay taxes, imperials will become hostile.
+Updated for RimWorld 1.1. Fixed hostility between factions. Refusal of imperial taxes declares hostilities between factions.
 
 1.20.0.1 (02-05-2019)
 ========================
