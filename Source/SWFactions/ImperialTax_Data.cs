@@ -36,8 +36,11 @@ namespace SWFactions
             if (!metEmpire)
             {
 
-                Log.Message("1");
                 metEmpire = true;
+
+                Find.MusicManagerPlay.disabled = true;
+                Find.MusicManagerPlay.ForceSilenceFor(10f);
+                Find.MusicManagerPlay.disabled = false;
                 SoundDef.Named("PJ_ImperialMarchBanjo").PlayOneShotOnCamera();
             }
             else if (metEmpire && !receivedMessage)
@@ -90,7 +93,7 @@ namespace SWFactions
         #endregion Meeting
         public void ResolveDeclarationOfHostility(Pawn imperial)
         {
-            imperial.Faction.TrySetNotAlly(Faction.OfPlayer, true);
+            imperial.Faction.TrySetRelationKind(Faction.OfPlayer, FactionRelationKind.Hostile, canSendLetter: true);
             //List<Pawn> imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) => x.Faction == imperial.Faction);
             //if (imperialsOnSite != null && imperialsOnSite.Count > 0)
             //    {

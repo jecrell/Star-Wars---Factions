@@ -54,7 +54,7 @@
 
   <ThingDef Name="BaseImpMakeableGun" ParentName="BaseImpGun" Abstract="True">
     <recipeMaker>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
@@ -685,7 +685,7 @@
 		<defName>Bullet_LauncherP</defName>
 		<label>Launcher Projectile</label>
 		<graphicData>
-			<texPath>Things/Projectile/InfernoCannonShot</texPath>
+			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>

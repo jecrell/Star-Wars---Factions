@@ -6,7 +6,6 @@
     <race>Human</race>
     <defaultFactionType>PJ_Bounty</defaultFactionType>
     <baseRecruitDifficulty>0.5</baseRecruitDifficulty>
-    <backstoryCategories><li>Raider</li></backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
     <maxGenerationAge>45</maxGenerationAge>
@@ -95,7 +94,6 @@
     <combatPower>250</combatPower>
     <defaultFactionType>PJ_Bounty</defaultFactionType>
     <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
-    <backstoryCategories><li>Civil</li></backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
     <maxGenerationAge>85</maxGenerationAge>
@@ -160,7 +158,6 @@
     <combatPower>150</combatPower>
     <defaultFactionType>PJ_Bounty</defaultFactionType>
     <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
-    <backstoryCategories><li>Civil</li></backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
     <maxGenerationAge>45</maxGenerationAge>

@@ -13,14 +13,20 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Boss</leaderTitle>
     <permanentEnemy>true</permanentEnemy>
-    <expandingIconTexture>World/ScumLogo</expandingIconTexture>
+    <factionIconPath>World/ScumLogo</factionIconPath>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
     </colorSpectrum>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategories><li>Raider</li></backstoryCategories>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+      </li>
+    </backstoryFilters>
 		<hairTags>
 			<li>Urban</li>
 			<li>Rural</li>
@@ -72,7 +78,6 @@
         </options>
       </li>
     </pawnGroupMakers>
-
-    <homeIconPath>World/ScumLogo</homeIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
 </Defs>

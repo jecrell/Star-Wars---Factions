@@ -19,34 +19,33 @@ namespace SWFactions
         public override void WorldComponentTick()
         {
             base.WorldComponentTick();
-            if (Find.TickManager.TicksGame % 100 == 0 &&
+            if (Find.TickManager.TicksGame % 500 == 0 &&
                 !hostilityDeclared)
             {
                 hostilityDeclared = true;
-
-
                 if (Find.FactionManager.FirstFactionOfDef(DefDatabase<FactionDef>.GetNamedSilentFail("PJ_RebelFac")) is
                         Faction rebelFaction &&
                     Find.FactionManager.FirstFactionOfDef(
                             DefDatabase<FactionDef>.GetNamedSilentFail("PJ_GalacticEmpire"))
                         is Faction impFaction)
                 {
+                    impFaction.TrySetRelationKind(rebelFaction, FactionRelationKind.Hostile, canSendLetter: false);
+                    rebelFaction.TrySetRelationKind(impFaction, FactionRelationKind.Hostile, canSendLetter: false);
 
-                    impFaction.TrySetNotAlly(rebelFaction, true);
-                    rebelFaction.TrySetNotAlly(impFaction, true);
-                    
-
-                    impFaction.TrySetRelationKind(rebelFaction, FactionRelationKind.Hostile);
-                    rebelFaction.TrySetRelationKind(impFaction, FactionRelationKind.Hostile);
-                    
-
+                    Find.MusicManagerPlay.disabled = true;
+                    Find.MusicManagerPlay.ForceSilenceFor(10f);
+                    Find.MusicManagerPlay.disabled = false;
                     Find.LetterStack.ReceiveLetter("PJ_WarDeclared".Translate(), "PJ_WarDeclaredDesc".Translate(
                         new object[] {rebelFaction.def.label, impFaction.def.label}
                     ), DefDatabase<LetterDef>.GetNamed("PJ_BadUrgent"), null);
-
-
                 }
             }
+        }
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look<bool>(ref this.hostilityDeclared, "hostilityDeclared", false);
         }
     }
 }

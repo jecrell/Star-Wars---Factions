@@ -18,6 +18,7 @@
 		<defName>PJ_VibroSonic</defName>
 		<label>sonic</label>
 		<hediffClass>Hediff_Injury</hediffClass>
+    <description>SONIC-BOOOOM!</description>
 		<tendable>true</tendable>
 		<displayWound>true</displayWound>		
     <comps>
@@ -56,6 +57,7 @@
 		<defName>PJ_BBurn</defName>
 		<label>Blaster burn</label>
 		<hediffClass>Hediff_Injury</hediffClass>
+    <description>A bad burn from a blaster.</description>
 		<tendable>true</tendable>
 		<displayWound>true</displayWound>		
     <comps>
@@ -81,7 +83,7 @@
 	</HediffDef>
 	
 	
-<DamageDef>
+  <DamageDef>
     <defName>PJ_DXRDam</defName>
     <label>Acidic bolt</label>
 	<workerClass>DamageWorker_AddInjury</workerClass>
@@ -95,6 +97,7 @@
 		<defName>PJ_AcBurn</defName>
 		<label>Acid burn</label>
 		<hediffClass>Hediff_Injury</hediffClass>
+    <description>I'm meeeeelting!</description>
 		<tendable>true</tendable>
 		<displayWound>true</displayWound>		
     <comps>

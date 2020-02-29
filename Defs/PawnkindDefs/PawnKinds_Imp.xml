@@ -6,7 +6,6 @@
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
     <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
-    <backstoryCategories><li>Civil</li></backstoryCategories>
     <apparelTags>
        <li>PJ_Imp</li>
      </apparelTags>
@@ -168,7 +167,6 @@
     <combatPower>250</combatPower>
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
     <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
-    <backstoryCategories><li>Civil</li></backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
     <maxGenerationAge>45</maxGenerationAge>

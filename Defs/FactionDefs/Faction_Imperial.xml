@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
   <FactionDef>
+
 		<defName>PJ_GalacticEmpire</defName>
 		<label>The Galactic Empire</label>
-<description>The Galactic Empire, also known as the First Galactic Empire or the New Order—and commonly referred to as the Empire or the Order—was the galactic, constitutional monarchy and fascist government that replaced the Galactic Republic in the aftermath of the Clone Wars.</description>
-    <pawnsPlural>Imperial Soldiers</pawnsPlural>
+    <description>The Galactic Empire, also known as the First Galactic Empire or the New Order—and commonly referred to as the Empire or the Order—was the galactic, constitutional monarchy and fascist government that replaced the Galactic Republic in the aftermath of the Clone Wars.</description>
+    <pawnSingular>imperial soldier</pawnSingular>
+    <pawnsPlural>imperial soldiers</pawnsPlural>
+    <categoryTag>StarWarsEmpire</categoryTag>
+    <listOrderPriority>66</listOrderPriority>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
-	  <earliestRaidDays>35</earliestRaidDays>
-    <canMakeRandomly>True</canMakeRandomly>
-    <autoFlee>false</autoFlee>
+    <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Moff</leaderTitle>
+    <factionIconPath>World/EmpLogo</factionIconPath>
+		<settlementNameMaker>NamerImpBase</settlementNameMaker>
+		<fixedName>The Galactic Empire</fixedName>
+	  <earliestRaidDays>35</earliestRaidDays>
+    <autoFlee>false</autoFlee>
     <permanentEnemy>false</permanentEnemy>
-    <expandingIconTexture>World/EmpLogo</expandingIconTexture>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
     </colorSpectrum>
@@ -22,10 +29,21 @@
       <min>5</min>
       <max>15</max>
     </startingGoodwill>
-		<fixedName>The Galactic Empire</fixedName>
-		<settlementNameMaker>NamerImpBase</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategories><li>Civil</li></backstoryCategories>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.90</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+        <commonality>0.10</commonality>
+      </li>
+    </backstoryFilters>
 		<hairTags>
 			<li>Urban</li>
 			<li>Rural</li>
@@ -107,7 +125,6 @@
         </options>
       </li>
     </pawnGroupMakers>
-
-    <homeIconPath>World/EmpLogo</homeIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
 </Defs>

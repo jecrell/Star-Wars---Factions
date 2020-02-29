@@ -12,7 +12,6 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Leader</leaderTitle>
-    <expandingIconTexture>World/RebIcon</expandingIconTexture>
     <colorSpectrum>
       <li>(1.0, 0.1, 0.1)</li>
     </colorSpectrum>
@@ -21,9 +20,23 @@
       <max>15</max>
     </startingGoodwill>
 		<factionNameMaker>SWFactions_NamerFactionRebels</factionNameMaker>
+    <factionIconPath>World/RebIcon</factionIconPath>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategories><li>Civil</li></backstoryCategories>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.95</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.05</commonality>
+      </li>
+    </backstoryFilters>
 		<hairTags>
 			<li>Rural</li>
 			<li>Urban</li>
@@ -122,7 +135,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/RebIcon</homeIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
 
 </Defs>
