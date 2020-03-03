@@ -36,7 +36,7 @@ namespace SWFactions
                     Find.MusicManagerPlay.ForceSilenceFor(10f);
                     Find.MusicManagerPlay.disabled = false;
                     Find.LetterStack.ReceiveLetter("PJ_WarDeclared".Translate(), "PJ_WarDeclaredDesc".Translate(
-                        new object[] {rebelFaction.def.label, impFaction.def.label}
+                        rebelFaction.def.label, impFaction.def.label
                     ), DefDatabase<LetterDef>.GetNamed("PJ_BadUrgent"), null);
                 }
             }

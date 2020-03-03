@@ -54,14 +54,11 @@ namespace SWFactions
         {
             Settlement playerSettlement = imperial.Map.info.parent as Settlement;
 
-            string text = "PJ_ImperialGreeting".Translate(new object[]
-            {
-                imperial.Name.ToStringFull,
-                imperial.kindDef.label,
+            string text = "PJ_ImperialGreeting".Translate(imperial.Name.ToStringFull, imperial.kindDef.label,
                 playerSettlement.Label,
                 empireLandRightsTax.ToString(),
-                empireTaxRate.ToStringPercent()
-            });
+                empireTaxRate.ToStringPercent());
+
             DiaNode diaNode = new DiaNode(text);
             DiaOption diaOption = new DiaOption("PJ_ImperialGreeting_Accept".Translate());
             diaOption.action = delegate
@@ -71,10 +68,10 @@ namespace SWFactions
             diaOption.resolveTree = true;
             diaNode.options.Add(diaOption);
             
-            string text2 = "PJ_ImperialGreeting_Rejected".Translate(new object[]
-            {
+            string text2 = "PJ_ImperialGreeting_Rejected".Translate(
+            
                 imperial.LabelShort
-            });
+            );
             DiaNode diaNode2 = new DiaNode(text2);
             DiaOption diaOption2 = new DiaOption("OK".Translate());
             diaOption2.resolveTree = true;
@@ -158,20 +155,19 @@ namespace SWFactions
                 empireDebt = amountUnpaid;
                 int amountPaid = amountOwed - amountUnpaid;
                 if (amountPaid < 0) amountPaid = 0;
-                Messages.Message("PJ_ImperialTaxes_Owed".Translate(new object[]
-                {
+                Messages.Message("PJ_ImperialTaxes_Owed".Translate(
+                
                                 imperial.Map.info.parent.Label,
                                 amountPaid,
                                 empireDebt
-                }), MessageTypeDefOf.PositiveEvent);
+                ), MessageTypeDefOf.PositiveEvent);
             }
             else
             {
-                Messages.Message("PJ_ImperialTaxes_Paid".Translate(new object[]
-                    {
+                Messages.Message("PJ_ImperialTaxes_Paid".Translate(
                                 imperial.Map.info.parent.Label,
                                 amountOwed
-                    }), MessageTypeDefOf.PositiveEvent);
+                    ), MessageTypeDefOf.PositiveEvent);
             }
         }
 

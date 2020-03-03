@@ -13,3 +13,7 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars--
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source\obj\Release\SWFactions.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Assemblies\SWFactions.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Star-Wars---Factions\Source\obj\Release\SWFactions.csproj.CopyComplete
+Z:\Git\Star-Wars---Factions\Assemblies\SWFactions.dll
+Z:\Git\Star-Wars---Factions\Source\obj\Release\SWFactions.csproj.CoreCompileInputs.cache
+Z:\Git\Star-Wars---Factions\Source\obj\Release\SWFactions.dll
+Z:\Git\Star-Wars---Factions\Source\obj\Release\SWFactions.csprojAssemblyReference.cache
