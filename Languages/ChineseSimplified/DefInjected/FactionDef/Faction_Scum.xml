@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_Bounty.label>黑日</PJ_Bounty.label>
   <PJ_Bounty.description>一个跨世纪的藏污纳垢之所，一个银河系臭名昭著的犯罪集团。
   
@@ -14,5 +13,4 @@
 </PJ_Bounty.description>
   <PJ_Bounty.pawnsPlural>罪犯</PJ_Bounty.pawnsPlural>
   <PJ_Bounty.leaderTitle>罪犯头目</PJ_Bounty.leaderTitle>
-
 </LanguageData>

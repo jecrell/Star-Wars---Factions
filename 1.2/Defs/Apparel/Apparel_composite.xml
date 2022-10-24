@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ArmorPJMachineableBase">
+    <defName>PJ_CompArmor</defName>
+    <label>Composite armor</label>
+    <techLevel>Spacer</techLevel>
+    <description>There was a time and place where everyone was wearing this armor. Battles ravaged across many planets.</description>
+    <graphicData>
+      <texPath>General/Gear/Comp/Comp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>8</Steel>
+      <Plasteel>120</Plasteel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <Mass>14</Mass>
+      <WorkToMake>159000</WorkToMake>
+      <MaxHitPoints>500</MaxHitPoints>
+      <MarketValue>4050</MarketValue>
+      <ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.72</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <tags>
+        <li>PJ_Comp</li>
+      </tags>
+      <wornGraphicPath>General/Gear/Comp/Comp</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <!-- ==== Helm For Later
+	<ThingDef ParentName="CompHelmetMakeableBase">
+	<defName>PJ_STHelm</defName>
+	<label>Stormtrooper helm</label>
+	<techLevel>Spacer</techLevel>
+	<description>A standard-issue stormtrooper helmet.</description>
+	<graphicData> 
+		<texPath>Imp/Helmet/StormTrooperHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass> 
+	</graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>4</Steel>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+	<statBases>
+      <Mass>2.4</Mass>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>PJ_Imp</li>
+   		 </tags>
+		<wornGraphicPath>Imp/Helmet/StormTrooperHelmet</wornGraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>    -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>PJ_GenFlight_Y</defName>
+    <label>Yellow Flight Suit</label>
+    <techLevel>Spacer</techLevel>
+    <description>A typical flight suit, often worn by Rebel pilots. This yellow version has been available for commercial and private purchase for years, and as such is quite common.</description>
+    <graphicData>
+      <texPath>General/Gear/Jumpsuit/PilotJumpsuitY</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <MaxHitPoints>350</MaxHitPoints>
+      <MarketValue>100</MarketValue>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+    <costList>
+      <Steel>8</Steel>
+      <Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <tags>
+        <li>PJ_Rebel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>General/Gear/Jumpsuit/PilotJumpsuitY</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>6</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

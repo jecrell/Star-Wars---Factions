@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================== Base ==================-->
+  <ThingDef Name="VibroMotorBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <description>The kyber, or living crystal, is a rare force attuned prism able to MeleeWeapon_DamageMultiplier lightsabers. Kyber crystals can be found scattered throughout the galaxy.</description>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>false</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+  <ThingDef Name="VibroMotorBaseSynthetic" ParentName="VibroMotorBase" Abstract="True">
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>90</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <thingCategories>
+      <li>PJ_VibroMotors</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="VibroMotorBaseRare" ParentName="VibroMotorBase" Abstract="True">
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>3000</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <thingCategories>
+      <li>PJ_VibroMotors</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="VibroMotorBaseLegendary" ParentName="VibroMotorBase" Abstract="True">
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>5000</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <thingCategories>
+      <li>PJ_VibroMotors</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- ================ Synthetic Kyber Crystals ================ -->
+  <ThingDef ParentName="VibroMotorBaseSynthetic">
+    <defName>PJ_VibroMotorNorm</defName>
+    <label>Basic VibroCell</label>
+    <description>A basic compact vibro-motor for a bladed weapon.</description>
+    <graphicData>
+      <texPath>Items/VibroMotor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>5</Beauty>
+      <MarketValue>1800</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.1</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VibroMotorBaseRare">
+    <defName>PJ_SonicCell</defName>
+    <label>Hypersonic VibroCell</label>
+    <!--==Damage Changer==-->
+    <description>A high-spec vibrocell tuned to vibrate the blade at hypersonic frequencies.</description>
+    <graphicData>
+      <texPath>Items/VibroMotor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.20</MeleeWeapon_DamageMultiplier>
+        </statModifiers>
+        <damageDef>PJ_SonicDam</damageDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VibroMotorBaseRare">
+    <defName>PJ_CryoCell</defName>
+    <label>Cryo VibroCell</label>
+    <description>A vibrocell and pontite lacing that enhances a vibroblade to deal freezing damage.</description>
+    <graphicData>
+      <texPath>Items/VibroMotor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.22</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.10</MeleeWeapon_CooldownMultiplier>
+        </statModifiers>
+        <damageDef>PJ_PontiteDam</damageDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VibroMotorBaseLegendary">
+    <defName>PJ_SpecOpsCell</defName>
+    <label>SpecOps VibroCell</label>
+    <description>An extremely powerful vibrocell built and tuned beyond mil-spec.</description>
+    <graphicData>
+      <texPath>Items/VibroMotor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.26</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.25</MeleeWeapon_CooldownMultiplier>
+        </statModifiers>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="VibroMotorBaseLegendary">
+    <defName>PJ_XXCell</defName>
+    <label>Experimental VibroCell</label>
+    <description>An experimental vibrocell, beyond next-gen.</description>
+    <graphicData>
+      <texPath>Items/VibroMotor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompSlotLoadable.CompProperties_SlottedBonus">
+        <statModifiers>
+          <MeleeWeapon_DamageMultiplier>1.28</MeleeWeapon_DamageMultiplier>
+          <MeleeWeapon_CooldownMultiplier>-0.25</MeleeWeapon_CooldownMultiplier>
+          <MeleeHitChance>0.45</MeleeHitChance>
+        </statModifiers>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,33 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_ScumSoldier.Label>Солдат</PJ_ScumSoldier.Label>
   <PJ_ScumSoldier.labelPlural>Солдаты</PJ_ScumSoldier.labelPlural>
   <PJ_ScumSoldier.labelMale>Солдат</PJ_ScumSoldier.labelMale>
   <PJ_ScumSoldier.labelMalePlural>Солдаты</PJ_ScumSoldier.labelMalePlural>
   <PJ_ScumSoldier.labelFemale>Солдат</PJ_ScumSoldier.labelFemale>
   <PJ_ScumSoldier.labelFemalePlural>Солдаты</PJ_ScumSoldier.labelFemalePlural>
-
   <PJ_Ruffian.Label>Головорез</PJ_Ruffian.Label>
   <PJ_Ruffian.labelPlural>Головорезы</PJ_Ruffian.labelPlural>
   <PJ_Ruffian.labelMale>Головорез</PJ_Ruffian.labelMale>
   <PJ_Ruffian.labelMalePlural>Головорезы</PJ_Ruffian.labelMalePlural>
   <PJ_Ruffian.labelFemale>Головорез</PJ_Ruffian.labelFemale>
   <PJ_Ruffian.labelFemalePlural>Головорезы</PJ_Ruffian.labelFemalePlural>
-
   <PJ_ScumBoss.Label>Босс</PJ_ScumBoss.Label>
   <PJ_ScumBoss.labelPlural>Боссы</PJ_ScumBoss.labelPlural>
   <PJ_ScumBoss.labelMale>Босс</PJ_ScumBoss.labelMale>
   <PJ_ScumBoss.labelMalePlural>Боссы</PJ_ScumBoss.labelMalePlural>
   <PJ_ScumBoss.labelFemale>Босс</PJ_ScumBoss.labelFemale>
   <PJ_ScumBoss.labelFemalePlural>Боссы</PJ_ScumBoss.labelFemalePlural>
-
   <PJ_BountyHunter.Label>Охотник за головами</PJ_BountyHunter.Label>
   <PJ_BountyHunter.labelPlural>Охотники за головами</PJ_BountyHunter.labelPlural>
   <PJ_BountyHunter.labelMale>Охотник за головами</PJ_BountyHunter.labelMale>
   <PJ_BountyHunter.labelMalePlural>Охотники за головами</PJ_BountyHunter.labelMalePlural>
   <PJ_BountyHunter.labelFemale>Охотник за головами</PJ_BountyHunter.labelFemale>
   <PJ_BountyHunter.labelFemalePlural>Охотники за головами</PJ_BountyHunter.labelFemalePlural>
-
 </LanguageData>

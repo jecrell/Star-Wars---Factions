@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>SWFactions_NamerFactionRebels</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[worldname] Rebels</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="SWFactions.Rule_PlanetName">
+          <keyword>worldname</keyword>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

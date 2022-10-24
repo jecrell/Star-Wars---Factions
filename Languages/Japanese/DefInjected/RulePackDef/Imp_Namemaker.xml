@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <NamerImpBase.rulePack.rulesStrings.0>name->[Impbase][Impother][Impdesc]</NamerImpBase.rulePack.rulesStrings.0>
-  <NamerImpBase.rulePack.rulesStrings.1>name->[Impbase][Impdesc]</NamerImpBase.rulePack.rulesStrings.1>
-
-
+  <NamerImpBase.rulePack.rulesStrings.0>name-&gt;[Impbase][Impother][Impdesc]</NamerImpBase.rulePack.rulesStrings.0>
+  <NamerImpBase.rulePack.rulesStrings.1>name-&gt;[Impbase][Impdesc]</NamerImpBase.rulePack.rulesStrings.1>
 </LanguageData>

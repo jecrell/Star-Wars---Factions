@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_Vibro.label>振動刃</PJ_Vibro.label>
   <PJ_Vibro.deathMessage>{0} は切り裂かれて死んだ。</PJ_Vibro.deathMessage>
-
   <PJ_BlasterDam.label>ブラスター弾</PJ_BlasterDam.label>
   <PJ_BlasterDam.deathMessage>{0} は撃たれて死んだ。</PJ_BlasterDam.deathMessage>
-
   <PJ_DXRDam.label>酸性弾</PJ_DXRDam.label>
   <PJ_DXRDam.deathMessage>{0} は撃たれて死んだ。</PJ_DXRDam.deathMessage>
-
-
 </LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ToolCapacityDef>
+    <defName>PJ_VibroStab</defName>
+    <label>vibroblade stab</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>PJ_VibroCut</defName>
+    <label>vibroblade slash</label>
+  </ToolCapacityDef>
+</Defs>

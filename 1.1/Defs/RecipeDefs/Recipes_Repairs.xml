@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>SWFactions_RepairsATST</defName>
+    <label>repair part (50 steel, 10 plasteel, 3 components)</label>
+    <description>Repairs a part.</description>
+    <workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
+    <jobString>Repairing part.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <effectWorking>Repair</effectWorking>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>SWFactions_RepairsATAT</defName>
+    <label>repair part (50 steel, 10 plasteel, 3 components)</label>
+    <description>Repairs a part.</description>
+    <workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
+    <jobString>Repairing part.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <effectWorking>Repair</effectWorking>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>SWFactions_RepairsSpeeder</defName>
+    <label>repair part (30 steel, 8 plasteel, 2 components)</label>
+    <description>Repairs a part.</description>
+    <workerClass>CompVehicle.Recipe_RepairVehicle</workerClass>
+    <jobString>Repairing part.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <effectWorking>Repair</effectWorking>
+  </RecipeDef>
+</Defs>

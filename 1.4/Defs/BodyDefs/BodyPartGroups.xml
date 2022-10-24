@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartGroupDef>
+    <defName>PilotSeat</defName>
+    <label>Pilot Seat</label>
+    <listOrder>193</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>GunnerSeat</defName>
+    <label>Gunner Seat</label>
+    <listOrder>192</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>PassengerSeat</defName>
+    <label>Passenger Seat</label>
+    <listOrder>191</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartTagDef>
+    <defName>PilotSeat</defName>
+  </BodyPartTagDef>
+  <BodyPartTagDef>
+    <defName>GunnerSeat</defName>
+  </BodyPartTagDef>
+  <BodyPartTagDef>
+    <defName>PassengerSeat</defName>
+  </BodyPartTagDef>
+</Defs>

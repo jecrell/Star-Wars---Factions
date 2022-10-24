@@ -1,68 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ImpBase.label>帝国市民</ImpBase.label>
   <ImpBase.labelPlural>帝国市民達</ImpBase.labelPlural>
   <ImpBase.labelMale>男性 帝国市民</ImpBase.labelMale>
   <ImpBase.labelMalePlural>男性 帝国市民達</ImpBase.labelMalePlural>
   <ImpBase.labelFemale>女性 帝国市民</ImpBase.labelFemale>
   <ImpBase.labelFemalePlural>女性 帝国市民達</ImpBase.labelFemalePlural>
-
   <PJ_ImpInspector.label>税務検査官</PJ_ImpInspector.label>
   <PJ_ImpInspector.labelPlural>税務検査官達</PJ_ImpInspector.labelPlural>
   <PJ_ImpInspector.labelMale>男性 税務検査官</PJ_ImpInspector.labelMale>
   <PJ_ImpInspector.labelMalePlural>男性 税務検査官達</PJ_ImpInspector.labelMalePlural>
   <PJ_ImpInspector.labelFemale>女性 税務検査官</PJ_ImpInspector.labelFemale>
   <PJ_ImpInspector.labelFemalePlural>女性 税務検査官達</PJ_ImpInspector.labelFemalePlural>
-
   <PJ_ImpTaxOfficer.label>税務官</PJ_ImpTaxOfficer.label>
   <PJ_ImpTaxOfficer.labelPlural>税務官達</PJ_ImpTaxOfficer.labelPlural>
   <PJ_ImpTaxOfficer.labelMale>男性 税務官</PJ_ImpTaxOfficer.labelMale>
   <PJ_ImpTaxOfficer.labelMalePlural>男性 税務官達</PJ_ImpTaxOfficer.labelMalePlural>
   <PJ_ImpTaxOfficer.labelFemale>女性 税務官</PJ_ImpTaxOfficer.labelFemale>
   <PJ_ImpTaxOfficer.labelFemalePlural>女性 税務官達</PJ_ImpTaxOfficer.labelFemalePlural>
-
   <PJ_ImpSoldier.label>帝国兵</PJ_ImpSoldier.label>
   <PJ_ImpSoldier.labelPlural>帝国部隊</PJ_ImpSoldier.labelPlural>
   <PJ_ImpSoldier.labelMale>男性 帝国兵r</PJ_ImpSoldier.labelMale>
   <PJ_ImpSoldier.labelMalePlural>男性 帝国部隊</PJ_ImpSoldier.labelMalePlural>
   <PJ_ImpSoldier.labelFemale>女性 帝国兵</PJ_ImpSoldier.labelFemale>
   <PJ_ImpSoldier.labelFemalePlural>女性 帝国部隊</PJ_ImpSoldier.labelFemalePlural>
-
   <PJ_ImpTrader.label>帝国調達官</PJ_ImpTrader.label>
   <PJ_ImpTrader.labelPlural>帝国調達官達</PJ_ImpTrader.labelPlural>
   <PJ_ImpTrader.labelMale>男性 帝国調達官</PJ_ImpTrader.labelMale>
   <PJ_ImpTrader.labelMalePlural>男性 帝国調達官達</PJ_ImpTrader.labelMalePlural>
   <PJ_ImpTrader.labelFemale>女性 帝国調達官</PJ_ImpTrader.labelFemale>
   <PJ_ImpTrader.labelFemalePlural>女性 帝国調達官達</PJ_ImpTrader.labelFemalePlural>
-
   <PJ_Stormtrooper.label>ストームトルーパー</PJ_Stormtrooper.label>
   <PJ_Stormtrooper.labelPlural>ストームトルーパー部隊</PJ_Stormtrooper.labelPlural>
   <PJ_Stormtrooper.labelMale>男性 ストームトルーパー</PJ_Stormtrooper.labelMale>
   <PJ_Stormtrooper.labelMalePlural>男性 ストームトルーパー部隊</PJ_Stormtrooper.labelMalePlural>
   <PJ_Stormtrooper.labelFemale>女性 ストームトルーパー</PJ_Stormtrooper.labelFemale>
   <PJ_Stormtrooper.labelFemalePlural>女性 ストームトルーパー部隊</PJ_Stormtrooper.labelFemalePlural>
-
   <PJ_StormtrooperSO.label>ストームトルーパー士官</PJ_StormtrooperSO.label>
   <PJ_StormtrooperSO.labelPlural>ストームトルーパー士官部隊</PJ_StormtrooperSO.labelPlural>
   <PJ_StormtrooperSO.labelMale>男性 ストームトルーパー士官</PJ_StormtrooperSO.labelMale>
   <PJ_StormtrooperSO.labelMalePlural>男性 ストームトルーパー士官部隊</PJ_StormtrooperSO.labelMalePlural>
   <PJ_StormtrooperSO.labelFemale>女性 ストームトルーパー士官</PJ_StormtrooperSO.labelFemale>
   <PJ_StormtrooperSO.labelFemalePlural>女性 ストームトルーパー士官部隊</PJ_StormtrooperSO.labelFemalePlural>
-
   <PJ_ImpCommander.label>指揮官</PJ_ImpCommander.label>
   <PJ_ImpCommander.labelPlural>指揮官達</PJ_ImpCommander.labelPlural>
   <PJ_ImpCommander.labelMale>男性 指揮官</PJ_ImpCommander.labelMale>
   <PJ_ImpCommander.labelMalePlural>男性 指揮官達</PJ_ImpCommander.labelMalePlural>
   <PJ_ImpCommander.labelFemale>女性 指揮官</PJ_ImpCommander.labelFemale>
   <PJ_ImpCommander.labelFemalePlural>女性 指揮官達</PJ_ImpCommander.labelFemalePlural>
-
   <PJ_ScoutTrooper.label>スカウトトルーパー</PJ_ScoutTrooper.label>
   <PJ_ScoutTrooper.labelPlural>スカウトトルーパー部隊</PJ_ScoutTrooper.labelPlural>
   <PJ_ScoutTrooper.labelMale>男性 スカウトトルーパー</PJ_ScoutTrooper.labelMale>
   <PJ_ScoutTrooper.labelMalePlural>男性 スカウトトルーパー部隊</PJ_ScoutTrooper.labelMalePlural>
   <PJ_ScoutTrooper.labelFemale>女性 スカウトトルーパー</PJ_ScoutTrooper.labelFemale>
   <PJ_ScoutTrooper.labelFemalePlural>女性 スカウトトルーパー部隊</PJ_ScoutTrooper.labelFemalePlural>
-
-
 </LanguageData>

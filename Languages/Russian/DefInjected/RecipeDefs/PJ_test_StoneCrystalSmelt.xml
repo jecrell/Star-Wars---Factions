@@ -1,37 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_MakeCrystal_purp.Label>Очистить световой кристалл (пурпурный)</PJ_MakeCrystal_purp.Label>
   <PJ_MakeCrystal_purp.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_purp.Description>
   <PJ_MakeCrystal_purp.jobString>Очищает кристал.</PJ_MakeCrystal_purp.jobString>
-
   <PJ_MakeCrystal_yellow.Label>Очистить световой кристалл (жёлтый)</PJ_MakeCrystal_yellow.Label>
   <PJ_MakeCrystal_yellow.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_yellow.Description>
   <PJ_MakeCrystal_yellow.jobString>Очищает кристал.</PJ_MakeCrystal_yellow.jobString>
-
   <PJ_MakeCrystal_Barab.Label>Очистить световой кристалл (оранжевый)</PJ_MakeCrystal_Barab.Label>
   <PJ_MakeCrystal_Barab.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_Barab.Description>
   <PJ_MakeCrystal_Barab.jobString>Очищает кристал.</PJ_MakeCrystal_Barab.jobString>
-
   <PJ_MakeCrystal_blue.Label>Очистить световой кристалл (синий)</PJ_MakeCrystal_blue.Label>
   <PJ_MakeCrystal_blue.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_blue.Description>
   <PJ_MakeCrystal_blue.jobString>Очищает кристал.</PJ_MakeCrystal_blue.jobString>
-
   <PJ_MakeCrystal_Red.Label>Очистить световой кристалл (красный)</PJ_MakeCrystal_Red.Label>
   <PJ_MakeCrystal_Red.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_Red.Description>
   <PJ_MakeCrystal_Red.jobString>Очищает кристал.</PJ_MakeCrystal_Red.jobString>
-
   <PJ_MakeCrystal_Green.Label>Очистить световой кристалл (зелёный)</PJ_MakeCrystal_Green.Label>
   <PJ_MakeCrystal_Green.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_Green.Description>
   <PJ_MakeCrystal_Green.jobString>Очищает кристал.</PJ_MakeCrystal_Green.jobString>
-
   <PJ_MakeCrystal_Cyan.Label>Очистить световой кристалл (голубой)</PJ_MakeCrystal_Cyan.Label>
   <PJ_MakeCrystal_Cyan.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_Cyan.Description>
   <PJ_MakeCrystal_Cyan.jobString>Очищает кристал.</PJ_MakeCrystal_Cyan.jobString>
-
   <PJ_MakeCrystal_Azure.Label>Очистить световой кристалл (лазурный)</PJ_MakeCrystal_Azure.Label>
   <PJ_MakeCrystal_Azure.Description>Обработать сырье в синтетический световой кристалл.</PJ_MakeCrystal_Azure.Description>
   <PJ_MakeCrystal_Azure.jobString>Очищает кристал.</PJ_MakeCrystal_Azure.jobString>
-
 </LanguageData>

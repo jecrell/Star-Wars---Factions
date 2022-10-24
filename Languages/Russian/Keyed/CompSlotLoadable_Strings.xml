@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ExceptionSlotAlreadyFilled>Слот {0} уже заполнен</ExceptionSlotAlreadyFilled>
   <Unavailable>недоступно</Unavailable>
   <IsDrafted>{0} составлен.</IsDrafted>
@@ -13,5 +12,4 @@
   <NoLoadOptions>Нет доступных параметров загрузки.</NoLoadOptions>
   <DefensiveHealChance>При атаке {1} шанс исцелить {0} раны</DefensiveHealChance>
   <VampiricChance>При атаке {1} шанс вампирически исцелить {0} раны</VampiricChance>
-
 </LanguageData>

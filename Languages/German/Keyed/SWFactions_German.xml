@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PJ_ImperialGreeting_Title>Das Galaktische Imperium</PJ_ImperialGreeting_Title>
   <PJ_ImperialGreeting>Ein {1} namens {0} verkündet im Namen des Imperators ein Urteil .\n\nAls eine nicht authorisierte Siedlung, ist {2} dazu aufgefordert eine Registrierungsgebühr in Höhe von {3} Silber zu entrichten, um weiterhin die Rechte an der Nutzung dieses Landes zu behalten.\n\nNach geltenden Einkommenssteuergesetzen der imperialen Steuerbehörde müssen jährlich {4} aller Silbereinkünfte als Steuer an das Imperium entrichtet werden.\n\nEin Nichteinhalten dieser Forderungen wird als Zeichen des Aufstandes gesehen. In Folge dessen würden alle Bewohner dieser Kolonie als Vogelfrei und als Feind des Imperiums angesehen.</PJ_ImperialGreeting>

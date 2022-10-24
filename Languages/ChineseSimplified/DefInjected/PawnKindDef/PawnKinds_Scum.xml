@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_ScumSoldier.label>混混</PJ_ScumSoldier.label>
   <PJ_ScumSoldier.labelPlural>混混</PJ_ScumSoldier.labelPlural>
-
   <PJ_Ruffian.label>恶棍</PJ_Ruffian.label>
   <PJ_Ruffian.labelPlural>恶棍</PJ_Ruffian.labelPlural>
-
   <PJ_ScumBoss.label>头目</PJ_ScumBoss.label>
   <PJ_ScumBoss.labelPlural>头目</PJ_ScumBoss.labelPlural>
-
   <PJ_BountyHunter.label>赏金猎人</PJ_BountyHunter.label>
   <PJ_BountyHunter.labelPlural>赏金猎人</PJ_BountyHunter.labelPlural>
-
 </LanguageData>

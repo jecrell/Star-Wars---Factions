@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-
   <!-- ======== 6 / 6 / 2017 ========== -->
-
   <PJ_WarDeclared>戦争</PJ_WarDeclared>
   <PJ_WarDeclaredDesc>{0}は{1}との戦争を宣言しました。あなたのコロニー内で戦闘が行われることがあります。</PJ_WarDeclaredDesc>
-
   <!-- ======== Initial Release ========== -->
-
   <PJ_ImperialGreeting_Title>銀河帝国</PJ_ImperialGreeting_Title>
-
   <PJ_ImperialGreeting>{0}と名付けられた{1}は、銀河帝国を代表してその宣言を伝えてきました。\n\n「お前たちの入植地は非合法であり、{2}はその土地使用権を得るために{3}シルバーの登録料をいますぐ銀河帝国へ支払わなければならない。\n\nまた帝国徴税事務局が管理する帝国歳入法に従い、お前達は獲得したすべてのシルバーの年間所得税を納付せよ。\n\nこれらの要求のいずれかを遵守しなければ、すべての入植者を銀河帝国法違反で皇帝の敵とみなす。」</PJ_ImperialGreeting>
-
   <PJ_ImperialGreeting_Rejected>{0}は、コミュニケーターに厳しい調子で命令コードを報告し、武器を引きます。</PJ_ImperialGreeting_Rejected>
-
   <PJ_ImperialGreeting_Accept>重い税金を払う</PJ_ImperialGreeting_Accept>
-
   <PJ_ImperialGreeting_Reject>要求を拒否する</PJ_ImperialGreeting_Reject>
-
   <PJ_ImperialTaxes_Paid>{0}は、帝国への税金としてシルバーを{1}支払った。</PJ_ImperialTaxes_Paid>
-
   <PJ_ImperialTaxes_Owed>{0}は{1}シルバーを支払った。{0}はエンパイアに{2}シルバーの借りがあります。</PJ_ImperialTaxes_Owed>
-
 </LanguageData>

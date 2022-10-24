@@ -1,22 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Walker Guns -->
-
   <PJ_ATST_Bullet.label>ATSTブラスター砲弾</PJ_ATST_Bullet.label>
-
   <PJ_ATST_Blaster.label>ATSTメインブラスター砲</PJ_ATST_Blaster.label>
   <PJ_ATST_Blaster.description>ATSTウォーカーマシンに搭載された高出力のブラスター砲。</PJ_ATST_Blaster.description>
-
   <PJ_ATAT_Bullet.label>ATATブラスター砲弾</PJ_ATAT_Bullet.label>
-
   <PJ_ATAT_Blaster.label>ATATメインブラスター砲</PJ_ATAT_Blaster.label>
   <PJ_ATAT_Blaster.description>ATATウォーカーマシンに搭載された高出力のブラスター砲。</PJ_ATAT_Blaster.description>
-
   <PJ_Spd_Bullet.label>スピーダーブラスター砲弾</PJ_Spd_Bullet.label>
-
   <PJ_Spd_Blaster.label>スピーダーメインブラスター砲</PJ_Spd_Blaster.label>
   <PJ_Spd_Blaster.description>パトロールスピーダーに搭載された高出力のブラスター砲。</PJ_Spd_Blaster.description>
-
-
 </LanguageData>

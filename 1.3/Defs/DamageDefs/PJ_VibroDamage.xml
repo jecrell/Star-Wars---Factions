@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef>
+    <defName>PJ_Vibro</defName>
+    <label>vibro</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <armorCategory>Sharp</armorCategory>
+    <makesBlood>false</makesBlood>
+    <deathMessage>{0} has been cut to death.</deathMessage>
+    <hediff>PJ_VibroSonic</hediff>
+    <impactSoundType>Slice</impactSoundType>
+  </DamageDef>
+  <HediffDef>
+    <defName>PJ_VibroSonic</defName>
+    <label>sonic</label>
+    <hediffClass>Hediff_Injury</hediffClass>
+    <description>SONIC-BOOOOM!</description>
+    <tendable>true</tendable>
+    <displayWound>true</displayWound>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>sonic scar</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.01875</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Sliced off</destroyedLabel>
+      <destroyedOutLabel>sliced out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+  <DamageDef>
+    <defName>PJ_BlasterDam</defName>
+    <label>Blaster bolt</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been blasted!</deathMessage>
+    <hediff>PJ_BBurn</hediff>
+    <armorCategory>Heat</armorCategory>
+  </DamageDef>
+  <HediffDef>
+    <defName>PJ_BBurn</defName>
+    <label>Blaster burn</label>
+    <hediffClass>Hediff_Injury</hediffClass>
+    <description>A bad burn from a blaster.</description>
+    <tendable>true</tendable>
+    <displayWound>true</displayWound>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>well tended</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>Blaster scar</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.01875</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Blasted off</destroyedLabel>
+      <destroyedOutLabel>Blasted out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+  <DamageDef>
+    <defName>PJ_DXRDam</defName>
+    <label>Acidic bolt</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been blasted!</deathMessage>
+    <hediff>PJ_AcBurn</hediff>
+    <armorCategory>Heat</armorCategory>
+  </DamageDef>
+  <HediffDef>
+    <defName>PJ_AcBurn</defName>
+    <label>Acid burn</label>
+    <hediffClass>Hediff_Injury</hediffClass>
+    <description>I'm meeeeelting!</description>
+    <tendable>true</tendable>
+    <displayWound>true</displayWound>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>neutralized</labelTendedWell>
+        <labelTendedWellInner>treated</labelTendedWellInner>
+        <labelSolidTendedWell>well treated</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.05</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>Acid scar</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.01875</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Melted off</destroyedLabel>
+      <destroyedOutLabel>Melted out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+</Defs>

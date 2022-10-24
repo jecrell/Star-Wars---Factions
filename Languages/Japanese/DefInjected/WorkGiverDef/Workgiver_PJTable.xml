@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <DoBills_PJ_Bench.label>先進的なポリアロイ製の武器と防具を製造</DoBills_PJ_Bench.label>
   <DoBills_PJ_Bench.verb>で組み立てる</DoBills_PJ_Bench.verb>
   <DoBills_PJ_Bench.gerund>で組み立てする</DoBills_PJ_Bench.gerund>
-
-
 </LanguageData>

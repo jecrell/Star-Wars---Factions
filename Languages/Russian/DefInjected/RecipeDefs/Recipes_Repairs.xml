@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <SWFactions_RepairsATST.Label>Ремонт деталей (50 стали, 10 пластали, 3 компонента)</SWFactions_RepairsATST.Label>
   <SWFactions_RepairsATST.Description>Ремонт деталей.</SWFactions_RepairsATST.Description>
   <SWFactions_RepairsATST.jobString>Ремонтирует детали.</SWFactions_RepairsATST.jobString>
-
   <SWFactions_RepairsATAT.Label>Ремонт деталей (50 стали, 10 пластали, 3 компонента)</SWFactions_RepairsATAT.Label>
   <SWFactions_RepairsATAT.Description>Ремонт деталей.</SWFactions_RepairsATAT.Description>
   <SWFactions_RepairsATAT.jobString>Ремонтирует детали.</SWFactions_RepairsATAT.jobString>
-
 </LanguageData>

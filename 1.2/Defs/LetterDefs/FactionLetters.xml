@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LetterDef>
+    <defName>PJ_BadUrgent</defName>
+    <color>(204, 115, 115)</color>
+    <flashColor>(255, 85, 85)</flashColor>
+    <flashInterval>16</flashInterval>
+    <bounce>true</bounce>
+    <arriveSound>PJ_LetterSerious</arriveSound>
+  </LetterDef>
+</Defs>

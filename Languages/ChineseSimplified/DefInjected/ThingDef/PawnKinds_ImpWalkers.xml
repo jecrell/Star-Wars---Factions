@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ATST -->
-
   <SWFactions_WalkerThing.label>AT-ST步行机</SWFactions_WalkerThing.label>
   <SWFactions_WalkerThing.description>AT-ST是全地形侦查运输机的缩写，因仿生两足设计而被戏称为步行鸡。在银河共和国的克隆人战争后期投入战场，之后在银河帝国内战又被大量使用。是代替AT-XT的后续项目。</SWFactions_WalkerThing.description>
   <SWFactions_WalkerThing.comps.1.roles.0.label>机师</SWFactions_WalkerThing.comps.1.roles.0.label>
@@ -14,10 +12,7 @@
   <!-- Flesh Type: Mechanoid -->
   <SWFactions_WalkerThing_Corpse.label>AT-ST步行机残骸</SWFactions_WalkerThing_Corpse.label>
   <SWFactions_WalkerThing_Corpse.description>AT-ST步行机残骸</SWFactions_WalkerThing_Corpse.description>
-
-
   <!-- ATAT -->
-
   <SWFactions_ATATThing.label>AT-AT步行机</SWFactions_ATATThing.label>
   <SWFactions_ATATThing.description>AT-AT是全地形侦查运输机的缩写，银河帝国陆军配备的四足战斗步行机。如同帝国歼星舰和TIE/ln星际战机一样，是银河帝国军事力量的象征。</SWFactions_ATATThing.description>
   <SWFactions_ATATThing.comps.1.roles.0.label>机师</SWFactions_ATATThing.comps.1.roles.0.label>
@@ -29,6 +24,4 @@
   <!-- Flesh Type: Mechanoid -->
   <SWFactions_ATATThing_Corpse.label>AT-AT步行机残骸</SWFactions_ATATThing_Corpse.label>
   <SWFactions_ATATThing_Corpse.description>AT-AT步行机残骸</SWFactions_ATATThing_Corpse.description>
-
-
 </LanguageData>

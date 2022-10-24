@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraderKindDef>
+    <defName>PJ_ImpTrader_Visitor</defName>
+    <label>trader</label>
+    <stockGenerators>
+      <!-- === Adding credits for imperial traders === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PJ_ImperialCredit</thingDef>
+        <countRange>500~1250</countRange>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>PJ_ImperialCredit</thingDef>
+      </li>
+      <!-- === Outlander_Visitor_Standard as for A17b 6/10/17 === -->
+      <!-- === Drugs commented out === -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>50~250</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <price>Expensive</price>
+        <countRange>1~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <price>Expensive</price>
+        <countRange>3~6</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>1~6</countRange>
+      </li>
+      <li Class="StockGenerator_WeaponsRanged">
+        <countRange>0~1</countRange>
+      </li>
+      <!--
+      Deprecated listing removed by Xen
+      -->
+      <li Class="StockGenerator_Clothes">
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Cloth</li>
+          <li>Chocolate</li>
+        </thingDefs>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>

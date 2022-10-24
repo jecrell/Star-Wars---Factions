@@ -1,37 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_BulletDeflected.label>Bala de torreta Improvisada</PJ_BulletDeflected.label>
-
-
   <!-- Vibroaxe -->
-
   <PJ_Vibroaxe.label>Vibrohacha (Prototipo)</PJ_Vibroaxe.label>
   <PJ_Vibroaxe.description>Una arma melé de a dos manos, ajustada para contener Vibrocelulas en miniatura.</PJ_Vibroaxe.description>
-
-
   <!-- Vibrosword -->
-
   <PJ_Vibrosword.label>Vibrosword (Echani)</PJ_Vibrosword.label>
   <PJ_Vibrosword.description>Una espada melé, ajusta para contener Vibrocelulas en miniatura.</PJ_Vibrosword.description>
-
-
   <!-- Vibro Cleaver -->
-
   <PJ_Vibrocleaver.label>Vibro Machete (Mandolario)</PJ_Vibrocleaver.label>
   <PJ_Vibrocleaver.description>Una arma melé corta de fabricacion Mandaloriana, ajustada para contener Vibrocelulas en miniatura.</PJ_Vibrocleaver.description>
-
-
   <!-- Vibro DoubleSword -->
-
   <PJ_Vibrodouble.label>Vibro Doble-Espada</PJ_Vibrodouble.label>
   <PJ_Vibrodouble.description>Una atigua arma de doble filo, ajustada para contener Vibrocelulas en miniatura.</PJ_Vibrodouble.description>
-
-
   <!-- Xen's staff -->
-
   <PJ_StaffX.label>Electrovara (Prototipo)</PJ_StaffX.label>
   <PJ_StaffX.description>Una arma larga de dos manos, ajustada para contener Vibrocelulas en miniatura.</PJ_StaffX.description>
-
-
 </LanguageData>

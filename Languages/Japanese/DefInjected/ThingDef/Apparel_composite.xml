@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_CompArmor.label>コンポジットアーマー</PJ_CompArmor.label>
   <PJ_CompArmor.description>多くの惑星を襲った戦争で、誰もがこの鎧を着ていた時と場所がありました。</PJ_CompArmor.description>
-
   <!-- <PJ_STHelm.label>Stormtrooper</PJ_STHelm.label> -->
   <!-- <PJ_STHelm.description>A standard-issue stormtrooper helmet.</PJ_STHelm.description> -->
-
   <PJ_GenFlight_Y.label>フライトスーツ(黄色)</PJ_GenFlight_Y.label>
   <PJ_GenFlight_Y.description>よく反乱軍パイロットが着用する典型的なフライトスーツ。この黄色のバージョンは商業用および個人用として購入され何年も利用されてきました。</PJ_GenFlight_Y.description>
-
 </LanguageData>

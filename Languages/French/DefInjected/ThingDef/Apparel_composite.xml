@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_CompArmor.label>Armure Composite</PJ_CompArmor.label>
   <PJ_CompArmor.description>Il y avait une époque ou tout le monde portait cette armure. Les batailles faisant rage à travers tout le système.</PJ_CompArmor.description>
-
-
   <!-- Helm For Later
 	<ThingDef ParentName="CompHelmetMakeableBase">
 	<defName>PJ_STHelm</defName>
@@ -51,9 +48,6 @@
 		</bodyPartGroups>
 	</apparel>
 	</ThingDef> -->
-
   <PJ_GenFlight_Y.label>Combinaison de vol jaune</PJ_GenFlight_Y.label>
   <PJ_GenFlight_Y.description>Une combinaison de vol typique, souvent porté par les pilotes rebelle. La version jaune est disponible à l'achat depuis des années, et est donc relativement commune.</PJ_GenFlight_Y.description>
-
-
 </LanguageData>

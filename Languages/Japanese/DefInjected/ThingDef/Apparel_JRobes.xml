@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_JFac_Robe.label>ジェダイローブ</PJ_JFac_Robe.label>
   <PJ_JFac_Robe.description>ジェダイが着るローブ</PJ_JFac_Robe.description>
-
   <PJ_SithFac_Robe.label>シスローブ</PJ_SithFac_Robe.label>
   <PJ_SithFac_Robe.description>ダークサイドのジェダイが着るローブ</PJ_SithFac_Robe.description>
-
-
 </LanguageData>
