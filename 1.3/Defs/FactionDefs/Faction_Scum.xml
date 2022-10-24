@@ -59,37 +59,51 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <PJ_ScumSoldier>200</PJ_ScumSoldier>
-          <PJ_ScumBoss>5</PJ_ScumBoss>
-          <PJ_Ruffian>150</PJ_Ruffian>
-          <PJ_BountyHunter>20</PJ_BountyHunter>
-          <Rancor MayRequire="Guy.StarWarsAnimalCollection">5</Rancor>
-          <Reek MayRequire="Guy.StarWarsAnimalCollection">5</Reek>
-          <Nexu MayRequire="Guy.StarWarsAnimalCollection">5</Nexu>
+          <PJ_ScumSoldier>400</PJ_ScumSoldier>
+          <PJ_ScumBoss>10</PJ_ScumBoss>
+          <PJ_Ruffian>300</PJ_Ruffian>
+          <PJ_BountyHunter>40</PJ_BountyHunter>
         </options>
       </li>
+      <!-- Raiders with Rancor chance -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>25</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
         <options>
-          <PJ_ScumBoss>50</PJ_ScumBoss>
-          <PJ_Ruffian>50</PJ_Ruffian>
-          <PJ_BountyHunter>150</PJ_BountyHunter>
-          <Rancor MayRequire="Guy.StarWarsAnimalCollection">5</Rancor>
-          <Reek MayRequire="Guy.StarWarsAnimalCollection">5</Reek>
-          <Nexu MayRequire="Guy.StarWarsAnimalCollection">5</Nexu>
+          <PJ_ScumBoss>100</PJ_ScumBoss>
+          <PJ_Ruffian>100</PJ_Ruffian>
+          <PJ_BountyHunter>300</PJ_BountyHunter>
+          <Rancor MayRequire="Guy.StarWarsAnimalCollection">1</Rancor>
+        </options>
+      </li>
+      <!-- Raiders with Acklay/Nexu chance -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <PJ_ScumBoss>100</PJ_ScumBoss>
+          <PJ_Ruffian>100</PJ_Ruffian>
+          <PJ_BountyHunter>300</PJ_BountyHunter>
+          <Acklay MayRequire="Guy.StarWarsAnimalCollection">1</Acklay>
+          <Nexu MayRequire="Guy.StarWarsAnimalCollection">1</Nexu>
         </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <PJ_ScumSoldier>200</PJ_ScumSoldier>
-          <PJ_ScumBoss>5</PJ_ScumBoss>
-          <PJ_Ruffian>150</PJ_Ruffian>
-          <PJ_BountyHunter>10</PJ_BountyHunter>
-          <Rancor MayRequire="Guy.StarWarsAnimalCollection">5</Rancor>
-          <Reek MayRequire="Guy.StarWarsAnimalCollection">5</Reek>
-          <Nexu MayRequire="Guy.StarWarsAnimalCollection">5</Nexu>
+          <PJ_ScumSoldier>400</PJ_ScumSoldier>
+          <PJ_ScumBoss>10</PJ_ScumBoss>
+          <PJ_Ruffian>300</PJ_Ruffian>
+          <PJ_BountyHunter>20</PJ_BountyHunter>
+          <Rancor MayRequire="Guy.StarWarsAnimalCollection">1</Rancor>
+          <Acklay MayRequire="Guy.StarWarsAnimalCollection">1</Acklay>
+          <Nexu MayRequire="Guy.StarWarsAnimalCollection">1</Nexu>
         </options>
       </li>
     </pawnGroupMakers>
