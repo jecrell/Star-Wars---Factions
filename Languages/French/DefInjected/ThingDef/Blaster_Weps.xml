@@ -1,79 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Walker Guns -->
-
   <!--[Duplicated] <PJ_ATST_Bullet.label>ATST tir de blaster</PJ_ATST_Bullet.label>-->
-
   <!--[Duplicated] <PJ_ATST_Blaster.label>ATST Main Blaster Cannon</PJ_ATST_Blaster.label>-->
   <!--[Duplicated] <PJ_ATST_Blaster.description>A high powered blaster cannon mounted on the ATST walker.</PJ_ATST_Blaster.description>-->
-
   <PJ_ATAT_Bullet.label>tir laser d'ATST</PJ_ATAT_Bullet.label>
-
   <PJ_ATAT_Blaster.label>Canon laser d'ATAT</PJ_ATAT_Blaster.label>
   <PJ_ATAT_Blaster.description>Un canon haute puissance monté sur le modèle ATAT.</PJ_ATAT_Blaster.description>
-
-
   <!-- Regular Blasters -->
-
   <PJ_BlasterBolt_E11_X.label>tir de blaster E-11</PJ_BlasterBolt_E11_X.label>
-
   <PJ_E11Blaster.label>Fusil Blaster E-11</PJ_E11Blaster.label>
   <PJ_E11Blaster.description>Fabriqué par les industries BlasTech durant la guerre civile, le E-11 est le fusil standard des stormtroopers. Puissant, léger et compact, le E-11 est utilisé en abondance. </PJ_E11Blaster.description>
-
   <PJ_DH17Blaster.label>Blaster DH-17</PJ_DH17Blaster.label>
   <PJ_DH17Blaster.description>Fabriqué par les industries BlasTech, le DH-17 Blaster à été utilisé le plus souvent par les rebelles pour les abordages de vaisseaux, mais aussi par les officiers de l'Empire au lieu du Fusil E-11. </PJ_DH17Blaster.description>
-
   <PJ_Pistol_Bolt.label>tir de blaster</PJ_Pistol_Bolt.label>
-
   <PJ_Scoutblaster.label>Blaster de reco</PJ_Scoutblaster.label>
   <PJ_Scoutblaster.description>Ce petit Blaster, parfoit reconnu comme un blaster de reconnaissance, était l'arme standard des troopers de reconnaissance del'Empire. Les troopers Clone du 41ème Corps d'Elite et les "Ombres Troopers" sont aussi connu pour avoir porté cette armese weapons durant les dernieres bataille de la guerre des clones.</PJ_Scoutblaster.description>
-
   <PJ_SE14blaster.label>Blaster SE14</PJ_SE14blaster.label>
   <PJ_SE14blaster.description>Le SE-14, connu comme le blaster Separatiste durant la Guerre des Clones, est un blaster basique produit par les industries BlasTech.</PJ_SE14blaster.description>
-
   <PJ_HPistol_Bolt.label>tir de blaster</PJ_HPistol_Bolt.label>
-
   <PJ_DL44blaster.label>Blaster DL-44</PJ_DL44blaster.label>
   <PJ_DL44blaster.description>Le DL-44 est un blaster lourd produit par les industries BlasTech utilisé durant les années de la République Galactique et l'age de l'Empire. Il est considéré comme un des plus puissant blaster de la galaxie, redoutable à courte portée; Néanmoins, il surchauffe rapidement.</PJ_DL44blaster.description>
-
   <PJ_DXR_Bolt.label>tir acide</PJ_DXR_Bolt.label>
-
   <PJ_DXR6Carb.label>Carabine blaster DXR-6</PJ_DXR6Carb.label>
   <PJ_DXR6Carb.description>Le DXR-6 est utilisé intensivement à travers la galaxie pour sa polyvalence for it's versatility, sa fiabilité, et son potentiel dévastateur.</PJ_DXR6Carb.description>
-
   <PJ_Jawa_Bolt.label>tir laser ionisé</PJ_Jawa_Bolt.label>
-
   <PJ_JawaIon.label>Fusil à ions Jawa</PJ_JawaIon.label>
   <PJ_JawaIon.description>La prédominence des droides assassins ou de guerre durant la grande guerre des Sith, a causé la création d'armes ioniques avancés pour les combattres. Celui-ci à été créé par des ferrailleurs.</PJ_JawaIon.description>
-
   <PJ_Slug_Bolt.label>balle lourde</PJ_Slug_Bolt.label>
-
   <PJ_NymSlug.label>Lanceur de balle de Nym</PJ_NymSlug.label>
   <PJ_NymSlug.description>Une carabine lance projectile carbine utilisé par le célèbre Gangster Nym et son gang. Il tire de denses cartouches de matières, causant des dommages assommant.</PJ_NymSlug.description>
-
   <Bullet_LauncherP.label>Projectile</Bullet_LauncherP.label>
-
   <PJ_LauncherP.label>Pistolet lanceur</PJ_LauncherP.label>
   <PJ_LauncherP.description>Un dangereux lance projectile compacté pour la tenue en main. Prisé des pirates et des unités commando.</PJ_LauncherP.description>
-
   <PJ_T21_Bolt.label>tir laser lourd</PJ_T21_Bolt.label>
-
   <PJ_T21Rifle.label>Fusil Blaster T-21</PJ_T21Rifle.label>
   <PJ_T21Rifle.description>Le T-21, était un modèle conçu comme un blaster lourd, utilisé par certains corps de Stormtrooper imperiaux. Il délivre des dégats massif à longue portée, néanmoins, avec une faible cadence de tir.</PJ_T21Rifle.description>
-
   <PJ_DC15Rifle.label>Fusil Blaster DC-15A</PJ_DC15Rifle.label>
   <PJ_DC15Rifle.description>Le DC-15A était l'une des armes standard pour les clones troopers. Predecesseur du DLT-19 favorisé par l'Empire.</PJ_DC15Rifle.description>
-
   <PJ_DLT_Bolt.label>tir laser lourd</PJ_DLT_Bolt.label>
-
   <PJ_DLT19Rifle.label>Fusil Blaster Lourd DLT-19</PJ_DLT19Rifle.label>
   <PJ_DLT19Rifle.description>Le DLT-19 était un modèle fabriqué par les industries BlasTech. Ils étaient utilisé par les stormtroopers de l'Empire, tout comme certain troopers lourds de l'Alliance pour rétablir la Republique. Il propose une grande cadence de tir, pourrait être dévastateur à longue portée, et était le plus souvent utilisé pour éliminer les ennemies groupés.</PJ_DLT19Rifle.description>
-
   <PJ_EE3_Bolt.label>tir laser lourd</PJ_EE3_Bolt.label>
-
   <PJ_EE3Carbine.label>Carabine Blaster EE-3</PJ_EE3Carbine.label>
   <PJ_EE3Carbine.description>Le EE-3 Blaster carbine est un des blasters développé par Blastech, et semble être favorisé par les Mandaloriens, parmis d'autres.</PJ_EE3Carbine.description>
-
-
 </LanguageData>

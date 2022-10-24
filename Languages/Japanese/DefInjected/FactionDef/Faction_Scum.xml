@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_Bounty.label>卑劣なクズと極悪人の根城</PJ_Bounty.label>
   <PJ_Bounty.description>賞金稼ぎのハンターや、密輸業者、傭兵、犯罪の群れ、その他の多様な人間のクズ(skum)と悪人達(villainy)の集団です。</PJ_Bounty.description>
   <PJ_Bounty.pawnsPlural>人間のクズ達</PJ_Bounty.pawnsPlural>
   <PJ_Bounty.leaderTitle>ボス</PJ_Bounty.leaderTitle>
-
-
 </LanguageData>

@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_RebelFac.label>Alianza Rebelde</PJ_RebelFac.label>
   <PJ_RebelFac.description>Una suelta alianza de facciones unidas bajo el objetivo de remover al imperio y a su emperador, Palpatine. De la galaxia.</PJ_RebelFac.description>
   <PJ_RebelFac.pawnsPlural>Rebeldes</PJ_RebelFac.pawnsPlural>
   <PJ_RebelFac.leaderTitle>Lider</PJ_RebelFac.leaderTitle>
-
-
 </LanguageData>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_KyberCrystalSlot.Label>Кристалл</PJ_KyberCrystalSlot.Label>
   <PJ_KyberCrystalSlot.Description>Этот слот для кристалла светового меча дает свету свой цвет среди других эффектов.</PJ_KyberCrystalSlot.Description>
-
 </LanguageData>

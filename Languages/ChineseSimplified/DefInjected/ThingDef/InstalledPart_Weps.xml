@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_ATST_Bullet.label>AT-ST爆能束</PJ_ATST_Bullet.label>
-
   <PJ_ATST_Blaster.label>[SW]AT-ST专用爆能炮</PJ_ATST_Blaster.label>
   <PJ_ATST_Blaster.description>用于装配在AT-ST步行机上的高火力爆能激光枪。</PJ_ATST_Blaster.description>
-
   <PJ_ATAT_Bullet.label>AT-AT爆能束</PJ_ATAT_Bullet.label>
-
   <PJ_ATAT_Blaster.label>[SW]AT-AT专用爆能炮</PJ_ATAT_Blaster.label>
   <PJ_ATAT_Blaster.description>用于装配在AT-AT步行机上的高火力爆能激光枪。</PJ_ATAT_Blaster.description>
-
   <PJ_Spd_Bullet.label>陆行艇爆能束</PJ_Spd_Bullet.label>
-
   <PJ_Spd_Blaster.label>[SW]陆行艇专用爆能炮</PJ_Spd_Blaster.label>
   <PJ_Spd_Blaster.description>用于装配在陆行艇上的高火力爆能激光枪。</PJ_Spd_Blaster.description>
-
 </LanguageData>

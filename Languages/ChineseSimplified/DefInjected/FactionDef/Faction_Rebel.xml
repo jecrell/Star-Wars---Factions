@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_RebelFac.label>义军同盟</PJ_RebelFac.label>
   <PJ_RebelFac.description>全称共和国光复同盟，是由贝尔·奥加纳和蒙·莫斯马领导的反抗帝国统治的政治运动。新共和国的前身。
 
 最初只是一些散兵游勇各自为战，诸如社会下层那些装备简陋的自由战士，逃亡的绝地武士，不满帝国独裁的原共和国官员等等。随着帝国对各族压榨的日益繁重以及不断残酷镇压异人种族的行为，越来越多的人都开始转投义军同盟。
 </PJ_RebelFac.description>
-
   <PJ_RebelFac.pawnsPlural>义军士兵</PJ_RebelFac.pawnsPlural>
   <PJ_RebelFac.leaderTitle>义军首领</PJ_RebelFac.leaderTitle>
-
 </LanguageData>

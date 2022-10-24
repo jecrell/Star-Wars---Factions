@@ -1,12 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Speeder -->
-
   <SWFactions_SpeederKindImp.label>巡逻陆行艇（帝国）</SWFactions_SpeederKindImp.label>
   <SWFactions_SpeederKindImp.labelPlural>帝国巡逻陆行艇</SWFactions_SpeederKindImp.labelPlural>
-
   <SWFactions_SpeederKindReb.label>巡逻陆行艇（义军）</SWFactions_SpeederKindReb.label>
   <SWFactions_SpeederKindReb.labelPlural>义军巡逻陆行艇</SWFactions_SpeederKindReb.labelPlural>
-
 </LanguageData>

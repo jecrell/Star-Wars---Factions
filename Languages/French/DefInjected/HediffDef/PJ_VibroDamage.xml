@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_VibroSonic.label>sonique</PJ_VibroSonic.label>
   <PJ_VibroSonic.comps.0.labelTendedWell>bandé</PJ_VibroSonic.comps.0.labelTendedWell>
   <PJ_VibroSonic.comps.0.labelTendedWellInner>suturé</PJ_VibroSonic.comps.0.labelTendedWellInner>
@@ -8,7 +7,6 @@
   <PJ_VibroSonic.comps.2.permanentLabel>cicatrice sonique</PJ_VibroSonic.comps.2.permanentLabel>
   <PJ_VibroSonic.injuryProps.destroyedLabel>Coupé</PJ_VibroSonic.injuryProps.destroyedLabel>
   <PJ_VibroSonic.injuryProps.destroyedOutLabel>Tranché</PJ_VibroSonic.injuryProps.destroyedOutLabel>
-
   <PJ_BBurn.label>Brûlure de laser</PJ_BBurn.label>
   <PJ_BBurn.comps.0.labelTendedWell>bandé</PJ_BBurn.comps.0.labelTendedWell>
   <PJ_BBurn.comps.0.labelTendedWellInner>suturé</PJ_BBurn.comps.0.labelTendedWellInner>
@@ -16,7 +14,6 @@
   <PJ_BBurn.comps.2.permanentLabel>cicatrice de laser</PJ_BBurn.comps.2.permanentLabel>
   <PJ_BBurn.injuryProps.destroyedLabel>Explosé</PJ_BBurn.injuryProps.destroyedLabel>
   <PJ_BBurn.injuryProps.destroyedOutLabel>désintégré</PJ_BBurn.injuryProps.destroyedOutLabel>
-
   <PJ_AcBurn.label>Brûlure à l'acide</PJ_AcBurn.label>
   <PJ_AcBurn.comps.0.labelTendedWell>neutralisé</PJ_AcBurn.comps.0.labelTendedWell>
   <PJ_AcBurn.comps.0.labelTendedWellInner>traité</PJ_AcBurn.comps.0.labelTendedWellInner>
@@ -24,6 +21,4 @@
   <PJ_AcBurn.comps.2.permanentLabel>cicatrice d'acide</PJ_AcBurn.comps.2.permanentLabel>
   <PJ_AcBurn.injuryProps.destroyedLabel>Fondu</PJ_AcBurn.injuryProps.destroyedLabel>
   <PJ_AcBurn.injuryProps.destroyedOutLabel>Fondu</PJ_AcBurn.injuryProps.destroyedOutLabel>
-
-
 </LanguageData>

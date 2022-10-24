@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <SWFactions_Thermometer.label>thermometer</SWFactions_Thermometer.label>
   <SWFactions_Cockpit.label>驾驶舱</SWFactions_Cockpit.label>
   <ATST_Neck.label>颈部</ATST_Neck.label>
   <ATST_Head.label>头部</ATST_Head.label>
   <ATST_Frame.label>机身框架</ATST_Frame.label>
-
-
   <!-- ATAT Parts -->
-
   <ATAT_Neck.label>颈部</ATAT_Neck.label>
   <ATAT_Head.label>头部</ATAT_Head.label>
   <ATAT_Frame.label>机身框架</ATAT_Frame.label>
@@ -21,8 +17,5 @@
   <RightATATFFoot.label>右足钢爪</RightATATFFoot.label>
   <RightATATRLeg.label>右支撑腿</RightATATRLeg.label>
   <RightATATRFoot.label>右足钢爪</RightATATRFoot.label>
-
-
   <!--<SWFactions_Thermometer.label>温控仪</SWFactions_Thermometer.label>-->
-
 </LanguageData>

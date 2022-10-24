@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Class="CompSlotLoadable.SlotLoadableDef">
+    <defName>PJ_VibroMotorSlot</defName>
+    <thingClass>CompSlotLoadable.SlotLoadable</thingClass>
+    <label>Vibro Motor</label>
+    <description>A compact ultrasonic vibration generator slot.</description>
+    <slottableThingDefs>
+      <li>PJ_VibroMotorNorm</li>
+      <li>PJ_SonicCell</li>
+      <li>PJ_CryoCell</li>
+      <li>PJ_SpecOpsCell</li>
+      <li>PJ_XXCell</li>
+    </slottableThingDefs>
+    <doesChangeColor>false</doesChangeColor>
+    <doesChangeStats>true</doesChangeStats>
+  </ThingDef>
+</Defs>

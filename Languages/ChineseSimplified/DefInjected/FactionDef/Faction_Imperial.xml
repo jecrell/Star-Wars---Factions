@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_GalacticEmpire.label>银河帝国</PJ_GalacticEmpire.label>
   <PJ_GalacticEmpire.description>银河帝国，也称为第一银河帝国或新秩序，通常被称为帝国或秩序，施行君主立宪制和反人类管制，在克隆人战争之后迅速取代了日暮西山的银河共和国。</PJ_GalacticEmpire.description>
   <PJ_GalacticEmpire.fixedName>银河帝国</PJ_GalacticEmpire.fixedName>
   <PJ_GalacticEmpire.pawnsPlural>帝国士兵</PJ_GalacticEmpire.pawnsPlural>
   <PJ_GalacticEmpire.leaderTitle>星际总督</PJ_GalacticEmpire.leaderTitle>
-
 </LanguageData>

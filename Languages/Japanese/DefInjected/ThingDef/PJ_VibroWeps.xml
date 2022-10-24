@@ -1,64 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_BulletDeflected.label>反射した弾</PJ_BulletDeflected.label>
-
-
   <!-- Vibroaxe -->
-
   <PJ_Vibroaxe.label>バイブロ＝アックス(試作品)</PJ_Vibroaxe.label>
   <PJ_Vibroaxe.description>小型振動発生装置を装備したコートシス製ウェーブポールアーム。</PJ_Vibroaxe.description>
   <PJ_Vibroaxe.tools.0.label>柄</PJ_Vibroaxe.tools.0.label>
   <PJ_Vibroaxe.tools.1.label>切っ先</PJ_Vibroaxe.tools.1.label>
   <PJ_Vibroaxe.tools.2.label>刃</PJ_Vibroaxe.tools.2.label>
-
-
   <!-- Vibrosword -->
-
   <PJ_Vibrosword.label>バイブロ＝ソード(エチャニ)</PJ_Vibrosword.label>
   <PJ_Vibrosword.description>エチャニが使う小型振動発生装置を装備したコートシス製ウェーブソード。</PJ_Vibrosword.description>
   <PJ_Vibrosword.tools.0.label>柄</PJ_Vibrosword.tools.0.label>
   <PJ_Vibrosword.tools.1.label>切っ先</PJ_Vibrosword.tools.1.label>
   <PJ_Vibrosword.tools.2.label>刃</PJ_Vibrosword.tools.2.label>
-
-
   <!-- Vibro Cleaver -->
-
   <PJ_Vibrocleaver.label>バイブロ＝クリーバー(マンドア)</PJ_Vibrocleaver.label>
   <PJ_Vibrocleaver.description>マンダロリアンが使った小型振動発生装置を装備したコートシス製ウェーブクリーバー。</PJ_Vibrocleaver.description>
   <PJ_Vibrocleaver.tools.0.label>柄</PJ_Vibrocleaver.tools.0.label>
   <PJ_Vibrocleaver.tools.1.label>切っ先</PJ_Vibrocleaver.tools.1.label>
   <PJ_Vibrocleaver.tools.2.label>刃</PJ_Vibrocleaver.tools.2.label>
-
   <PJ_VScythe.label>バイブロ＝サイス</PJ_VScythe.label>
   <PJ_VScythe.description>現代風な小型振動発生装置を装備した大鎌タイプのコートシス製ウェーブサイス。</PJ_VScythe.description>
   <PJ_VScythe.tools.0.label>柄</PJ_VScythe.tools.0.label>
   <PJ_VScythe.tools.1.label>切っ先</PJ_VScythe.tools.1.label>
   <PJ_VScythe.tools.2.label>刃</PJ_VScythe.tools.2.label>
-
-
   <!-- Vibro DoubleSword -->
-
   <PJ_Vibrodouble.label>バイブロ＝ダブルブレード</PJ_Vibrodouble.label>
   <PJ_Vibrodouble.description>古代の小型振動発生装置を装備したコートシス製ウェーブダブルブレード武器。</PJ_Vibrodouble.description>
   <PJ_Vibrodouble.tools.0.label>柄</PJ_Vibrodouble.tools.0.label>
   <PJ_Vibrodouble.tools.1.label>二枚目の刃</PJ_Vibrodouble.tools.1.label>
   <PJ_Vibrodouble.tools.2.label>刃</PJ_Vibrodouble.tools.2.label>
-
-
   <!-- Xen's staff -->
-
   <PJ_StaffX.label>バイブロ＝スタッフ(試作品)</PJ_StaffX.label>
   <PJ_StaffX.description>小型振動発生装置を装備したコートシス製ウェーブポールアーム。</PJ_StaffX.description>
   <PJ_StaffX.tools.0.label>柄</PJ_StaffX.tools.0.label>
   <PJ_StaffX.tools.1.label>切っ先</PJ_StaffX.tools.1.label>
   <PJ_StaffX.tools.2.label>刃</PJ_StaffX.tools.2.label>
-
   <PJ_TStaff.label>バイブロ＝スタッフ(タスケン)</PJ_TStaff.label>
   <PJ_TStaff.description>タスケン=レイダーは惑星タトゥイーンに住む原始的な知覚種族。小型振動発生装置を装備したコートシス製ウェーブポールアーム。</PJ_TStaff.description>
   <PJ_TStaff.tools.0.label>柄</PJ_TStaff.tools.0.label>
   <PJ_TStaff.tools.1.label>切っ先</PJ_TStaff.tools.1.label>
   <PJ_TStaff.tools.2.label>刃</PJ_TStaff.tools.2.label>
-
-
 </LanguageData>

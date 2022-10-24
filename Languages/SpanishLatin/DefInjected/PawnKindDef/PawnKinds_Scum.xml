@@ -1,33 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_ScumSoldier.label>Soldado</PJ_ScumSoldier.label>
   <PJ_ScumSoldier.labelPlural>Soldados</PJ_ScumSoldier.labelPlural>
   <PJ_ScumSoldier.labelMale>Soldado hombre</PJ_ScumSoldier.labelMale>
   <PJ_ScumSoldier.labelMalePlural>Soldados hombre</PJ_ScumSoldier.labelMalePlural>
   <PJ_ScumSoldier.labelFemale>mujer Soldado</PJ_ScumSoldier.labelFemale>
   <PJ_ScumSoldier.labelFemalePlural>Soldados mujeres</PJ_ScumSoldier.labelFemalePlural>
-
   <PJ_Ruffian.label>Rufián</PJ_Ruffian.label>
   <PJ_Ruffian.labelPlural>Rufiánes</PJ_Ruffian.labelPlural>
   <PJ_Ruffian.labelMale>hombre Rufián</PJ_Ruffian.labelMale>
   <PJ_Ruffian.labelMalePlural>Rufiánes hombres</PJ_Ruffian.labelMalePlural>
   <PJ_Ruffian.labelFemale>mujer Rufián</PJ_Ruffian.labelFemale>
   <PJ_Ruffian.labelFemalePlural>Rufiánes mujeres</PJ_Ruffian.labelFemalePlural>
-
   <PJ_ScumBoss.label>Jefe</PJ_ScumBoss.label>
   <PJ_ScumBoss.labelPlural>Jefes</PJ_ScumBoss.labelPlural>
   <PJ_ScumBoss.labelMale>hombre Jefe</PJ_ScumBoss.labelMale>
   <PJ_ScumBoss.labelMalePlural>Jefes hombres</PJ_ScumBoss.labelMalePlural>
   <PJ_ScumBoss.labelFemale>mujer Jefa</PJ_ScumBoss.labelFemale>
   <PJ_ScumBoss.labelFemalePlural>Jefas mujeres</PJ_ScumBoss.labelFemalePlural>
-
   <PJ_BountyHunter.label>Cazarrecompensas</PJ_BountyHunter.label>
   <PJ_BountyHunter.labelPlural>Cazarrecompensas</PJ_BountyHunter.labelPlural>
   <PJ_BountyHunter.labelMale>hombre Cazarrecompensas</PJ_BountyHunter.labelMale>
   <PJ_BountyHunter.labelMalePlural>hombres Cazarrecompensas</PJ_BountyHunter.labelMalePlural>
   <PJ_BountyHunter.labelFemale>mujer Cazarrecompensas</PJ_BountyHunter.labelFemale>
   <PJ_BountyHunter.labelFemalePlural>mujeres Cazarrecompensas</PJ_BountyHunter.labelFemalePlural>
-
-
 </LanguageData>

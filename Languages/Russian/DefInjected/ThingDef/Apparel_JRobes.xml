@@ -1,11 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_JFac_Robe.Label>Обычное одеяние джедая</PJ_JFac_Robe.Label>
   <PJ_JFac_Robe.Description>Одеяние джедаев</PJ_JFac_Robe.Description>
-
   <PJ_SithFac_Robe.Label>Обычное одеяние ситхов</PJ_SithFac_Robe.Label>
   <PJ_SithFac_Robe.Description>Версия темной стороны одеяния джедаев</PJ_SithFac_Robe.Description>
-
 </LanguageData>

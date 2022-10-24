@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBills_PJ_Bench</defName>
+    <label>Manufacture advanced polyalloy weapons and armor</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>131</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Table_PJ_Bench</li>
+    </fixedBillGiverDefs>
+    <verb>assemble</verb>
+    <gerund>assembling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

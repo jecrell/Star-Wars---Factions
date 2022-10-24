@@ -1,29 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_ImpUniform.label>Uniforme Imperial</PJ_ImpUniform.label>
   <PJ_ImpUniform.description>Uniforme utilizado por las fuerzas marciales del Imperio Galactico.</PJ_ImpUniform.description>
-
   <PJ_ImpUniformBlack.label>Uniforme de la Marina Imperial</PJ_ImpUniformBlack.label>
   <PJ_ImpUniformBlack.description>Uniforme utilizado por las fuerzas marciales del Imperio Galactico. Esta version es usualmente vestida por oficiales de mando medio, asignados a naves capitoles o estaciones.</PJ_ImpUniformBlack.description>
-
   <PJ_ImpUniformBlackSHELL.label>Uniforme de la Marina Imperial(Exterior)</PJ_ImpUniformBlackSHELL.label>
   <PJ_ImpUniformBlackSHELL.description>Uniforme utilizado por las fuerzas marciales del Imperio Galactico. Esta version es usualmente vestida por oficiales de mando medio, asignados a naves capitoles o estaciones.</PJ_ImpUniformBlackSHELL.description>
-
   <PJ_TroopArmor.label>Armadura de Stormtrooper</PJ_TroopArmor.label>
   <PJ_TroopArmor.description>La armadura de Stormtrooper es la que visten los Stormtrooper estandar del Imperio. Un compuesto plastoide blacno vestido por encima de un guante corporal negro, esta armadura representaba a algunos de los mejores soldados Imperiales, y es temida por los luchadores rebeldes de la Alianza. </PJ_TroopArmor.description>
-
   <PJ_STHelm.label>Casco de Stormtrooper</PJ_STHelm.label>
   <PJ_STHelm.description>Un casco de Stormtrooper estandar.</PJ_STHelm.description>
-
   <PJ_SCTHelm.label>Casco de trooper de reconocimiento</PJ_SCTHelm.label>
   <PJ_SCTHelm.description>Un casco de stormtrooper especializado en misiones de reconocimiento.</PJ_SCTHelm.description>
-
   <PJ_ImpHat.label>Gorro de Comando Imperial</PJ_ImpHat.label>
   <PJ_ImpHat.description>El gorro de comando estido por oficiales de las fuerzas Imperiales.</PJ_ImpHat.description>
-
   <PJ_ImpHatB.label>Gorro de Comando Imperial(Negro</PJ_ImpHatB.label>
   <PJ_ImpHatB.description>El gorro de comando estido por oficiales de las fuerzas Imperiales... Pero en negro.</PJ_ImpHatB.description>
-
-
 </LanguageData>

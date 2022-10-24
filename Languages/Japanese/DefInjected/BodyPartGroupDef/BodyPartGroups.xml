@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PilotSeat.label>操縦席</PilotSeat.label>
   <GunnerSeat.label>銃座</GunnerSeat.label>
   <PassengerSeat.label>客席</PassengerSeat.label>
-
-
 </LanguageData>

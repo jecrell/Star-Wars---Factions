@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_ImperialCredit.Label>Имперские кредиты</PJ_ImperialCredit.Label>
   <PJ_ImperialCredit.Description>Основная валюта, используемая в галактике со времен Галактической Республики.</PJ_ImperialCredit.Description>
-
 </LanguageData>

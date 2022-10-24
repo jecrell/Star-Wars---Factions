@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Engines_intake.label>吸気口</Engines_intake.label>
   <Speeder_Frontend.label>先端部</Speeder_Frontend.label>
   <Speeder_Frame.label>フレーム</Speeder_Frame.label>
@@ -8,6 +7,4 @@
   <RightLev.label>右リパルサーリフト</RightLev.label>
   <LeftSpeederEng.label>左エンジン</LeftSpeederEng.label>
   <LeftLev.label>左リパルサーリフト</LeftLev.label>
-
-
 </LanguageData>

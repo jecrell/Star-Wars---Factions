@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StatDef>
+    <defName>PJ_HeatDamageMultiplier</defName>
+    <label>heat damage</label>
+    <description>Multiplier on damage with heat-based attacks like lightsabers for items made of this material.</description>
+    <category>StuffStatFactors</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.05</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+  </StatDef>
+  <DamageArmorCategoryDef>
+    <defName>PJ_Lightsaber_Heat</defName>
+    <multStat>PJ_HeatDamageMultiplier</multStat>
+    <armorRatingStat>ArmorRating_Heat</armorRatingStat>
+  </DamageArmorCategoryDef>
+</Defs>

@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_GalacticEmpire.label>l'Empire Galactique</PJ_GalacticEmpire.label>
   <PJ_GalacticEmpire.description>L'Empire, aussi connu comme le premier Empire Galactique ou le Nouvel Ordre, est un gouvernement fasciste qui a remplacé la République galactique après le conflit connu sous le nom de la guerre des clones.</PJ_GalacticEmpire.description>
   <PJ_GalacticEmpire.pawnsPlural>Soldats Imperiaux</PJ_GalacticEmpire.pawnsPlural>
   <PJ_GalacticEmpire.leaderTitle>Moff</PJ_GalacticEmpire.leaderTitle>
   <PJ_GalacticEmpire.fixedName>L'Empire Galactique</PJ_GalacticEmpire.fixedName>
-
-
 </LanguageData>

@@ -1,66 +1,43 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ================ Synthetic Kyber Crystals ================ -->
-
   <PJ_KyberCrystal.Label>Цвет кристалла (зелёный)</PJ_KyberCrystal.Label>
   <PJ_KyberCrystal.Description>Основной цвет фокусирующего кристалла для светового меча.</PJ_KyberCrystal.Description>
-
   <PJ_KyberCrystalYellow.Label>Цвет кристалла (жёлтый)</PJ_KyberCrystalYellow.Label>
   <PJ_KyberCrystalYellow.Description>Основной цвет фокусирующего кристалла для светового меча.</PJ_KyberCrystalYellow.Description>
-
   <PJ_KyberCrystalBlue.Label>Цвет кристалла (синий)</PJ_KyberCrystalBlue.Label>
   <PJ_KyberCrystalBlue.Description>Основной цвет фокусирующего кристалла для светового меча.</PJ_KyberCrystalBlue.Description>
-
   <PJ_KyberCrystalCyan.Label>Цвет кристалла (голубой)</PJ_KyberCrystalCyan.Label>
   <PJ_KyberCrystalCyan.Description>Основной цвет фокусирующего кристалла для светового меча.</PJ_KyberCrystalCyan.Description>
-
   <PJ_KyberCrystalAzure.Label>Цвет кристалла (лазурный)</PJ_KyberCrystalAzure.Label>
   <PJ_KyberCrystalAzure.Description>Основной цвет фокусирующего кристалла для светового меча.</PJ_KyberCrystalAzure.Description>
-
   <PJ_KyberCrystalPurple.Label>Цвет кристалла (пурпурный)</PJ_KyberCrystalPurple.Label>
   <PJ_KyberCrystalPurple.Description>Основной цвет фокусирующего кристалла для светового меча.</PJ_KyberCrystalPurple.Description>
-
   <PJ_KyberCrystalRed.Label>Синтетический кристалл (красный)</PJ_KyberCrystalRed.Label>
   <PJ_KyberCrystalRed.Description>Этот синтезированный кристалл был усилен еще больше, придав ему несколько более мощное лезвие и это красноватый оттенок. Синтетические кристаллы, подобные этому, часто предпочитают ситхи.</PJ_KyberCrystalRed.Description>
-
   <!-- ====== Stat Bonus Crystals ====== -->
-
   <PJ_AdeganCrystal.Label>Кристалл адеган (зелёный)</PJ_AdeganCrystal.Label>
   <PJ_AdeganCrystal.Description>Редкий силовой реактивный кристалл, который, как говорят, создает один из лучших кристаллов для фокусировки светового меча.</PJ_AdeganCrystal.Description>
-
   <PJ_DragiteCrystal.Label>Кристалл драгит (фиолетовый)</PJ_DragiteCrystal.Label>
   <PJ_DragiteCrystal.Description>Кристалл, часто собираемый для использования в качестве источника энергии, если используется в качестве фокусировки светового меча, луч резонирует, вызывая звуковой ущерб.</PJ_DragiteCrystal.Description>
-
   <PJ_HurCrystal.Label>Кристалл хуррикэйн (тёмно-фиолетовый)</PJ_HurCrystal.Label>
   <PJ_HurCrystal.Description>Глубокий фиолетовый кристалл индиго, почитаемый тем, что это непревзойденная красота. Он делает исключительную фокусировку светового меча, пробивая оборону противника.</PJ_HurCrystal.Description>
-
   <PJ_EralamCrystal.Label>Кристалл ералам (серебряный)</PJ_EralamCrystal.Label>
   <PJ_EralamCrystal.Description>Редкий кристалл, завидный за его ясность и чистоту. Он производит блестящий серебряный луч большой мощности.</PJ_EralamCrystal.Description>
-
   <PJ_RubatCrystal.Label>Кристалл рубат (бронзовый)</PJ_RubatCrystal.Label>
   <PJ_RubatCrystal.Description>Кристаллы рубата часто используются при создании световых мечей, когда их можно найти. Они производят более четкое лезвие, которое ускоряет поражающую способность.</PJ_RubatCrystal.Description>
-
   <PJ_FirkrannCrystal.Label>Кристалл Фиркранн (серебряный)</PJ_FirkrannCrystal.Label>
   <PJ_FirkrannCrystal.Description>Фиркранн - тяжелые кристаллы со странными пьезоэлектрическими свойствами. Этот уникальный кристалл превращает часть энергии плазмы меча в электрический заряд. Этот эффект может нанести разрушительный ущерб, особенно механоидам.</PJ_FirkrannCrystal.Description>
-
   <PJ_PontiteCrystal.Label>Кристалл понтит (ледяной синий)</PJ_PontiteCrystal.Label>
   <PJ_PontiteCrystal.Description>Кристаллы понтита наделяют их клинок эндотермическим эффектом, поглощая тепло и давая образующемуся лезвию холодный урон.</PJ_PontiteCrystal.Description>
-
   <PJ_BarabIngot.Label>Кристалл бараб (оранжевый)</PJ_BarabIngot.Label>
   <PJ_BarabIngot.Description>Постоянная инфузия излучения поверхности Бараба I в эти кристаллические «слитки» заставляет сфокусированный световой меч слитка Бараба производить лезвие, которое горит подобно огню, даже заставляя лезвие цели загореться.</PJ_BarabIngot.Description>
-
   <PJ_AnkSapphire.Label>Сапфир Анкарреса (тёмно-синий)</PJ_AnkSapphire.Label>
   <PJ_AnkSapphire.Description>Сапфиры Анкаррес обладают легендарными целебными свойствами. Этот режим настроен на создание мощного синего лезвия светового меча при использовании силы.</PJ_AnkSapphire.Description>
-
   <PJ_UltimaPearl.Label>Предельная жемчужина (бледный)</PJ_UltimaPearl.Label>
   <PJ_UltimaPearl.Description>Необычный жемчуг, собранный из глубокого океанского мира, требует значительного мастерства, чтобы подготовить их к использованию в качестве фокуса светового меча, но результаты неоспоримы.</PJ_UltimaPearl.Description>
-
   <PJ_BlackPearl.Label>Жемчужина Крайт Дракона (чёрный)</PJ_BlackPearl.Label>
   <PJ_BlackPearl.Description>Из преджелудка больших крайтских драконов собирали жемчужины крайта. Не малый подвиг, подготовить их к использованию в качестве фокусировки светового меча для этого требуется еще больше навыков.\nПолученный клинок чудовищно мощный.</PJ_BlackPearl.Description>
-
   <PJ_KaiburrCrystal.Label>Кристалл Кайбурра (красно-оранжевый)</PJ_KaiburrCrystal.Label>
   <PJ_KaiburrCrystal.Description>Легендарный кристалл Кайбурра, из которого кайбер берет свое имя. Один из самых мощных кристаллов, который можно использовать для фокусировки светового меча.</PJ_KaiburrCrystal.Description>
-
 </LanguageData>

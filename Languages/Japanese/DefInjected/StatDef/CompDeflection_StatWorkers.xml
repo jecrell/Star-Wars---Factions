@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MeleeWeapon_DeflectionChance.label>反らし率</MeleeWeapon_DeflectionChance.label>
   <MeleeWeapon_DeflectionChance.description>近接武器で射撃武器の攻撃を反らす事が出来る確率。</MeleeWeapon_DeflectionChance.description>
-
-
 </LanguageData>

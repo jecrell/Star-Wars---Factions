@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Speeder -->
-
   <SWFactions_SpeederThing.label>陆行艇</SWFactions_SpeederThing.label>
   <SWFactions_SpeederThing.description>为行星巡逻而重新设计，加强了装甲的陆行艇。主体加装了一门轻型速射激光炮，由搭载的炮手操作柯以攻击角度范围180度之内的任何物体。</SWFactions_SpeederThing.description>
   <SWFactions_SpeederThing.comps.1.roles.0.label>驾驶员</SWFactions_SpeederThing.comps.1.roles.0.label>
@@ -14,5 +12,4 @@
   <!-- Flesh Type: Mechanoid -->
   <SWFactions_SpeederThing_Corpse.label>陆行艇残骸</SWFactions_SpeederThing_Corpse.label>
   <SWFactions_SpeederThing_Corpse.description>陆行艇的残骸。</SWFactions_SpeederThing_Corpse.description>
-
 </LanguageData>

@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ATST -->
-
   <SWFactions_WalkerThing.label>AT-ST</SWFactions_WalkerThing.label>
   <SWFactions_WalkerThing.description>Вездеходный разведывательный транспорт (AT-ST), также известный (насмешливо), как цыпленок из-за его двухногой конструкции, был двуногим шагоходом, используемым Галактической Республикой во время поздних Войнов клонов, а позже и более широко Галактическая империя во время Гражданской Галактической войны. Это преемник AT-XT.</SWFactions_WalkerThing.description>
   <SWFactions_WalkerThing.comps.1.roles.0.label>Пилот</SWFactions_WalkerThing.comps.1.roles.0.label>
@@ -11,15 +9,10 @@
   <SWFactions_WalkerThing.comps.1.roles.1.labelPlural>Канониры</SWFactions_WalkerThing.comps.1.roles.1.labelPlural>
   <SWFactions_WalkerThing.comps.1.roles.2.label>Пассажир</SWFactions_WalkerThing.comps.1.roles.2.label>
   <SWFactions_WalkerThing.comps.1.roles.2.labelPlural>Пассажиры</SWFactions_WalkerThing.comps.1.roles.2.labelPlural>
-
   <!-- Flesh Type: Mechanoid -->
-
   <SWFactions_WalkerThing_Corpse.label>Мертвый AT-ST</SWFactions_WalkerThing_Corpse.label>
   <SWFactions_WalkerThing_Corpse.description>Останки AT-ST</SWFactions_WalkerThing_Corpse.description>
-
-
   <!-- ATAT -->
-
   <SWFactions_ATATThing.label>AT-AT</SWFactions_ATATThing.label>
   <SWFactions_ATATThing.description>Вездеходный бронированный транспорт (AT-AT) - четырехногий боевой шагоход, используемый наземными силами Галактической Империи. С Звездным Разрушителем Имперского класса и звездным истребителем космического превосходства TIE, является одним из самых известных символов военной мощи Империи. </SWFactions_ATATThing.description>
   <SWFactions_ATATThing.comps.1.roles.0.label>Пилот</SWFactions_ATATThing.comps.1.roles.0.label>
@@ -28,10 +21,7 @@
   <SWFactions_ATATThing.comps.1.roles.1.labelPlural>Канониры</SWFactions_ATATThing.comps.1.roles.1.labelPlural>
   <SWFactions_ATATThing.comps.1.roles.2.label>Пассажир</SWFactions_ATATThing.comps.1.roles.2.label>
   <SWFactions_ATATThing.comps.1.roles.2.labelPlural>passagers</SWFactions_ATATThing.comps.1.roles.2.labelPlural>
-
   <!-- Flesh Type: Mechanoid -->
-
   <SWFactions_ATATThing_Corpse.label>Мертвый AT-AT</SWFactions_ATATThing_Corpse.label>
   <SWFactions_ATATThing_Corpse.description>Останки AT-AT</SWFactions_ATATThing_Corpse.description>
-
 </LanguageData>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>PJ_GalacticEmpire</defName>
+    <label>The Galactic Empire</label>
+    <description>The Galactic Empire, also known as the First Galactic Empire or the New Order—and commonly referred to as the Empire or the Order—was the galactic, constitutional monarchy and fascist government that replaced the Galactic Republic in the aftermath of the Clone Wars.</description>
+    <pawnSingular>imperial soldier</pawnSingular>
+    <pawnsPlural>imperial soldiers</pawnsPlural>
+    <categoryTag>StarWarsEmpire</categoryTag>
+    <listOrderPriority>66</listOrderPriority>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Moff</leaderTitle>
+    <factionIconPath>World/EmpLogo</factionIconPath>
+    <settlementNameMaker>NamerImpBase</settlementNameMaker>
+    <fixedName>The Galactic Empire</fixedName>
+    <earliestRaidDays>35</earliestRaidDays>
+    <autoFlee>false</autoFlee>
+    <permanentEnemy>false</permanentEnemy>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.90</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+        <commonality>0.10</commonality>
+      </li>
+    </backstoryFilters>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+    </requiredMemes>
+    <allowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+    </allowedMemes>
+    <caravanTraderKinds>
+      <li>PJ_ImpTrader_BulkGoods</li>
+      <li>PJ_ImpTrader_CombatSupplier</li>
+      <li>PJ_ImpTrader_Slaver</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>PJ_ImpTrader_Visitor</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>PJ_ImpTrader_Base</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-75</min>
+      <max>60</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_ImpInspector>1</PJ_ImpInspector>
+          <PJ_ImpTaxOfficer>1</PJ_ImpTaxOfficer>
+          <PJ_ImpSoldier>250</PJ_ImpSoldier>
+          <PJ_ImpCommander>250</PJ_ImpCommander>
+          <PJ_Stormtrooper>250</PJ_Stormtrooper>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PJ_ImpInspector>200</PJ_ImpInspector>
+          <PJ_ImpTaxOfficer>200</PJ_ImpTaxOfficer>
+          <PJ_ScoutTrooper>250</PJ_ScoutTrooper>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <PJ_ImpTrader>1</PJ_ImpTrader>
+        </traders>
+        <carriers>
+          <Dewback MayRequire="Guy.StarWarsAnimalCollection">100</Dewback>
+          <Muffalo>2</Muffalo>
+          <Dromedary>2</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <PJ_ScoutTrooper>60</PJ_ScoutTrooper>
+          <PJ_ImpSoldier>70</PJ_ImpSoldier>
+          <PJ_Stormtrooper>80</PJ_Stormtrooper>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <PJ_ImpSoldier>250</PJ_ImpSoldier>
+          <PJ_ImpCommander>250</PJ_ImpCommander>
+          <PJ_Stormtrooper>350</PJ_Stormtrooper>
+          <PJ_ScoutTrooper>280</PJ_ScoutTrooper>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>

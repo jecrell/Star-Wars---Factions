@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MeleeWeapon_DeflectionChance.label>Chance de deflectar</MeleeWeapon_DeflectionChance.label>
   <MeleeWeapon_DeflectionChance.description>Chance de deflectar proyectiles a larga distancia con arma de melé.</MeleeWeapon_DeflectionChance.description>
-
-
 </LanguageData>

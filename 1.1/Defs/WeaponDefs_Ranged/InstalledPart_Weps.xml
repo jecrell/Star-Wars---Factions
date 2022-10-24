@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Abstract="True" Name="PJ_Veh_BaseWeapon">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>true</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <equipmentType>Primary</equipmentType>
+    <useHitPoints>true</useHitPoints>
+    <pathCost>10</pathCost>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Beauty>-6</Beauty>
+      <SellPriceFactor>0.20</SellPriceFactor>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+  </ThingDef>
+  <ThingDef Name="PJ_Veh_GunBase" Abstract="True" ParentName="PJ_Veh_BaseWeapon">
+    <techLevel>Spacer</techLevel>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Name="PJ_Veh_GunBaseMakeS" ParentName="PJ_Veh_GunBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>Table_PJ_Bench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <comps>
+      <li Class="CompInstalledPart.CompProperties_InstalledPart">
+        <allowedToInstallOn>
+          <li>SWFactions_SpeederThing</li>
+        </allowedToInstallOn>
+        <installedWeaponGraphic>
+          <texPath>VehicleWeps/TurretSpd_Top</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>TransparentPostLight</shaderType>
+        </installedWeaponGraphic>
+        <workToInstall>500</workToInstall>
+        <workToUninstall>500</workToUninstall>
+        <workEffect>Repair</workEffect>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Name="PJ_Veh_GunBaseMakeH" ParentName="PJ_Veh_GunBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>Table_PJ_Bench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <comps>
+      <li Class="CompInstalledPart.CompProperties_InstalledPart">
+        <allowedToInstallOn>
+          <li>SWFactions_WalkerThing</li>
+          <li>SWFactions_ATATThing</li>
+        </allowedToInstallOn>
+        <installedWeaponGraphic>
+          <texPath>BlankTex</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>TransparentPostLight</shaderType>
+        </installedWeaponGraphic>
+        <workToInstall>500</workToInstall>
+        <workToUninstall>500</workToUninstall>
+        <workEffect>Repair</workEffect>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_ATST_Bullet</defName>
+    <label>ATST Blaster bolt</label>
+    <graphicData>
+      <texPath>Projectile/BlasterboltBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>False</flyOverhead>
+      <damageDef>PJ_BlasterDam</damageDef>
+      <damageAmountBase>46</damageAmountBase>
+      <speed>105</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="PJ_Veh_GunBaseMakeH">
+    <defName>PJ_ATST_Blaster</defName>
+    <label>ATST Main Blaster Cannon</label>
+    <description>A high powered blaster cannon mounted on the ATST walker.</description>
+    <graphicData>
+      <texPath>VehicleWeps/ATSTBl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <Mass>6.85</Mass>
+      <MarketValue>3200</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PJ_ATST_Bullet</defaultProjectile>
+        <warmupTime>1.03</warmupTime>
+        <range>27</range>
+        <soundCast>PJ_ATST_Gun</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PJ_ATST_Weapon</li>
+    </weaponTags>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_ATAT_Bullet</defName>
+    <label>ATST Blaster bolt</label>
+    <graphicData>
+      <texPath>Projectile/BlasterboltBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>False</flyOverhead>
+      <damageDef>PJ_BlasterDam</damageDef>
+      <damageAmountBase>86</damageAmountBase>
+      <speed>105</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="PJ_Veh_GunBaseMakeH">
+    <defName>PJ_ATAT_Blaster</defName>
+    <label>ATAT Main Blaster Cannon</label>
+    <description>A high powered blaster cannon mounted on the ATAT walker.</description>
+    <graphicData>
+      <texPath>VehicleWeps/ATATBl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <Mass>6.85</Mass>
+      <MarketValue>3200</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>230</Steel>
+      <Plasteel>65</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PJ_ATST_Bullet</defaultProjectile>
+        <warmupTime>1.03</warmupTime>
+        <range>27</range>
+        <soundCast>PJ_ATST_Gun</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>42</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PJ_ATAT_Weapon</li>
+    </weaponTags>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PJ_Spd_Bullet</defName>
+    <label>Speeder Blaster bolt</label>
+    <graphicData>
+      <texPath>Projectile/BlasterboltBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>False</flyOverhead>
+      <damageDef>PJ_BlasterDam</damageDef>
+      <damageAmountBase>46</damageAmountBase>
+      <speed>105</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="PJ_Veh_GunBaseMakeS">
+    <defName>PJ_Spd_Blaster</defName>
+    <label>Speeder Main Blaster Cannon</label>
+    <description>A high powered blaster cannon mounted on a patrol speeder.</description>
+    <graphicData>
+      <texPath>VehicleWeps/TurretSpd_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <Mass>6.85</Mass>
+      <MarketValue>3200</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>1.32</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PJ_Spd_Bullet</defaultProjectile>
+        <warmupTime>1.03</warmupTime>
+        <range>27</range>
+        <soundCast>PJ_ATST_Gun</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PJ_Speeder_Weapon</li>
+    </weaponTags>
+  </ThingDef>
+</Defs>

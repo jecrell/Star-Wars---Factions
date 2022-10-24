@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_CompArmor.label>[SW]复合装甲</PJ_CompArmor.label>
   <PJ_CompArmor.description>曾经有一个地方，那里人人都穿着这种装甲，他们四处征战，侵略了很多星球。</PJ_CompArmor.description>
-
   <PJ_GenFlight_Y.label>[SW]义军飞行服（黄）</PJ_GenFlight_Y.label>
   <PJ_GenFlight_Y.description>一件义军飞行员的专用飞行服，黄色版过去常用于商业和私人购买，因此很常见。</PJ_GenFlight_Y.description>
-
 </LanguageData>

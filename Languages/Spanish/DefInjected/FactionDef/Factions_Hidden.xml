@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_GhostFaction.label>Fantasma de la fuerza</PJ_GhostFaction.label>
   <PJ_GhostFaction.description>Antiguos maestros jedi que se han vueltos uno con la fuerza, sin embargo mantienen su persona.</PJ_GhostFaction.description>
   <PJ_GhostFaction.pawnsPlural>Fantasmas de la fuerza</PJ_GhostFaction.pawnsPlural>
   <PJ_GhostFaction.fixedName>Fantasmas de la fuerza</PJ_GhostFaction.fixedName>
-
-
 </LanguageData>

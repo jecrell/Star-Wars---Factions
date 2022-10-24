@@ -1,47 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_ImpSoldier.label>Soldat</PJ_ImpSoldier.label>
   <PJ_ImpSoldier.labelPlural>Soldats</PJ_ImpSoldier.labelPlural>
   <PJ_ImpSoldier.labelMale>homme Soldat</PJ_ImpSoldier.labelMale>
   <PJ_ImpSoldier.labelMalePlural>hommes Soldats</PJ_ImpSoldier.labelMalePlural>
   <PJ_ImpSoldier.labelFemale>femme Soldat</PJ_ImpSoldier.labelFemale>
   <PJ_ImpSoldier.labelFemalePlural>femmes Soldats</PJ_ImpSoldier.labelFemalePlural>
-
   <PJ_ImpTrader.label>Fournisseur Imperial</PJ_ImpTrader.label>
   <PJ_ImpTrader.labelPlural>Fournisseur Imperiaux</PJ_ImpTrader.labelPlural>
   <PJ_ImpTrader.labelMale>homme Fournisseur Imperial</PJ_ImpTrader.labelMale>
   <PJ_ImpTrader.labelMalePlural>hommes Fournisseurs Imperiaux</PJ_ImpTrader.labelMalePlural>
   <PJ_ImpTrader.labelFemale>femme Fournisseur Imperial</PJ_ImpTrader.labelFemale>
   <PJ_ImpTrader.labelFemalePlural>femmes Fournisseurs Imperiaux</PJ_ImpTrader.labelFemalePlural>
-
   <PJ_Stormtrooper.label>Stormtrooper</PJ_Stormtrooper.label>
   <PJ_Stormtrooper.labelPlural>Stormtroopers</PJ_Stormtrooper.labelPlural>
   <PJ_Stormtrooper.labelMale>homme Stormtrooper</PJ_Stormtrooper.labelMale>
   <PJ_Stormtrooper.labelMalePlural>hommes Stormtroopers</PJ_Stormtrooper.labelMalePlural>
   <PJ_Stormtrooper.labelFemale>femme Stormtrooper</PJ_Stormtrooper.labelFemale>
   <PJ_Stormtrooper.labelFemalePlural>femmes Stormtroopers</PJ_Stormtrooper.labelFemalePlural>
-
   <PJ_StormtrooperSO.label>Officier Stormtrooper</PJ_StormtrooperSO.label>
   <PJ_StormtrooperSO.labelPlural>Officiers Stormtroopers</PJ_StormtrooperSO.labelPlural>
   <PJ_StormtrooperSO.labelMale>homme Officier Stormtrooper</PJ_StormtrooperSO.labelMale>
   <PJ_StormtrooperSO.labelMalePlural>hommes Officiers Stormtroopers</PJ_StormtrooperSO.labelMalePlural>
   <PJ_StormtrooperSO.labelFemale>femme Officier Stormtrooper</PJ_StormtrooperSO.labelFemale>
   <PJ_StormtrooperSO.labelFemalePlural>femmes Officiers Stormtroopers</PJ_StormtrooperSO.labelFemalePlural>
-
   <PJ_ImpCommander.label>commandant</PJ_ImpCommander.label>
   <PJ_ImpCommander.labelPlural>commandants</PJ_ImpCommander.labelPlural>
   <PJ_ImpCommander.labelMale>homme commandant</PJ_ImpCommander.labelMale>
   <PJ_ImpCommander.labelMalePlural>hommes commandants</PJ_ImpCommander.labelMalePlural>
   <PJ_ImpCommander.labelFemale>femme commandant</PJ_ImpCommander.labelFemale>
   <PJ_ImpCommander.labelFemalePlural>femmes commandants</PJ_ImpCommander.labelFemalePlural>
-
   <PJ_ScoutTrooper.label>Scout trooper</PJ_ScoutTrooper.label>
   <PJ_ScoutTrooper.labelPlural>Scout troopers</PJ_ScoutTrooper.labelPlural>
   <PJ_ScoutTrooper.labelMale>homme Scout trooper</PJ_ScoutTrooper.labelMale>
   <PJ_ScoutTrooper.labelMalePlural>hommes Scout troopers</PJ_ScoutTrooper.labelMalePlural>
   <PJ_ScoutTrooper.labelFemale>femme Scout trooper</PJ_ScoutTrooper.labelFemale>
   <PJ_ScoutTrooper.labelFemalePlural>femmes Scout troopers</PJ_ScoutTrooper.labelFemalePlural>
-
-
 </LanguageData>

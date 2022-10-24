@@ -1,49 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_RebHat.Label>Шлем альянса мятежников</PJ_RebHat.Label>
   <PJ_RebHat.Description>Стандартный шлем для войск в Старой Республике, которые часто используются повстанцами.</PJ_RebHat.Description>
-
   <PJ_RebLAVHat.Label>Шлем разведчика мятежников (коричневый)</PJ_RebLAVHat.Label>
   <PJ_RebLAVHat.Description>Камуфляжный разведывательный шлем, используемый членами Альянса Повстанцев.</PJ_RebLAVHat.Description>
-
   <PJ_RebSnowHat.Label>Шлем мятежника для холодных температур</PJ_RebSnowHat.Label>
   <PJ_RebSnowHat.Description>Стандартный шлем для войск в холодном климате в Старой Республике, которые часто используются повстанцами.</PJ_RebSnowHat.Description>
-
   <PJ_RebScoutHat.Label>Шлем разведчика мятежников (лес)</PJ_RebScoutHat.Label>
   <PJ_RebScoutHat.Description>Камуфляжный разведывательный шлем, используемый членами Альянса Повстанцев.</PJ_RebScoutHat.Description>
-
   <PJ_RebPilot_H_Red.Label>Шлем пилота повстанцев (красный)</PJ_RebPilot_H_Red.Label>
   <PJ_RebPilot_H_Red.Description>Шлем, обычно носимый пилотами истребителей Альянса. Похоже, что он пришёл от красной эскадрильи.</PJ_RebPilot_H_Red.Description>
-
   <PJ_RebPilot_H_Blue.Label>Шлем пилота повстанцев (синий)</PJ_RebPilot_H_Blue.Label>
   <PJ_RebPilot_H_Blue.Description>Шлем, обычно носимый пилотами истребителей Альянса. Похоже, что он пришёл от синей эскадрильи.</PJ_RebPilot_H_Blue.Description>
-
-	<!-- ===== Clothing ===== -->
-
+  <!-- ===== Clothing ===== -->
   <PJ_RebOfficer.Label>Униформа офицера альянса повстанцев</PJ_RebOfficer.Label>
   <PJ_RebOfficer.Description>Униформа предназначена для офицеров альянса повстанцев.</PJ_RebOfficer.Description>
-
   <PJ_RebFlight.Label>Лётный комбинезон повстанцев</PJ_RebFlight.Label>
   <PJ_RebFlight.Description>Типичный летный костюм, который носили пилоты повстанцев. Эта оранжевая версия обычно носится пилотами X-wing, а также членами печально известной «Разбойной эскадрильи».</PJ_RebFlight.Description>
-
   <PJ_Reb_TroopJacket.Label>Куртка пехотинца</PJ_Reb_TroopJacket.Label>
   <PJ_Reb_TroopJacket.Description>Жесткая куртка, которая остановливает порезы и удары, и удерживать тепло в холодную погоду.</PJ_Reb_TroopJacket.Description>
-
   <PJ_Reb_ScoutJacket.Label>Куртка разведчика</PJ_Reb_ScoutJacket.Label>
   <PJ_Reb_ScoutJacket.Description>Жесткая куртка, которая остановливает порезы и удары, и удерживать тепло в холодную погоду.</PJ_Reb_ScoutJacket.Description>
-
   <PJ_Reb_ScoutLAVJacket.Label>Куртка разведчика (коричневая)</PJ_Reb_ScoutLAVJacket.Label>
   <PJ_Reb_ScoutLAVJacket.Description>Жесткая куртка, которая остановливает порезы и удары, и удерживать тепло в холодную погоду.</PJ_Reb_ScoutLAVJacket.Description>
-
   <PJ_Reb_CamoJacket.Label>Камуфляжная куртка</PJ_Reb_CamoJacket.Label>
   <PJ_Reb_CamoJacket.Description>Жесткая военная куртка с капюшоном, которая остановливает порезы и удары, и удерживать тепло в холодную погоду.</PJ_Reb_CamoJacket.Description>
-
   <PJ_RebCollarShirt.Label>Модифицированная рубашка</PJ_RebCollarShirt.Label>
   <PJ_RebCollarShirt.Description>Слегка армированная рубашка с пуговицами.</PJ_RebCollarShirt.Description>
-
   <PJ_Apparel_XVestPlate.Label>Усиленный бронежилет</PJ_Apparel_XVestPlate.Label>
   <PJ_Apparel_XVestPlate.Description>Жилет с пластинами брони, вставленными на спине и животе. Защищает от огнестрельного оружия.</PJ_Apparel_XVestPlate.Description>
-
 </LanguageData>

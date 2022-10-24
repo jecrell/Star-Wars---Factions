@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-
-<!-- ========== COMPS ============ -->
-
-<SWSaber_TextMote_CriticalSuccess>Критический удар</SWSaber_TextMote_CriticalSuccess>
-<SWSaber_TextMote_CriticalFailure>Критическая неудача</SWSaber_TextMote_CriticalFailure>
-<SWSaber_Block>Блокировано</SWSaber_Block>
-
-<KyberCrystalRequired>Требуется кристалл светового меча</KyberCrystalRequired>
-<Activated>Активировать</Activated>
-<Deactivated>Деактивировать</Deactivated>
-<DeactivateLightsaberFirst>Сначала деактивируйте световой меч</DeactivateLightsaberFirst>
-
+  <!-- ========== COMPS ============ -->
+  <SWSaber_TextMote_CriticalSuccess>Критический удар</SWSaber_TextMote_CriticalSuccess>
+  <SWSaber_TextMote_CriticalFailure>Критическая неудача</SWSaber_TextMote_CriticalFailure>
+  <SWSaber_Block>Блокировано</SWSaber_Block>
+  <KyberCrystalRequired>Требуется кристалл светового меча</KyberCrystalRequired>
+  <Activated>Активировать</Activated>
+  <Deactivated>Деактивировать</Deactivated>
+  <DeactivateLightsaberFirst>Сначала деактивируйте световой меч</DeactivateLightsaberFirst>
 </LanguageData>

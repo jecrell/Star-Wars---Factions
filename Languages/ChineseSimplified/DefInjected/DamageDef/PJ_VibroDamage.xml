@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_Vibro.label>震动</PJ_Vibro.label>
   <PJ_Vibro.deathMessage>{0}被砍死了。</PJ_Vibro.deathMessage>
-
   <PJ_BlasterDam.label>爆能</PJ_BlasterDam.label>
   <PJ_BlasterDam.deathMessage>{0}被击穿了！</PJ_BlasterDam.deathMessage>
-
   <PJ_DXRDam.label>强酸</PJ_DXRDam.label>
   <PJ_DXRDam.deathMessage>{0}被击穿了！</PJ_DXRDam.deathMessage>
-
 </LanguageData>

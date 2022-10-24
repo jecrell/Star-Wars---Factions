@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PJ_LightsaberEnergy.Label>Энергетический ожог</PJ_LightsaberEnergy.Label>
   <PJ_LightsaberEnergy.comps.0.labelTendedWell>Перевязан</PJ_LightsaberEnergy.comps.0.labelTendedWell>
   <PJ_LightsaberEnergy.comps.0.labelTendedWellInner>Зашит</PJ_LightsaberEnergy.comps.0.labelTendedWellInner>
@@ -9,9 +7,7 @@
   <PJ_LightsaberEnergy.comps.2.permanentLabel>Шрам от энергетического ожога</PJ_LightsaberEnergy.comps.2.permanentLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedLabel>Отрезано</PJ_LightsaberEnergy.injuryProps.destroyedLabel>
   <PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>Вырезано</PJ_LightsaberEnergy.injuryProps.destroyedOutLabel>
-
-	<!-- ====== Barab Crystal Damage ====== -->
-
+  <!-- ====== Barab Crystal Damage ====== -->
   <PJ_BarabRads.Label>Бараб ожог</PJ_BarabRads.Label>
   <PJ_BarabRads.comps.0.labelTendedWell>Перевязан</PJ_BarabRads.comps.0.labelTendedWell>
   <PJ_BarabRads.comps.0.labelTendedWellInner>Зашит</PJ_BarabRads.comps.0.labelTendedWellInner>
@@ -19,9 +15,7 @@
   <PJ_BarabRads.comps.2.permanentLabel>Шрам от радиоактивного бараба</PJ_BarabRads.comps.2.permanentLabel>
   <PJ_BarabRads.injuryProps.destroyedLabel>Сгорело</PJ_BarabRads.injuryProps.destroyedLabel>
   <PJ_BarabRads.injuryProps.destroyedOutLabel>Сгорело</PJ_BarabRads.injuryProps.destroyedOutLabel>
-
-	<!-- ====== Firkrann Crystal Damage ====== -->
-
+  <!-- ====== Firkrann Crystal Damage ====== -->
   <PJ_FirkZap.Label>Шоковый ожог фикранна</PJ_FirkZap.Label>
   <PJ_FirkZap.comps.0.labelTendedWell>Перевязан</PJ_FirkZap.comps.0.labelTendedWell>
   <PJ_FirkZap.comps.0.labelTendedWellInner>Зашит</PJ_FirkZap.comps.0.labelTendedWellInner>
@@ -29,9 +23,7 @@
   <PJ_FirkZap.comps.2.permanentLabel>Шрам от удара фикранна</PJ_FirkZap.comps.2.permanentLabel>
   <PJ_FirkZap.injuryProps.destroyedLabel>Сгорело</PJ_FirkZap.injuryProps.destroyedLabel>
   <PJ_FirkZap.injuryProps.destroyedOutLabel>Сгорело</PJ_FirkZap.injuryProps.destroyedOutLabel>
-
   <!-- ====== Sonic Damage (Dragite) ====== -->
-
   <PJ_SonicBoom.Label>Звуковой перелом</PJ_SonicBoom.Label>
   <PJ_SonicBoom.comps.0.labelTendedWell>Перевязан</PJ_SonicBoom.comps.0.labelTendedWell>
   <PJ_SonicBoom.comps.0.labelTendedWellInner>Зашит</PJ_SonicBoom.comps.0.labelTendedWellInner>
@@ -39,5 +31,4 @@
   <PJ_SonicBoom.comps.2.permanentLabel>звуковой микроразрыв</PJ_SonicBoom.comps.2.permanentLabel>
   <PJ_SonicBoom.injuryProps.destroyedLabel>Стёрто</PJ_SonicBoom.injuryProps.destroyedLabel>
   <PJ_SonicBoom.injuryProps.destroyedOutLabel>Испарился(лось)</PJ_SonicBoom.injuryProps.destroyedOutLabel>
-
 </LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerImpBase</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[Impbase] [Impother] [Impdesc]</li>
+        <li>name-&gt;[Impbase] [Impdesc]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Impbase</keyword>
+          <path>NameBanks/Impbase</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Impdesc</keyword>
+          <path>NameBanks/Impdesc</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Impother</keyword>
+          <path>NameBanks/Impother</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

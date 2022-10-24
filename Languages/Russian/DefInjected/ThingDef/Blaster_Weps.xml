@@ -1,69 +1,41 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-<!-- ====Walker Guns==== -->
-
-
+  <!-- ====Walker Guns==== -->
   <!-- ====== Regular Blasters ====== -->
-
   <PJ_BlasterBolt_E11_X.Label>Бластерный болт Е-11</PJ_BlasterBolt_E11_X.Label>
-
   <PJ_E11Blaster.Label>Бластерная винтовка Е-11</PJ_E11Blaster.Label>
   <PJ_E11Blaster.Description>Изготовленная BlasTech Industries во время Гражданской войны в Галактике, бластерная винтовка E-11 является стандартной бластерной винтовкой Имперских штурмовиков. Мощное, легкое и компактное оружие, E-11 широко использовалось в галактике.</PJ_E11Blaster.Description>
-
   <PJ_DH17Blaster.Label>Бластерный пистолет DH-17</PJ_DH17Blaster.Label>
   <PJ_DH17Blaster.Description>Бластерный пистолет DH-17, изготовленный BlasTech Industries, обычно использовался солдатами Альянса повстанцев для конфликтов на борту кораблей, а иногда офицеры Галактической Империи носили его вместо стандартных бластерных винтовок E-11.</PJ_DH17Blaster.Description>
-
   <PJ_Pistol_Bolt.Label>Бластерный болт</PJ_Pistol_Bolt.Label>
-
   <PJ_Scoutblaster.Label>Бластер разведчика</PJ_Scoutblaster.Label>
   <PJ_Scoutblaster.Description>Этот небольшой пистолет, иногда известный как бластер разведки, но обычно называемый бластерным пистолетом разведчика, был стандартным оружием, используемым разведчиками Галактической Империи. Было также известно, что солдаты-разведчики клонов 41-го элитного корпуса и теневые солдаты клонов носили это оружие на последних этапах Войны клонов.</PJ_Scoutblaster.Description>
-
   <PJ_SE14blaster.Label>Бластер SE14</PJ_SE14blaster.Label>
   <PJ_SE14blaster.Description>SE-14, иногда известный как боевой пистолет SR, или сепараторный бластерный пистолет во время Войны клонов, был основным бластерным пистолетом производства BlasTech Industries.</PJ_SE14blaster.Description>
-
   <PJ_HPistol_Bolt.Label>Бластерный болт</PJ_HPistol_Bolt.Label>
-
   <PJ_DL44blaster.Label>Бластер DL-44</PJ_DL44blaster.Label>
   <PJ_DL44blaster.Description>Тяжелый боевой пистолет DL-44 был типом тяжелого бластерного пистолета производства BlasTech Industries, который использовался в годы Галактической Республики и эпохи Империи. Он считался одним из самых мощных бластерных пистолетов в галактике, нанося огромный урон с близкого расстояния; Однако он быстро перегревается.</PJ_DL44blaster.Description>
-
   <PJ_DXR_Bolt.Label>Кислотный болт</PJ_DXR_Bolt.Label>
-
   <PJ_DXR6Carb.Label>Бластерный карабин DXR-6</PJ_DXR6Carb.Label>
   <PJ_DXR6Carb.Description>Тяжелый карабин DXR-6 широко используется во всей галактике, поскольку он обладает универсальностью, надежностью и разрушительным потенциалом.</PJ_DXR6Carb.Description>
-
   <PJ_Jawa_Bolt.Label>Ионный энергетический болт</PJ_Jawa_Bolt.Label>
-
   <PJ_JawaIon.Label>Ионная винтовка джав</PJ_JawaIon.Label>
   <PJ_JawaIon.Description>Распространенность дроидов-убийц и военных дроидов во время и после Великой войны ситов привела к созданию передового ионного оружия для борьбы с ними.</PJ_JawaIon.Description>
-
   <PJ_Slug_Bolt.Label>Тяжёлая пуля</PJ_Slug_Bolt.Label>
-
   <PJ_NymSlug.Label>неймский пулемет-карабин</PJ_NymSlug.Label>
   <PJ_NymSlug.Description>Огнестрельный карабин, которым пользуется пресловутый Гангстер Ним и его банда. Он стреляет плотными пулями, что приводит к грубым повреждениям.</PJ_NymSlug.Description>
-
   <Bullet_LauncherP.Label>Реактивный снаряд</Bullet_LauncherP.Label>
-
   <PJ_LauncherP.Label>Пусковой пистолет</PJ_LauncherP.Label>
   <PJ_LauncherP.Description>Опасная компактная пусковая установка в ручной конструкции. Одобрено пиратами и коммандосскими подразделениями.</PJ_LauncherP.Description>
-
   <PJ_T21_Bolt.Label>Болт тяжёлой винтовки</PJ_T21_Bolt.Label>
-
   <PJ_T21Rifle.Label>Бластерная винтовка Т-21</PJ_T21Rifle.Label>
   <PJ_T21Rifle.Description>Тяжелый бластер Т-21, был образцом повторяющегося бластера, используемого некоторыми из Корпуса Штурмовиков Галактической Империи. Он наносит огромный урон на дальних дистанциях, но с низкой скоростью стрельбы.</PJ_T21Rifle.Description>
-
   <PJ_DC15Rifle.Label>Бластерная винтовка DC-15</PJ_DC15Rifle.Label>
   <PJ_DC15Rifle.Description>Бластерная винтовка DC-15A была одним из стандартного оружия для солдат-клонов.Бластерная винтовка DC-15A была одним из стандартного оружия для солдат-клонов. Предшественник винтовки DLT-19, поддержанный Империей.</PJ_DC15Rifle.Description>
-
   <PJ_DLT_Bolt.Label>Болт тяжёлой винтовки</PJ_DLT_Bolt.Label>
-
   <PJ_DLT19Rifle.Label>Тяжёлая бластерная винтовка DLT-19</PJ_DLT19Rifle.Label>
   <PJ_DLT19Rifle.Description>Тяжелая бластерная винтовка DLT-19 была моделью бластерной винтовки производства BlasTech Industries. Они использовались штурмовиками Галактической Империи, а также некоторыми тяжелыми солдатами Альянса по Восстановлению Республики. Она характеризовалась высокой скоростью стрельбы и могла нанести большой урон на дальних дистанциях и чаще всего использовалась для закрепления войск и уничтожения больших групп врагов.</PJ_DLT19Rifle.Description>
-
   <PJ_EE3_Bolt.Label>Болт тяжёлой винтовки</PJ_EE3_Bolt.Label>
-
   <PJ_EE3Carbine.Label>Бластерный карабин ЕЕ-3</PJ_EE3Carbine.Label>
   <PJ_EE3Carbine.Description>Бластреный карабин EE-3 - один из бластеров, разработанных Blastech, предпочитают мандалорцы и другие.</PJ_EE3Carbine.Description>
-
 </LanguageData>
