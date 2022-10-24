@@ -11,52 +11,71 @@
     <label>Imperial bulk goods provisioner</label>
     <commonality>2</commonality>
     <stockGenerators>
-      <!-- === Adding credits for imperial traders === -->
+
+      <!-- Adding credits for imperial traders -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>PJ_ImperialCredit</thingDef>
         <countRange>500~1500</countRange>
       </li>
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>PJ_ImperialCredit</thingDef>
-      </li>
+      <li Class="StockGenerator_BuySingleDef"><thingDef>PJ_ImperialCredit</thingDef></li>
+
       <!-- === TraderKinds_Outlander_Caravan update 1.1 2/26/20 === -->
-      <!-- === Drugs commented out === -->
+
+      <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>750~1200</countRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
         <countRange>30~40</countRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
         <countRange>-10~2</countRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
         <countRange>250~400</countRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
         <countRange>250~400</countRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
         <countRange>250~400</countRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
         <countRange>70~160</countRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>Beer</thingDef>
         <totalPriceRange>-100~100</totalPriceRange>
       </li>
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
         <totalPriceRange>10~40</totalPriceRange>
       </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Dye</thingDef>
+        <countRange>15~20</countRange>
+      </li>
+
+      <li Class="StockGenerator_ReinforcedBarrels">
+        <countRange>1~4</countRange>
+      </li>
+
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
         <excludedCategories>
@@ -65,9 +84,11 @@
         <thingDefCountRange>3~3</thingDefCountRange>
         <totalPriceRange>150~600</totalPriceRange>
       </li>
+
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
       </li>
+
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
           <li>Chocolate</li>
@@ -75,31 +96,57 @@
           <li>Pemmican</li>
         </thingDefs>
       </li>
-      <!--
-      Removed Deprecated Drug Entries - Xen 2/26/2020
-      -->
-      <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
+      
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>BasicClothing</tradeTag>
+        <countRange>7~7</countRange>
       </li>
+
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Clothing</tradeTag>
+        <countRange>3~3</countRange>
+      </li>
+      
+      <!-- Implants -->
+      <!-- none -->
+      
+      <!-- Buildings -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <thingDefCountRange>3~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      
+      <!-- Exotic -->
+      <!-- none -->
+      
+      <!-- Slaves -->
+      <!-- none -->
+      
+      <!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>AnimalFarm</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>1</kindCountRange>
+        <countRange>3~4</countRange>
+        <createMatingPair>
+          <li>AnimalFarm</li>
+        </createMatingPair>
+      </li>
+      
+      <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>Art</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireCommon</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireRoyal</tag>
-      </li>
-      <li Class="StockGenerator_MultiDef">
-        <thingDefs>
-          <li>Chocolate</li>
-          <li>Kibble</li>
-          <li>Pemmican</li>
-        </thingDefs>
-      </li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
     </stockGenerators>
   </TraderKindDef>
+
+
   <TraderKindDef>
     <defName>PJ_ImpTrader_CombatSupplier</defName>
     <label>Imperial weapons provisioner</label>
@@ -109,9 +156,6 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>PJ_ImperialCredit</thingDef>
         <countRange>100~350</countRange>
-      </li>
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>PJ_ImperialCredit</thingDef>
       </li>
       <!-- === Adding Imperial Weapons === -->
       <!-- === Standard issue === -->
@@ -152,28 +196,47 @@
         <thingDef>Silver</thingDef>
         <countRange>750~2200</countRange>
       </li>
-      <!--
-      Removed Deprecated Entries - Xen 2/26/2020
-    -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>MedicineUltratech</thingDef>
-        <price>Expensive</price>
-        <countRange>10~20</countRange>
+
+      <!-- Techprints -->
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>1</count>
+            <chance>1</chance>
+          </li>
+        </countChances>
       </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>Shell_HighExplosive</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>3~15</countRange>
+
+      <!-- Apparel -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Armor</tradeTag>
+        <countRange>5~5</countRange>
       </li>
+
+      <!-- Genepacks -->
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+        <thingDef>Genepack</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+      
+      <!-- Slaves -->
+      <!-- none -->
+      
+      <!-- Animals -->
+      <!-- none -->
+      
+      <!-- Buying -->
+      <li Class="StockGenerator_BuySingleDef"><thingDef>PJ_ImperialCredit</thingDef></li>
       <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>Art</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>HiTechArmor</tag>
-      </li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <!-- <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li> -->
     </stockGenerators>
   </TraderKindDef>
+
+
+
   <TraderKindDef>
     <defName>PJ_ImpTrader_Slaver</defName>
     <label>Imperial slaver</label>
@@ -184,12 +247,7 @@
         <thingDef>PJ_ImperialCredit</thingDef>
         <countRange>750~1200</countRange>
       </li>
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>PJ_ImperialCredit</thingDef>
-      </li>
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>Gold</thingDef>
-      </li>
+
       <!-- === Standard Pirate Trader def for A17b as of 6/10/17 === -->
       <!-- === Drugs disabled due to Imperial code === -->
       <li Class="StockGenerator_SingleDef">
@@ -223,15 +281,12 @@
         <kindCountRange>1~2</kindCountRange>
         <countRange>1~3</countRange>
       </li>
+
+      <li Class="StockGenerator_BuySingleDef"><thingDef>PJ_ImperialCredit</thingDef></li>
+      <li Class="StockGenerator_BuySingleDef"><thingDef>Gold</thingDef></li>
       <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>Art</tag>
-      </li>
-      <!--
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>Gold</thingDef>
-      </li>
-    -->
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
     </stockGenerators>
   </TraderKindDef>
+
 </Defs>

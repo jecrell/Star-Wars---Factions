@@ -9,41 +9,28 @@
         <thingDef>PJ_ImperialCredit</thingDef>
         <countRange>500~1250</countRange>
       </li>
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>PJ_ImperialCredit</thingDef>
-      </li>
-      <!-- === Outlander_Visitor_Standard as for A17b 6/10/17 === -->
-      <!-- === Drugs commented out === -->
+      <li Class="StockGenerator_BuySingleDef"><thingDef>PJ_ImperialCredit</thingDef></li>
+      <!-- === Outlander_Visitor_Standard as of 1.4 10/24/2022 === -->
+
+      <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>50~250</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <price>Expensive</price>
-        <countRange>1~5</countRange>
+        <countRange>-2~5</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MealSurvivalPack</thingDef>
-        <price>Expensive</price>
         <countRange>3~6</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>MedicineUltratech</thingDef>
+        <thingDef>MedicineIndustrial</thingDef>
         <countRange>1~6</countRange>
       </li>
-      <li Class="StockGenerator_WeaponsRanged">
-        <countRange>0~1</countRange>
-      </li>
-      <!--
-      Deprecated listing removed by Xen
-      -->
-      <li Class="StockGenerator_Clothes">
-        <countRange>0~1</countRange>
-      </li>
-      <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>Art</tag>
+      <li Class="StockGenerator_ReinforcedBarrels">
+        <countRange>1~4</countRange>
       </li>
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
@@ -51,6 +38,51 @@
           <li>Chocolate</li>
         </thingDefs>
       </li>
+      
+      <!-- Drugs -->
+      <!-- No drugs from Imperials-->
+
+      <!-- Techprints -->
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>1</count>
+            <chance>0.5</chance>
+          </li>
+        </countChances>
+      </li>
+      
+      <!-- Weapons -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>WeaponRanged</tradeTag>
+        <countRange>0~1</countRange>
+      </li>
+
+      <!-- Apparel -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Clothing</tradeTag>
+        <countRange>0~1</countRange>
+      </li>
+
+      <!-- Implants -->
+      <!-- none -->
+
+      <!-- Buildings -->
+      <!-- none -->
+      
+      <!-- Exotic -->
+      <!-- none -->
+      
+      <!-- Slaves -->
+      <!-- none -->
+      
+      <!-- Animals -->
+      <!-- none -->
+      
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
     </stockGenerators>
   </TraderKindDef>
 </Defs>
