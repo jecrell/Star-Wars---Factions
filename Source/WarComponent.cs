@@ -28,8 +28,11 @@ namespace SWFactions
                             facDef: DefDatabase<FactionDef>.GetNamedSilentFail(defName: "PJ_GalacticEmpire"))
                         is { } impFaction)
                 {
-                    impFaction.SetRelationDirect(other: rebelFaction,kind: FactionRelationKind.Hostile,canSendHostilityLetter: false);
-                    rebelFaction.SetRelationDirect(other: impFaction, kind: FactionRelationKind.Hostile, canSendHostilityLetter: false);
+                    impFaction.ChangeGoodwill_Debug(rebelFaction, -100);
+                    rebelFaction.ChangeGoodwill_Debug(impFaction, -100);
+                    
+                    //impFaction.SetRelationDirect(other: rebelFaction,kind: FactionRelationKind.Hostile,canSendHostilityLetter: false);
+                    //rebelFaction.SetRelationDirect(other: impFaction, kind: FactionRelationKind.Hostile, canSendHostilityLetter: false);
 
                     Find.MusicManagerPlay.disabled = true;
                     Find.MusicManagerPlay.ForceSilenceFor(time: 10f);

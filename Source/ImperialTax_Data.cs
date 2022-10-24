@@ -93,7 +93,8 @@ namespace SWFactions
         #endregion Meeting
         public void ResolveDeclarationOfHostility(Pawn imperial)
         {
-            imperial.Faction.SetRelationDirect(other: Faction.OfPlayer, kind: FactionRelationKind.Hostile, canSendHostilityLetter: true);
+            imperial.Faction.ChangeGoodwill_Debug(Faction.OfPlayer, -100);
+            //imperial.Faction.SetRelationDirect(other: Faction.OfPlayer, kind: FactionRelationKind.Hostile, canSendHostilityLetter: true);
             //List<Pawn> imperialsOnSite = imperial.Map.mapPawns.AllPawnsSpawned.FindAll((x) => x.Faction == imperial.Faction);
             //if (imperialsOnSite != null && imperialsOnSite.Count > 0)
             //    {

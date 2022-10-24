@@ -42,19 +42,15 @@
     <allowedCultures>
       <li>Astropolitan</li>
     </allowedCultures>
-    <structureMemeWeights>
-      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-    </structureMemeWeights>
     <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
     </requiredMemes>
-    <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-    </disallowedMemes>
+    <allowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+    </allowedMemes>
     <caravanTraderKinds>
       <li>PJ_ImpTrader_BulkGoods</li>
       <li>PJ_ImpTrader_CombatSupplier</li>

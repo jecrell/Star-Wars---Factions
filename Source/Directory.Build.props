@@ -2,8 +2,8 @@
 <!-- This file is automatically imported in MSBuild 15+ (Visual Studio 2017+) via the Microsoft.Common.props import, so put all the common contents between all the csproj files here -->
 <Project>
   <PropertyGroup>
-    <Configurations>RW1.4;RW1.4Unstable</Configurations>
-    <Configuration Condition=" '$(Configuration)' == '' ">RW1.4Unstable</Configuration>
+    <Configurations>RW1.3;RW1.4;RW1.4Unstable</Configurations>
+    <Configuration Condition=" '$(Configuration)' == '' ">RW1.4</Configuration>
     <TargetFramework>net48</TargetFramework>
     <NoStdLib>true</NoStdLib>
     <LangVersion>10</LangVersion>
